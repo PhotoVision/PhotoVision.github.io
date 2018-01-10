@@ -32,7 +32,7 @@ permalink: praise.html
 
 *"I always have such an incredible experience working with you guys and truly feel the love and care you put into developing the hundreds of rolls of film we all send you." __[Ali Lavin](http://alimaephoto.com/) August 7, 2017__*
 
-*"Hey, Team!! These two wedding could not be any more different lighting-wise, but you guys just 100% NAILED the skin tones on both of these, I could not be happier!!! . . . I just love how every note or comment I have made has been received and then applied to the next order. . . . Tears of joy. I love you guys!" __[Matoli Keely]() July 26, 2017*
+*"Hey, Team!! These two wedding could not be any more different lighting-wise, but you guys just 100% NAILED the skin tones on both of these, I could not be happier!!! . . . I just love how every note or comment I have made has been received and then applied to the next order. . . . Tears of joy. I love you guys!" __[Matoli Keely](http://www.matolikeelyphotography.com/) July 26, 2017*
 
 *"Thank you so much for such beautiful scans yet again! . . . Seeing these wonderful scans has been the silver lining in an otherwise stressful week. Thank you, thank you!" __[Cassie Xie](http://www.cassiexie.com/) July 25, 2017__*
 
@@ -120,24 +120,3 @@ permalink: praise.html
 
 *"THANK YOU for having such an amazing and quick turnaround on this order (especially over a holiday weekend)!! You guys are amazing—thank you!!!!" __[Olivia Richards](http://www.oliviarichards.net/) January 2, 2017__*
 
-*"My work over the last year has improved so much in consistency and I couldn’t have done it without you guys! Not only are you a talented team who handles our film with care and precision, you’re kind and wonderful people as well! I’m so thankful and proud to say PV will always be my lab of choice!" __[Renée Tophia of Eden Willow Photography](http://www.edenwillowphoto.com/) December 28, 2016__*
-
-*"You guys are beyond amazing! Thank you so much! I know you all are so busy but I appreciate that the work you send back is always tip top. Thanks again!" __[Kylie Martin](http://www.kyliemartinphotography.com/) November 21, 2016__*
-
-*"Thank you guys so much! I really appreciate you! Keep up the good work! I know everyone is stressed about the long processing times, but you’re worth the wait!" __[Michelle Wolfe of Michelle Lea Photographie](http://www.michelleleaphotographie.com/) November 21, 2016__*
-
-*"This latest batch of scans is amazing! Seriously—I know how much works go into scanning + color correction—I truly appreciate your attention to detail + consistency. I look forward to working together even more in 2017, PhotoVision!" __[Marc Andreo](https://www.marcandreo.com/) November 17, 2016__*
-
-*"Thank you SO much I really appreciate it, I have to say the customer service and quality of work is just fabulous at PhotoVision, I'm so grateful!" __[Mary Claire Cook](http://www.maryclaire-photography.com/) November 7, 2016__*
-
-*"Thank you SO much for these incredible scans! Every single order has been spot on since redoing my preference images and I can’t even begin to tell you how happy I am! Y’all are the best! Thank you again for the amazing scans and for really helping me get the desired look I’m going for with each order! I appreciate y’all!" __[Courtney Brown of Courtney Leigh Photography](http://www.courtneyleighphoto.com/) October 20, 2016__*
-
-*"Thank you so much for what you all do! I love PhotoVision and will never use another lab. I appreciate that any time I call or email with a question, someone is passionately willing to help me better my skills. You're awesome! Thank you again!" __[Shelby Lung of Shea Brianne Photography](http://www.sheabriannephotography.com/) October 20, 2016__*
-
-*"Hi all! By the looks of your turnaround time, you guys have been burning the midnight oil getting everyone's scans out—you go! You guys are fantastic!" __[Jamie Fenwick of Jaime Lauren Photography](http://jaimelaurenphotography.com/) October 19, 2016__*
-
-*"I honestly can't thank you guys enough. My last couple of orders have been PERFECT!" __[Callie Manion](http://www.calliemanionphotography.com/) October 17, 2016__*
-
-*"It is amazing how you guys go above and beyond time and time again!! P.S. Getting weird here, but I completely love you guys. :simple-smile: :simple-smile:" __[Matoli Keeley](http://matolikeelyphotography.com/)__ October 14, 2016*
-
-*"Thank you so much for knocking these out of the park! I honestly had my fingers crossed with this batch, as the shooting conditions were less than ideal, but you guys worked your magic and I couldn't be happier! Thank you for the consistent and beautiful scans every time!!" __[Emily Sleadd of Hunting Ground Films](http://www.huntinggroundfilms.com/)__ October 12, 2016*
