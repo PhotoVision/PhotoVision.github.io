@@ -2,7 +2,7 @@
 
 ## Picture the difference. 
 
-Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This isn't your typical photo paper—Fujicolor Crystal Archive Supreme is rarely used by other film labs because of its higher cost. It has a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade.
+Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This isn't your typical photo paper. Fujicolor Crystal Archive Supreme has a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade.
 
 ---
 layout: page
