@@ -4,11 +4,11 @@ title: Film Services
 permalink: film-services.html
 ---
 
-We currently process C-41 color negative film and Black + White negative film. We can process most film sizes ranging from 135 roll film to 8x10 sheet film on C-41 and Black + White. You can find our current service time [here](http://photovisionprints.com/film-service-times).
+We currently process C-41 (color) and Black + White negative film. We can process most film sizes ranging from 135 roll film to 8x10 sheet film on C-41 and Black + White. You can find our current service time [here](http://photovisionprints.com/film-service-times).
 
 
 ## Develop Only
-Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved. Receive your film boxed and cut or uncut.
+Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved. Receive your film cut or boxed and uncut.
 
 | **Film Size** | **Color** | **Black + White** |
 | ---			| :---:		| :---:				|
@@ -27,35 +27,36 @@ We scan all film on the highly sought-after Fuji Frontier SP3000. We've had expe
 
 | **Film Size** | **Color Normal Scan** | **B+W Normal Scan** | **Color Large Scan** | **B+W Large Scan** |
 | ---			| :---:					| :---:				  | :---:				 | :---:			  |
-| **35mm**		| $17.50				| $10.00			  | $21.50				 | $14.00			  |
-| **120**		| $17.50				| $10.00			  | $21.50				 | $14.00			  |
-| **220**		| $35.00				| $20.00			  | $43.00				 | $28.00			  |
+| **35mm**		| $18.00				| $14.00			  | $22.00				 | $17.00			  |
+| **120**		| $18.00				| $14.00			  | $22.00				 | $17.00			  |
+| **220**		| $36.00				| $28.00			  | $44.00				 | $34.00			  |
 
 ## Develop + Scan + Print
 It's the whole enchilada for one great price! You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
-
+    
 ### Standard Film Sizes: Color
 
 | **Film Size** | **Normal Scan + 4x Prints** | **Normal Scan + 5x Prints** | **Large Scan + 4x Prints** | **Large Scan + 5x Prints** |
 | --- | :---: | :---: | :---: | :---: |
-| **35mm** 	| $21.00 | $22.00 | $25.00 | $26.00 |
-| **120**	| $21.00 | $22.00 | $25.00 | $26.00 |
-| **220**	| $38.50 | $39.50 | $46.50 | $47.50 |
+| **35mm** 	| $21.50 | N/A    | $25.50 | N/A    |
+| **120**	| $21.50 | $22.50 | $25.50 | $26.50 |
+| **220**	| $38.50 | $39.50 | $47.50 | $48.50 |
 
 ### Standard Film Sizes: Black + White
 
 | **Film Size** | **Normal Scan + 4x Prints** | **Normal Scan + 5x Prints** | **Large Scan + 4x Prints** | **Large Scan + 5x Prints** |
 | --- | :---: | :---: | :---: | :---: |
-| **35mm** 	| $13.50 | $14.50 | $17.50 | $18.50 |
-| **120**	| $13.50 | $14.50 | $17.50 | $18.50 |
-| **220**	| $23.50 | $24.50 | $31.50 | $32.50 |
+| **35mm** 	| $17.50 | N/A    | $20.50 | N/A    |
+| **120**	| $17.50 | $18.50 | $20.50 | $21.50 |
+| **220**	| $31.50 | $32.50 | $37.50 | $38.50 |
 
 ### Scan Cut Negatives
-Need previously processed + cut film scanned? Not a problem! Add 4x6 prints for an additional $0.39 per frame.
+Need previously processed + cut film scanned? Not a problem! 
 
 | **Minimum charge** | **Per Frame** |
 | --- | :---: |
 | **$10.00** | $2.00 |
+*Add 4x6 prints for an additional $0.39 per frame.*
 
 ## Scan Resolutions
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
@@ -80,7 +81,6 @@ We will hold your negatives based on the Ship Back preference marked on your [Or
 | **2 weeks** | $6.50 |
 | **Fill 2" Flat Rate box** | $10.00 |
 | **Fill 4" Flat Rate box** | $20.00 |
-| **End of Year** | Price varies |
 
 
 Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
