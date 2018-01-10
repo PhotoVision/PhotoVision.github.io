@@ -38,10 +38,10 @@ When choosing preference images, the most important aspect to consider is **skin
 We *highly recommend* shipping your film *in a box* via a *trackable service* to ensure your film arrives safely. Generally, we have found USPS Priority Mail to be the most economical choice. Learn how to [safely ship](https://photovisionprints.squarespace.com/shipping-tips) your precious cargo.
 
 ## How do I know my film has arrived?
-Once your film arrives in lab, you will receive a confirmation email at the address you provided on your [order form](http://photovisionprints.com/s/PhotoVision-Film-Order-Form-Fall-2015.pdf). This email includes your order number and the job's total cost.
+Once your film arrives in lab, you will receive a confirmation email at the address provided on your [order form](http://photovisionprints.com/s/PhotoVision-Film-Order-Form-Fall-2015.pdf). This email includes your order number and the job's total cost.
 
 ## How do I receive my scans?
-Once your scans are complete, you will receive an email to the address you provided on your [order form](https://photovisionprints.squarespace.com/s/PhotoVision-Film-Order-Form-Fall-2015.pdf). This email includes a link to view and download your images via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized. Your [Box](http://box.com) folder is provided free of charge. And, if you provide a job reference name on your [order form](https://photovisionprints.squarespace.com/s/PhotoVision-Film-Order-Form-Fall-2015.pdf), your [Box](http://box.com) order folder will be titled the same!
+Once your scans are complete, you will receive an email to the address provided on your [order form](https://photovisionprints.squarespace.com/s/PhotoVision-Film-Order-Form-Fall-2015.pdf). This email includes a link to view and download your images via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized. Your [Box](http://box.com) folder is provided free of charge. And, if you provide a job reference name on your [order form](https://photovisionprints.squarespace.com/s/PhotoVision-Film-Order-Form-Fall-2015.pdf), your [Box](http://box.com) order folder will be titled the same! Talk about orginization! 
 
 ## Will my scans be rotated and numbered?
 Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at *no charge*. So, if you number your rolls (which BTW, we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
@@ -61,15 +61,14 @@ We will hold your negatives based on the Ship Back preference marked on your [Or
 | **2 weeks** | $6.50 |
 | **Fill 2" Flat Rate box** | $10.00 |
 | **Fill 4" Flat Rate box** | $20.00 |
-| **End of Year** | Price varies |
+
 
 Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
 
 ## How are my negatives handled + organized?
 We take the utmost care with your film! Negatives will be carefully cut, sleeved and organized at no charge. If your rolls are numbered (which BTW, we *highly* recommend) they will also be kept in numerical order.
 
-# Cool Details OR
-# The Nearly All-Inclusive Guide OR
+
 # The Film Shooter's Guide to our Lab
 
 ## Picture the Difference.

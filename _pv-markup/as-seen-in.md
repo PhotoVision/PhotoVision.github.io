@@ -4,7 +4,7 @@ title: As Seen In
 permalink: as-seen-in.html
 ---
 
-We are honored to work alongside amazing film photographers! Here are a few places you can find their work + our scans:
+We are thankful to work alongside amazing film photographers! Here are a few places you can find their work + our scans:
 
 ![Harper's BAZAAR logo][http://www.harpersbazaar.com/]
 ![BRIDES logo][http://www.brides.com]
