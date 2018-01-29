@@ -214,30 +214,38 @@ img {
   }
   .slick-prev{
       display: block;
+      top: 30% !important;
       content: "";
       background: url('images/begin-quote.png') no-repeat center center;
-      height: 90px;
-      width: 90px;
-      background-size: 90%;
+      height: 100px;
+      width: 100px;
+      background-size: 100%;
       &:before {
         opacity: 0;
       }
       @media screen and (max-width: 1100px) {
         background-size: 60%;
+      }
+      @media screen and (max-width: 400px) {
+        background-size: 40%;
       }
   }
   .slick-next{
       display: block;
+      top: 75% !important;
       content: "";
       background: url('images/end-quote.png') no-repeat center center;
-      height: 90px;
-      width: 90px;
-      background-size: 90%;
+      height: 100px;
+      width: 100px;
+      background-size: 100%;
       &:before {
         opacity: 0;
       }
       @media screen and (max-width: 1100px) {
         background-size: 60%;
+      }
+      @media screen and (max-width: 400px) {
+        background-size: 40%;
       }
   }
   .slick-list {
@@ -246,9 +254,13 @@ img {
       font-size: 1em;
     }
     @include mobile {
-      margin: 0 10% 0 4%;
+      margin: 0 10% 0 10%;
       font-size: 1em;
       width: 90%;
+    }
+    @media screen and (max-width: 400px) {      
+      margin: 0 20% 0 10%;
+      width: 80%;
     }
   }
   .right {
