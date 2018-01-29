@@ -2,13 +2,16 @@
 layout: default
 ---
 <div class="container" style="height: 400px;">This section intentionally left blank. Remove before going live! :)</div>
-<div class="fuji-fresh-container"  onclick="window.location.href = '{{ site.baseurl}}fuji-fresh';">
+<div class="fuji-fresh-container"  onclick="window.location.href = '{{ site.baseurl}}fuji-fresh';" title="Click to learn more about #FUJIfresh">
   {% include fuji-fresh.html %}
 </div>
-<div class="reference-sheets-container"  onclick="window.location.href = '{{ site.baseurl}}exposure-reference-sheet';">
+<div class="reference-sheets-container"  onclick="window.location.href = '{{ site.baseurl}}exposure-reference-sheet';" title="Click to learn more about Exposure Reference Sheets">
   {% include reference-sheets.html %}
 </div>
-<div class="praise-teaser-container" onclick="window.location.href = '{{ site.baseurl}}praise';">
+<div class="education-container"  onclick="window.location.href = '{{ site.baseurl}}education';" title="Click to learn more about Educational Workshops">
+  {% include education.html %}
+</div>
+<div class="praise-teaser-container" onclick="window.location.href = '{{ site.baseurl}}praise';" title="Click for more praise">
   <div class="praise-teaser">
     {% include praise-teaser.html %}
   </div>
