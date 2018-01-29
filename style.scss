@@ -167,7 +167,8 @@ img {
   };
 }
 
-.fuji-fresh-container, .film-services-container, .print-services-container {
+.fuji-fresh-container, .film-services-container, 
+.print-services-container, .philosophy-container {
   background-color: $lightGray;
   :hover {
     cursor: pointer;
@@ -194,8 +195,6 @@ img {
 }
 
 .education-container {
-  // display: inline-block;
-  // position: relative;
   float: right;
   width: 50%;
   :hover {
