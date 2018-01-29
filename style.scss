@@ -167,7 +167,8 @@ img {
   };
 }
 
-.fuji-fresh-container {
+.fuji-fresh-container, .film-services-container {
+  background-color: $lightGray;
   :hover {
     cursor: pointer;
   }
