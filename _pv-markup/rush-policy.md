@@ -35,7 +35,7 @@ p {
 
 # Rush Policy
 
-High-quality scans + speedy turnarounds are our jam! We are pleased to offer rush processing when our film service times exceed a photographer's urgent time frame. To request a rush please male a note in the Special Instructions section on your order form with the applicable charge listed below, based on date of request:
+High-quality scans + speedy turnarounds are our jam! We are pleased to offer rush processing when our film service times exceed a photographer's urgent time frame. To request a rush please make a note in the Special Instructions section on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf) with the applicable charge listed below, based on date of request:
 
 | **April 1 – December 10** | **1 business day turnaround** | **2 business day turnaround** | **3 business day turnaround** |
 | :--- | :---: | :---: | :---: |
