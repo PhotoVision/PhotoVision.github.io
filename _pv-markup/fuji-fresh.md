@@ -33,17 +33,11 @@ p {
 }
 </style>
 
-# #FUJIfresh
-
-Your favorite Fuji400H film, direct from Fujifilm USA.  
-
-Never gray market.  
-Always fresh.  
-Only from us!  
+![]({{ site.baseurl}}/images/fuji-fresh-promo.jpg)
 
 Available in 120 and 35mm Pro Packs (5 rolls).  
 
-It's easy to purchase with your next order on our [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).  
+Want to place an order? It's easy—call, email or [send in]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf) with your next process + scan.  
 
 | **Pro Packs** | **1 – 9** | **10 – 19** | **20 +** |
 | :--- | :---: | :---: | :---: |
