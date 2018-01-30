@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Ally + Bobby #PVtakeover'
+category: 'blog'
 date: January 25th, 2018
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Simply Sarah #PVtakeover'
+category: 'blog'
 date: January 15th, 2018
 ---
 
