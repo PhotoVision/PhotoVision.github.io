@@ -2,6 +2,7 @@
 layout: post
 title: 'Lora Grady + Contax645 + Fuji400H'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 12, 2017
 ---
 

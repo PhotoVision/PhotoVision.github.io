@@ -2,6 +2,7 @@
 layout: post
 title: 'Sara Lynn + Pentax645n + Fuji400h'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 17, 2017
 ---
 

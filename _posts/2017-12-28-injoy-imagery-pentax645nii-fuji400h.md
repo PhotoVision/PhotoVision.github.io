@@ -2,6 +2,7 @@
 layout: post
 title: 'Injoy Imagery + Pentax645Nii + Fuji400H'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 28, 2017
 ---
 

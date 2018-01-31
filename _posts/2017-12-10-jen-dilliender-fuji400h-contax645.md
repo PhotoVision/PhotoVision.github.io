@@ -2,6 +2,7 @@
 layout: post
 title: 'Jen Dilliender + Fuji400H + Contax645'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 10, 2017
 ---
 

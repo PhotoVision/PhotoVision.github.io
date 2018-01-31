@@ -2,6 +2,7 @@
 layout: post
 title: 'Ali Marisa + Contax645 + Portra400 + Portra800'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 26, 2017
 ---
 

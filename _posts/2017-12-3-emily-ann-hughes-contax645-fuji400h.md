@@ -2,6 +2,7 @@
 layout: post
 title: 'Emily Ann Hughes + Contax645 + Fuji400H'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 3, 2017
 ---
 

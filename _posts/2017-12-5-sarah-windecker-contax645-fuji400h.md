@@ -2,6 +2,7 @@
 layout: post
 title: 'Sarah Windecker + Contax645 + Fuji400H'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 5, 2017
 ---
 

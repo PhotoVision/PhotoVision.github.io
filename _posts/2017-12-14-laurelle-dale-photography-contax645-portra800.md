@@ -2,6 +2,7 @@
 layout: post
 title: 'Laurelle + Dale Photography + Contax645 + Portra800'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 14, 2017
 ---
 

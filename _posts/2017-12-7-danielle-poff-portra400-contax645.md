@@ -2,6 +2,7 @@
 layout: post
 title: 'Danielle Poff + Portra400 + Contax645'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 7, 2017
 ---
 

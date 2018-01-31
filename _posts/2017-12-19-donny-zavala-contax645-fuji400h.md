@@ -2,6 +2,7 @@
 layout: post
 title: 'Donny Zavala + Contax645 + Fuji400H'
 category: 'blog'
+subcategory: 'Weekly+Vision'
 date: December 19, 2017
 ---
 
