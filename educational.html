@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: eduacational.html
+title: Educational Blog Posts
+---
+
+{% assign posts = site.posts | where:"subcategory","Educational" %}
+<div class="posts">
+  <h4 class="heading"><i>Filtering by Category: Educational</i></h4>
+  {% for post in posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+
+      <div class="entry">
+        {{ post.excerpt }}...<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </div>
+
+      
+    </article>
+  {% endfor %}
+</div>
