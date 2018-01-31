@@ -590,6 +590,8 @@ article {
 }
 
 .post {
+  width: 50%;
+  margin: 0 auto 0 auto;
   a {
     font-size: 1em;
     font-weight: 100;
@@ -601,6 +603,7 @@ article {
   img {
     width: 580px;
   }
+
   // blockquote {
   //   margin: 1.8em .8em;
   //   border-left: 2px solid $gray;
