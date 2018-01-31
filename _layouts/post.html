@@ -11,5 +11,5 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-  {% include disqus.html %}
+  <div class="category">Category: <a href="{{ site.baseurl}}/{{ page.subcategory | downcase }}">{{ page.subcategory | replace: '+',' ' }}</a></div>
 </article>
