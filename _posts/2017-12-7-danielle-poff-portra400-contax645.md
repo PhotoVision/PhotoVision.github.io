@@ -3,6 +3,7 @@ layout: post
 title: 'Danielle Poff + Portra400 + Contax645'
 category: 'blog'
 subcategory: 'Weekly+Vision'
+image: '/images/blog/2017-12-7-danielle-poff-portra400-contax645/danielle_poff_photography_contax645_portra400_napa_california_photovisionprints.jpg'
 date: December 7, 2017
 ---
 

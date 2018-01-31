@@ -3,6 +3,7 @@ layout: post
 title: 'Draper Gray + Contax645 + Fuji400H'
 category: 'blog'
 subcategory: 'Weekly+Vision'
+image: '/images/blog/2017-12-24-draper-gray-contax645-fuji400h/drapergray+18182_04.jpg'
 date: December 24, 2017
 ---
 

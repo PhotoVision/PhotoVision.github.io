@@ -3,6 +3,7 @@ layout: post
 title: 'Jen Dilliender + Fuji400H + Contax645'
 category: 'blog'
 subcategory: 'Weekly+Vision'
+image: '/images/blog/2017-12-10-jen-dilliender-fuji400h-contax645/jen_dillender_contax645_fuji400h_austin_texas_photovisionprints.jpg'
 date: December 10, 2017
 ---
 

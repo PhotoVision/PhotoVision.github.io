@@ -3,6 +3,7 @@ layout: post
 title: 'Laurelle + Dale Photography + Contax645 + Portra800'
 category: 'blog'
 subcategory: 'Weekly+Vision'
+image: '/images/blog/2017-12-14-laurelle-dale-photography-contax645-portra800/David+Miller+7104.jpg'
 date: December 14, 2017
 ---
 

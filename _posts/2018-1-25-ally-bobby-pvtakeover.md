@@ -3,6 +3,7 @@ layout: post
 title: 'Ally + Bobby #PVtakeover'
 category: 'blog'
 subcategory: 'PV+Takeover'
+image: '/images/blog/ally-bobby-pvtakeover/Allybobby-085.jpg'
 date: January 25th, 2018
 ---
 

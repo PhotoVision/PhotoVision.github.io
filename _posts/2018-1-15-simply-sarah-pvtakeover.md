@@ -3,6 +3,7 @@ layout: post
 title: 'Simply Sarah #PVtakeover'
 category: 'blog'
 subcategory: 'PV+Takeover'
+image: '/images/blog/simply-sarah-pvtakeover/00+INTROIMAGE.jpg'
 date: January 15th, 2018
 ---
 

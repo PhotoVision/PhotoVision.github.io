@@ -3,6 +3,7 @@ layout: post
 title: 'Emily Ann Hughes + Contax645 + Fuji400H'
 category: 'blog'
 subcategory: 'Weekly+Vision'
+image: '/images/blog/2017-12-3-emily-ann-hughes-contax645-fuji400h/emilyannhughes_+McMillinFamily-038.jpg'
 date: December 3, 2017
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 'Injoy Imagery + Pentax645Nii + Fuji400H'
 category: 'blog'
 subcategory: 'Weekly+Vision'
+image: '/images/blog/injoy-imagery-pentax645nii-fuji400h/jacqueline+INJOY+IMAGERY.CREATIVE.KAYLA.LOUISVILLE.NOV+2017.1.jpg'
 date: December 28, 2017
 ---
 

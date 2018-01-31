@@ -3,6 +3,7 @@ layout: post
 title: 'Sara Lynn + Pentax645n + Fuji400h'
 category: 'blog'
 subcategory: 'Weekly+Vision'
+image: '/images/blog/2017-12-17-sara-lynn-pentax645n-fuji400h/sara_lynn_pentax645n_fuji400h_colorado_photovisionprints.jpg'
 date: December 17, 2017
 ---
 
