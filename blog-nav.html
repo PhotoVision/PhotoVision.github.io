@@ -1,0 +1,34 @@
+---
+layout: page
+---
+
+{% assign posts = site.posts | limit:9 %}
+<div class="posts">
+  <table class="post-nav-table">
+    <caption class="left">Most Recent Posts</caption>
+    <tr>
+      {% for i in (0..2) %}
+        <td>
+            <h2><a href="{{ site.baseurl }}{{ posts[i].url }}">{{ posts[i].title }}<br /><span class="date">{{ posts[i].date | date: "%B %d, %Y" }}</span></a></h2>
+            <img src="{{ site.baseurl }}{{ posts[i].image }}" alt="{{ posts[i].title }} image"></img>
+        </td>
+      {% endfor %}
+    </tr>
+    <tr>
+      {% for i in (3..5) %}
+        <td>
+            <h2><a href="{{ site.baseurl }}{{ posts[i].url }}">{{ posts[i].title }}<br /><span class="date">{{ posts[i].date | date: "%B %d, %Y" }}</span></a></h2>
+            <img src="{{ site.baseurl }}{{ posts[i].image }}" alt="{{ posts[i].title }} image"></img>
+        </td>
+      {% endfor %}
+    </tr>
+    <tr>
+      {% for i in (6..8) %}
+        <td>
+            <h2><a href="{{ site.baseurl }}{{ posts[i].url }}">{{ posts[i].title }}<br /><span class="date">{{ posts[i].date | date: "%B %d, %Y" }}</span></a></h2>
+            <img src="{{ site.baseurl }}{{ posts[i].image }}" alt="{{ posts[i].title }} image"></img>
+        </td>
+      {% endfor %}
+    </tr>
+  </table>
+</div>

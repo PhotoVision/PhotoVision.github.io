@@ -620,6 +620,28 @@ article {
   // }
 }
 
+.post-nav-table {
+  caption {
+    font-size: 1.5em;
+  }
+  h2 {
+    line-height: 1.25em;
+    span {
+      font-size: .65em;
+    }
+  }
+  td {
+    width: 35%; 
+    padding: 2% 2% 2% 0%;
+  }
+  img {
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+    float: left;
+  }
+}
+
 .wrapper-footer {
   background-color: $lightGray;
 }
