@@ -33,17 +33,17 @@ p {
 }
 </style>
 
-# Welcome! We're Glad You're Here.
+# Welcome! We're glad you're here.
 
-## 1. Create an Account + Submit Preferences
+## 1. Create an account + submit preferences
 Tell us a bit about yourself and your style! This will help speed up the process once we receive your film.
 1. [**Create an Account**]({{ site.baseurl }}/create-account)
 2. [**Submit Preferences**]({{ site.baseurl }}/preferences)
 
-## 2. Fill out an Order Form
+## 2. Fill out an order form
 Order forms are _**crucial**_. They help ensure all your film has arrived safely and is processed to your specifications. [Download + print]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).
 
-## 3. Send in your Film + Order Form (*Safely*)
+## 3. Send in your film + order form (*safely*)
 1. Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo.
 2. Download our [pre-addressed shipping label]({{ site.baseurl }}/images/PhotoVision+Mailing+Label.pdf) or hand-address your package in stunning calligraphy to:
 **Attn: Film Crew**
@@ -59,7 +59,7 @@ Order forms are _**crucial**_. They help ensure all your film has arrived safely
 
 When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we might best match your scans to your **creative vision**.
 
-We recommend you send us **3-5 preference images** to keep on file. These images can be from your own film portfolio or from another film photographer whom you admire.
+We recommend you send us **3–5 preference images** to keep on file. These images can be from your own film portfolio or from another film photographer whom you admire.
 
 When choosing preference images, the most important aspect to consider is **skin tones**. Pick images where your subject fills the majority of the frame and has the **skin tones**, **density** and **contrast level** you are striving to achieve.
 
