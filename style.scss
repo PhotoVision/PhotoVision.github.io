@@ -314,6 +314,14 @@ article {
     font-size: .75em;
     color: gray;
   }
+  .category {
+    font-size: .75em;
+    font-weight: 600;
+    color: gray;
+    a {
+      font-weight: 800;
+    }
+  }
   .entry {
     padding-right: 4%;
     p {
@@ -575,6 +583,10 @@ article {
 .posts > .post:last-child {
   // padding-bottom: 1em;
   // border-bottom: none;
+}
+
+.posts .heading {  
+  padding: 0% 10%;
 }
 
 .post {
