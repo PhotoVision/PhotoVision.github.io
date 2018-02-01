@@ -10,7 +10,7 @@ title: Create Account
   <div class="notifications"></div>
   <ul>
     <li>
-      <h2>Contact Information</h2>
+      <h2>Contact Information</h2><br />
       <span class="required_notification">* Denotes Required Field</span>
     </li>
     <li>
@@ -35,7 +35,7 @@ title: Create Account
       <input id="phone" type="text" name="phone"/>
     </li>
     <li>
-      <label for="address1"><strong>Address</strong></label>
+      <label for="address1"><strong>Address</strong><span class="required_notification">*</span></label>
       <input id="address1" type="text" name="address1"/>
     </li>
     <li>
@@ -44,20 +44,20 @@ title: Create Account
     <li>
       <div class="half">
         <input id="city" type="text" name="city"/>
-        <label for="city">City</label>
+        <label for="city">City<span class="required_notification">*</span></label>
       </div>
       <div class="quarter">
         <input id="state" type="text" name="state"/>
-        <label for="state">State/Province</label>
+        <label for="state">State/Province<span class="required_notification">*</span></label>
       </div>
       <div class="quarter">
         <input id="zip" type="text" name="zip"/>
-        <label for="zip">Zip/Postal</label>
+        <label for="zip">Zip/Postal<span class="required_notification">*</span></label>
       </div>
     </li>
     <li>
       {% include countries-list.html %}
-      <label for="country">Country</label>
+      <label for="country">Country<span class="required_notification">*</span></label>
     <li>
       <button class="submit center" disabled type="submit">Create Account</button>
     </li>
@@ -110,7 +110,7 @@ title: Create Account
     }
 
     $('.contact_form').change(function() {
-      if(($('#first_name').val()) && ($('#last_name').val()) && ($('#email').val()) && ($('#phone').val())){
+      if(($('#first_name').val()) && ($('#last_name').val()) && ($('#email').val()) && ($('#phone').val()) && ($('#address1').val()) && ($('#city').val()) && ($('#state').val()) && ($('#zip').val()) && ($('#country').val())){
         $('.submit').prop('disabled', false);
       } else {        
         $('.submit').prop('disabled', true);
