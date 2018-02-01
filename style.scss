@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #424242;
-  line-height: 1.7;
+  line-height: 1.2;
   margin: 1em 0;
   padding: 0;
   @include mobile {
@@ -326,6 +326,11 @@ article {
     padding-right: 4%;
     p {
       padding-bottom: 2%;
+      text-align: justify;
+      text-justify: inter-word;
+      img {
+        padding: 10% 0 6% 0;
+      }
     }
     a {
       font-size: 1em;
@@ -624,24 +629,49 @@ article {
 }
 
 .post-nav-table {
+  width: 70%;
+  margin: 0 auto 0 auto;
   caption {
     font-size: 1.5em;
   }
-  h2 {
-    line-height: 1.25em;
-    span {
-      font-size: .65em;
-    }
-  }
   td {
-    width: 35%; 
-    padding: 2% 2% 2% 0%;
-  }
-  img {
-    width: 280px;
-    height: 350px;
-    object-fit: cover;
-    float: left;
+    padding: 3% 0 3% 0;
+    .nav-div {    
+      width: 280px;
+      height: 350px;
+      margin: 0 auto 0 auto;
+      opacity: 0.4;
+      position: relative;
+      z-index: 1;
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+        z-index: 3;
+      }
+    }
+    span {
+      width: 300px;
+      font-size: 1.2em;
+      position: absolute;
+      margin-top: -75px;
+      padding-left: 45px;
+      z-index: 2;
+    }
+    button.submit {
+      width: 180px;
+      height: 50px;
+      margin-top: 25px;
+      border-radius: 5px;
+      background-color: white;
+      border: 1px solid #424242;
+      font-size: 19px;
+      &:hover {
+        background-color: $lightGray;
+      }
+      &:active {
+        background-color: gray;
+      }
+    }
   }
 }
 
