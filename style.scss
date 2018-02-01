@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #424242;
-  line-height: 1.7;
+  line-height: 1.2;
   margin: 1em 0;
   padding: 0;
   @include mobile {
@@ -305,14 +305,36 @@ img {
 
 article {
   padding: 2% 10%;
+  h1 {
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 0;
+  }
+  .date {
+    font-size: .75em;
+    color: gray;
+  }
+  .category {
+    font-size: .75em;
+    font-weight: 600;
+    color: gray;
+    a {
+      font-weight: 800;
+    }
+  }
   .entry {
-    padding-left: 2%;
     padding-right: 4%;
     p {
       padding-bottom: 2%;
+      text-align: justify;
+      text-justify: inter-word;
+      img {
+        padding: 10% 0 6% 0;
+      }
     }
     a {
       font-size: 1em;
+      font-weight: 300;
     }
   }
 }
@@ -559,32 +581,97 @@ article {
 }
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  // padding-bottom: 2em;
+  // border-bottom: 1px solid $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
+  // padding-bottom: 1em;
+  // border-bottom: none;
+}
+
+.posts .heading {  
+  padding: 0% 10%;
 }
 
 .post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  a {
+    font-size: 1em;
+    font-weight: 100;
+    .date {
+      font-size: .50em;
+      font-weight: 300;
+    }
+  }
+  img {
+    width: 580px;
   }
 
-  .comments {
-    margin-top: 10px;
-  }
+  // blockquote {
+  //   margin: 1.8em .8em;
+  //   border-left: 2px solid $gray;
+  //   padding: 0.1em 1em;
+  //   color: $gray;
+  //   font-size: 22px;
+  //   font-style: italic;
+  // }
 
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
+  // .comments {
+  //   margin-top: 10px;
+  // }
+
+  // .read-more {
+  //   text-transform: uppercase;
+  //   font-size: 15px;
+  // }
+}
+
+.post-nav-table {
+  width: 70%;
+  margin: 0 auto 0 auto;
+  caption {
+    font-size: 1.5em;
+  }
+  td {
+    padding: 3% 0 3% 0;
+    .nav-div {    
+      width: 280px;
+      height: 350px;
+      margin: 0 auto 0 auto;
+      opacity: 0.4;
+      position: relative;
+      z-index: 1;
+      &:hover {
+        cursor: pointer;
+        opacity: 1;
+        z-index: 3;
+      }
+    }
+    span {
+      width: 300px;
+      font-size: 1.2em;
+      position: absolute;
+      margin-top: -75px;
+      padding-left: 45px;
+      z-index: 2;
+    }
+    button.submit {
+      width: 180px;
+      height: 50px;
+      margin-top: 25px;
+      border-radius: 5px;
+      background-color: white;
+      border: 1px solid #424242;
+      font-size: 19px;
+      &:hover {
+        background-color: $lightGray;
+      }
+      &:active {
+        background-color: gray;
+      }
+    }
   }
 }
 

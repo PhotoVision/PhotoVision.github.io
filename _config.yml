@@ -66,7 +66,7 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: pretty
+permalink: /:categories/:year/:i_month/:i_day/:title
 
 # include subfolder with markup files
 include: ['_pv-markup']
