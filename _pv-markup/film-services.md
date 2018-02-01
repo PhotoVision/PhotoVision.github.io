@@ -55,7 +55,7 @@ Sometimes you only need the bare essentials. When that's the case, your film wil
 *Additional per roll
 
 ## Develop + Scan
-We scan all film on the highly sought-after Fuji Frontier SP3000 and the Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks. All scans are delivered via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized!
+We scan all film on the highly sought-after Fuji Frontier SP3000 and the Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks. All scans are delivered via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized!
 
 | **Film Size** | **Color Normal Scan** | **B+W Normal Scan** | **Color Large Scan** | **B+W Large Scan** |
 | :---			| :---:					| :---:				  | :---:				 | :---:			  |
@@ -110,7 +110,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 We take the utmost care with your film! Negatives will be carefully cut, sleeved and organized at no charge. If your rolls are numbered (which, we *highly* recommend) they will be kept in numerical order.
 
 ## How do I get my negatives back?
-We will hold your negatives based on the Ship Back preference marked on your [Order Form]({{ site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).
+We will hold your negatives based on the Ship Back preference marked on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>.
 
 | **Ship Back Options** |   |
 | :--- | :---: |
