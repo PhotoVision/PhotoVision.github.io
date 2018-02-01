@@ -455,6 +455,10 @@ article {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    &::placeholder {
+      font-style: italic;  
+      color: grey;
+    }
   }
   .image-preview {
     ul li {
@@ -462,6 +466,10 @@ article {
       position: relative;
       display: inline-block;
       width: 20%;
+    }
+    p {
+      font-size: .8em;
+      margin-top: 5px;
     }
   }
   button.submit {

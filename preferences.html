@@ -7,28 +7,30 @@ title: Preferences
   <input type="hidden" name="_subject" value="Customer Preference Submission">
   <input style="display:none" type="text" name="_gotcha">
   <h1>Submit or Update Preferences</h1>
-  <a href="{{ site.baseurl}}/common-questions#what-are-preference-images--why-should-i-send-them-in">&nbsp;Learn more</a>
+  <a href="{{ site.baseurl}}/common-questions#preferences">&nbsp;Learn more</a>
   <div class="notifications"></div>
   <ul>
     <li>
       <h2>Account Information</h2>
     </li>
     <li>
-      <label for="email">Email<span class="required_notification">* required</span></label>
-      <input id="email" type="email" name="email" placeholder="Use the email address from when you created your account"/>
+      <label for="email"><strong>Email</strong><span class="required_notification">* required</span></label>
+      <input id="email" type="email" name="email" placeholder="Use email attached to your account"/>
     </li>
+    <li></li>
+    <li></li>
     <li>
       <h2>Preference Information</h2>
     </li>
     <li>
-      <label for="image-uploader">Preference Images (click "Choose Files" or drag-and-drop) (.jpg, .png)</label>
+      <label for="image-uploader"><strong>Preference Images</strong> (click "Choose Files" or drag-and-drop) (.jpg, .png)</label>
       <input id="image-uploader" name="image-uploader" type="file" multiple accept=".png, .jpg, .jpeg"/>
       <div class="image-preview">
         <p>(No files currently selected for upload)</p>
       </div>
     </li>
     <li>
-      <label for="instructions">Anything else we should know?<a href="{{ site.baseurl}}/common-questions#what-should-i-write-under-anything-else-we-should-know">&nbsp;Learn more</a></label>
+      <label for="instructions"><strong>Anything else we should know?</strong><a href="{{ site.baseurl}}/common-questions#what-should-i-write-under-anything-else-we-should-know">&nbsp;Learn more</a></label>
       <input id="instructions" type="text" name="instructions" maxlength="280"
         placeholder="(Example) &quot;Retain details in highlights&quot;"/>
     </li>
