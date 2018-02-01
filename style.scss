@@ -15,6 +15,11 @@
 
 html {
   font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -597,6 +602,9 @@ article {
 .post {
   width: 50%;
   margin: 0 auto 0 auto;
+  @include mobile {
+    width: 100%;
+  }
   a {
     font-size: 1em;
     font-weight: 100;
@@ -629,20 +637,31 @@ article {
 }
 
 .post-nav-table {
-  width: 70%;
+  width: 75%;
   margin: 0 auto 0 auto;
+  @media screen and (max-width: 1100px) {
+    width: 100%;
+  }
+  // @include mobile {
+  //   width: 22%;
+  //   font-size: .8em;
+  // }
   caption {
     font-size: 1.5em;
   }
   td {
-    padding: 3% 0 3% 0;
+    padding: 2% 0 2% 0;
     .nav-div {    
-      width: 280px;
-      height: 350px;
+      width: 90%;
       margin: 0 auto 0 auto;
       opacity: 0.4;
       position: relative;
       z-index: 1;
+      &:before {
+        content: "";
+        display: block;
+        padding-top: 125%;
+      }
       &:hover {
         cursor: pointer;
         opacity: 1;
@@ -650,12 +669,29 @@ article {
       }
     }
     span {
-      width: 300px;
+      width: 15em;
       font-size: 1.2em;
       position: absolute;
-      margin-top: -75px;
-      padding-left: 45px;
+      margin-top: -4em;
+      padding-left: 2em;
       z-index: 2;
+      @media screen and (max-width: 1100px) {
+        width: 14em;
+        font-size: 1em;
+        padding-left: .5em;
+      }
+      @media screen and (max-width: 800px) {
+        width: 12em;
+        font-size: .8em;
+        margin-top: -5em;        
+        padding-left: 2em;
+      }
+      @include mobile {
+        width: 11em;
+        font-size: .8em;   
+        margin-top: -4.5em; 
+        padding-left: 1em;
+      }
     }
     button.submit {
       width: 180px;
