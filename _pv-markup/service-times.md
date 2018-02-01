@@ -35,7 +35,7 @@ p {
 
 # Service Times
 
-## Current Film Process + Scan Service Time is: **{{ site.turnaround-time }}** (Updated {{ site.time | date: '%m-%d-%y' }}).
+## Current Film Process + Scan Service Time is: **{{ site.turnaround-time }}** (Updated {{ site.time | date: '%B %-d' }}).
 
 ##### Develop + Scan — Current Service Time
 ##### Develop + Scan + Print — Add 1 Business Day to Current Service Time
