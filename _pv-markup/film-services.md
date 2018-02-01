@@ -35,11 +35,11 @@ p {
 
 # Film Services
 
-We currently process C-41 color negative film and Black + White negative film. We can process most film sizes ranging from 135 roll film to 8x10 sheet film on C-41 and Black + White. You can find our current service time [here]({{ site.baseurl}}/service-times).
+We currently process C-41 color negative and Black + White negative film. We process most film sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service time [here]({{ site.baseurl}}/service-times).
 
 
 ## Develop Only
-Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved. Receive your film boxed and cut or uncut.
+Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned home to you.
 
 | **Film Size** | **Color** | **Black + White** |
 | :--- | :---: | :---: |
@@ -55,7 +55,7 @@ Sometimes you only need the bare essentials. When that's the case, your film wil
 *Additional per roll
 
 ## Develop + Scan
-We scan all film on the highly sought-after Fuji Frontier SP3000. We've had experience with many film scanners over the years, but nothing comes close to the image quality of the Frontier SP3000. Scans are delivered via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized!
+We scan all film on the highly sought-after Fuji Frontier SP3000 and the Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks. All scans are delivered via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized!
 
 | **Film Size** | **Color Normal Scan** | **B+W Normal Scan** | **Color Large Scan** | **B+W Large Scan** |
 | :---			| :---:					| :---:				  | :---:				 | :---:			  |
@@ -65,7 +65,7 @@ We scan all film on the highly sought-after Fuji Frontier SP3000. We've had expe
 {: .tablelines}
 
 ## Develop + Scan + Print
-It's the whole enchilada for one great price! You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
+It's the whole enchilada for one great price! You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 or the revolutionary Noritsu S-1800 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
 
 ### Standard Film Sizes: Color
 
@@ -85,7 +85,7 @@ It's the whole enchilada for one great price! You'll get top-notch film developi
 | **220**	| $23.50 | $24.50 | $31.50 | $32.50 |
 {: .tablelines}
 
-### Scan Cut Negatives
+## Scan Cut Negatives
 Need previously processed + cut film scanned? Not a problem! Add 4x6 prints for an additional $0.39 per frame.
 
 | **Minimum charge** | **Per Frame** |
@@ -107,7 +107,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 *All scan resolutions are approximate. Slight variations are normal.*
 
 ## How are my negatives handled + organized?
-We take the utmost care with your film! Negatives will be carefully cut, sleeved and organized at no charge. If your rolls are numbered (which BTW, we *highly* recommend) they will also be kept in numerical order.
+We take the utmost care with your film! Negatives will be carefully cut, sleeved and organized at no charge. If your rolls are numbered (which, we *highly* recommend) they will be kept in numerical order.
 
 ## How do I get my negatives back?
 We will hold your negatives based on the Ship Back preference marked on your [Order Form]({{ site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).
@@ -117,7 +117,7 @@ We will hold your negatives based on the Ship Back preference marked on your [Or
 | **2 weeks** | $6.50 |
 | **Fill 2" Flat Rate box** | $10.00 |
 | **Fill 4" Flat Rate box** | $20.00 |
-| **End of Year** | Price varies |
+
 {: .tablelines}
 
 
