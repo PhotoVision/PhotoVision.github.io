@@ -23,6 +23,9 @@ p {
 .entry h1 {
     border-bottom: 1px solid #ccc;
 }
+.entry p em strong a {
+    font-weight: 600;
+}
 </style>
 
 # Love Letters from Our Photographers
