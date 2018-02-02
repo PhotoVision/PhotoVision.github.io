@@ -4,15 +4,18 @@ permalink: print-services.html
 ---
 <style>
 .tablelines th {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #424242;
     padding: .3em 1em .3em 1em;
 }
 .tablelines td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #424242;
     padding: .3em 1em .3em 1em;
 }
 .tablelines tr:last-child td {
     border: none;
+}
+.tablelines strong {
+    font-weight: 700;
 }
 ol, ul {
     padding-left: 3em;
@@ -22,14 +25,9 @@ p {
 }
 .entry h1 {
     border-bottom: 1px solid #ccc;
-    color: #757575;
-    font-size: 2.8em;
-    font-weight: 300;
 }
-.entry h2 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #757575;
+.entry p a img {
+    padding: 0;
 }
 </style>
 
@@ -75,8 +73,8 @@ Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This i
 ## Borders
 Add a professional + clean look to your proof prints at no charge. White borders are available for 3.5x5, 4x5, 4x6, 4.5x6, 5x5 and 5x7.
 
-| Size |  |
-| --- | --- |
+| **Size** |  |
+| :--- | --- |
 | **Small** | 1/4" |
 | **Medium** | 3/8" |
 | **Large** | 1/2" |
@@ -84,8 +82,8 @@ Add a professional + clean look to your proof prints at no charge. White borders
 
 ## Panoramic Prints
 
-|Short Edge               |Long Edge / Lustre             |Long Edge / Metallic                   |
-| ----------------------- | ----------------------------- | ------------------------------------- |
+| **Short Edge**               | **Long Edge / Lustre**             | **Long Edge / Metallic**                   |
+| :----------------------- | ----------------------------- | ------------------------------------- |
 | **Less than or equal to 20"**	| $1.25 per linear inch	  | $1.50 per linear inch                 |
 | **Less than or equal to 30"** | $1.75 per linear inch	  | $2.00 per linear inch                 |
 {: .tablelines}
@@ -96,7 +94,7 @@ Over 1200 ppi
 more info
 
 ## Order Prints
-[![]({{ site.baseurl}}/images/new-little-prints.jpg)](http://photovision.dakisphotofactory.com/onlinePrint.html)
+<a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">![]({{ site.baseurl}}/images/new-little-prints.jpg)</a>
 
 Create prints from 3.5x5" to 30x45" from your desktop or phone.
 
