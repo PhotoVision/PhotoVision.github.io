@@ -65,7 +65,7 @@ We scan all film on the highly sought-after Fuji Frontier SP3000 or Noritsu S-18
 {: .tablelines}
 
 ## Develop + Scan + Print
-It's the whole enchilada for one great price! You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 or the revolutionary Noritsu S-1800 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
+You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 or the revolutionary Noritsu S-1800 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
 
 ### Standard Film Sizes: Color
 
@@ -77,6 +77,7 @@ It's the whole enchilada for one great price! You'll get top-notch film developi
 {: .tablelines}
 
 ### Standard Film Sizes: Black + White
+All black + white scans arrive converted to true black + whites.
 
 | **Film Size** | **Normal Scan + 4x Prints** | **Normal Scan + 5x Prints** | **Large Scan + 4x Prints** | **Large Scan + 5x Prints** |
 | :--- | :---: | :---: | :---: | :---: |

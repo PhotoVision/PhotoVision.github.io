@@ -57,7 +57,7 @@ We recommend you send us **3–5 preference images** to keep on file. These imag
 
 When choosing preference images, the most important aspect to consider is **skin tones**. Pick images where your subject fills the majority of the frame and has the **skin tones**, **density** and **contrast level** you are striving to achieve.
 
-## What should I write under "Anything else we should know?"
+## What should I include under "Written Preferences?"
 
 Focus on describing your **overall ideal image**. 
 - Warm / cool / neutral
