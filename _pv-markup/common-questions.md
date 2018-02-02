@@ -41,11 +41,11 @@ Tell us a bit about yourself and your style! This will help speed up the process
 2. [**Submit Preferences**]({{ site.baseurl }}/preferences)
 
 ## 2. Fill out an order form
-Order forms are _**crucial**_. They help ensure all your film has arrived safely and is processed to your specifications. [Download + print]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).
+Order forms are _**crucial**_. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download and print</a>.
 
 ## 3. Send in your film + order form (*safely*)
 1. Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo.
-2. Download our [pre-addressed shipping label]({{ site.baseurl }}/images/PhotoVision+Mailing+Label.pdf) or hand-address your package in stunning calligraphy to:
+2. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:
 **Attn: Film Crew**
 **PhotoVision**
 **3775 Market St NE**
@@ -80,10 +80,10 @@ New customer? First, [create an account]({{ site.baseurl }}/create-account). The
 # The Experience
 
 ## How do I know my film has arrived?
-Once your film arrives in lab, you will receive a confirmation email at the address you provided on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). This email includes your order number, the job's total cost and an invoice for your records.
+Once your film arrives in lab, you will receive a confirmation email at the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes your order number, the job's total cost and an invoice for your records.
 
 ## How do I receive my scans?
-Once your scans are complete, you will receive an email to the address you provided on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). This email includes a link to view and download your scans via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf), your [Box](http://box.com) order folder will be titled the same!
+Once your scans are complete, you will receive an email to the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your [Box](http://box.com) order folder will be titled the same!
 
 ## Will my scans be rotated and numbered?
 Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which, we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
@@ -92,10 +92,10 @@ Yes! Every scan arrives rotated and organized by roll number and frame number (i
 If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
 
 ## How do I order prints?
-Proof prints may be requested via your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf) when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem! You may [order prints]({{ site.baseurl }}/ordering/) from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+Proof prints may be requested via your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem! You may [order prints]({{ site.baseurl }}/ordering/) from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
 
 ## How do I get my negatives back?
-We will hold your negatives based on the Ship Back preference marked on your [Order Form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
+We will hold your negatives based on the Ship Back preference marked on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
 
 | **Ship Back Options** |   |
 | :--- | :---: |
@@ -135,15 +135,15 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 *All scan resolutions are approximate. Slight variations are normal.*
 
 ## What scanners do you use?
-Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
+Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
 
 # Processing  
 
 ## Do you offer push/pull processing?
-Yes, we can push or pull film up to 3 stops. Indicate on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf) whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a **rubber band** around it. Push/pull processing is $3.00 per roll.
+Yes, we can push or pull film up to 3 stops. Indicate on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a **rubber band** around it. Push/pull processing is $3.00 per roll.
 
 ## How do you process Ilford Delta 3200?
-We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf) how you rated your 3200.
+We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> how you rated your 3200.
 
 ## Do you process + scan E-6 slide film?
 Sadly, we no longer process E-6, but we do scan it.
