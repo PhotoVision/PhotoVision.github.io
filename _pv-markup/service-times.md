@@ -39,6 +39,8 @@ _Service times are in business days starting the first business day **after** yo
 
 ## Current film process + scan service time is: **{{ site.turnaround-time }}** (Updated {{ site.time | date: '%m-%d-%y' }}).
 
-## Current print service time is: **1 business day** for 12x18 and smaller (<200), and **3 business days** for 16x20–30x45.
+## Current print service times are: **1 business day** for 12x18 and smaller (<200), and **3 business days** for 16x20–30x45.
+
+## Current proof print service times are: **{{ site.turnaround-time }} + 1 day** (Updated {{ site.time | date: '%m-%d-%y' }}).
 
 #### [RUSH POLICY]({{ site.baseurl}}/rush-policy)

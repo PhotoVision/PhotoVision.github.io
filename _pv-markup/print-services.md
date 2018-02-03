@@ -33,11 +33,9 @@ p {
 }
 </style>
 
-# Print your work
+# Timeless Prints
 
-## Picture the difference.
-
-Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This isn't your typical photo paper—Fujicolor Crystal Archive Supreme is rarely used by other film labs because of its higher cost. It has a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade.
+#### Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This isn't your typical photo paper—it has a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade.
 
 
 ## Standard Prints
@@ -73,7 +71,7 @@ Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This i
 
 
 ## Borders
-Add a professional + clean look to your proof prints at no charge. White borders are available for 3.5x5, 4x5, 4x6, 4.5x6, 5x5 and 5x7.
+Add a professional + clean look to your proof prints with a white border at no charge. Available for 3.5x5, 4x5, 4x6, 4.5x6, 5x5 and 5x7.
 
 | Size |  |
 | --- | --- |
@@ -82,29 +80,20 @@ Add a professional + clean look to your proof prints at no charge. White borders
 | **Large** | 1/2" |
 {: .tablelines}
 
-## Panoramic Prints
+## Large format prints 
 
-|Short Edge               |Long Edge / Lustre             |Long Edge / Metallic                   |
-| ----------------------- | ----------------------------- | ------------------------------------- |
-| **Less than or equal to 20"**	| $1.25 per linear inch	  | $1.50 per linear inch                 |
-| **Less than or equal to 30"** | $1.75 per linear inch	  | $2.00 per linear inch                 |
-{: .tablelines}
+With a true wet, photographic process, our Polielettronica Laser Lab HR3D prints at a higher resolution (1200 ppi) than paper can hold, pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
 
-## Poly Prints
-
-Over 1200 ppi
-more info
-
-## Order Prints
+## Order prints
 [![]({{ site.baseurl}}/images/new-little-prints.jpg)](http://photovision.dakisphotofactory.com/onlinePrint.html)
 
-Create prints from 3.5x5" to 30x45" from your desktop or phone.
+Create prints from 3.5x5 to 30x45 from your desktop or phone.
 
-## Print Service Time
-12x18 and smaller — 1 Business Day  *(200 prints or less)*
-16x20 through 30x45 — 3 Business Days
+## Print service time
+12x18 and smaller: 1 business day (<200)  
+16x20–30x45: 3 business days
 
-*Service times are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
+*[Service times]({{ site.baseurl}}/service-times)) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
 
 ## Can I talk to someone?
 Absolutely! We're happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
