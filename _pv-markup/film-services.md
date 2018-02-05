@@ -27,11 +27,11 @@ p {
 
 # Film Services
 
-We currently process C-41 color negative and Black + White negative film. We process most film sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service time [here]({{ site.baseurl}}/service-times).
+We currently process C-41 color negative and Black + White negative film in most sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service time [here]({{ site.baseurl}}/service-times).
 
 
 ## Develop Only
-Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned home to you.
+Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned home to you cut or uncut.
 
 | **Film Size** | **Color** | **Black + White** |
 | :--- | :---: | :---: |
@@ -47,7 +47,7 @@ Sometimes you only need the bare essentials. When that's the case, your film wil
 *Additional per roll
 
 ## Develop + Scan
-We scan all film on the highly sought-after Fuji Frontier SP3000 and the Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks. All scans are delivered via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized!
+We scan all film on the highly sought-after Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks. All scans are delivered via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized!
 
 | **Film Size** | **Color Normal Scan** | **B+W Normal Scan** | **Color Large Scan** | **B+W Large Scan** |
 | :---			| :---:					| :---:				  | :---:				 | :---:			  |
@@ -57,7 +57,7 @@ We scan all film on the highly sought-after Fuji Frontier SP3000 and the Noritsu
 {: .tablelines}
 
 ## Develop + Scan + Print
-It's the whole enchilada for one great price! You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 or the revolutionary Noritsu S-1800 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
+You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 or the revolutionary Noritsu S-1800 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
 
 ### Standard Film Sizes: Color
 
@@ -69,6 +69,7 @@ It's the whole enchilada for one great price! You'll get top-notch film developi
 {: .tablelines}
 
 ### Standard Film Sizes: Black + White
+All black + white scans arrive converted to true black + whites.
 
 | **Film Size** | **Normal Scan + 4x Prints** | **Normal Scan + 5x Prints** | **Large Scan + 4x Prints** | **Large Scan + 5x Prints** |
 | :--- | :---: | :---: | :---: | :---: |

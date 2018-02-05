@@ -41,21 +41,15 @@ p {
 {: .accordion}
 
 <div class="panel" markdown="1">
-## 1. Create an account + submit preferences
+## 1. [Create an account]({{ site.baseurl }}/create-account) + [submit preferences]({{ site.baseurl }}/preferences)
 Tell us a bit about yourself and your style! This will help speed up the process once we receive your film.
-1. [**Create an Account**]({{ site.baseurl }}/create-account)
-2. [**Submit Preferences**]({{ site.baseurl }}/preferences)
 
-## 2. Fill out an order form
-Order forms are _**crucial**_. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download and print</a>.
+## 2. Fill out an [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf)
+Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. [Download + print]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).
 
-## 3. Send in your film + order form (*safely*)
-1. Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo.
-2. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:
-**Attn: Film Crew**
-**PhotoVision**
-**3775 Market St NE**
-**Salem OR 97301**
+## 3. Send in your film + order form [(safely)]({{ site.baseurl }}/shipping-tips)
+Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:
+**Attn: Film Crew, PhotoVision, 3775 Market St NE, Salem OR 97301**
 </div>
 
 # Preferences
@@ -72,7 +66,7 @@ We recommend you send us **3–5 preference images** to keep on file. These imag
 
 When choosing preference images, the most important aspect to consider is **skin tones**. Pick images where your subject fills the majority of the frame and has the **skin tones**, **density** and **contrast level** you are striving to achieve.
 
-## What should I write under "Anything else we should know?"
+## What should I include under "Written Preferences?"
 
 Focus on describing your **overall ideal image**. 
 - Warm / cool / neutral
@@ -81,7 +75,7 @@ Focus on describing your **overall ideal image**.
 - Retain details in highlights / blown-out highlights OK
 - Avoid vague descriptions open to interpretation (i.e. "masculine," "romantic")
 
-When it comes to **skin tones**, let your **preference images** speak to the tones you desire. Don't try to describe them here. Instead, focus on the overall image. 
+When it comes to **skin tones**, let your **preference images** speak to the tones you desire. Don't try to describe them here. 
 
 ## How do I update/change my preference images?
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
@@ -98,7 +92,7 @@ Once your film arrives in lab, you will receive a confirmation email at the addr
 Once your scans are complete, you will receive an email to the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your [Box](http://box.com) order folder will be titled the same!
 
 ## Will my scans be rotated and numbered?
-Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which, we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
+Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
 
 ## What if I have a problem with my order?
 If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
@@ -116,8 +110,8 @@ We will hold your negatives based on the Ship Back preference marked on your <a 
 | **Fill 4" Flat Rate box** | $20.00 |
 {: .tablelines}
 
-## How are my negatives handled + organized?
-We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which, we *highly* recommend) they will also be kept in numerical order.
+## How are my negatives handled?
+We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
 </div>
 
 # Exposure Reference Sheets

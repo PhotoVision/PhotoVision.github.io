@@ -27,11 +27,11 @@ p {
 
 # Exceeding expectations. Since 1968.
 
-From our humble beginnings as a small-town camera shop, to becoming one of the world's most trusted names in film processing + scanning, our vision never changed—*Always do what’s right.* Our 50-year commitment to helping all photographers achieve their goals is bar none in the industry.  
+From our humble beginnings as a small-town camera shop, to becoming one of the world's most trusted names in film processing + scanning, our vision holds steady—*Always do what’s right.* Our 50-year commitment to helping all photographers achieve their goals is bar none in the industry.  
   
 Join us. And picture the difference.  
 
-![image] ![image]  
+![]({{ site.baseurl}}/images/Photovision_002.jpg) ![]({{ site.baseurl}}/images/Photovision_001.jpg) 
   
 *"What has made us most proud over the years, is the number of people we’ve touched and the number of lives we’ve made better." — Brian Wood*  
 
