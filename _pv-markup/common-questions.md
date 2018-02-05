@@ -23,22 +23,38 @@ p {
 .entry h1 {
     border-bottom: 1px solid #ccc;
 }
-.accordion {    
+.accordion {
     transition: 0.4s;
     cursor: pointer;
 }
 .accordion:hover {
     background-color: #ccc;
 }
-.panel {    
+.panel {
     max-height: 0;
     transition: max-height 0.2s ease-out;
     overflow: hidden;
 }
+button {
+    padding: 10px;
+    margin-top: 25px;
+    margin-right: 25px;
+    border-radius: 5px;
+    color: #424242;
+    background-color: white;
+    border: 1px solid #424242;
+    font-size: 19px;
+    font-weight: 400;
+}
+button:hover {
+    background-color: #eee;
+    }
+button:active {
+    background-color: gray;
+    }
 </style>
 
-# Welcome! We're glad you're here.
-{: .accordion}
+<h1 class="accordion" title="Click to expand section">Welcome! We're glad you're here.</h1>
 
 <div class="panel" markdown="1">
 ## 1. [Create an account]({{ site.baseurl }}/create-account) + [submit preferences]({{ site.baseurl }}/preferences)
@@ -52,8 +68,7 @@ Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo
 **Attn: Film Crew, PhotoVision, 3775 Market St NE, Salem OR 97301**
 </div>
 
-# Preferences
-{: .accordion}
+<h1 class="accordion" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
 ### Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both **preference images** and **written preferences**.
@@ -81,8 +96,7 @@ When it comes to **skin tones**, let your **preference images** speak to the ton
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
 </div>
 
-# The Experience
-{: .accordion}
+<h1 class="accordion" title="Click to expand section">The Experience</h1>
 
 <div class="panel" markdown="1">
 ## How do I know my film has arrived?
@@ -114,8 +128,7 @@ We will hold your negatives based on the Ship Back preference marked on your <a 
 We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
 </div>
 
-# Exposure Reference Sheets
-{: .accordion}
+<h1 class="accordion" title="Click to expand section">Exposure Reference Sheets</h1>
 
 <div class="panel" markdown="1">
 ## What are they?
@@ -129,8 +142,7 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s [Box](http://box.com) folder.
 </div>
 
-# Let's get technical
-{: .accordion}
+<h1 class="accordion" title="Click to expand section">Let's get technical</h1>
 
 <div class="panel" markdown="1">
 ## How large are your scans?
@@ -150,8 +162,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
 </div>
 
-# Processing
-{: .accordion}
+<h1 class="accordion" title="Click to expand section">Processing</h1>
 
 <div class="panel" markdown="1">
 ## Do you offer push/pull processing?
@@ -164,11 +175,10 @@ We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your
 Sadly, we no longer process E-6, but we do scan it.
 
 ## What are your prices?
-[Film services]({{ site.baseurl }}/film-services). [Print services]({{ site.baseurl }}/print-services).
+<button name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Pricing</button> <button name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
 </div>
 
-# Connect with us!
-{: .accordion}
+<h1 class="accordion" title="Click to expand section">Connect with us!</h1>
 
 <div class="panel" markdown="1">
 ## Questions?
