@@ -28,7 +28,7 @@ p {
 }
 </style>
 
-# Love Letters from Our Photographers
+# Love letters from our photographers
 
 *Other labs don’t hold a candle to you in quality and care for their customers. Thanks for all you do!  
 __[Kathryn Bruns](http://www.kathrynbruns.com/) December 15, 2017__*
@@ -40,7 +40,7 @@ __[Justin Douglas](http://justindouglasphotos.com/) December 11, 2017__*
 __[Keith Daigle](http://www.keithdaiglephotography.com/) December 8, 2017__*
 
 *Thank you so much!! We are obsessed with our scans!!! We love them!! Thanks for all you guys do!  
-__[Ally and Bobby Willix](http://allyandbobby.com/) November 21, 2017__*
+__[Ally + Bobby Willix](http://allyandbobby.com/) November 21, 2017__*
 
 *I just wanted to pop over really quick and say the rush [scans] I just received were AMAZING!!!!!! The colors were perfect!!! We are really getting the tones and my coloring preferences adjusted just right and I've been very happy with my recent scans!! Thank you for working with me on this over the past month!  
 __[Ashley (McKinney) Brown of Shining Light Photography](http://shininglight516.com/) November 2, 2017__*
@@ -67,7 +67,7 @@ __[Emily Sleadd of Hunting Ground Films](http://www.huntinggroundfilms.com/) Aug
 __[Jamie Fenwick of Jaime Lauren Photography](http://www.jaimelaurenphotography.com/) August 21, 2017__*
 
 *Thanks for everything you guys do. You honestly have made my life as a photographer so much better!  
-__[Cameo Godinho of Magnolia & Magpie](http://www.magnoliaandmagpie.com/) August 14, 2017)__*
+__[Cameo Godinho of Magnolia + Magpie](http://www.magnoliaandmagpie.com/) August 14, 2017__*
 
 *I always have such an incredible experience working with you guys and truly feel the love and care you put into developing the hundreds of rolls of film we all send you.  
 __[Ali Lavin](http://alimaephoto.com/) August 7, 2017__*
@@ -84,7 +84,8 @@ __[Shirley Matz](http://www.shirleyclairephotography.com/) July 20, 2017__*
 *I want to say thank you for the first set of prints. They came out lovely and I really like the thickness of the paper. I will definitely be ordering more from you in the future!!  
 __[Allyne Armitage](http://www.allynearmitage.com/) July 4, 2017__*
 
-*Hi there, beautiful PhotoVision Team! I wanted to reach out quickly and share some exciting news with you all—I’m currently a finalist for Southern Weddings’ Best of the South Wedding Awards: Film Photographer. YAY! I owe you all a million thanks. I never could have gotten to this point without the gorgeous, consistent scans you provide and the care you give my film. Thank you, thank you, thank you. PV film crew, I could sing your praises all day—I love working with your amazing Team, and I’m deeply appreciative of all your hard work! Have a great day! :slightly_smiling_face:  
+
+*Hi there, beautiful PhotoVision Team! I wanted to reach out quickly and share some exciting news with you all—I’m currently a finalist for* Southern Weddings’ *Best of the South Wedding Awards: Film Photographer. YAY! I owe you all a million thanks. I never could have gotten to this point without the gorgeous, consistent scans you provide and the care you give my film. Thank you, thank you, thank you. PV film crew, I could sing your praises all day—I love working with your amazing Team, and I’m deeply appreciative of all your hard work! Have a great day! :slightly_smiling_face:  
 __[Haley Entrekin Bilunas of Photos by Heart](http://photosbyheart.com/) May 30, 2017__*
 
 *I just wanted to say, over the past few years, I had a vision of where I wanted to be with my work and style. Step One was transitioning to film. The rest has been a learning process with myself, this new medium and understanding this craft. And over this process, you all have been nothing but helpful. I am so thankful for everything you do and so happy with where my style has evolved to this day!! I couldn’t do it without you guys.  
@@ -97,7 +98,7 @@ __[Jen Dillender](http://www.jendillenderphotography.com/) July 28, 2017__*
 __[Alexandra Elise](http://www.alexandraelisephotography.com/) May 18, 2017__*
 
 *Thanks, y'all! You're always so awesome and make our pictures look like magic!  
-__[Cameo Godinho of Magnolia & Magpie](http://www.magnoliaandmagpie.com/) May 11, 2017__*
+__[Cameo Godinho of Magnolia + Magpie](http://www.magnoliaandmagpie.com/) May 11, 2017__*
 
 *Thank you so much. I can't tell you guys how much I appreciate all that you do for me and my business. I love working with your Team and LOVE my scans from your company! Happy to say that I've been with you guys over a year now!  
 __[Shauna Veasey](http://www.shaunaveaseyphotography.com/) May 8, 2017__*
@@ -133,7 +134,7 @@ __[Sarah Murray Photography](http://www.smurrayphoto.com/) April 6, 2017__*
 __[Kerry Langel of Kerry Jeanne Photography](http://www.kerryjeannephotography.com/) March 27, 2017__*
 
 *PhotoVision Team, I just want to take a moment and let you guys know that when I received my film scans back (which was so fast!) I shed a tear. Or two. I can't tell you how amazed and in awe I was at the beautiful job you did. This was my true first session with film where I knew what I was doing and felt confident doing it. Any and all expectations I had of how my photos would turn out were shattered when I received my scans. The colors, the light, the exposure, skin tones, just PERFECT. Film has seriously transformed my love for photography and given me such a boost of confidence and desire to start my own business and be something I never thought I would call myself, a film photographer. Crazy!! I just want you guys to know that you're doing an amazing job and I can't wait to get my next batch of film to you guys!  
-__[Hannah Haston of Hannah Grace Photography](http://www.hannahgracephoto.com) March 24, 2017__*
+__[Hannah Haston](http://hannahhaston.com) March 24, 2017__*
 
 *I can never take for granted how generous, kind and educationally helpful the entire PhotoVision Team has been to me over the past 3 years. XOXO  
 __[Matoli Keeley](http://www.matolikeelyphotography.com/) March 24, 2017__*
@@ -157,7 +158,7 @@ __[Violeta Garcia-Mendoza](http://www.violetagarciamendoza.com) March 15, 2017__
 __[Josie Derrick](http://www.josiederrick.com/) March 13, 2017__*
 
 *You guys are amazing. We constantly feel incredibly supported, encouraged and loved on by y'all. We could not do what we do without your level expertise and service!!  
-__[Jake & Heather Beerman](http://www.jakeandheatherphoto.com/) March 3, 2017__*
+__[Jake + Heather Beerman](http://www.jakeandheatherphoto.com/) March 3, 2017__*
 
 *I am just starting to shoot film again (after 15+ years) and am basically learning everything again. I called into the lab and talked to Stephen Wood today who was seriously the most helpful person. He took his time to go through everything with me and gave me so many helpful suggestions to get the look I want from my film. I felt a little silly making so many mistakes with my first venture back into film, but he made me feel so much better and hopeful that I can actually do this! Thank you so much! I am so happy to have found you guys.  
 __[Sara Richardson](http://www.sararichardsonphoto.com/) March 2, 2017__*
@@ -166,7 +167,7 @@ __[Sara Richardson](http://www.sararichardsonphoto.com/) March 2, 2017__*
 __[Ashton Jean-Pierre](http://www.ashtonjean-pierre.com/) February 28, 2017__*
 
 *THANK YOU! You guys made my day with your scans and unbelievably short turnaround time!! Your scans + colors are AMAZING, exactly how I like my work. You guys are the best!! I'm definitely back to film photography! :slightly_smiling_face:  
-__[Sue Neuenschwander Fine Art Photography & Creative Direction](https://www.sueneuenschwander.com/) February 24, 2017__*
+__[Sue Neuenschwander Fine Art Photography + Creative Direction](https://www.sueneuenschwander.com/) February 24, 2017__*
 
 *Hi guys, thank you for the super fast turnaround time and amazing scans! Switching over to PV after 4 years with another lab was the best decision I've made with my business and has given me confidence to shoot more film. The edits are super consistent and it's easy for me to tell the images that I missed the exposure on instead of wondering about the scan quality. I just don't know how to say thank you enough.  
 __[Laura Leslie](http://www.lauralesliephotography.com/) February 23, 2017__*
