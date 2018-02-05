@@ -23,10 +23,24 @@ p {
 .entry h1 {
     border-bottom: 1px solid #ccc;
 }
+.accordion {    
+    transition: 0.4s;
+    cursor: pointer;
+}
+.accordion:hover {
+    background-color: #ccc;
+}
+.panel {    
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+}
 </style>
 
 # Welcome! We're glad you're here.
+{: .accordion}
 
+<div class="panel" markdown="1">
 ## 1. Create an account + submit preferences
 Tell us a bit about yourself and your style! This will help speed up the process once we receive your film.
 1. [**Create an Account**]({{ site.baseurl }}/create-account)
@@ -42,9 +56,12 @@ Order forms are _**crucial**_. They help ensure all your film has arrived safely
 **PhotoVision**
 **3775 Market St NE**
 **Salem OR 97301**
+</div>
 
 # Preferences
+{: .accordion}
 
+<div class="panel" markdown="1">
 ### Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both **preference images** and **written preferences**.
 
 ## What are preference images + why should I send them in?
@@ -68,9 +85,12 @@ When it comes to **skin tones**, let your **preference images** speak to the ton
 
 ## How do I update/change my preference images?
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
+</div>
 
 # The Experience
+{: .accordion}
 
+<div class="panel" markdown="1">
 ## How do I know my film has arrived?
 Once your film arrives in lab, you will receive a confirmation email at the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes your order number, the job's total cost and an invoice for your records.
 
@@ -98,9 +118,12 @@ We will hold your negatives based on the Ship Back preference marked on your <a 
 
 ## How are my negatives handled + organized?
 We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which, we *highly* recommend) they will also be kept in numerical order.
+</div>
 
 # Exposure Reference Sheets
+{: .accordion}
 
+<div class="panel" markdown="1">
 ## What are they?
 When shooting film, your negatives act as your road map to understanding the connection between how you expose your film and your scan results. Our goal is to provide a tool to help you better understand your exposures + your scans at a glance. [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) provide a thumbnail of each frame, allowing you to clearly + easily see how you exposed your film. Pretty cool, huh?
 
@@ -109,10 +132,13 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 
 ## Where do I find them?  
 
-[Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s [Box](http://box.com) folder. 
+[Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s [Box](http://box.com) folder.
+</div>
 
-#Lets get Technical
+# Let's get technical
+{: .accordion}
 
+<div class="panel" markdown="1">
 ## How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
 
@@ -128,9 +154,12 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 
 ## What scanners do you use?
 Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
+</div>
 
-# Processing  
+# Processing
+{: .accordion}
 
+<div class="panel" markdown="1">
 ## Do you offer push/pull processing?
 Yes, we can push or pull film up to 3 stops. Indicate on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a **rubber band** around it. Push/pull processing is $3.00 per roll.
 
@@ -142,9 +171,12 @@ Sadly, we no longer process E-6, but we do scan it.
 
 ## What are your prices?
 [Film services]({{ site.baseurl }}/film-services). [Print services]({{ site.baseurl }}/print-services).
+</div>
 
 # Connect with us!
+{: .accordion}
 
+<div class="panel" markdown="1">
 ## Questions?
 Please don't hesitate to reach out, we're always happy to help! Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
@@ -156,3 +188,22 @@ Please stop by, we'd love to meet you + give you a tour!
 
 [{{ site.company-info.address }}]({{ site.company-info.map-url }})  
 [{{ site.company-info.csz }}]({{ site.company-info.map-url }})
+</div>
+
+
+<script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between hiding and showing the active panel, with animation */
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
+    }
+</script>
