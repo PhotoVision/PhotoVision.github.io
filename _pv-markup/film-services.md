@@ -4,11 +4,11 @@ permalink: film-services.html
 ---
 <style>
 .tablelines th {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #424242;
     padding: .3em 1em .3em 1em;
 }
 .tablelines td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #424242;
     padding: .3em 1em .3em 1em;
 }
 .tablelines tr:last-child td {
@@ -22,14 +22,6 @@ p {
 }
 .entry h1 {
     border-bottom: 1px solid #ccc;
-    color: #757575;
-    font-size: 2.8em;
-    font-weight: 300;
-}
-.entry h2 {
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #757575;
 }
 </style>
 
@@ -111,14 +103,13 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 We take the utmost care with your film! Negatives will be carefully cut, sleeved and organized at no charge. If your rolls are numbered (which, we *highly* recommend) they will be kept in numerical order.
 
 ## How do I get my negatives back?
-We will hold your negatives based on the Ship Back preference marked on your [Order Form]({{ site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).
+We will hold your negatives based on the Ship Back preference marked on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>.
 
 | **Ship Back Options** |   |
 | :--- | :---: |
 | **2 weeks** | $6.50 |
 | **Fill 2" Flat Rate box** | $10.00 |
 | **Fill 4" Flat Rate box** | $20.00 |
-
 {: .tablelines}
 
 

@@ -15,15 +15,17 @@
 
 html {
   font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 Roboto;
-  color: #424242;
-  @include mobile {
-    font-size: 18px;
-  }
+  font: 400 16px/1.4 Roboto;
+  color: #232323;
 }
 
 .container {
@@ -41,20 +43,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 100;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 300;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -69,7 +71,6 @@ p {
 
 a {
   color: #83b3be;
-  font-size: 16px;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -178,6 +179,10 @@ img {
     height: 100%;
     object-fit: cover;
   }
+}
+
+.print-services-container, .philosophy-container {
+  height: 600px;
 }
 
 .reference-sheets-container {
@@ -306,8 +311,6 @@ img {
 article {
   padding: 2% 10%;
   h1 {
-    font-size: 2em;
-    font-weight: 100;
     margin-bottom: 0;
   }
   .date {
@@ -328,13 +331,10 @@ article {
       padding-bottom: 2%;
       text-align: justify;
       text-justify: inter-word;
-      img {
-        padding: 10% 0 6% 0;
-      }
     }
     a {
       font-size: 1em;
-      font-weight: 300;
+      font-weight: 400;
     }
   }
 }
@@ -386,7 +386,6 @@ article {
   margin-right: 20px;
   strong, span {
     padding: 0px 3px;
-    font-size: 16px;
   }
   h4 {
     margin: 50px 0px 10px 0px;
@@ -419,7 +418,6 @@ article {
   }
   label {
     display: block;
-    font-size: 18px;
   }
   ul {
     width: 100%;
@@ -429,7 +427,6 @@ article {
     padding: 0px;
     li {
       width: 100%;
-      font-size: 18px;
       padding: 12px 0px;
       position: relative;
       div.half {
@@ -444,12 +441,15 @@ article {
   }
   input, select {
     height: 42px;
-    font-size: 18px;
     width: 100%;
     padding: 5px 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    &::placeholder {
+      font-style: italic;  
+      color: grey;
+    }
   }
   .image-preview {
     ul li {
@@ -457,6 +457,9 @@ article {
       position: relative;
       display: inline-block;
       width: 20%;
+    }
+    p {
+      margin-top: 5px;
     }
   }
   button.submit {
@@ -520,7 +523,6 @@ article {
   margin-bottom: 40px;
   background-color: #424242;
   a, span {
-    font-size: 14px;
     color: white;
   }
   @include mobile {
@@ -567,27 +569,15 @@ article {
   color: #424242;
   cursor: pointer;
   font-weight: 300;
-  font-size: 28px;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
   @include mobile {
     margin: 3px 0;
   }
-}
-
-.posts > .post {
-  // padding-bottom: 2em;
-  // border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  // padding-bottom: 1em;
-  // border-bottom: none;
 }
 
 .posts .heading {  
@@ -597,6 +587,9 @@ article {
 .post {
   width: 50%;
   margin: 0 auto 0 auto;
+  @include mobile {
+    width: 100%;
+  }
   a {
     font-size: 1em;
     font-weight: 100;
@@ -607,42 +600,32 @@ article {
   }
   img {
     width: 580px;
+    padding: 10% 0 6% 0;
   }
-
-  // blockquote {
-  //   margin: 1.8em .8em;
-  //   border-left: 2px solid $gray;
-  //   padding: 0.1em 1em;
-  //   color: $gray;
-  //   font-size: 22px;
-  //   font-style: italic;
-  // }
-
-  // .comments {
-  //   margin-top: 10px;
-  // }
-
-  // .read-more {
-  //   text-transform: uppercase;
-  //   font-size: 15px;
-  // }
 }
 
 .post-nav-table {
-  width: 70%;
+  width: 75%;
   margin: 0 auto 0 auto;
+  @media screen and (max-width: 1100px) {
+    width: 100%;
+  }
   caption {
     font-size: 1.5em;
   }
   td {
-    padding: 3% 0 3% 0;
+    padding: 2% 0 2% 0;
     .nav-div {    
-      width: 280px;
-      height: 350px;
+      width: 90%;
       margin: 0 auto 0 auto;
       opacity: 0.4;
       position: relative;
       z-index: 1;
+      &:before {
+        content: "";
+        display: block;
+        padding-top: 125%;
+      }
       &:hover {
         cursor: pointer;
         opacity: 1;
@@ -650,12 +633,29 @@ article {
       }
     }
     span {
-      width: 300px;
+      width: 15em;
       font-size: 1.2em;
       position: absolute;
-      margin-top: -75px;
-      padding-left: 45px;
+      margin-top: -4em;
+      padding-left: 4em;
       z-index: 2;
+      @media screen and (max-width: 1100px) {
+        width: 14em;
+        font-size: 1em;
+        padding-left: 3em;
+      }
+      @media screen and (max-width: 800px) {
+        width: 12em;
+        font-size: .8em;
+        margin-top: -5em;        
+        padding-left: 2em;
+      }
+      @include mobile {
+        width: 11em;
+        font-size: .8em;   
+        margin-top: -4.5em; 
+        padding-left: 1em;
+      }
     }
     button.submit {
       width: 180px;

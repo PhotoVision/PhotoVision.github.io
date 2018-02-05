@@ -4,11 +4,11 @@ permalink: praise.html
 ---
 <style>
 .tablelines th {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #424242;
     padding: .3em 1em .3em 1em;
 }
 .tablelines td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #424242;
     padding: .3em 1em .3em 1em;
 }
 .tablelines tr:last-child td {
@@ -22,14 +22,9 @@ p {
 }
 .entry h1 {
     border-bottom: 1px solid #ccc;
-    color: #757575;
-    font-size: February 8em;
-    font-weight: 300;
 }
-.entry h2 {
-    font-size: January 5em;
-    font-weight: 300;
-    color: #757575;
+.entry p em strong a {
+    font-weight: 600;
 }
 </style>
 
@@ -88,6 +83,7 @@ __[Shirley Matz](http://www.shirleyclairephotography.com/) July 20, 2017__*
 
 *I want to say thank you for the first set of prints. They came out lovely and I really like the thickness of the paper. I will definitely be ordering more from you in the future!!  
 __[Allyne Armitage](http://www.allynearmitage.com/) July 4, 2017__*
+
 
 *Hi there, beautiful PhotoVision Team! I wanted to reach out quickly and share some exciting news with you all—I’m currently a finalist for* Southern Weddings’ *Best of the South Wedding Awards: Film Photographer. YAY! I owe you all a million thanks. I never could have gotten to this point without the gorgeous, consistent scans you provide and the care you give my film. Thank you, thank you, thank you. PV film crew, I could sing your praises all day—I love working with your amazing Team, and I’m deeply appreciative of all your hard work! Have a great day! :slightly_smiling_face:  
 __[Haley Entrekin Bilunas of Photos by Heart](http://photosbyheart.com/) May 30, 2017__*

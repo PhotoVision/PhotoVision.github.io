@@ -6,31 +6,29 @@ title: Preferences
 <form class="preferences-form">
   <input type="hidden" name="_subject" value="Customer Preference Submission">
   <input style="display:none" type="text" name="_gotcha">
-  <h1>Submit or Update Preferences</h1>
-  <a href="{{ site.baseurl}}/common-questions#what-are-preference-images--why-should-i-send-them-in">&nbsp;Learn more</a>
+  <h1>Submit or update preferences</h1>
+  <p>Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both 
+    <strong>preference images</strong> and <strong>written preferences</strong>.</p>
   <div class="notifications"></div>
   <ul>
     <li>
-      <h2>Account Information</h2>
+      <h2>Email used to create account<span class="required_notification">*</span></h2>
+      <input id="email" type="email" name="email"/>
     </li>
+    <li></li>
     <li>
-      <label for="email">Email<span class="required_notification">* required</span></label>
-      <input id="email" type="email" name="email" placeholder="Use the email address from when you created your account"/>
-    </li>
-    <li>
-      <h2>Preference Information</h2>
-    </li>
-    <li>
-      <label for="image-uploader">Preference Images (click "Choose Files" or drag-and-drop) (.jpg, .png)</label>
+      <h2>Preference images (.png, .jpg)</h2>
+      <p>Upload 3-5 images that best exemplify the <strong>skin tones</strong>, <strong>density</strong> and <strong>contrast</strong>
+        level you are striving to achieve. Pick images where your subject fills the majority of the frame.</p>
       <input id="image-uploader" name="image-uploader" type="file" multiple accept=".png, .jpg, .jpeg"/>
       <div class="image-preview">
-        <p>(No files currently selected for upload)</p>
       </div>
     </li>
+    <li></li>
     <li>
-      <label for="instructions">Anything else we should know?<a href="{{ site.baseurl}}/common-questions#what-should-i-write-under-anything-else-we-should-know">&nbsp;Learn more</a></label>
-      <input id="instructions" type="text" name="instructions" maxlength="280"
-        placeholder="(Example) &quot;Retain details in highlights&quot;"/>
+      <h2>Written preferences</h2>
+      <p>Describe your ideal overall image: <span title="- Warm / cool / neutral &#10;- Dark + moody / light + airy &#10;- Details in shadows / shadows nearly black &#10;- Retain details in highlights / blown-out highlights OK &#10;- Avoid vague descriptions open to interpretation (i.e. &quot;masculine,&quot; &quot;romantic&quot;) &#10;- Avoid describing skin tones&ndash;rather, let your preference images speak to skin tones">i</span></p>
+      <input id="instructions" type="text" name="instructions" maxlength="280"/>
     </li>
     <li>
       <button class="submit center" type="submit" disabled>Submit</button>
