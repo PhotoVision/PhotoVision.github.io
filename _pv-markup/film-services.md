@@ -43,11 +43,11 @@ Sometimes you only need the bare essentials. When that's the case, your film wil
 | **8x10** | $6.50 | N/A |
 | **Push / Pull*** | $3.00 | $3.00 |
 | **Snip Test** | $5.00 | N/A |
-{: .tablelines}
-*Additional per roll
+{: .tablelines}  
+_*Additional per roll_
 
 ## Develop + Scan
-We scan all film on the highly sought-after Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf). However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks. All scans are delivered via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized!
+We scan all film on the highly sought-after Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks. All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized!
 
 | **Film Size** | **Color Normal Scan** | **B+W Normal Scan** | **Color Large Scan** | **B+W Large Scan** |
 | :---			| :---:					| :---:				  | :---:				 | :---:			  |
@@ -57,7 +57,7 @@ We scan all film on the highly sought-after Fuji Frontier SP3000 or Noritsu S-18
 {: .tablelines}
 
 ## Develop + Scan + Print
-You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 or the revolutionary Noritsu S-1800 delivered via [Box](http://box.com) and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
+You'll get top-notch film developing, beautiful scans from the legendary Fuji Frontier SP3000 or the revolutionary Noritsu S-1800 delivered via <a href="http://box.com" target="_blank">Box</a> and true photographic prints on the highest quality Fujicolor Crystal Archive Supreme Paper.
 
 ### Standard Film Sizes: Color
 
