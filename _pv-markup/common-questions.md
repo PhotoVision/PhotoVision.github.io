@@ -60,8 +60,8 @@ button:active {
 ## 1. [Create an account]({{ site.baseurl }}/create-account) + [submit preferences]({{ site.baseurl }}/preferences)
 Tell us a bit about yourself and your style! This will help speed up the process once we receive your film.
 
-## 2. Fill out an [order form]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf)
-Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. [Download + print]({{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf).
+## 2. Fill out an <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>
+Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download + print</a>.
 
 ## 3. Send in your film + order form [(safely)]({{ site.baseurl }}/shipping-tips)
 Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:
@@ -103,7 +103,7 @@ New customer? First, [create an account]({{ site.baseurl }}/create-account). The
 Once your film arrives in lab, you will receive a confirmation email at the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes your order number, the job's total cost and an invoice for your records.
 
 ## How do I receive my scans?
-Once your scans are complete, you will receive an email to the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via [Box](http://box.com), a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your [Box](http://box.com) order folder will be titled the same!
+Once your scans are complete, you will receive an email to the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same!
 
 ## Will my scans be rotated and numbered?
 Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
@@ -112,7 +112,7 @@ Yes! Every scan arrives rotated and organized by roll number and frame number (i
 If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
 
 ## How do I order prints?
-Proof prints may be requested via your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem! You may [order prints]({{ site.baseurl }}/ordering/) from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+Proof prints may be requested via your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem! You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
 
 ## How do I get my negatives back?
 We will hold your negatives based on the Ship Back preference marked on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
@@ -139,7 +139,7 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 
 ## Where do I find them?  
 
-[Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s [Box](http://box.com) folder.
+[Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s <a href="http://box.com" target="_blank">Box</a> folder.
 </div>
 
 <h1 class="accordion" title="Click to expand section">Let's get technical</h1>
@@ -190,8 +190,7 @@ Please don't hesitate to reach out, we're always happy to help! Our phones are a
 ## Visiting our beautiful Pacific Northwest?
 Please stop by, we'd love to meet you + give you a tour!
 
-[{{ site.company-info.address }}]({{ site.company-info.map-url }})  
-[{{ site.company-info.csz }}]({{ site.company-info.map-url }})
+<a href="{{ site.company-info.map-url }}" target="_blank">{{ site.company-info.address }}<br />{{ site.company-info.csz }}</a>
 </div>
 
 
