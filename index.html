@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-<div class="container" style="height: 400px;">This section intentionally left blank. Remove before going live! :)</div>
+<div class="carousel-container">
+  <div class="carousel">
+    {% include carousel.html %}
+  </div>
+</div>
 <div class="philosophy-container"  onclick="window.location.href = '{{ site.baseurl}}philosophy';" title="Click to learn more about what makes us tick">
   {% include philosophy.html %}
 </div>

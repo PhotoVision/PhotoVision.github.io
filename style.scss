@@ -308,6 +308,18 @@ img {
   vertical-align: middle;
 }
 
+.carousel {
+  ul li {
+    list-style-type: none;
+  }
+  img {
+    height: 580px;
+    max-height: 580px;
+    object-fit: contain;
+    margin: 0 auto 6em auto;
+  }
+}
+
 article {
   padding: 2% 10%;
   h1 {
