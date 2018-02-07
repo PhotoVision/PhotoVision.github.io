@@ -2,34 +2,6 @@
 layout: page
 permalink: print-services.html
 ---
-<style>
-.tablelines th {
-    border-bottom: 2px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines td {
-    border-bottom: 1px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines tr:last-child td {
-    border: none;
-}
-.tablelines strong {
-    font-weight: 700;
-}
-ol, ul {
-    padding-left: 3em;
-}
-p {
-    margin-bottom: 0;
-}
-.entry h1 {
-    border-bottom: 1px solid #ccc;
-}
-.entry p a img {
-    padding: 0;
-}
-</style>
 
 # Timeless Prints
 

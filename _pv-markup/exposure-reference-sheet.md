@@ -2,28 +2,6 @@
 layout: page
 permalink: exposure-reference-sheet.html
 ---
-<style>
-.tablelines th {
-    border-bottom: 2px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines td {
-    border-bottom: 1px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines tr:last-child td {
-    border: none;
-}
-ol, ul {
-    padding-left: 3em;
-}
-p {
-    margin-bottom: 0;
-}
-.entry h1 {
-    border-bottom: 1px solid #ccc;
-}
-</style>
 
 # A feature designed to close the gap between Exposures + Scans  
 
