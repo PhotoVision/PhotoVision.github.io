@@ -6,19 +6,19 @@ permalink: philosophy.html
 # Exceeding expectations. Since 1968.
 {:.center}
 
-From our humble beginnings as a small-town camera shop, to becoming one of the world's most trusted names in film processing + scanning, our vision holds steady—*Always do what’s right.* Our 50-year commitment to helping all photographers achieve their goals is bar none in the industry.  
+### From our humble beginnings as a small-town camera shop, to becoming one of the world's most trusted names in film processing + scanning, our vision holds steady—*Always do what’s right.* Our 50-year commitment to helping all photographers achieve their goals is bar none in the industry.  
   
-Join us. And picture the difference.  
+### Join us. And picture the difference.  
 
 | | |
 | :--- | ---: |
 | ![]({{ site.baseurl}}/images/Photovision_002.jpg){:.left-image } | ![]({{ site.baseurl}}/images/Photovision_001.jpg){:.right-image } |
 {:.tablenolines }
   
-*"What has made us most proud over the years, is the number of people we’ve touched and the number of lives we’ve made better." — Brian Wood*
+### *"What has made us most proud over the years, is the number of people we’ve touched and the number of lives we’ve made better." — Brian Wood*
 {:.center-p }  
 
-<div class="clearfix" markdown="1">
+<div class="clearfix extra-picky-space" markdown="1">
 
 # Let us wow you
 {:.center}
@@ -42,7 +42,7 @@ We take quality very seriously. That's why 5 different Team Members examine ever
 > That's just how we roll. #pun
 {:.right-column }
 </div>
-<div class="clearfix" markdown="1">
+<div class="clearfix extra-picky-space" markdown="1">
 
 # World-class service
 {:.center}
@@ -56,7 +56,7 @@ Have a question? Miss your vision? Don’t know how to use a meter? Call us. We'
 {:.left-column }
 
 > ## Customer care is our specialty
-But don't just take our word for it. [Check out what our friends are saying]({{ site.baseurl}}/praise).
+But don't take our word for it. [Check out what our friends are saying]({{ site.baseurl}}/praise).
 {:.right-column }
 </div>
 <div class="clearfix extra-space" markdown="1">
@@ -76,3 +76,5 @@ You're family! We want to get to know you and your vision.
 We want to help you succeed in every aspect of your art + business, so you can spend less time behind your computer and more time out doing what you love—shooting film!
 {:.right-column }
 </div>
+<div class="clearfix extra-space" markdown="1" />
+<div class="clearfix extra-space" markdown="1" />
