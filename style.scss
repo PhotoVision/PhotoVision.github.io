@@ -308,6 +308,18 @@ img {
   vertical-align: middle;
 }
 
+.carousel {
+  ul li {
+    list-style-type: none;
+  }
+  img {
+    height: 580px;
+    max-height: 580px;
+    object-fit: contain;
+    margin: 0 auto 6em auto;
+  }
+}
+
 article {
   padding: 2% 10%;
   h1 {
@@ -327,14 +339,105 @@ article {
   }
   .entry {
     padding-right: 4%;
+    h1 {
+      border-bottom: 1px solid #ccc;
+    }
     p {
+      margin-bottom: 0;
       padding-bottom: 2%;
       text-align: justify;
       text-justify: inter-word;
+      em strong a {
+        font-weight: 600;
+      }
+    }
+    ol, ul {
+        padding-left: 3em;
     }
     a {
       font-size: 1em;
       font-weight: 400;
+    }
+    .tablelines {
+      th {
+        border-bottom: 2px solid #424242;
+        padding: .3em 1em .3em 1em;
+      }
+      td {
+        border-bottom: 1px solid #424242;
+        padding: .3em 1em .3em 1em;
+      }
+      tr:last-child td {
+        border: none;
+      }
+    }
+    .tablenolines {
+      td {
+        .left-image {
+          padding-right: 1em;
+        }
+        .right-image {
+          padding-left: 1em;
+        }
+      }
+    }
+    .right-column {
+      display: block;
+      float: left;
+      width: 30%;
+      margin-right: 0;
+      ul {
+        padding-left: 1.5em;
+        li {
+          list-style-type: circle;
+        }
+      }
+    }
+    .left-column {
+      display: block;
+      float: left;
+      width: 30%;
+      margin-right: 5%;
+    }
+    .extra-space {
+      padding-top: 20px;
+    }
+    .center-p {
+      text-align: center !important;
+    }
+    .disclaimer {
+      font-size: .9em;
+      font-style: italic;
+      padding-bottom: 25px;
+    }
+    .accordion {
+      transition: 0.4s;
+      cursor: pointer;
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+    .panel {
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+        overflow: hidden;
+    }
+    button {
+      padding: 10px;
+      margin-top: 25px;
+      margin-right: 25px;
+      border-radius: 5px;
+      color: #424242;
+      background-color: white;
+      border: 1px solid #424242;
+      font-size: 19px;
+      font-weight: 400;
+      &:hover {
+        background-color: #eee;
+      }
+      &:active {
+        background-color: gray;
+      }
     }
   }
 }

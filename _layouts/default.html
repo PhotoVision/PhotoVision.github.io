@@ -66,7 +66,6 @@
               <li><a href="{{ site.baseurl }}/exposure-reference-sheet">Exposure Reference Sheets</a></li>
               <li><a href="{{ site.baseurl }}/film-workshops">Film Workshops</a></li>
               <li><a href="{{ site.baseurl }}/praise">Praise</a></li>
-              <li><a href="{{ site.baseurl }}/as-seen-in">As Seen In</a></li>
               <li><a href="{{ site.baseurl }}/blog-nav">Blog</a></li>
             </ul>
           </nav>
@@ -100,6 +99,16 @@
           dots: false,
           autoplay: true,
           autoplaySpeed: 8000,
+        });
+
+        $('.carousel').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          dots: false,
+          autoplay: true,
+          infinite: true,
+          autoplaySpeed: 5000,
         });
       });
     </script>
