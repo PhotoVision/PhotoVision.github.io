@@ -62,7 +62,7 @@ Create prints from 3.5x5 to 30x45 from your desktop or phone.
 12x18 and smaller: 1 business day (<200)  
 16x20–30x45: 3 business days
 
-*[Service times]({{ site.baseurl}}/service-times)) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
+*[Service times]({{ site.baseurl}}/service-times) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
 
 ## Can I talk to someone?
 Absolutely! We're happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
