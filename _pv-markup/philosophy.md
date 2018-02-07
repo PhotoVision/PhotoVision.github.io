@@ -2,52 +2,6 @@
 layout: page
 permalink: philosophy.html
 ---
-<style>
-.tablelines th {
-    border-bottom: 2px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines td {
-    border-bottom: 1px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines tr:last-child td {
-    border: none;
-}
-.tablenolines td .left-image {
-    padding-right: 1em;
-}
-.tablenolines td .right-image {
-    padding-left: 1em;
-}
-.right-column ul {
-    padding-left: 1.5em;
-}
-.right-column ul li {
-    list-style-type: circle;
-}
-p {
-    margin-bottom: 0;
-}
-.center-p {
-    text-align: center !important;
-}
-.left-column {
-    display: block;
-    float: left;
-    width: 30%;
-    margin-right: 5%;
-}
-.right-column {
-    display: block;
-    float: left;
-    width: 30%;
-    margin-right: 0;
-}
-.extra-space {
-    padding-top: 20px;
-}
-</style>
 
 # Exceeding expectations. Since 1968.
 {:.center}

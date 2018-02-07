@@ -3,46 +3,9 @@ layout: page
 permalink: service-times.html
 ---
 <style>
-.tablelines th {
-    border-bottom: 2px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines td {
-    border-bottom: 1px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines tr:last-child td {
-    border: none;
-}
-ol, ul {
-    padding-left: 3em;
-}
-p {
-    margin-bottom: 0;
-}
-.entry h1 {
-    border-bottom: 1px solid #ccc;
-}
 strong {
     color: #424242;
 }
-button {
-    padding: 10px;
-    margin-top: 25px;
-    margin-right: 25px;
-    border-radius: 5px;
-    color: #424242;
-    background-color: white;
-    border: 1px solid #424242;
-    font-size: 19px;
-    font-weight: 400;
-}
-button:hover {
-    background-color: #eee;
-    }
-button:active {
-    background-color: gray;
-    }
 </style>
 
 # Service Times
