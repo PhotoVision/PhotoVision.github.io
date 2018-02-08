@@ -713,18 +713,8 @@ article {
   a, span {
     color: white;
   }
-  @include mobile {
-    height: auto;
-    .left {
-      display: none;
-    }
-    .right {
-      float: none;
-      text-align: center;
-      .service-time {
-        display: block;
-      }
-    }
+  @media screen and (max-width: 800px) {
+    font-size: .7em;
   }
 }
 
