@@ -451,6 +451,12 @@ article {
     }
     .extra-picky-space {
       padding-top: 10px;
+    }    
+    .service-times-list li {
+      font-size: 1.2em;
+    }
+    .less-space {
+      margin-bottom: 13px;
     }
     .center-p {
       text-align: center !important;
@@ -707,18 +713,8 @@ article {
   a, span {
     color: white;
   }
-  @include mobile {
-    height: auto;
-    .left {
-      display: none;
-    }
-    .right {
-      float: none;
-      text-align: center;
-      .service-time {
-        display: block;
-      }
-    }
+  @media screen and (max-width: 800px) {
+    font-size: .7em;
   }
 }
 

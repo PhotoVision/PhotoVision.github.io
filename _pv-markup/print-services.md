@@ -58,9 +58,12 @@ With a true wet, photographic process, our Polielettronica Laser Lab HR3D prints
 
 Create prints from 3.5x5 to 30x45 from your desktop or phone.
 
-## Print service time
-12x18 and smaller: 1 business day (<200)  
-16x20–30x45: 3 business days
+## Print service times
+- 12x18 and smaller (200 or less): **1 business day**
+- 12x18 and smaller (more than 200): **2 business days**
+- 16x20–30x45: **3 business days**
+- Proofs: **{{ site.company-info.proof-turnaround-time }}**
+{:.service-times-list}
 
 *[Service times]({{ site.baseurl}}/service-times) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
 

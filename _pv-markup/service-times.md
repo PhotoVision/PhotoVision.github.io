@@ -11,12 +11,6 @@ h1 span {
     font-weight: 400;
     margin-top: 16px;
 }
-.service-times-list li {
-    font-size: 1.2em;
-}
-.less-space {
-    margin-bottom: 13px;
-}
 </style>
 
 <h1>Service times <span class="right" markdown="1">_Updated {{ site.time | date: '%B %-d' }}_</span></h1>
