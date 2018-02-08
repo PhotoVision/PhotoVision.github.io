@@ -11,7 +11,7 @@ h1 span {
     font-weight: 400;
     margin-top: 16px;
 }
-ul li {
+.service-times-list li {
     font-size: 1.2em;
 }
 .less-space {
@@ -30,6 +30,7 @@ _Service times are in business days starting the first business day **after** yo
 - 12x18 and smaller (more than 200): **2 business days**
 - 16x20–30x45: **3 business days**
 - Proofs: **{{ site.company-info.proof-turnaround-time }}**
+{:.service-times-list}
 
 <div class="extra-space" />
 <button name="button" onclick="window.location.href = '{{ site.baseurl}}/rush-policy';">RUSH POLICY</button>
