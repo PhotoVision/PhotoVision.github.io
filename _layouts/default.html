@@ -30,7 +30,7 @@
             <a href="{{ site.baseurl }}/service-times"><strong>Today's Film Process + Scan Service Time is: <span class="service-time">{{ site.company-info.turnaround-time }}</span></strong></a>
           </div>
         </header>
-        <a class="company-logo clearfix" href="{{ site.baseurl }}/"><img class="center" src="{{ site.banner-image }}" /></a>
+        <img class="center company-logo clearfix" src="{{ site.banner-image }}" onclick="window.location.href = '{{ site.baseurl }}/';" />
       </div>
     </div>
 
@@ -99,16 +99,6 @@
           dots: false,
           autoplay: true,
           autoplaySpeed: 8000,
-        });
-
-        $('.carousel').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          dots: false,
-          autoplay: true,
-          infinite: true,
-          autoplaySpeed: 5000,
         });
       });
     </script>
