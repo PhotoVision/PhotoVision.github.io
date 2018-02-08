@@ -6,15 +6,31 @@ permalink: service-times.html
 strong {
     color: #424242;
 }
+h1 span {
+    font-size: .6em;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.service-times-list li {
+    font-size: 1.2em;
+}
+.less-space {
+    margin-bottom: 13px;
+}
 </style>
 
-# Service Times
+<h1>Service times <span class="right" markdown="1">_Updated {{ site.time | date: '%B %-d' }}_</span></h1>
 
 _Service times are in business days starting the first business day **after** your order is received and are given as **good faith estimates**. Our service times tend to increase in Summer and Fall (i.e. wedding season) and decrease in Winter. Service times are ultimately dependent on the volume of work coming in from our photographers and may fluctuate while your film is in lab._
-## Current film process + scan service time is: **{{ site.turnaround-time }}**. _Updated {{ site.time | date: '%B %-d' }}_.
+## Film process + scan service time: **{{ site.company-info.turnaround-time }}**
 
-## Current print service times are: **1 business day** for 12x18 and smaller (<200), and **3 business days** for 16x20–30x45.
+## Print service times:
+{:.less-space}
+- 12x18 and smaller (200 or less): **1 business day**
+- 12x18 and smaller (more than 200): **2 business days**
+- 16x20–30x45: **3 business days**
+- Proofs: **{{ site.company-info.proof-turnaround-time }}**
+{:.service-times-list}
 
-## Current proof print service times are: **{{ site.turnaround-time }} + 1 day** (Updated {{ site.time | date: '%m-%d-%y' }}).
-
-<button name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services#print-service-time';">PRINT SERVICE TIMES</button> <button name="button" onclick="window.location.href = '{{ site.baseurl}}/rush-policy';">RUSH POLICY</button>
+<div class="extra-space" />
+<button name="button" onclick="window.location.href = '{{ site.baseurl}}/rush-policy';">RUSH POLICY</button>

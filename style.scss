@@ -341,6 +341,7 @@ article {
     padding-right: 4%;
     h1 {
       border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
     }
     p {
       margin-bottom: 0;
@@ -353,6 +354,9 @@ article {
     }
     ol, ul {
         padding-left: 3em;
+        li {
+          list-style-type: circle;
+        }
     }
     a {
       font-size: 1em;
@@ -372,6 +376,9 @@ article {
       }
     }
     .tablenolines {
+      th {
+        display: none;
+      }
       td {
         .left-image {
           padding-right: 1em;
@@ -400,7 +407,10 @@ article {
       margin-right: 5%;
     }
     .extra-space {
-      padding-top: 20px;
+      padding-top: 25px;
+    }
+    .extra-picky-space {
+      padding-top: 10px;
     }
     .center-p {
       text-align: center !important;
@@ -424,7 +434,6 @@ article {
     }
     button {
       padding: 10px;
-      margin-top: 25px;
       margin-right: 25px;
       border-radius: 5px;
       color: #424242;
