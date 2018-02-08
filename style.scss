@@ -142,6 +142,16 @@ img {
 /* PHOTOVISION SPECIFIC MODS GO BELOW HERE */
 /*******************************************/
 
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
 // to center elements on page
 .center {
   display: block;
@@ -162,10 +172,52 @@ img {
   float: right;
 }
 
-.company-logo img {
-  @include mobile {
-    width: 80%;
-  };
+.company-logo {
+  &:hover {
+    cursor: pointer;
+  }  
+  @media screen and (max-width: 1400px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 400px) {
+    width: 75%;
+  }
+}
+
+.lead-image-container {
+  .lead-image {    
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+    @media screen and (max-width: 1400px) {
+      width: 75%;
+    }
+    @media screen and (max-width: 1100px) {
+      width: 90%;
+    }
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 109.3%;
+    }
+    .photo-credit {
+      visibility: hidden;
+      display: block;
+      color: white;
+      background-color: #424242;
+      padding: 8px;
+      position: relative;
+      z-index: 1;
+      a:hover, a:active {
+        color: gray;
+      }
+    }
+    .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 0.5s;
+      animation: fadeIn 0.5s;
+    }
+  }
 }
 
 .fuji-fresh-container, .film-services-container, 
@@ -306,18 +358,6 @@ img {
   float: none;
   display: inline-block;
   vertical-align: middle;
-}
-
-.carousel {
-  ul li {
-    list-style-type: none;
-  }
-  img {
-    height: 580px;
-    max-height: 580px;
-    object-fit: contain;
-    margin: 0 auto 6em auto;
-  }
 }
 
 article {
@@ -619,16 +659,6 @@ article {
       background-color: gray;
     }
   }
-}
-
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
 }
 
 .preferences-form {
