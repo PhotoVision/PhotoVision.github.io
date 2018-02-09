@@ -36,8 +36,8 @@ We take quality very seriously. That's why 5 different Team Members examine ever
 - Number your images
 - Hand-cut + sleeve your negatives
 - Rotate your scans
-- Receive order feedback
-- Receive [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet)
+- Provide order feedback
+- Include [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet)
 >
 > That's just how we roll. #pun
 {:.right-column }
