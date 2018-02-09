@@ -13,14 +13,14 @@ Tell us a bit about yourself and your style! This will help speed up the process
 Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download + print</a>.
 
 ## 3. Send in your film + order form [(safely)]({{ site.baseurl }}/shipping-tips)
-Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:
+Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:  
 **Attn: Film Crew, PhotoVision, 3775 Market St NE, Salem OR 97301**
 </div>
 
 <h1 class="accordion" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
-### Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both **preference images** and **written preferences**.
+Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both **preference images** and **written preferences**.
 
 ## What are preference images + why should I send them in?
 
