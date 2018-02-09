@@ -142,6 +142,16 @@ img {
 /* PHOTOVISION SPECIFIC MODS GO BELOW HERE */
 /*******************************************/
 
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
 // to center elements on page
 .center {
   display: block;
@@ -162,10 +172,52 @@ img {
   float: right;
 }
 
-.company-logo img {
-  @include mobile {
-    width: 80%;
-  };
+.company-logo {
+  &:hover {
+    cursor: pointer;
+  }  
+  @media screen and (max-width: 1400px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 400px) {
+    width: 75%;
+  }
+}
+
+.lead-image-container {
+  .lead-image {    
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+    @media screen and (max-width: 1400px) {
+      width: 75%;
+    }
+    @media screen and (max-width: 1100px) {
+      width: 90%;
+    }
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 109.3%;
+    }
+    .photo-credit {
+      visibility: hidden;
+      display: block;
+      color: white;
+      background-color: #424242;
+      padding: 8px;
+      position: relative;
+      z-index: 1;
+      a:hover, a:active {
+        color: gray;
+      }
+    }
+    .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 0.5s;
+      animation: fadeIn 0.5s;
+    }
+  }
 }
 
 .fuji-fresh-container, .film-services-container, 
@@ -308,18 +360,6 @@ img {
   vertical-align: middle;
 }
 
-.carousel {
-  ul li {
-    list-style-type: none;
-  }
-  img {
-    height: 580px;
-    max-height: 580px;
-    object-fit: contain;
-    margin: 0 auto 6em auto;
-  }
-}
-
 article {
   padding: 2% 10%;
   h1 {
@@ -339,14 +379,120 @@ article {
   }
   .entry {
     padding-right: 4%;
+    h1 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
     p {
+      margin-bottom: 0;
       padding-bottom: 2%;
       text-align: justify;
       text-justify: inter-word;
+      em strong a {
+        font-weight: 600;
+      }
+    }
+    ol, ul {
+        padding-left: 3em;
+        li {
+          list-style-type: circle;
+        }
     }
     a {
       font-size: 1em;
       font-weight: 400;
+    }
+    .tablelines {
+      th {
+        border-bottom: 2px solid #424242;
+        padding: .3em 1em .3em 1em;
+      }
+      td {
+        border-bottom: 1px solid #424242;
+        padding: .3em 1em .3em 1em;
+      }
+      tr:last-child td {
+        border: none;
+      }
+    }
+    .tablenolines {
+      th {
+        display: none;
+      }
+      td {
+        .left-image {
+          padding-right: 1em;
+        }
+        .right-image {
+          padding-left: 1em;
+        }
+      }
+    }
+    .right-column {
+      display: block;
+      float: left;
+      width: 30%;
+      margin-right: 0;
+      ul {
+        padding-left: 1.5em;
+        li {
+          list-style-type: circle;
+        }
+      }
+    }
+    .left-column {
+      display: block;
+      float: left;
+      width: 30%;
+      margin-right: 5%;
+    }
+    .extra-space {
+      padding-top: 25px;
+    }
+    .extra-picky-space {
+      padding-top: 10px;
+    }    
+    .service-times-list li {
+      font-size: 1.2em;
+    }
+    .less-space {
+      margin-bottom: 13px;
+    }
+    .center-p {
+      text-align: center !important;
+    }
+    .disclaimer {
+      font-size: .9em;
+      font-style: italic;
+      padding-bottom: 25px;
+    }
+    .accordion {
+      transition: 0.4s;
+      cursor: pointer;
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+    .panel {
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+        overflow: hidden;
+    }
+    button {
+      padding: 10px;
+      margin-right: 25px;
+      border-radius: 5px;
+      color: #424242;
+      background-color: white;
+      border: 1px solid #424242;
+      font-size: 19px;
+      font-weight: 400;
+      &:hover {
+        background-color: #eee;
+      }
+      &:active {
+        background-color: gray;
+      }
     }
   }
 }
@@ -521,16 +667,6 @@ article {
   }
 }
 
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
-
 .preferences-form {
   h1 {
     margin-bottom: 0px;
@@ -577,18 +713,8 @@ article {
   a, span {
     color: white;
   }
-  @include mobile {
-    height: auto;
-    .left {
-      display: none;
-    }
-    .right {
-      float: none;
-      text-align: center;
-      .service-time {
-        display: block;
-      }
-    }
+  @media screen and (max-width: 800px) {
+    font-size: .7em;
   }
 }
 

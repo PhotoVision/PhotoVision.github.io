@@ -27,10 +27,10 @@
             <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank"><strong>Order Form</strong></a>
           </div>
           <div class="right">
-            <a href="{{ site.baseurl }}/service-times"><strong>Today's Film Process + Scan Service Time is: <span class="service-time">{{ site.turnaround-time }}</span></strong></a>
+            <a href="{{ site.baseurl }}/service-times"><strong>Today's Film Process + Scan Service Time is: <span class="service-time">{{ site.company-info.turnaround-time }}</span></strong></a>
           </div>
         </header>
-        <a class="company-logo clearfix" href="{{ site.baseurl }}/"><img class="center" src="{{ site.banner-image }}" /></a>
+        <img class="center company-logo clearfix" src="{{ site.banner-image }}" onclick="window.location.href = '{{ site.baseurl }}/';" />
       </div>
     </div>
 
@@ -57,16 +57,17 @@
           <nav class="footer-nav-left">
             <h4>Site Index</h4>
             <ul>
+              <li><a href="{{ site.baseurl }}/">Home</a></li>
               <li><a href="{{ site.baseurl }}/common-questions">Common Questions</a></li>
-              <li><a href="{{ site.baseurl }}/service-times">Service Time</a></li>
               <li><a href="{{ site.baseurl }}/philosophy">Philosophy</a></li>
-              <li><a href="{{ site.baseurl }}/film-services">Film</a></li>
-              <li><a href="{{ site.baseurl }}/print-services">Print</a></li>
+              <li><a href="{{ site.baseurl }}/service-times">Service Time</a></li>
+              <li><a href="{{ site.baseurl }}/film-services">Film Services</a></li>
               <li><a href="{{ site.baseurl }}/fuji-fresh">#FUJIfresh</a></li>
+              <li><a href="{{ site.baseurl }}/print-services">Print Services</a></li>
               <li><a href="{{ site.baseurl }}/exposure-reference-sheet">Exposure Reference Sheets</a></li>
-              <li><a href="{{ site.baseurl }}/film-workshops">Film Workshops</a></li>
               <li><a href="{{ site.baseurl }}/praise">Praise</a></li>
               <li><a href="{{ site.baseurl }}/blog-nav">Blog</a></li>
+              <li><a href="{{ site.baseurl }}/film-workshops">Film Workshops</a></li>
             </ul>
           </nav>
           <nav class="footer-nav-right">
@@ -99,16 +100,6 @@
           dots: false,
           autoplay: true,
           autoplaySpeed: 8000,
-        });
-
-        $('.carousel').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-          dots: false,
-          autoplay: true,
-          infinite: true,
-          autoplaySpeed: 5000,
         });
       });
     </script>

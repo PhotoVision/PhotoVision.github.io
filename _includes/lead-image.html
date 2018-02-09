@@ -1,0 +1,11 @@
+<div class="lead-image center" id="lead-image" style="background: url({{ site.baseurl }}/images/nicoleclarey.jpg) no-repeat center center; background-size: cover;"
+    title="Click for photo credit" onclick="showPhotoCredit()">
+    <span class="photo-credit" id="popup">Photo by <a href="http://nicoleclareyphoto.com/" target="_blank">Nicole Clarey</a></span>
+</div>
+<script type="text/javascript">
+    function showPhotoCredit() {
+        var popup = document.getElementById("popup");
+        
+        popup.classList.toggle("show");
+    }
+</script>

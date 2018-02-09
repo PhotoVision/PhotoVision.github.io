@@ -2,57 +2,6 @@
 layout: page
 permalink: common-questions.html
 ---
-<style>
-.tablelines th {
-    border-bottom: 2px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines td {
-    border-bottom: 1px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines tr:last-child td {
-    border: none;
-}
-ol, ul {
-    padding-left: 3em;
-}
-p {
-    margin-bottom: 0;
-}
-.entry h1 {
-    border-bottom: 1px solid #ccc;
-}
-.accordion {
-    transition: 0.4s;
-    cursor: pointer;
-}
-.accordion:hover {
-    background-color: #ccc;
-}
-.panel {
-    max-height: 0;
-    transition: max-height 0.2s ease-out;
-    overflow: hidden;
-}
-button {
-    padding: 10px;
-    margin-top: 25px;
-    margin-right: 25px;
-    border-radius: 5px;
-    color: #424242;
-    background-color: white;
-    border: 1px solid #424242;
-    font-size: 19px;
-    font-weight: 400;
-}
-button:hover {
-    background-color: #eee;
-    }
-button:active {
-    background-color: gray;
-    }
-</style>
 
 <h1 class="accordion" title="Click to expand section">Welcome! We're glad you're here.</h1>
 

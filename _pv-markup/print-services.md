@@ -2,34 +2,6 @@
 layout: page
 permalink: print-services.html
 ---
-<style>
-.tablelines th {
-    border-bottom: 2px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines td {
-    border-bottom: 1px solid #424242;
-    padding: .3em 1em .3em 1em;
-}
-.tablelines tr:last-child td {
-    border: none;
-}
-.tablelines strong {
-    font-weight: 700;
-}
-ol, ul {
-    padding-left: 3em;
-}
-p {
-    margin-bottom: 0;
-}
-.entry h1 {
-    border-bottom: 1px solid #ccc;
-}
-.entry p a img {
-    padding: 0;
-}
-</style>
 
 # Timeless Prints
 
@@ -86,11 +58,14 @@ With a true wet, photographic process, our Polielettronica Laser Lab HR3D prints
 
 Create prints from 3.5x5 to 30x45 from your desktop or phone.
 
-## Print service time
-12x18 and smaller: 1 business day (<200)  
-16x20–30x45: 3 business days
+## Print service times
+- 12x18 and smaller (200 or less): **1 business day**
+- 12x18 and smaller (more than 200): **2 business days**
+- 16x20–30x45: **3 business days**
+- Proofs: **{{ site.company-info.proof-turnaround-time }}**
+{:.service-times-list}
 
-*[Service times]({{ site.baseurl}}/service-times)) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
+*[Service times]({{ site.baseurl}}/service-times) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
 
 ## Can I talk to someone?
 Absolutely! We're happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
