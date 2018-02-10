@@ -3,7 +3,7 @@ layout: page
 permalink: service-times.html
 ---
 <style>
-strong {
+article strong {
     color: #424242;
 }
 h1 span {

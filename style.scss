@@ -173,14 +173,28 @@ img {
 }
 
 .company-logo {
-  &:hover {
-    cursor: pointer;
-  }  
+  width: 20%;
+  position: relative;
+  margin-bottom: 50px;
   @media screen and (max-width: 1400px) {
+    width: 35%;
+  }
+  @media screen and (max-width: 1100px) {
+    width: 40%;
+  }
+  @media screen and (max-width: 800px) {
     width: 50%;
   }
-  @media screen and (max-width: 400px) {
-    width: 75%;
+  @media screen and (max-width: 600px) {
+    width: 60%;
+  }
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 19.6%;
+  }
+  &:hover {
+    cursor: pointer;
   }
 }
 
@@ -223,18 +237,13 @@ img {
 .fuji-fresh-container, .film-services-container, 
 .print-services-container, .philosophy-container {
   background-color: $lightGray;
+  margin-bottom: -6px;
   :hover {
     cursor: pointer;
   }
   img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
   }
-}
-
-.print-services-container, .philosophy-container {
-  height: 600px;
 }
 
 .reference-sheets-container {
@@ -245,8 +254,6 @@ img {
     cursor: pointer;
   }
   img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
   }
 }
@@ -258,8 +265,6 @@ img {
     cursor: pointer;
   }
   img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
   }
 }
@@ -499,7 +504,7 @@ article {
 
 #as-seen-in {
   background: linear-gradient($white, $lightGray);
-  padding: 2% 10%;
+  padding: 0% 10% 2% 10%;
   @include mobile {
     padding: 2%;
   }

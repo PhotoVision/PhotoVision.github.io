@@ -30,7 +30,8 @@
             <a href="{{ site.baseurl }}/service-times"><strong>Today's Film Process + Scan Service Time is: <span class="service-time">{{ site.company-info.turnaround-time }}</span></strong></a>
           </div>
         </header>
-        <img class="center company-logo clearfix" src="{{ site.banner-image }}" onclick="window.location.href = '{{ site.baseurl }}/';" />
+        <div class="company-logo center" style="background: url({{ site.banner-image }}) no-repeat center center; background-size: cover;"
+          onclick="window.location.href = '{{ site.baseurl }}/';" />
       </div>
     </div>
 
