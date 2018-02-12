@@ -53,10 +53,9 @@ Add a professional + clean look to your proof prints with a white border at no c
 ## Large format prints 
 With a true wet, photographic process, our Polielettronica Laser Lab HR3D prints at a higher resolution (1200 ppi) than paper can hold, pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
 
-## Order Prints
+## Order prints  
+Order prints from 3.5x5 to 30x45 right from your desktop or phone.
 <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">![]({{ site.baseurl}}/images/new-little-prints.jpg)</a>
-
-Create prints from 3.5x5 to 30x45 from your desktop or phone.
 
 ## Print service times
 - 12x18 and smaller (200 or less): **1 business day**
@@ -68,7 +67,7 @@ Create prints from 3.5x5 to 30x45 from your desktop or phone.
 *[Service times]({{ site.baseurl}}/service-times) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
 
 ## Can I talk to someone?
-Absolutely! We're happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
+Absolutely! We're always happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
 [{{ site.company-info.email }}]({{ site.company-info.email }})
