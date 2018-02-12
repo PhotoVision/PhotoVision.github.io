@@ -99,7 +99,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 
 | **Film Size** | **Format** | **Normal Scan** | **Large Scan** |
 | :--- | :---: | :---: | :---: |
-| **35mm** | 4x6 | 2400x3600 | 3600x5400 |
+| **135** | 4x6 | 2400x3600 | 3600x5400 |
 | **120 / 220** | 6x4.5 | 2700x3600 | 3600x4800 |
 | **120 / 220** | 6x6 | 2700x2700 | 3600x3600 |
 | **120 / 220** | 6x7 | 2700x3150 | 3600x4200 |
