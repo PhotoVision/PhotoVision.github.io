@@ -857,6 +857,9 @@ article {
       font-size: .50em;
       font-weight: 300;
     }
+    &:hover, &:active {
+      color: #83b3be;
+    }
   }
   img {
     width: 580px;
