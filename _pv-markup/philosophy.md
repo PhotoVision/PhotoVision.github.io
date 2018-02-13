@@ -4,7 +4,6 @@ permalink: philosophy.html
 ---
 
 # Exceeding expectations. Since 1968.
-{:.center}
 
 ### From our humble beginnings as a small-town camera shop, to becoming one of the world's most trusted names in film processing + scanning, our vision holds steady—*Always do what’s right.* Our 50-year commitment to helping all photographers achieve their goals is bar none in the industry.  
   
@@ -21,7 +20,6 @@ permalink: philosophy.html
 <div class="clearfix extra-picky-space" markdown="1">
 
 # Let us wow you
-{:.center}
 
 > ## Your vision doesn't run on Auto
 Your scans shouldn't, either. Our color techs are some of the best in the world. We scan every frame by hand to match your creative vision.
@@ -45,7 +43,6 @@ We take quality very seriously. That's why 5 different Team Members examine ever
 <div class="clearfix extra-picky-space" markdown="1">
 
 # World-class service
-{:.center}
 
 > ## We get it—film can be tricky
 That's why we're here to help! We've been there, behind the camera and in the darkroom. In fact, our team combined has *388 years* of film lab experience.
@@ -62,7 +59,6 @@ But don't take our word for it. [Check out what our friends are saying]({{ site.
 <div class="clearfix extra-space" markdown="1">
 
 # Join our family
-{:.center}
 
 > ## 3 generations of film expertise
 We opened our doors in 1968 with a simple goal—offer film photographers the quickest turnaround times at the highest quality. Today we are proud to continue our legacy with the third generation of the Wood Family.
