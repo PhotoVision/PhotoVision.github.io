@@ -124,7 +124,7 @@ We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your
 Sadly, we no longer process E-6, but we do scan it.
 
 ## What are your prices?
-<button name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Pricing</button> <button name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
+<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Pricing</button> <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
 </div>
 
 <h1 class="accordion" title="Click to expand section">Connect with us!</h1>
