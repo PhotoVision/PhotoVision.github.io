@@ -592,7 +592,13 @@ article {
   tr td {
     text-align: center;
     vertical-align: middle;
-    padding: .5% 3%;
+    padding: .5% 3%;      
+    h1, p {
+      text-align: left;
+    }
+    h1 {
+      margin: 0 0 20px 0;
+    }
     .rf-logo {
       width: 60%;
     }
