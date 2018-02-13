@@ -152,6 +152,22 @@ img {
   to {opacity:1 ;}
 }
 
+.half {
+  width: 50%;
+}
+
+.full {
+  width: 100%;
+}
+
+.contact-page {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  h3 {
+    margin-top: 40px;
+  }
+}
+
 // to center elements on page
 .center {
   display: block;
