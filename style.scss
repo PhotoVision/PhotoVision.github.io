@@ -560,7 +560,6 @@ article {
     }
     button {
       padding: 10px;
-      margin-right: 25px;
       border-radius: 5px;
       color: #424242;
       background-color: white;
@@ -573,6 +572,9 @@ article {
       &:active {
         background-color: gray;
       }
+    }
+    .pricing-button {
+      margin-right: 25px;
     }
   }
 }
