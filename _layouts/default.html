@@ -32,6 +32,9 @@
         </header>
         <div class="company-logo center" style="background: url({{ site.banner-image }}) no-repeat center center; background-size: cover;"
           onclick="window.location.href = '{{ site.baseurl }}/';" />
+      </div>        
+      <div class="top-nav-links center">
+        {% include nav-links.html %}
       </div>
     </div>
 
@@ -101,6 +104,37 @@
           dots: false,
           autoplay: true,
           autoplaySpeed: 8000,
+        });
+        
+        var acc = document.getElementById("nav-accordion");
+        var panel = document.getElementById("nav-panel");
+
+        acc.addEventListener("click", function() {
+          /* Toggle between hiding and showing the nav panel on click event (for mobile) */
+          if (matchMedia('(pointer:coarse)').matches) {
+            if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+            } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          }
+        });
+
+        acc.addEventListener("mouseover", function() {
+          /* Show the nav panel when mouse hovers over the Services list item (for desktop) */
+          if (matchMedia('(pointer:fine)').matches){
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+
+        acc.addEventListener("mouseout", function() {
+          /* Hide the nav panel when mouse leaves the Services list item (for desktop) */
+          panel.style.maxHeight = null;
+        });
+
+        panel.addEventListener("mouseout", function() {
+          /* Hide the nav panel when mouse leaves the nav panel (for desktop) */
+          panel.style.maxHeight = null;
         });
       });
     </script>

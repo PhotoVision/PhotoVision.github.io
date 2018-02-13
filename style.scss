@@ -152,6 +152,22 @@ img {
   to {opacity:1 ;}
 }
 
+.half {
+  width: 50%;
+}
+
+.full {
+  width: 100%;
+}
+
+.contact-page {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  h3 {
+    margin-top: 40px;
+  }
+}
+
 // to center elements on page
 .center {
   display: block;
@@ -178,15 +194,19 @@ img {
   margin-bottom: 50px;
   @media screen and (max-width: 1400px) {
     width: 35%;
+    margin-bottom: 40px;
   }
   @media screen and (max-width: 1100px) {
     width: 40%;
+    margin-bottom: 40px;
   }
   @media screen and (max-width: 800px) {
     width: 50%;
+    margin-bottom: 30px;
   }
   @media screen and (max-width: 600px) {
     width: 60%;
+    margin-bottom: 25px;
   }
   &:before {
     content: "";
@@ -195,6 +215,61 @@ img {
   }
   &:hover {
     cursor: pointer;
+  }
+}
+
+.top-nav-links { 
+  width: 60%;
+  @media screen and (max-width: 1100px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 800px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 600px) {
+    width: 80%;
+  }
+  @media screen and (max-width: 400px) {
+    width: 90%;
+  }
+  ul {
+    margin: 0 auto 2em auto;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    list-style-type: none;
+    li {
+      padding: .5% 1.5%;
+      display: inline-block;
+      .accordion {
+        transition: 0.4s;
+      }
+      a {
+        color: #757575;
+        &:hover, &:active {
+          color: #83b3be;
+        }
+      }
+      .panel {
+        text-align: left;
+        position: fixed;
+        z-index: 3;
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+        overflow: hidden;
+        li {
+          display: block;
+          padding: .5em;
+          background-color: white;
+          a {
+            color: #757575;
+            &:hover, &:active {
+              color: #83b3be;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
