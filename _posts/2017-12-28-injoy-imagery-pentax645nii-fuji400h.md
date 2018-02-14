@@ -7,7 +7,7 @@ image: '/images/blog/injoy-imagery-pentax645nii-fuji400h/jacqueline+INJOY+IMAGER
 date: December 28, 2017
 ---
 
-![]({{ site.baseurl}}/images/blog/injoy-imagery-pentax645nii-fuji400h/jacqueline+INJOY+IMAGERY.CREATIVE.KAYLA.LOUISVILLE.NOV+2017.1.jpg)  
+[![]({{ site.baseurl}}/images/blog/injoy-imagery-pentax645nii-fuji400h/jacqueline+INJOY+IMAGERY.CREATIVE.KAYLA.LOUISVILLE.NOV+2017.1.jpg)](http://www.injoyimagery.com/) 
 Film can capture beauty absolutely anywhere! Film newbie [@injoyimagery](http://www.injoyimagery.com/) shares her heart and vision below: 
 
 "I'm incredibly new to film and this was probably the 10th roll I ever shot. One of my dear friends is a former model, so I kidnapped her one evening and we shot a few rolls in beautiful Cherokee Park. I still hadn't had my fix and the light was only getting prettier but I knew I needed some open fields in my life. The best and first field we found was a bean field on a major highway right next to a fire hall. I had her crouch down to get a nice soft backdrop and to avoid any distractions. Just goes to show, if you pick the right angles and the light is right, film can capture beauty absolutely anywhere.

@@ -14,6 +14,7 @@ h1 span {
 </style>
 
 <h1>Service times <span class="right" markdown="1">_Updated {{ site.time | date: '%B %-d' }}_</span></h1>
+<div class="clearfix"></div>
 
 _Service times are in business days starting the first business day **after** your order is received and are given as **good faith estimates**. Our service times tend to increase in Summer and Fall (i.e. wedding season) and decrease in Winter. Service times are ultimately dependent on the volume of work coming in from our photographers and may fluctuate while your film is in lab._
 ## Film process + scan service time: **{{ site.company-info.turnaround-time }}**
