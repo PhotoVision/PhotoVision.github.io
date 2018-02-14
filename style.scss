@@ -455,6 +455,9 @@ article {
     color: gray;
     a {
       font-weight: 800;
+      &:hover, &:active {
+        color: #424242;
+      }
     }
   }
   .entry {
@@ -501,9 +504,11 @@ article {
       }
       td {
         .left-image {
+          padding-top: 2em;
           padding-right: 1em;
         }
         .right-image {
+          padding-top: 2em;
           padding-left: 1em;
         }
       }
@@ -553,6 +558,20 @@ article {
         background-color: #ccc;
       }
     }
+    .closed:after {
+      font-family: Webdings;
+      font-size: .5em;
+      vertical-align: middle;
+      color: #757575;
+      content: ' 6';
+    }
+    .opened:after {
+      font-family: Webdings;
+      font-size: .5em;
+      vertical-align: middle;
+      color: #757575;
+      content: ' 5';
+    }
     .panel {
         max-height: 0;
         transition: max-height 0.2s ease-out;
@@ -560,7 +579,6 @@ article {
     }
     button {
       padding: 10px;
-      margin-right: 25px;
       border-radius: 5px;
       color: #424242;
       background-color: white;
@@ -572,6 +590,43 @@ article {
       }
       &:active {
         background-color: gray;
+      }
+    }
+    .pricing-button {
+      margin-right: 25px;
+    }
+  }
+}
+
+.workshop {    
+  border-top: 1px solid #ccc;
+  padding: 40px 0 40px 0;
+  ul {
+    width: 100%;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    li {
+      width: 100%;
+      padding: 12px 0px;
+      position: relative; 
+      div.half {
+        display: inline-block;
+        vertical-align: top; 
+        width: 48%;
+        img {
+          padding-right: 30px;
+        }
+        h1 {
+          margin-top: 0;
+        }
+        h3 {
+          padding-left: 0;
+        }
+        p {
+          padding-left: 5%;
+        }
       }
     }
   }
@@ -590,7 +645,13 @@ article {
   tr td {
     text-align: center;
     vertical-align: middle;
-    padding: .5% 3%;
+    padding: .5% 3%;      
+    h1, h4 {
+      text-align: left;
+    }
+    h1 {
+      margin: 0 0 20px 0;
+    }
     .rf-logo {
       width: 60%;
     }
@@ -848,12 +909,23 @@ article {
   @include mobile {
     width: 100%;
   }
+  .entry a {
+    &:hover, &:active {
+      color: #424242;
+    }
+  }
+  .date {    
+    padding-top: 5px;
+  }
   a {
     font-size: 1em;
     font-weight: 100;
     .date {
       font-size: .50em;
       font-weight: 300;
+    }
+    &:hover, &:active {
+      color: #83b3be;
     }
   }
   img {

@@ -12,7 +12,7 @@ permalink: print-services.html
 
 | **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
 | :---------------------- | :---------------------------: | :-----------------------------------: |
-| **Wallets 8 per Sheet** | $6.00                         | N/A                                   |
+| **Wallets (8 per sheet)** | $6.00                         | N/A                                   |
 | **3.5x5**	              | $0.39	                      | N/A                                   |
 | **4x4**	              | $0.39	                      | N/A                                   |
 | **4x5**	              | $0.39                         | N/A                                   |
@@ -55,6 +55,7 @@ With a true wet, photographic process, our Polielettronica Laser Lab HR3D prints
 
 ## Order prints  
 Order prints from 3.5x5 to 30x45 right from your desktop or phone.
+
 <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">![]({{ site.baseurl}}/images/new-little-prints.jpg)</a>
 
 ## Print service times

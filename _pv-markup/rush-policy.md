@@ -14,4 +14,6 @@ High-quality scans + speedy turnarounds are our jam! We are pleased to offer rus
 | **After film arrives in lab** | N/A | Add 100% to order | Add 100% to order |
 {: .tablelines}
 
-<div class="disclaimer">*From December 11 – March 31, our turnaround times are typically 1–2 days. Have a special need? Don't hesitate to give us a call [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}). </div>
+<div class="disclaimer" markdown="1">
+From December 11 – March 31, our turnaround times are typically 1–2 days. Have a special need? Don't hesitate to give us a call at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}).
+</div>
