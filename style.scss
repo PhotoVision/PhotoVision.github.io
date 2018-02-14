@@ -455,6 +455,9 @@ article {
     color: gray;
     a {
       font-weight: 800;
+      &:hover, &:active {
+        color: #424242;
+      }
     }
   }
   .entry {
@@ -501,9 +504,11 @@ article {
       }
       td {
         .left-image {
+          padding-top: 2em;
           padding-right: 1em;
         }
         .right-image {
+          padding-top: 2em;
           padding-left: 1em;
         }
       }
@@ -641,7 +646,7 @@ article {
     text-align: center;
     vertical-align: middle;
     padding: .5% 3%;      
-    h1, p {
+    h1, h4 {
       text-align: left;
     }
     h1 {
@@ -903,6 +908,14 @@ article {
   margin: 0 auto 0 auto;
   @include mobile {
     width: 100%;
+  }
+  .entry a {
+    &:hover, &:active {
+      color: #424242;
+    }
+  }
+  .date {    
+    padding-top: 5px;
   }
   a {
     font-size: 1em;
