@@ -5,6 +5,11 @@ layout: default
 <div class="lead-image-container">
   {% include lead-image.html %}
 </div>
+<div class="praise-teaser-container" onclick="window.location.href = '{{ site.baseurl}}praise';" title="Click for more praise">
+  <div class="praise-teaser">
+    {% include praise-teaser.html %}
+  </div>
+</div>
 <div class="philosophy-container" onclick="window.location.href = '{{ site.baseurl}}philosophy';" title="Click to learn more about what makes us tick">
   {% include philosophy.html %}
 </div>
@@ -22,11 +27,6 @@ layout: default
 </div>
 <div class="education-container" onclick="window.location.href = '{{ site.baseurl}}education';" title="Click to learn more about Educational Workshops">
   {% include education.html %}
-</div>
-<div class="praise-teaser-container" onclick="window.location.href = '{{ site.baseurl}}praise';" title="Click for more praise">
-  <div class="praise-teaser">
-    {% include praise-teaser.html %}
-  </div>
 </div>
 <div class="as-seen-in-container">
   <div id="as-seen-in" >
