@@ -553,6 +553,20 @@ article {
         background-color: #ccc;
       }
     }
+    .closed:after {
+      font-family: Webdings;
+      font-size: .5em;
+      vertical-align: middle;
+      color: #757575;
+      content: ' 6';
+    }
+    .opened:after {
+      font-family: Webdings;
+      font-size: .5em;
+      vertical-align: middle;
+      color: #757575;
+      content: ' 5';
+    }
     .panel {
         max-height: 0;
         transition: max-height 0.2s ease-out;

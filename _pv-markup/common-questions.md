@@ -3,7 +3,7 @@ layout: page
 permalink: common-questions.html
 ---
 
-<h1 class="accordion" title="Click to expand section">Welcome! We're glad you're here.</h1>
+<h1 class="accordion closed" title="Click to expand section">Welcome! We're glad you're here.</h1>
 
 <div class="panel" markdown="1">
 ## 1. [Create an account]({{ site.baseurl }}/create-account) + [submit preferences]({{ site.baseurl }}/preferences)
@@ -17,7 +17,7 @@ Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo
 **Attn: Film Crew, PhotoVision, 3775 Market St NE, Salem OR 97301**
 </div>
 
-<h1 class="accordion" title="Click to expand section">Preferences</h1>
+<h1 class="accordion closed" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
 Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both **preference images** and **written preferences**.
@@ -45,7 +45,7 @@ When it comes to **skin tones**, let your **preference images** speak to the ton
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
 </div>
 
-<h1 class="accordion" title="Click to expand section">The Experience</h1>
+<h1 class="accordion closed" title="Click to expand section">The Experience</h1>
 
 <div class="panel" markdown="1">
 ## How do I know my film has arrived?
@@ -77,7 +77,7 @@ We will hold your negatives based on the Ship Back preference marked on your <a 
 We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
 </div>
 
-<h1 class="accordion" title="Click to expand section">Exposure Reference Sheets</h1>
+<h1 class="accordion closed" title="Click to expand section">Exposure Reference Sheets</h1>
 
 <div class="panel" markdown="1">
 ## What are they?
@@ -91,7 +91,7 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s <a href="http://box.com" target="_blank">Box</a> folder.
 </div>
 
-<h1 class="accordion" title="Click to expand section">Let's get technical</h1>
+<h1 class="accordion closed" title="Click to expand section">Let's get technical</h1>
 
 <div class="panel" markdown="1">
 ## How large are your scans?
@@ -111,7 +111,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
 </div>
 
-<h1 class="accordion" title="Click to expand section">Processing</h1>
+<h1 class="accordion closed" title="Click to expand section">Processing</h1>
 
 <div class="panel" markdown="1">
 ## Do you offer push/pull processing?
@@ -127,7 +127,7 @@ Sadly, we no longer process E-6, but we do scan it.
 <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Pricing</button> <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
 </div>
 
-<h1 class="accordion" title="Click to expand section">Connect with us!</h1>
+<h1 class="accordion closed" title="Click to expand section">Connect with us!</h1>
 
 <div class="panel" markdown="1">
 ## Questions?
@@ -152,8 +152,12 @@ Please stop by, we'd love to meet you + give you a tour!
             /* Toggle between hiding and showing the active panel, with animation */
             var panel = this.nextElementSibling;
             if (panel.style.maxHeight){
+            this.classList.remove('opened');
+            this.classList.add('closed');
             panel.style.maxHeight = null;
             } else {
+            this.classList.remove('closed');
+            this.classList.add('opened');
             panel.style.maxHeight = panel.scrollHeight + "px";
             } 
         });
