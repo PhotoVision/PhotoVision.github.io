@@ -12,7 +12,7 @@ permalink: print-services.html
 
 | **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
 | :---------------------- | :---------------------------: | :-----------------------------------: |
-| **Wallets 8 per Sheet** | $6.00                         | N/A                                   |
+| **Wallets (8 per sheet)** | $6.00                         | N/A                                   |
 | **3.5x5**	              | $0.39	                      | N/A                                   |
 | **4x4**	              | $0.39	                      | N/A                                   |
 | **4x5**	              | $0.39                         | N/A                                   |

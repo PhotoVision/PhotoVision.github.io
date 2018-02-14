@@ -44,7 +44,7 @@ You'll get top-notch film developing, beautiful scans from the legendary Fuji Fr
 {: .tablelines}
 
 ### Standard Film Sizes: Black + White
-All black + white scans arrive converted to true black + whites.
+All black + white scans arrive as fully de-saturated RGB images, producing truly neutral tones.
 
 | **Film Size** | **Normal Scan + 4x Prints** | **Normal Scan + 5x Prints** | **Large Scan + 4x Prints** | **Large Scan + 5x Prints** |
 | :--- | :---: | :---: | :---: | :---: |
