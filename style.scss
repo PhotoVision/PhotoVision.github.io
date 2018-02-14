@@ -593,6 +593,40 @@ article {
   }
 }
 
+.workshop {    
+  border-top: 1px solid #ccc;
+  padding: 40px 0 40px 0;
+  ul {
+    width: 100%;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    li {
+      width: 100%;
+      padding: 12px 0px;
+      position: relative; 
+      div.half {
+        display: inline-block;
+        vertical-align: top; 
+        width: 48%;
+        img {
+          padding-right: 30px;
+        }
+        h1 {
+          margin-top: 0;
+        }
+        h3 {
+          padding-left: 0;
+        }
+        p {
+          padding-left: 5%;
+        }
+      }
+    }
+  }
+}
+
 #as-seen-in {
   background: linear-gradient($white, $lightGray);
   padding: 0% 10% 2% 10%;
