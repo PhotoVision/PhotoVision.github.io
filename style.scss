@@ -673,8 +673,8 @@ article {
   ul {
     list-style-type: none;
   }
-  @include mobile {
-    width: 100%;
+  @media screen and (max-width: 800px) {
+    margin-right: 30px;
   }
 }
 
@@ -691,15 +691,13 @@ article {
   ul {
     list-style-type: none;
   }
-  @include mobile {
-    text-align: left;
-    float: left;
+  @media screen and (max-width: 800px) {
     margin-left: 20px;
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 700px) {
+    margin-left: 20px;
     text-align: left;
     float: left;
-    margin-left: 20px;
   }
 }
 
@@ -958,67 +956,77 @@ article {
   @media screen and (max-width: 1100px) {
     width: 100%;
   }
-  caption {
-    font-size: 1.5em;
+  .left {
+    margin: 0 1% 0 1%;
+    width: 31%;
+    @media screen and (max-width: 1100px) {
+      margin: 0 .5% 0 .5%;
+      width: 32%;
+    }
+    @media screen and (max-width: 800px) {
+      margin: 0 2% 0 2%;
+      width: 46%;
+    }
+    @media screen and (max-width: 400px) {
+      width: 95%;
+    }
   }
-  td {
-    padding: 2% 0 2% 0;
-    .nav-div {    
-      width: 90%;
-      margin: 0 auto 0 auto;
-      opacity: 0.4;
-      position: relative;
-      z-index: 1;
-      &:before {
-        content: "";
-        display: block;
-        padding-top: 125%;
-      }
-      &:hover {
-        cursor: pointer;
-        opacity: 1;
-        z-index: 3;
-      }
+  .post-nav {    
+    margin: 0 auto 0 auto;
+    opacity: 0.4;
+    position: relative;
+    z-index: 1;
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 125%;
     }
-    span {
-      width: 15em;
-      font-size: 1.2em;
-      position: absolute;
-      margin-top: -4em;
-      padding-left: 4em;
-      z-index: 2;
-      @media screen and (max-width: 1100px) {
-        width: 14em;
-        font-size: 1em;
-        padding-left: 3em;
-      }
-      @media screen and (max-width: 800px) {
-        width: 12em;
-        font-size: .8em;
-        margin-top: -5em;        
-        padding-left: 2em;
-      }
-      @include mobile {
-        width: 11em;
-        font-size: .8em;   
-        margin-top: -4.5em; 
-        padding-left: 1em;
-      }
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+      z-index: 3;
     }
-    button.submit {
-      width: 180px;
-      height: 50px;
-      margin-top: 25px;
-      border-radius: 5px;
-      background-color: white;
-      border: 1px solid #424242;
-      font-size: 19px;
-      &:hover {
-        background-color: $lightGray;
-      }
-      &:active {
-        background-color: gray;
-      }
+  }
+  span {
+    width: 90%;
+    height: 3em;
+    padding: 2%;
+    font-size: 1.2em;
+    position: relative;
+    margin: -20% 0 15% 5%;
+    z-index: 2;
+    @media screen and (max-width: 1400px) {
+      font-size: 1em;
+      margin-top: -25%;
+    }
+    @media screen and (max-width: 1100px) {
+      margin-top: -25%;
+    }
+    @media screen and (max-width: 650px) {
+      font-size: 1em;
+      margin-top: -25%;
+    }
+  }
+  button.submit {
+    min-width: 21%;
+    height: 20%;
+    margin: 0 8.7% 3% 8.7%;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #424242;
+    text-align: center;
+    font-size: 1.2em;
+    &:hover {
+      background-color: $lightGray;
+    }
+    &:active {
+      background-color: gray;
+    }
+    @media screen and (max-width: 1100px) {
+      margin: 0 8% 3% 8%;
+    }
+    @media screen and (max-width: 800px) {
+      margin: 0 2% 3% 2%;
     }
   }
 }
