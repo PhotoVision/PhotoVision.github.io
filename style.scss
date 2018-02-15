@@ -898,8 +898,21 @@ article {
   }
 }
 
-.posts .heading {  
-  padding: 0% 10%;
+.posts {
+  .heading {  
+    padding: 0% 10%;
+  }
+  .pagination {
+    width: 50%;
+    .previous:before {
+      font-family: Webdings;
+      content: "3 ";
+    }
+    .next:after {
+      font-family: Webdings;
+      content: " 4";
+    }
+  }
 }
 
 .post {
