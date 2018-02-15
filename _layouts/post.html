@@ -11,5 +11,7 @@ layout: default
   <div class="entry">
     {{ content }}
   </div>
-  <div class="category">Category: <a href="{{ site.baseurl}}/{{ page.subcategory | downcase }}">{{ page.subcategory | replace: '+',' ' }}</a></div>
+  {% if page.subcategory %}
+    <div class="category">Category: <a href="{{ site.baseurl}}/{{ page.subcategory | downcase }}">{{ page.subcategory | replace: '+',' ' }}</a></div>
+  {% endif %}
 </article>
