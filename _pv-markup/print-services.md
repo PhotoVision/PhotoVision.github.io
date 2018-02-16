@@ -8,7 +8,7 @@ permalink: print-services.html
 #### Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This isn't your typical photo paper—it has a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade.
 
 
-## Standard Prints
+## Standard prints
 
 | **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
 | :---------------------- | :---------------------------: | :-----------------------------------: |
@@ -17,6 +17,7 @@ permalink: print-services.html
 | **4x4**	              | $0.39	                      | N/A                                   |
 | **4x5**	              | $0.39                         | N/A                                   |
 | **4x6**	              | $0.39	                      | N/A                                   |
+| **4.5x6**	              | $0.39                         | N/A                                   |
 | **5x5**                 | $1.55            	          | N/A                                   |
 | **5x7** 	              | $3.50	                      | N/A                                   |
 | **8x8**	              | $7.50	                      | N/A                                   |
@@ -39,11 +40,24 @@ permalink: print-services.html
 | **30x45**	              | $59.95	                      | $69.45                                |
 {: .tablelines}
 
+## Proof prints
+The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme Paper, simply priced. Available as an add-on for [develop + scan]({{ site.baseurl}}/film-services) only.
+| **135 / 120** | **Add to develop + scan** |
+| :---			| :---:	|
+| **4x4, 4x5, 4x6, 4.5x6**		| $3.50	| 
+| **5x5, 5x7**		| $4.50	|
+{: .tablelines}
 
-## Borders
-Add a professional + clean look to your proof prints with a white border at no charge. Available for 3.5x5, 4x5, 4x6, 4.5x6, 5x5 and 5x7.
+| **220** | **Add to develop + scan** |
+| :---			| :---:	|
+| **4x4, 4x5, 4x6, 4.5x6**		| $7.00 |
+| **5x5, 5x7**		| $9.00 |
+{: .tablelines}
 
-| **Size** |  |
+## White borders
+Add a professional + clean look to your prints at no charge. Available for 3.5x5, 4x5, 4x6, 4.5x6, 5x5 and 5x7.
+
+| **Size** | Border width |
 | :--- | --- |
 | **Small** | 1/4" |
 | **Medium** | 3/8" |
