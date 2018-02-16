@@ -32,14 +32,12 @@ When choosing preference images, the most important aspect to consider is **skin
 
 ## What should I include under "Written Preferences?"
 
-Focus on describing your **overall ideal image**. 
+When it comes to **skin tones**, let your **preference images** speak to the tones you desire. Don't try to describe them here. Focus on describing your **overall ideal image**. 
 - Warm / cool / neutral
 - Dark + moody / light + airy
 - Details in shadows / shadows nearly black
 - Retain details in highlights / blown-out highlights OK
-- Avoid vague descriptions open to interpretation (i.e. "masculine," "romantic")
-
-When it comes to **skin tones**, let your **preference images** speak to the tones you desire. Don't try to describe them here. 
+- Avoid vague descriptions open to interpretation (i.e. "masculine," "romantic") 
 
 ## How do I update/change my preference images?
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
