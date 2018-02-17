@@ -3,21 +3,80 @@ layout: page
 permalink: common-questions.html
 ---
 
-<h1 class="accordion closed" title="Click to expand section">Welcome! We're glad you're here.</h1>
+<h1 class="accordion closed" title="Click to expand section">New here? Welcome!</h1>
 
 <div class="panel" markdown="1">
-## 1. [Create an account]({{ site.baseurl }}/create-account) + [submit preferences]({{ site.baseurl }}/preferences)
-Tell us a bit about yourself and your style! This will help speed up the process once we receive your film.
 
-## 2. Fill out an <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>
+##  We're glad you're here. Let's get started:
+
+## 1. [Create an account]({{ site.baseurl }}/create-account) 
+
+## 2. [Submit preferences]({{ site.baseurl }}/preferences) 
+Help us understand your overall vision. This will help speed up the process once we receive your film. [(Why is this important?)]({{site.baseurl}}/common-questions#what-are-preference-images--why-should-i-send-them-in){: id="preferences-link"}
+
+## 3. Fill out an <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> 
 Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download + print</a>.
 
-## 3. Send in your film + order form [(safely)]({{ site.baseurl }}/shipping-tips)
+## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order form 
 Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:  
-**Attn: Film Crew, PhotoVision, 3775 Market St NE, Salem OR 97301**
+
+**Attn: Film Crew**  
+**PhotoVision**  
+**3775 Market St NE**  
+**Salem OR 97301**  
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Preferences</h1>
+<h1 class="accordion closed" title="Click to expand section">Our procedures</h1>
+
+<div class="panel" markdown="1">
+
+## I’ve shipped my order. What happens next?
+You’ll receive an email when we receive your order. This email includes your order number, the job's total cost and an invoice for your records. We will then process + scan your order as specified in your preferences + on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>.
+
+## What are your turnaround times?
+You can find our current film service time + print service time [here]({{ site.baseurl}}/service-times).
+
+## Do You Offer Rush Processing?
+Yes, high-quality scans and speedy turnarounds are our jam! We are pleased to offer rush processing when our service times exceed a photographer's urgent time frame. See our [Rush Policy]({{ site.baseurl}}/rush-policy) for details.
+
+## Will my scans be rotated and numbered?
+Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
+
+## How do I receive my scans?
+Once your scans are complete, you will receive an email to the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same!
+
+## What if I have a problem with my order?
+If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
+
+## How do I order prints?
+Proof prints may be requested via your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem! You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+
+## How are my negatives handled?
+We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
+
+## How do I get my negatives back?
+We will hold your negatives based on the Ship Back preference marked on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
+
+| **Ship Back Options** |   |
+| :--- | :---: |
+| **2 weeks** | $6.50 |
+| **Fill 2" Flat Rate box** | $10.00 |
+| **Fill 4" Flat Rate box** | $20.00 |
+{: .tablelines}
+</div>
+
+<h1 class="accordion closed" title="Click to expand section">Order-specific needs</h1>
+
+<div class="panel" markdown="1">
+
+## What if a specific order needs to look different than my standard vision?
+Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a different set of specific preferences for any given order. Submit them [here]({{site.baseurl}}/preferences), and use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
+
+## What if there are specific colors I’m looking for in my order?
+It can be difficult for our scan techs to determine exact colors of man made products, such as invitations, fabric, paint, or other decor. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match. Use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
+</div>
+
+<h1 id="preferences-heading" class="accordion closed" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
 Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both **preference images** and **written preferences**.
@@ -45,55 +104,13 @@ When it comes to **skin tones**, let your **preference images** speak to the ton
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">The Experience</h1>
+<h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
 
 <div class="panel" markdown="1">
-## How do I know my film has arrived?
-Once your film arrives in lab, you will receive a confirmation email at the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes your order number, the job's total cost and an invoice for your records.
 
-## How do I receive my scans?
-Once your scans are complete, you will receive an email to the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same!
+## What are your prices?
+<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Pricing</button> <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
 
-## Will my scans be rotated and numbered?
-Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
-
-## What if I have a problem with my order?
-If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
-
-## How do I order prints?
-Proof prints may be requested via your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem! You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
-
-## How do I get my negatives back?
-We will hold your negatives based on the Ship Back preference marked on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
-
-| **Ship Back Options** |   |
-| :--- | :---: |
-| **2 weeks** | $6.50 |
-| **Fill 2" Flat Rate box** | $10.00 |
-| **Fill 4" Flat Rate box** | $20.00 |
-{: .tablelines}
-
-## How are my negatives handled?
-We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
-</div>
-
-<h1 class="accordion closed" title="Click to expand section">Exposure Reference Sheets</h1>
-
-<div class="panel" markdown="1">
-## What are they?
-When shooting film, your negatives act as your road map to understanding the connection between how you expose your film and your scan results. Our goal is to provide a tool to help you better understand your exposures + your scans at a glance. [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) provide a thumbnail of each frame, allowing you to clearly + easily see how you exposed your film. Pretty cool, huh?
-
-## How do I read them?
-Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) that appear dark represent underexposure, while frames that appear light represent overexposure. 
-
-## Where do I find them?  
-
-[Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s <a href="http://box.com" target="_blank">Box</a> folder.
-</div>
-
-<h1 class="accordion closed" title="Click to expand section">Let's get technical</h1>
-
-<div class="panel" markdown="1">
 ## How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
 
@@ -109,11 +126,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 
 ## What scanners do you use?
 Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
-</div>
 
-<h1 class="accordion closed" title="Click to expand section">Processing</h1>
-
-<div class="panel" markdown="1">
 ## Do you offer push/pull processing?
 Yes, we can push or pull film up to 3 stops. Indicate on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a **rubber band** around it. Push/pull processing is $3.00 per roll.
 
@@ -122,15 +135,28 @@ We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your
 
 ## Do you process + scan E-6 slide film?
 Sadly, we no longer process E-6, but we do scan it.
+</div>
 
-## What are your prices?
-<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Pricing</button> <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
+<h1 class="accordion closed" title="Click to expand section">Exposure Reference Sheets</h1>
+
+<div class="panel" markdown="1">
+
+## What are they?
+When shooting film, your negatives act as your road map to understanding the connection between how you expose your film and your scan results. Our goal is to provide a tool to help you better understand your exposures + your scans at a glance. [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) provide a thumbnail of each frame, allowing you to clearly + easily see how you exposed your film. Pretty cool, huh?
+
+## How do I read them?
+Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) that appear dark represent underexposure, while frames that appear light represent overexposure. 
+
+## Where do I find them?  
+
+[Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s <a href="http://box.com" target="_blank">Box</a> folder.
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Connect with us!</h1>
 
 <div class="panel" markdown="1">
-## Questions?
+
+## Have more questions?
 Please don't hesitate to reach out, we're always happy to help! Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
@@ -162,4 +188,14 @@ Please stop by, we'd love to meet you + give you a tour!
             } 
         });
     }
+
+    preferencesLink = document.getElementById("preferences-link");
+    preferencesLink.addEventListener("click", function() {
+        /* show the Preferences panel */
+        var heading = document.getElementById("preferences-heading");
+        var panel = heading.nextElementSibling;
+        heading.classList.remove('closed');
+        heading.classList.add('opened');
+        panel.style.maxHeight = panel.scrollHeight + "px";
+    });
 </script>
