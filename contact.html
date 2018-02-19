@@ -20,9 +20,9 @@ layout: default
     <a href="{{ site.company-info.map-url }}" target="_blank">{{ site.company-info.address }}<br />{{ site.company-info.csz }}</a>
   </div>
 
-  <form class="contact_form half right" style="margin-left: 0px;">
-    <input style="display:none" type="text" name="_gotcha">
-    <div class="notifications"></div>
+  <form id="gform" class="contact_form half right" style="margin-left: 0px;">
+    <input id="gotcha" type="text" name="gotcha" style="display:none">
+    <div class="left notifications"></div>
     <ul class="left">
       <li>
         <label for="name">Name<span class="required_notification">*</span></label>
@@ -34,7 +34,7 @@ layout: default
       </li>
       <li>
         <label for="subject">Subject<span class="required_notification">*</span></label>
-        <input id="subject" type="text" name="_subject"/>
+        <input id="subject" type="text" name="subject"/>
       </li>
       <li>
         <label for="message">Message<span class="required_notification">*</span></label>
@@ -56,40 +56,99 @@ layout: default
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
   $(function() {
-    function sendEmail() {
-        var name = $('#name').val();       
-        var email = $('#email').val();
-        var message = $('#message').val();
-        var subject = $('#subject').val();
-        var data = {
-            '_subject': subject,
-            'Name': name,
-            'Email': email,
-            'Message': message
-        };
-        $.ajax({
-            url: '//formspree.io/info@photovisionprints.com',
-            method: 'POST',
-            data: data,
-            dataType: 'json',
-            beforeSend: function () {
-                $('.notifications').append('<p class="required_notification sending">Sending email…</p>');
-            },
-            success: function (data) {
-                window.location.replace("/contact-thanks");
-            },
-            error: function (err) {
-                $('.sending').remove();
-                $('.notifications').innerHTML = '';
-                $('.notifications').append('<p class="required_notification">Oops, there was an error sending your message. Please try again or call us for support.</p>');
+    var gotcha = $('#gotcha').val();
+
+    function validEmail(email) {
+      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+      return re.test(email);
+    }
+    
+    // get all data in form and return object
+    function getFormData() {
+      var form = document.getElementById("gform");
+      var elements = form.elements; // all form elements
+      console.log(elements);
+      var fields = Object.keys(elements).map(function(k) {
+        if (elements[k].name !== undefined && elements[k].name !== 'gotcha') {
+          return elements[k].name;
+        // special case for Edge's html collection
+        } else if (elements[k].length > 0) {
+          return elements[k].item(0).name;
+        }
+      }).filter(function(item, pos, self) {
+        return self.indexOf(item) == pos && item;
+      });
+      var data = {};
+      fields.forEach(function(k) {
+        data[k] = elements[k].value;
+        var str = ""; // declare empty string outside of loop to allow
+                      // it to be appended to for each item in the loop
+        if (elements[k].type === "checkbox") { // special case for Edge's html collection
+          str = str + elements[k].checked + ", "; // take the string and append 
+                                                  // the current checked value to 
+                                                  // the end of it, along with 
+                                                  // a comma and a space
+          data[k] = str.slice(0, -2); // remove the last comma and space 
+                                      // from the  string to make the output 
+                                      // prettier in the spreadsheet
+        } else if (elements[k].length) {
+          for (var i = 0; i < elements[k].length; i++) {
+            if (elements[k].item(i).checked) {
+              str = str + elements[k].item(i).value + ", "; // same as above
+              data[k] = str.slice(0, -2);
             }
-        });
+          }
+        }
+      });
+
+      // add form-specific values into the data
+      data.formDataNameOrder = JSON.stringify(fields);
+      data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
+      data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+
+      console.log(data);
+      return data;
+    }
+
+    function sendEmail() {
+      if (gotcha == '') {        
+        console.log('Welcome, human!');
+        var data = getFormData();
+        var url = 'https://script.google.com/a/photovisionprints.com/macros/s/AKfycbxZG0_gyv6xOZShpIOcwT4ZgAXQdT1vHI1Q5NkTbij7vNljqic/exec';
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', url);
+        // xhr.withCredentials = true;
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+          console.log( xhr.status, xhr.statusText )
+          console.log(xhr.responseText);
+        $('html,body').css('cursor','default');
+          window.location.replace("/contact-thanks");
+          return;
+        };
+        // url encode form data for sending as post data
+        var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+        }).join('&')
+        xhr.send(encoded);
+      } else {
+        $('html,body').css('cursor','default');
+        console.log('Robot detected!');
+        return false;
+      }
     }
 
     $('.contact_form').change(function() {
-      if(($('#name').val()) && ($('#email').val()) && ($('#subject').val()) && ($('#message').val())){
+      if(($('#name').val()) && ($('#email').val()) && validEmail($('#email').val()) && ($('#subject').val()) && ($('#message').val())){
         $('.submit').prop('disabled', false);
-      } else {        
+        $('.submit').focus();
+      } else if (($('#email').val()) && !validEmail($('#email').val())){
+        $('.submit').prop('disabled', true);
+        $('.notifications').empty();
+        $('.notifications').append('<p class="required_notification">We\'re sorry. This appears to be an invalid email address.</p>');
+        $('#email').focus();
+      } else {
+        $('.notifications').empty();
         $('.submit').prop('disabled', true);
       }
     });
@@ -98,7 +157,6 @@ layout: default
       e.preventDefault();      
       $('html,body').css('cursor','wait');
       sendEmail();      
-      $('html,body').css('cursor','default');
     });
   });
 </script>
