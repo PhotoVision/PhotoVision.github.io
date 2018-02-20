@@ -3,9 +3,8 @@ layout: default
 title: Create Account
 ---
 
-<form class="contact_form">
-  <input type="hidden" name="_subject" value="Create Account Form Submission">
-  <input style="display:none" type="text" name="_gotcha">
+<form id="gform" class="contact_form">
+  <input id="gotcha" type="text" name="gotcha" style="display:none">
   <h1>Create Account</h1>  
   <div class="notifications"></div>
   <ul>
@@ -66,52 +65,99 @@ title: Create Account
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
   $(function() {
-    function sendEmail() {
-        var firstName = $('#first_name').val();
-        var lastName = $('#last_name').val();        
-        var email = $('#email').val();
-        var phone = $('#phone').val();
-        var address1 = $('#address1').val();
-        var address2 = $('#address2').val();
-        var city = $('#city').val();
-        var state = $('#state').val();
-        var zip = $('#zip').val();
-        var country = $('#country').val();
-        var data = {
-            '_subject': 'Create Account Form Submission',
-            'First Name': firstName,
-            'Last Name': lastName,
-            'Email': email,
-            'Phone': phone,
-            'Address1': address1,
-            'Address2': address2,
-            'City': city,
-            'State': state,
-            'Zip': zip,
-            'Country': country
-        };
-        $.ajax({
-            url: '//formspree.io/info@photovisionprints.com',
-            method: 'POST',
-            data: data,
-            dataType: 'json',
-            beforeSend: function () {
-                $('.notifications').append('<p class="required_notification sending">Creating your account…</p>');
-            },
-            success: function (data) {
-                window.location.replace("/create-account-thanks");
-            },
-            error: function (err) {
-                $('.sending').remove();
-                $('.notifications').append('<p class="required_notification">Oops, there was an error creating your account. Please try again or contact us for support.</p>');
+    var gotcha = $('#gotcha').val();
+
+    function validEmail(email) {
+      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+      return re.test(email);
+    }
+    
+    // get all data in form and return object
+    function getFormData() {
+      var form = document.getElementById("gform");
+      var elements = form.elements; // all form elements
+      console.log(elements);
+      var fields = Object.keys(elements).map(function(k) {
+        if (elements[k].name !== undefined && elements[k].name !== 'gotcha') {
+          return elements[k].name;
+        // special case for Edge's html collection
+        } else if (elements[k].length > 0) {
+          return elements[k].item(0).name;
+        }
+      }).filter(function(item, pos, self) {
+        return self.indexOf(item) == pos && item;
+      });
+      var data = {};
+      fields.forEach(function(k) {
+        data[k] = elements[k].value;
+        var str = ""; // declare empty string outside of loop to allow
+                      // it to be appended to for each item in the loop
+        if (elements[k].type === "checkbox") { // special case for Edge's html collection
+          str = str + elements[k].checked + ", "; // take the string and append 
+                                                  // the current checked value to 
+                                                  // the end of it, along with 
+                                                  // a comma and a space
+          data[k] = str.slice(0, -2); // remove the last comma and space 
+                                      // from the  string to make the output 
+                                      // prettier in the spreadsheet
+        } else if (elements[k].length) {
+          for (var i = 0; i < elements[k].length; i++) {
+            if (elements[k].item(i).checked) {
+              str = str + elements[k].item(i).value + ", "; // same as above
+              data[k] = str.slice(0, -2);
             }
-        });
+          }
+        }
+      });
+
+      // add form-specific values into the data
+      data.formDataNameOrder = JSON.stringify(fields);
+      data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
+      data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+
+      console.log(data);
+      return data;
+    }
+
+    function sendEmail() {
+      if (gotcha == '') {        
+        console.log('Welcome, human!');
+        var data = getFormData();
+        var url = 'https://script.google.com/a/photovisionprints.com/macros/s/AKfycbwUGtsXIGWnao5bBQbkGiA91nPxPg724TWVR8TCjg7HumhBSoI/exec';
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', url);
+        // xhr.withCredentials = true;
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+          console.log( xhr.status, xhr.statusText )
+          console.log(xhr.responseText);
+          $('html,body').css('cursor','default');
+          window.location.replace("/create-account-thanks");
+          return;
+        };
+        // url encode form data for sending as post data
+        var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+        }).join('&')
+        xhr.send(encoded);
+      } else {
+        $('html,body').css('cursor','default');
+        console.log('Robot detected!');
+        return false;
+      }
     }
 
     $('.contact_form').change(function() {
-      if(($('#first_name').val()) && ($('#last_name').val()) && ($('#email').val()) && ($('#phone').val()) && ($('#address1').val()) && ($('#city').val()) && ($('#state').val()) && ($('#zip').val()) && ($('#country').val())){
+      if(($('#first_name').val()) && ($('#last_name').val()) && ($('#email').val()) && validEmail($('#email').val()) && ($('#phone').val()) && ($('#address1').val()) && ($('#city').val()) && ($('#state').val()) && ($('#zip').val()) && ($('#country').val() !== "0")){
         $('.submit').prop('disabled', false);
-      } else {        
+        $('.submit').focus();
+      } else if (($('#email').val()) && !validEmail($('#email').val())){
+        $('.submit').prop('disabled', true);
+        $('.notifications').empty();
+        $('.notifications').append('<p class="required_notification">We\'re sorry. This appears to be an invalid email address.</p>');
+        $('#email').focus();
+      } else {
+        $('.notifications').empty();
         $('.submit').prop('disabled', true);
       }
     });
@@ -120,7 +166,6 @@ title: Create Account
       e.preventDefault();      
       $('html,body').css('cursor','wait');
       sendEmail();      
-      $('html,body').css('cursor','default');
     });
   });
 </script>

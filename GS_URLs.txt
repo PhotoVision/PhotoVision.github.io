@@ -1,0 +1,8 @@
+Contact form spreadsheet's script URL:
+https://script.google.com/a/photovisionprints.com/macros/s/AKfycbxZG0_gyv6xOZShpIOcwT4ZgAXQdT1vHI1Q5NkTbij7vNljqic/exec
+
+Create Account form spreadsheet's script URL:
+https://script.google.com/a/photovisionprints.com/macros/s/AKfycbwUGtsXIGWnao5bBQbkGiA91nPxPg724TWVR8TCjg7HumhBSoI/exec
+
+Preferences form spreadsheet's script URL:
+https://script.google.com/a/photovisionprints.com/macros/s/AKfycbyS3jf9yXCXR9TXNrpdlaz1kqONyYPXEhgYN4UTDR0Yn1cLRpT9/exec
