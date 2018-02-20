@@ -22,7 +22,7 @@ Download our **<a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" t
 **Attn: Film Crew**
 **PhotoVision**
 **3775 Market St NE**
-**Salem, OR 97301**
+**Salem OR 97301**
 
 ## Can I talk to someone?
 Absolutely! We're happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.

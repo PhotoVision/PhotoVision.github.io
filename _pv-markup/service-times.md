@@ -17,13 +17,14 @@ h1 span {
 <div class="clearfix"></div>
 
 _Service times are in business days starting the first business day **after** your order is received and are given as **good faith estimates**. Our service times tend to increase in Summer and Fall (i.e. wedding season) and decrease in Winter. Service times are ultimately dependent on the volume of work coming in from our photographers and may fluctuate while your film is in lab._
-## Film process + scan service time: **{{ site.company-info.turnaround-time }}**
+## Frontier Film process + scan service time: **{{ site.company-info.turnaround-time }}**  
+## Noritsu Film process + scan service time: **{{ site.company-info.turnaround-time }}**
 
 ## Print service times:
 {:.less-space}
-- 12x18 and smaller (200 or less): **1 business day**
-- 12x18 and smaller (more than 200): **2 business days**
-- 16x20–30x45: **3 business days**
+- 12×18 and smaller (200 or less): **1 business day**
+- 12×18 and smaller (more than 200): **2 business days**
+- 16×20–30×45: **3 business days**
 - Proofs: **{{ site.company-info.proof-turnaround-time }}**
 {:.service-times-list}
 

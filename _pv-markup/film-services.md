@@ -9,7 +9,7 @@ We currently process C-41 color negative and Black + White negative film in most
 
 
 ## Develop + scan
-We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will assume you want Frontier. However, keep in mind **there are certain film stocks that will *always* be scanned on Noritsu: **Portra160, Ektar100 and all black + white stocks**. All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized!
+We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will assume you want Frontier. However, keep in mind **there are certain film stocks that will *always* be scanned on Noritsu: **Portra160, Ektar100 and all black + white stocks**. All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized.
 
 ### Fuji Frontier SP3000  
 | **Film size** | **Color normal scan** | **Color large scan** |
@@ -20,7 +20,7 @@ We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the
 {: .tablelines}
 
 ### Noritsu S-1800  
-Portra160, Ektar100 and all black + white film stocks may only be scanned on Noritsu. 
+Portra160, Ektar100 and all black + white film stocks may only be scanned on Noritsu. All black + white scans arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 | **Film size** | **Color large scan** | **B+W large scan** |
 | :---			| :---:					| :---:				  |
@@ -30,38 +30,38 @@ Portra160, Ektar100 and all black + white film stocks may only be scanned on Nor
 {: .tablelines}
 
 ## Develop + scan + print
-You'll get top-notch film developing, beautiful scans delivered via <a href="http://box.com" target="_blank">Box</a> and true, photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme Paper.
+You'll get top-notch film developing, beautiful scans delivered via <a href="http://box.com" target="_blank">Box</a> and true, photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme (Lustre) Paper.
 
 | **135 / 120** | **Add to develop + scan** |
 | :---			| :---:	|
-| **4x4, 4x5, 4x6, 4.5x6**		| $3.50	| 
-| **5x5, 5x7**		| $4.50	|
+| **4×4, 4×5, 4×6, 4.5×6**		| $3.50	| 
+| **5×5, 5×7**		| $4.50	|
 {: .tablelines}
 
 | **220** | **Add to develop + scan** |
 | :---			| :---:	|
-| **4x4, 4x5, 4x6, 4.5x6**		| $7.00 |
-| **5x5, 5x7**		| $9.00 |
+| **4×4, 4×5, 4×6, 4.5×6**		| $7.00 |
+| **5×5, 5×7**		| $9.00 |
 {: .tablelines}
 
 ## Develop only
-Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned home to you cut or uncut.
+Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned to you cut or uncut.
 
 | **Film size** | **Color** | **Black + White** |
 | :--- | :---: | :---: |
 | **135** | $7.50 | $7.50 |
 | **120** | $7.50 | $7.50 |
 | **220** | $11.00 | $11.00 |
-| **4x5** | $2.50 | N/A |
-| **5x7** | $4.50 | N/A |
-| **8x10** | $6.50 | N/A |
+| **4×5** | $2.50 | N/A |
+| **5×7** | $4.50 | N/A |
+| **8×10** | $6.50 | N/A |
 | **Push / Pull*** | $3.00 | $3.00 |
 | **Snip Test** | $5.00 | N/A |
 {: .tablelines}  
 _*Additional per roll_  
 
 ## Scan cut negatives
-Need previously processed + cut film scanned? Not a problem!
+Need previously processed + cut film scanned? Not a problem.
 
 | **Minimum charge** | **Per frame** |
 | :--- | :---: |
@@ -69,29 +69,29 @@ Need previously processed + cut film scanned? Not a problem!
 {: .tablelines}
 
 ## Scan resolutions
-Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
+Resolution matters. That's why our normal scans give you the freedom to print stunning 20×24s straight away, while our large scans can easily grace a billboard.
 
 ### Fuji Frontier SP3000
 | **Film Size** | **Format** | **Normal Scan** | **Large Scan** |
 | :--- | :---: | :---: | :---: |
-| **135** | 4x6 | 2400x3600 | 3600x5400 |
-| **120 / 220** | 6x4.5 | 2700x3600 | 3600x4800 |
-| **120 / 220** | 6x6 | 2700x2700 | 3600x3600 |
-| **120 / 220** | 6x7 | 2700x3150 | 3600x4200 |
-| **120 / 220** | 6x8 | 2700x3600 | 3600x4800 |
-| **120 / 220** | 6x9 | xxx | xxx |
+| **135** | 4×6 | 2400×3600 | 3600×5400 |
+| **120 / 220** | 6×4.5 | 2700×3600 | 3600×4800 |
+| **120 / 220** | 6×6 | 2700×2700 | 3600×3600 |
+| **120 / 220** | 6×7 | 2700×3150 | 3600×4200 |
+| **120 / 220** | 6×8 | 2700×3600 | 3600×4800 |
+| **120 / 220** | 6×9 | 2700×4000 | 3500×5400 |
 {: .tablelines}
 *All scan resolutions are approximate. Slight variations are normal.*
 
 ### Noritsu S-1800
 | **Film Size** | **Format** | **Large Scan** |
 | :--- | :---: | :---: |
-| **135** | 4x6 | xxx |
-| **120 / 220** | 6x4.5 | xxx |
-| **120 / 220** | 6x6 | xxx |
-| **120 / 220** | 6x7 | xxx |
-| **120 / 220** | 6x8 | xxx |
-| **120 / 220** | 6x9 | xxx |
+| **135** | 4×6 | 4400×6700 |
+| **120 / 220** | 6×4.5 | 4800×3500 |
+| **120 / 220** | 6×6 | 4800×4700 |
+| **120 / 220** | 6×7 | 4800×5900 |
+| **120 / 220** | 6×8 | 4900×6600 |
+| **120 / 220** | 6×9 | 4900×7100 |
 {: .tablelines}
 *All scan resolutions are approximate. Slight variations are normal.*
 
