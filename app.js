@@ -45,9 +45,22 @@ $(function() {
       });
     }
     // END S3 UPLOAD SECTION
+    
+    var gotcha = $('#gotcha').val();
+
+    function validEmail(email) {
+      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+      return re.test(email);
+    }
 
     $('#email').change(function() {
-      if($(this).val()){
+      if ($(this).val() && !validEmail($(this).val())){
+        $('.submit').prop('disabled', true);
+        $('.notifications').empty();
+        $('.notifications').append('<p class="required_notification">We\'re sorry. This appears to be an invalid email address.</p>');
+        $(this).focus();
+      } else if($(this).val()){
+        $('.notifications').empty();
         $('.submit').prop('disabled', false);
       }
     });
@@ -69,34 +82,82 @@ $(function() {
       } else if(number > 1048576) {
         return (number/1048576).toFixed(1) + 'MB';
       }
+    }    
+    
+    // get all data in form and return object
+    function getFormData() {
+      var form = document.getElementById("gform");
+      var elements = form.elements; // all form elements
+      console.log(elements);
+      var fields = Object.keys(elements).map(function(k) {
+        if (elements[k].name !== undefined && elements[k].name !== 'gotcha' && elements[k].name !== 'image-uploader') {
+          return elements[k].name;
+        // special case for Edge's html collection
+        } else if (elements[k].length > 0) {
+          return elements[k].item(0).name;
+        }
+      }).filter(function(item, pos, self) {
+        return self.indexOf(item) == pos && item;
+      });
+      var data = {};
+      fields.forEach(function(k) {
+        data[k] = elements[k].value;
+        var str = ""; // declare empty string outside of loop to allow
+                      // it to be appended to for each item in the loop
+        if (elements[k].type === "checkbox") { // special case for Edge's html collection
+          str = str + elements[k].checked + ", "; // take the string and append 
+                                                  // the current checked value to 
+                                                  // the end of it, along with 
+                                                  // a comma and a space
+          data[k] = str.slice(0, -2); // remove the last comma and space 
+                                      // from the  string to make the output 
+                                      // prettier in the spreadsheet
+        } else if (elements[k].length) {
+          for (var i = 0; i < elements[k].length; i++) {
+            if (elements[k].item(i).checked) {
+              str = str + elements[k].item(i).value + ", "; // same as above
+              data[k] = str.slice(0, -2);
+            }
+          }
+        }
+      });
+
+      // add form-specific values into the data
+      data.formDataNameOrder = JSON.stringify(fields);
+      data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
+      data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+      
+      console.log(data);
+      return data;
     }
 
-    function sendEmail(imageList) {
-        var email = $('#email').val();
-        var instructions = $('#instructions').val();
-        var data = {
-            '_subject': 'Customer Preferences Submission',
-            'email': email,
-            'images': imageList.sort().join('\r\n'),
-            'instructions': instructions
+    function sendEmail() {
+      if (gotcha == '') {        
+        console.log('Welcome, human!');
+        var data = getFormData();        
+        console.log(data);
+        var url = 'https://script.google.com/a/photovisionprints.com/macros/s/AKfycbyS3jf9yXCXR9TXNrpdlaz1kqONyYPXEhgYN4UTDR0Yn1cLRpT9/exec';
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', url);
+        // xhr.withCredentials = true;
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+          console.log( xhr.status, xhr.statusText );
+          console.log(xhr.responseText);
+          $('html,body').css('cursor','default');
+          window.location.replace("/preferences-thanks");
+          return;
         };
-        $.ajax({
-            url: '//formspree.io/info@photovisionprints.com',
-            method: 'POST',
-            data: data,
-            dataType: 'json',
-            beforeSend: function () {
-                $('.uploading').remove();
-                $('.notifications').append('<p class="required_notification sending">Ok. Now sending your preferences…</p>');
-            },
-            success: function (data) {
-                window.location.replace("/preferences-thanks");
-            },
-            error: function (err) {
-                $('.sending').remove();
-                $('.notifications').append('<p class="required_notification">Oops, there was an error sending your preferences. Please try again or contact us for support.</p>');
-            }
-        });
+        // url encode form data for sending as post data
+        var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+        }).join('&')
+        xhr.send(encoded);
+      } else {
+        $('html,body').css('cursor','default');
+        console.log('Robot detected!');
+        return false;
+      }
     }
     
     function checkIfUploadsDone() {
@@ -104,7 +165,8 @@ $(function() {
             window.setTimeout(checkIfUploadsDone, 250); /* this checks if upload attempts are done every 250 milliseconds*/
         } else {
             if (errorList.length === 0) {
-                sendEmail(imageList);
+                $('#images').val(imageList.sort().join('; <br />'));
+                sendEmail();
                 $('html,body').css('cursor','default');
                 return;
             } else {

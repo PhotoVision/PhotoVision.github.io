@@ -3,9 +3,8 @@ layout: default
 title: Preferences
 ---
 
-<form class="preferences-form">
-  <input type="hidden" name="_subject" value="Customer Preference Submission">
-  <input style="display:none" type="text" name="_gotcha">
+<form id="gform" class="preferences-form">
+  <input id="gotcha" style="display:none" type="text" name="gotcha">
   <h1>Submit or update preferences</h1>
   <p>Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both 
     <strong>preference images</strong> and <strong>written preferences</strong>.</p>
@@ -24,7 +23,7 @@ title: Preferences
       <div class="image-preview">
       </div>
     </li>
-    <li></li>
+    <li><input id="images" style="display:none" type="textarea" name="images"></li>
     <li>
       <h2>Written preferences</h2>
       <p>Describe your ideal overall image:&nbsp; 
