@@ -3,9 +3,9 @@ layout: page
 permalink: print-services.html
 ---
 
-# Timeless Prints
+# Timeless prints 
 
-#### Outstanding prints on the finest Fujicolor Crystal Archive Supreme Paper. This isn't your typical photo paper—it has a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade.
+#### Since 1968, we've respected the art of the print. Our true, wet process prints pay homage to the time-honored photographic tradition of chromogenic prints. OR Our true, wet process prints pay homage to the time-honored photographic tradition of darkroom printing. We use only the finest Fujicolor Crystal Archive papers. Available in Supreme (Lustre) and Pearl (Metallic), these aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade and long-term storage. 
 
 
 ## Standard prints
@@ -38,10 +38,26 @@ permalink: print-services.html
 | **24x36**	              | $49.95	                      | $57.95                                |
 | **30x40**	              | $59.95	                      | $64.95                                |
 | **30x45**	              | $59.95	                      | $69.45                                |
-{: .tablelines}
+{: .tablelines}  
+
+## Large format prints 
+The Polielettronica Laser Lab HR3D prints at a higher resolution (1200 ppi) than paper can hold, pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
+
+| **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
+| :---------------------- | :---------------------------: | :-----------------------------------: |
+| **16x20**	              | $25.95	                      | $31.45                                |
+| **16x24**	              | $28.95	                      | $35.45                                |
+| **20x24**	              | $28.95	                      | $38.95                                |
+| **20x30**	              | $29.95	                      | $44.95                                |
+| **24x30**	              | $35.95	                      | $47.45                                |
+| **24x36**	              | $49.95	                      | $57.95                                |
+| **30x40**	              | $59.95	                      | $64.95                                |
+| **30x45**	              | $59.95	                      | $69.45                                |
+| **30x48**	              | Need price??                  | Need price??                          |
+{: .tablelines}  
 
 ## Proof prints
-The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme Paper, simply priced. Available as an add-on for [develop + scan]({{ site.baseurl}}/film-services) only.
+The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper, simply priced. Available as an add-on for [develop + scan]({{ site.baseurl}}/film-services).
 | **135 / 120** | **Add to develop + scan** |
 | :---			| :---:	|
 | **4x4, 4x5, 4x6, 4.5x6**		| $3.50	| 
@@ -55,7 +71,7 @@ The same outstanding print quality, on the same Fujicolor Crystal Archive Suprem
 {: .tablelines}
 
 ## White borders
-Add a professional + clean look to your prints at no charge. Available for 3.5x5, 4x5, 4x6, 4.5x6, 5x5 and 5x7.
+Add a clean + professional look to your prints at no charge. Available for 3.5x5, 4x5, 4x6, 4.5x6, 5x5 and 5x7.
 
 | **Size** | Border width |
 | :--- | --- |
@@ -63,9 +79,6 @@ Add a professional + clean look to your prints at no charge. Available for 3.5x5
 | **Medium** | 3/8" |
 | **Large** | 1/2" |
 {: .tablelines}
-
-## Large format prints 
-With a true wet, photographic process, our Polielettronica Laser Lab HR3D prints at a higher resolution (1200 ppi) than paper can hold, pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
 
 ## Order prints  
 Order prints from 3.5x5 to 30x45 right from your desktop or phone.
@@ -81,8 +94,8 @@ Order prints from 3.5x5 to 30x45 right from your desktop or phone.
 
 *[Service times]({{ site.baseurl}}/service-times) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
 
-## Can I talk to someone?
-Absolutely! We're always happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
+## Questions?
+We're always happy to help. Please don't hesitate to reach out, our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
 [{{ site.company-info.email }}]({{ site.company-info.email }})

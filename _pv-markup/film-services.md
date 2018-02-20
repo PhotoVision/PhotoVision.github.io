@@ -9,7 +9,7 @@ We currently process C-41 color negative and Black + White negative film in most
 
 
 ## Develop + scan
-We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will assume you want Frontier. However, keep in mind **there are certain film stocks that will *always* be scanned on Noritsu: **Portra160, Ektar100 and all black + white stocks**. All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized!
+We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will assume you want Frontier. However, keep in mind **there are certain film stocks that will *always* be scanned on Noritsu: **Portra160, Ektar100 and all black + white stocks**. All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized.
 
 ### Fuji Frontier SP3000  
 | **Film size** | **Color normal scan** | **Color large scan** |
@@ -20,7 +20,7 @@ We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the
 {: .tablelines}
 
 ### Noritsu S-1800  
-Portra160, Ektar100 and all black + white film stocks may only be scanned on Noritsu. 
+Portra160, Ektar100 and all black + white film stocks may only be scanned on Noritsu. All black + white scans arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 | **Film size** | **Color large scan** | **B+W large scan** |
 | :---			| :---:					| :---:				  |
@@ -30,7 +30,7 @@ Portra160, Ektar100 and all black + white film stocks may only be scanned on Nor
 {: .tablelines}
 
 ## Develop + scan + print
-You'll get top-notch film developing, beautiful scans delivered via <a href="http://box.com" target="_blank">Box</a> and true, photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme Paper.
+You'll get top-notch film developing, beautiful scans delivered via <a href="http://box.com" target="_blank">Box</a> and true, photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme (Lustre) Paper.
 
 | **135 / 120** | **Add to develop + scan** |
 | :---			| :---:	|
@@ -45,7 +45,7 @@ You'll get top-notch film developing, beautiful scans delivered via <a href="htt
 {: .tablelines}
 
 ## Develop only
-Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned home to you cut or uncut.
+Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned to you cut or uncut.
 
 | **Film size** | **Color** | **Black + White** |
 | :--- | :---: | :---: |
@@ -61,7 +61,7 @@ Sometimes you only need the bare essentials. When that's the case, your film wil
 _*Additional per roll_  
 
 ## Scan cut negatives
-Need previously processed + cut film scanned? Not a problem!
+Need previously processed + cut film scanned? Not a problem.
 
 | **Minimum charge** | **Per frame** |
 | :--- | :---: |
