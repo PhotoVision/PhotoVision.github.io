@@ -48,11 +48,11 @@ We take quality very seriously. That's why 5 different Team Members examine ever
 
 <div class="panel" markdown="1">
 > ## We get it—film can be tricky
-That's why we're here to help! We've been there, behind the camera and in the darkroom. In fact, our team combined has *388 years* of film lab experience.
+That's why we're here to help. We've been there, behind the camera and in the darkroom. In fact, our team combined has *388 years* of film lab experience.
 {:.left-column }
 
 > ## Communication is our jam!
-Have a question? Miss your vision? Don’t know how to use a meter? Call us. We've been in your shoes and we're excited to help!
+Have a question? Miss your vision? Don’t know how to use a meter? Call us. We've been in your shoes and we're excited to help.
 {:.left-column }
 
 > ## Customer care is our specialty
