@@ -13,7 +13,7 @@ $(function() {
 
     // Configure the credentials provider to use your identity pool
     AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-        IdentityPoolId: IdentityPoolId,
+        IdentityPoolId: IdentityPoolId, // This trailing comma was in the AWS instructions. Leaving it, even though it may not be necessary.
     });
 
     // Make the call to obtain credentials
@@ -59,15 +59,15 @@ $(function() {
         $('.notifications').empty();
         $('.notifications').append('<p class="required_notification">We\'re sorry. This appears to be an invalid email address.</p>');
         $(this).focus();
-      } else if($(this).val()){
+      } else if ($(this).val()) {
         $('.notifications').empty();
         $('.submit').prop('disabled', false);
       }
     });
 
     function validFileType(file) {
-      for(var i = 0; i < fileTypes.length; i++) {
-        if(file.type === fileTypes[i]) {
+      for (var i = 0; i < fileTypes.length; i++) {
+        if (file.type === fileTypes[i]) {
           return true;
         }
       }
@@ -75,11 +75,11 @@ $(function() {
     }
 
     function returnFileSize(number) {
-      if(number < 1024) {
+      if (number < 1024) {
         return number + 'bytes';
-      } else if(number > 1024 && number < 1048576) {
+      } else if (number > 1024 && number < 1048576) {
         return (number/1024).toFixed(1) + 'KB';
-      } else if(number > 1048576) {
+      } else if (number > 1048576) {
         return (number/1048576).toFixed(1) + 'MB';
       }
     }    
@@ -88,7 +88,8 @@ $(function() {
     function getFormData() {
       var form = document.getElementById("gform");
       var elements = form.elements; // all form elements
-      console.log(elements);
+      // un-uncomment below when needed for debugging
+      // console.log(elements);
       var fields = Object.keys(elements).map(function(k) {
         if (elements[k].name !== undefined && elements[k].name !== 'gotcha' && elements[k].name !== 'image-uploader') {
           return elements[k].name;
@@ -127,23 +128,27 @@ $(function() {
       data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
       data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
       
-      console.log(data);
+      // un-uncomment below when needed for debugging
+      // console.log(data);
       return data;
     }
 
     function sendEmail() {
       if (gotcha == '') {        
-        console.log('Welcome, human!');
+        // un-uncomment below when needed for debugging
+        // console.log('Welcome, human!');
         var data = getFormData();        
-        console.log(data);
+        // un-uncomment below when needed for debugging
+        // console.log(data);
         var url = 'https://script.google.com/a/photovisionprints.com/macros/s/AKfycbyS3jf9yXCXR9TXNrpdlaz1kqONyYPXEhgYN4UTDR0Yn1cLRpT9/exec';
         var xhr = new XMLHttpRequest();
         xhr.open('POST', url);
         // xhr.withCredentials = true;
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.onreadystatechange = function() {
-          console.log( xhr.status, xhr.statusText );
-          console.log(xhr.responseText);
+          // un-uncomment below when needed for debugging
+          // console.log( xhr.status, xhr.statusText );
+          // console.log(xhr.responseText);
           $('html,body').css('cursor','default');
           window.location.replace("/preferences-thanks");
           return;
@@ -151,18 +156,19 @@ $(function() {
         // url encode form data for sending as post data
         var encoded = Object.keys(data).map(function(k) {
           return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
-        }).join('&')
+        }).join('&');
         xhr.send(encoded);
       } else {
         $('html,body').css('cursor','default');
-        console.log('Robot detected!');
+        // un-uncomment below when needed for debugging
+        // console.log('Robot detected!');
         return false;
       }
     }
     
     function checkIfUploadsDone() {
-        if(imageList.length + errorList.length != fileListCount) {
-            window.setTimeout(checkIfUploadsDone, 250); /* this checks if upload attempts are done every 250 milliseconds*/
+        if (imageList.length + errorList.length != fileListCount) {
+            window.setTimeout(checkIfUploadsDone, 250); // this checks if upload attempts are done every 250 milliseconds
         } else {
             if (errorList.length === 0) {
                 $('#images').val(imageList.sort().join('; <br />'));
@@ -188,7 +194,7 @@ $(function() {
 
       if (fileListCount > 0) {          
         $('.notifications').append('<p class="required_notification uploading">Hang on...Uploading image(s) first… Please don\'t refresh or leave this page.</p>');
-        for(var i = 0; i < fileListCount; i++) {
+        for (var i = 0; i < fileListCount; i++) {
           addPhoto(files[i], i + 1);
         }
       }
@@ -200,19 +206,19 @@ $(function() {
       $('.image-preview').empty();
       var files = this.files;
 
-      if(files.length === 0){
+      if (files.length === 0) {
         $('.image-preview').append('<p class="required_notification">No files currently selected for upload</p>');
-      } else if(files.length > 5) {
+      } else if (files.length > 5) {
         $('.image-preview').append('<p class="required_notification">Please limit your selection to 5 (five) images or less</p>');
       } else {
         var list = document.createElement('ul');
         $('.image-preview').append(list);
-        for(var i = 0; i < files.length; i++) {
+        for (var i = 0; i < files.length; i++) {
           var listItem = document.createElement('li');
           var para = document.createElement('p');
           para.setAttribute("class", "required_notification");
-          if(validFileType(files[i])) {
-            if(files[i].size > 2621440) {
+          if (validFileType(files[i])) {
+            if (files[i].size > 2621440) {
               para.textContent = files[i].name + ' is too large. Please restrict your selection to files under 2.5MB.';
               $('.image-preview').append(para);
             } else {
