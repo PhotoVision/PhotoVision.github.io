@@ -163,6 +163,9 @@ img {
 .contact-page {
   width: 80%;
   margin: 0 auto 0 auto;
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+  }
   h3 {
     margin-top: 40px;
   }
@@ -196,7 +199,7 @@ img {
     width: 35%;
     margin-bottom: 40px;
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 40%;
     margin-bottom: 40px;
   }
@@ -220,7 +223,7 @@ img {
 
 .top-nav-links { 
   width: 60%;
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 90%;
   }
   @media screen and (max-width: 800px) {
@@ -281,7 +284,7 @@ img {
     @media screen and (max-width: 1400px) {
       width: 75%;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       width: 90%;
     }
     &:before {
@@ -370,7 +373,7 @@ img {
   :hover {
     cursor: pointer;
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     font-size: 1.2em;
     padding: 2% 5%;
   }
@@ -389,7 +392,7 @@ img {
       &:before {
         opacity: 0;
       }
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 1200px) {
         background-size: 50%;
       }
       @media screen and (max-width: 800px) {
@@ -407,7 +410,7 @@ img {
       &:before {
         opacity: 0;
       }
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 1200px) {
         background-size: 50%;
       }
       @media screen and (max-width: 800px) {
@@ -911,7 +914,13 @@ article {
     padding: 0% 10%;
   }
   .pagination {
-    width: 50%;
+    width: 30%;
+    @media screen and (max-width: 1200px) {
+      width: 55%;
+    }
+    @media screen and (max-width: 800px) {
+      width: 70%;
+    }
     .previous:before {
       font-size: .8em;      
       vertical-align: middle;
@@ -928,10 +937,7 @@ article {
 .post {
   width: 50%;
   margin: 0 auto 0 auto;
-  @include mobile {
-    width: 100%;
-  }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 75%;
   }
   @media screen and (max-width: 800px) {
@@ -965,13 +971,13 @@ article {
 .post-nav-table {
   width: 75%;
   margin: 0 auto 0 auto;
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 100%;
   }
   .left {
     margin: 0 1% 0 1%;
     width: 31%;
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin: 0 .5% 0 .5%;
       width: 32%;
     }
@@ -1011,7 +1017,7 @@ article {
       font-size: 1em;
       margin-top: -25%;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin-top: -25%;
     }
     @media screen and (max-width: 650px) {
@@ -1034,7 +1040,7 @@ article {
     &:active {
       background-color: gray;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin: 0 8% 3% 8%;
     }
     @media screen and (max-width: 800px) {
