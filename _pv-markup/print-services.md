@@ -5,7 +5,9 @@ permalink: print-services.html
 
 # Timeless prints 
 
-#### Since 1968, we've respected the art of the print. Our true, wet process prints pay homage to the time-honored photographic tradition of chromogenic prints. OR Our true, wet process prints pay homage to the time-honored photographic tradition of darkroom printing. We use only the finest Fujicolor Crystal Archive papers. Available in Supreme (Lustre) and Pearl (Metallic), these aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade and long-term storage. 
+#### Since 1968, we've respected the art of the print. Our true, wet process prints pay homage to the time-honored photographic tradition of darkroom printing. We use only the finest Fujicolor Crystal Archive papers, available in Supreme (Lustre) and Pearl (Metallic). These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent resistance to light fade and long-term storage.  
+
+#### You love your scans—why trust another lab with your prints?
 
 
 ## Standard prints
