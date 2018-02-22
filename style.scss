@@ -252,7 +252,7 @@ img {
       }
       .panel {
         text-align: left;
-        position: fixed;
+        position: absolute;
         z-index: 3;
         max-height: 0;
         transition: max-height 0.2s ease-out;
@@ -311,7 +311,7 @@ img {
 
 .fuji-fresh-container, .film-services-container, 
 .print-services-container, .philosophy-container {
-  background-color: $lightGray;
+  background-color: white;
   margin-bottom: -6px;
   :hover {
     cursor: pointer;
@@ -319,6 +319,12 @@ img {
   img {
     object-fit: cover;
   }
+}
+
+.film-services-container, 
+.print-services-container {
+  float: left;
+  width: 50%;
 }
 
 .reference-sheets-container {
@@ -331,6 +337,9 @@ img {
   img {
     object-fit: cover;
   }
+  h1 {
+    margin-bottom: 0px;
+  }
 }
 
 .education-container {
@@ -341,6 +350,9 @@ img {
   }
   img {
     object-fit: cover;
+  }
+  h1 {
+    margin-bottom: 10px;
   }
 }
 
@@ -558,18 +570,16 @@ article {
       }
     }
     .closed:after {
-      font-family: Webdings;
       font-size: .5em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' 6';
+      content: ' \23F7';
     }
     .opened:after {
-      font-family: Webdings;
       font-size: .5em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' 5';
+      content: ' \23F6';
     }
     .panel {
         max-height: 0;
@@ -840,9 +850,9 @@ article {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
+// .wrapper-masthead {
+//   margin-bottom: 50px;
+// }
 
 .masthead {
   padding: 6px 10px;
@@ -903,12 +913,10 @@ article {
   .pagination {
     width: 50%;
     .previous:before {
-      font-family: Webdings;
-      content: "3 ";
+      content: "\23F4 ";
     }
     .next:after {
-      font-family: Webdings;
-      content: " 4";
+      content: " \23F5";
     }
   }
 }
@@ -1038,6 +1046,37 @@ article {
 footer {
   text-align: center;
   overflow: hidden;
+  padding-bottom: 20px;
+}
+
+h1 {
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+}
+
+h2 {
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+  }
+}
+
+h3 {
+  @media screen and (max-width: 800px) {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+  }
+}
+
+body, a {
+  @media screen and (max-width: 800px) {
+    font-size: 14px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
