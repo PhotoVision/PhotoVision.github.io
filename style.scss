@@ -570,16 +570,16 @@ article {
       }
     }
     .closed:after {
-      font-size: .5em;
+      font-size: .4em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' \23F7';
+      content: '  \25BC';
     }
     .opened:after {
-      font-size: .5em;
+      font-size: .4em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' \23F6';
+      content: '  \25B2';
     }
     .panel {
         max-height: 0;
@@ -913,10 +913,14 @@ article {
   .pagination {
     width: 50%;
     .previous:before {
-      content: "\23F4 ";
+      font-size: .8em;      
+      vertical-align: middle;
+      content: "\25C0  ";
     }
     .next:after {
-      content: " \23F5";
+      font-size: .8em;
+      vertical-align: middle;
+      content: "  \25B6";
     }
   }
 }
