@@ -92,7 +92,8 @@ title: 'Order #FUJIfresh'
     function getFormData() {
       var form = document.getElementById("gform");
       var elements = form.elements; // all form elements
-      console.log(elements);
+      // un-uncomment below when needed for debugging
+      // console.log(elements);
       var fields = Object.keys(elements).map(function(k) {
         if (elements[k].name !== undefined && elements[k].name !== 'gotcha') {
           return elements[k].name;
@@ -131,13 +132,15 @@ title: 'Order #FUJIfresh'
       data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
       data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
 
-      console.log(data);
+      // un-uncomment below when needed for debugging
+      // console.log(data);
       return data;
     }
 
     function sendEmail() {
       if (gotcha == '') {        
-        console.log('Welcome, human!');
+        // un-uncomment below when needed for debugging
+        // console.log('Welcome, human!');
         var data = getFormData();
         var url = 'https://script.google.com/a/photovisionprints.com/macros/s/AKfycbxCUq2yP5iforZTvXibnIpqq2hlFP0MLlUUt2byD61_wSZglZoT/exec';
         var xhr = new XMLHttpRequest();
@@ -145,8 +148,9 @@ title: 'Order #FUJIfresh'
         // xhr.withCredentials = true;
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.onreadystatechange = function() {
-          console.log( xhr.status, xhr.statusText )
-          console.log(xhr.responseText);
+          // un-uncomment below when needed for debugging
+          // console.log( xhr.status, xhr.statusText )
+          // console.log(xhr.responseText);
           $('html,body').css('cursor','default');
           window.location.replace("/order-film-thanks");
           return;
@@ -158,7 +162,8 @@ title: 'Order #FUJIfresh'
         xhr.send(encoded);
       } else {
         $('html,body').css('cursor','default');
-        console.log('Robot detected!');
+        // un-uncomment below when needed for debugging
+        // console.log('Robot detected!');
         return false;
       }
     }
