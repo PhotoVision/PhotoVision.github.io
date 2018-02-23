@@ -1,0 +1,222 @@
+---
+layout: default
+title: 'Order #FUJIfresh'
+---
+
+<form id="gform" class="contact_form">
+  <input id="gotcha" type="text" name="gotcha" style="display:none">
+  <h1>Order #FUJIfresh</h1>  
+  <ul>
+    <li>
+      <h2>Price per Pro Pack<strong>*</strong></h2>
+    </li>
+    <li>
+      {% include film-pricing.html %}
+    </li>
+    <li>
+      <span><em>*Each Pro Pack contains 5 rolls</em></span>
+    </li>
+    <li>
+      <h2>My order<span class="required_notification">*</span></h2>
+    </li>
+    <li>
+      {% include film-order-qtys.html %}
+    </li>
+    <div class="notifications"></div>
+    <li>
+      <label for="name">Name<span class="required_notification">*</span></label>
+      <input id="name" type="text" name="name"/>
+    </li>
+    <li>
+      <label for="email">Email<span class="required_notification">*</span></label>
+      <input id="email" type="email" name="email"/>
+    </li>
+    <li>
+      <label for="phone">Phone<span class="required_notification">*</span></label>
+      <input id="phone" type="text" name="phone"/>
+    </li>
+    <li>
+      <strong>Ship to:</strong>
+    </li>
+    <li>
+      <label for="address1">Address<span class="required_notification">*</span></label>
+      <input id="address1" type="text" name="address1"/>
+    </li>
+    <li>
+      <input id="address2" type="text" name="address2"/>
+    </li>
+    <li>
+      <div class="half">
+        <input id="city" type="text" name="city"/>
+        <label for="city">City<span class="required_notification">*</span></label>
+      </div>
+      <div class="quarter">
+        <input id="state" type="text" name="state"/>
+        <label for="state">State/Province<span class="required_notification">*</span></label>
+      </div>
+      <div class="quarter">
+        <input id="zip" type="text" name="zip"/>
+        <label for="zip">Zip/Postal<span class="required_notification">*</span></label>
+      </div>
+    </li>
+    <li>
+      {% include countries-list.html %}
+      <label for="country">Country<span class="required_notification">*</span></label>
+    </li>
+    <li>
+      <h2>Payment method<span class="required_notification">*</span></h2>
+    </li>
+    <li>
+      {% include payment-method.html %}
+    </li>
+    <li>
+      <button class="submit center" disabled type="submit">Place Order</button>
+    </li>
+  </ul>
+</form>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    var gotcha = $('#gotcha').val();
+    
+    var cost120 = 0;
+    var cost135 = 0;
+
+    function validEmail(email) {
+      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+      return re.test(email);
+    }
+    
+    // get all data in form and return object
+    function getFormData() {
+      var form = document.getElementById("gform");
+      var elements = form.elements; // all form elements
+      // un-uncomment below when needed for debugging
+      // console.log(elements);
+      var fields = Object.keys(elements).map(function(k) {
+        if (elements[k].name !== undefined && elements[k].name !== 'gotcha') {
+          return elements[k].name;
+        // special case for Edge's html collection
+        } else if (elements[k].length > 0) {
+          return elements[k].item(0).name;
+        }
+      }).filter(function(item, pos, self) {
+        return self.indexOf(item) == pos && item;
+      });
+      var data = {};
+      fields.forEach(function(k) {
+        data[k] = elements[k].value;
+        var str = ""; // declare empty string outside of loop to allow
+                      // it to be appended to for each item in the loop
+        if (elements[k].type === "checkbox") { // special case for Edge's html collection
+          str = str + elements[k].checked + ", "; // take the string and append 
+                                                  // the current checked value to 
+                                                  // the end of it, along with 
+                                                  // a comma and a space
+          data[k] = str.slice(0, -2); // remove the last comma and space 
+                                      // from the  string to make the output 
+                                      // prettier in the spreadsheet
+        } else if (elements[k].length) {
+          for (var i = 0; i < elements[k].length; i++) {
+            if (elements[k].item(i).checked) {
+              str = str + elements[k].item(i).value + ", "; // same as above
+              data[k] = str.slice(0, -2);
+            }
+          }
+        }
+      });
+
+      // add form-specific values into the data
+      data.formDataNameOrder = JSON.stringify(fields);
+      data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
+      data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+
+      // un-uncomment below when needed for debugging
+      // console.log(data);
+      return data;
+    }
+
+    function sendEmail() {
+      if (gotcha == '') {        
+        // un-uncomment below when needed for debugging
+        // console.log('Welcome, human!');
+        var data = getFormData();
+        var url = 'https://script.google.com/a/photovisionprints.com/macros/s/AKfycbxCUq2yP5iforZTvXibnIpqq2hlFP0MLlUUt2byD61_wSZglZoT/exec';
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', url);
+        // xhr.withCredentials = true;
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+          // un-uncomment below when needed for debugging
+          // console.log( xhr.status, xhr.statusText )
+          // console.log(xhr.responseText);
+          $('html,body').css('cursor','default');
+          window.location.replace("/order-film-thanks");
+          return;
+        };
+        // url encode form data for sending as post data
+        var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+        }).join('&')
+        xhr.send(encoded);
+      } else {
+        $('html,body').css('cursor','default');
+        // un-uncomment below when needed for debugging
+        // console.log('Robot detected!');
+        return false;
+      }
+    }
+
+    $('#qty-120').on('keyup input change mousewheel', function() {
+      var qty = $(this).val();
+      if (qty < 10) {
+        cost120 = qty * 34;
+      } else if (qty > 9 && qty < 20) {
+        cost120 = qty * 32.5;
+      } else if (qty > 19) {
+        cost120 = qty * 31;
+      }
+      $('#cost-120').val('$' + cost120.toFixed(2));
+      $('#cost-total').val('$' + (cost120 + cost135).toFixed(2));
+    });
+
+    $('#qty-135').on('keyup input change mousewheel', function() {
+      var qty = $(this).val();
+      if (qty < 10) {
+        cost135 = qty * 35;
+      } else if (qty > 9 && qty < 20) {
+        cost135 = qty * 33.5;
+      } else if (qty > 19) {
+        cost135 = qty * 32;
+      }
+      $('#cost-135').val('$' + cost135.toFixed(2));
+      $('#cost-total').val('$' + (cost120 + cost135).toFixed(2));
+    });
+
+    $('.contact_form').change(function() {
+      if (((($('#qty-120').val()) && ($('#qty-120').val() !== "0")) || (($('#qty-135').val()) && ($('#qty-135').val() !== "0"))) && ($('#name').val()) && ($('#email').val()) && validEmail($('#email').val()) && ($('#phone').val()) && ($('#address1').val()) && ($('#city').val()) && ($('#state').val()) && ($('#zip').val()) && ($('#country').val() !== "0") && ($('input[name=payment-method]:checked').length > 0)) {
+        $('.submit').prop('disabled', false);
+        $('.notifications').empty();
+        $('.submit').focus();
+        return;
+      } else if (($('#email').val()) && !validEmail($('#email').val())) {
+        $('.submit').prop('disabled', true);
+        $('.notifications').empty();
+        $('.notifications').append('<p class="required_notification">We\'re sorry. This appears to be an invalid email address.</p>');
+        $('#email').focus();
+        return;
+      } else {
+        $('.notifications').empty();
+        $('.submit').prop('disabled', true);
+        return;
+      }
+    });
+
+    $('.submit').click(function(e) {
+      e.preventDefault();      
+      $('html,body').css('cursor','wait');
+      sendEmail();      
+    });
+  });
+</script>

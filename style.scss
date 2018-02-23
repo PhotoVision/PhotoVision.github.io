@@ -455,6 +455,23 @@ img {
   vertical-align: middle;
 }
 
+.tablelines {
+  th {
+    border-bottom: 2px solid $pvBlack;
+    padding: .3em 1em .3em 1em;
+  }
+  td {
+    border-bottom: 1px solid $pvBlack;
+    padding: .3em 1em .3em 1em;
+  }
+  .center-data {
+    text-align: center;
+  }
+  tr:last-child td {
+    border: none;
+  }
+}
+
 article {
   padding: 2% 10%;
   h1 {
@@ -742,6 +759,10 @@ article {
       width: 100%;
       padding: 12px 0px;
       position: relative;
+      div.eighth {
+        display: inline-block;
+        width: 12%;
+      }
       div.half {
         display: inline-block;
         width: 49.4%;
@@ -763,6 +784,19 @@ article {
       font-style: italic;  
       color: grey;
     }
+  }
+  input[type=radio] {
+    height: 2em;
+  }
+  .cost {
+    background-color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .total {
+    font-weight: 600;
+    font-size: 1.2em;
   }
   .image-preview {
     ul li {
