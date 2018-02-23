@@ -163,6 +163,9 @@ img {
 .contact-page {
   width: 80%;
   margin: 0 auto 0 auto;
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+  }
   h3 {
     margin-top: 40px;
   }
@@ -196,7 +199,7 @@ img {
     width: 35%;
     margin-bottom: 40px;
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 40%;
     margin-bottom: 40px;
   }
@@ -220,7 +223,7 @@ img {
 
 .top-nav-links { 
   width: 60%;
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 90%;
   }
   @media screen and (max-width: 800px) {
@@ -252,7 +255,7 @@ img {
       }
       .panel {
         text-align: left;
-        position: fixed;
+        position: absolute;
         z-index: 3;
         max-height: 0;
         transition: max-height 0.2s ease-out;
@@ -281,7 +284,7 @@ img {
     @media screen and (max-width: 1400px) {
       width: 75%;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       width: 90%;
     }
     &:before {
@@ -311,7 +314,7 @@ img {
 
 .fuji-fresh-container, .film-services-container, 
 .print-services-container, .philosophy-container {
-  background-color: $lightGray;
+  background-color: white;
   margin-bottom: -6px;
   :hover {
     cursor: pointer;
@@ -319,6 +322,12 @@ img {
   img {
     object-fit: cover;
   }
+}
+
+.film-services-container, 
+.print-services-container {
+  float: left;
+  width: 50%;
 }
 
 .reference-sheets-container {
@@ -331,6 +340,9 @@ img {
   img {
     object-fit: cover;
   }
+  h1 {
+    margin-bottom: 0px;
+  }
 }
 
 .education-container {
@@ -341,6 +353,9 @@ img {
   }
   img {
     object-fit: cover;
+  }
+  h1 {
+    margin-bottom: 10px;
   }
 }
 
@@ -358,7 +373,7 @@ img {
   :hover {
     cursor: pointer;
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     font-size: 1.2em;
     padding: 2% 5%;
   }
@@ -377,7 +392,7 @@ img {
       &:before {
         opacity: 0;
       }
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 1200px) {
         background-size: 50%;
       }
       @media screen and (max-width: 800px) {
@@ -395,7 +410,7 @@ img {
       &:before {
         opacity: 0;
       }
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 1200px) {
         background-size: 50%;
       }
       @media screen and (max-width: 800px) {
@@ -575,18 +590,16 @@ article {
       }
     }
     .closed:after {
-      font-family: Webdings;
-      font-size: .5em;
+      font-size: .4em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' 6';
+      content: '  \25BC';
     }
     .opened:after {
-      font-family: Webdings;
-      font-size: .5em;
+      font-size: .4em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' 5';
+      content: '  \25B2';
     }
     .panel {
         max-height: 0;
@@ -874,9 +887,9 @@ article {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
+// .wrapper-masthead {
+//   margin-bottom: 50px;
+// }
 
 .masthead {
   padding: 6px 10px;
@@ -935,14 +948,22 @@ article {
     padding: 0% 10%;
   }
   .pagination {
-    width: 50%;
+    width: 30%;
+    @media screen and (max-width: 1200px) {
+      width: 55%;
+    }
+    @media screen and (max-width: 800px) {
+      width: 70%;
+    }
     .previous:before {
-      font-family: Webdings;
-      content: "3 ";
+      font-size: .8em;      
+      vertical-align: middle;
+      content: "\25C0  ";
     }
     .next:after {
-      font-family: Webdings;
-      content: " 4";
+      font-size: .8em;
+      vertical-align: middle;
+      content: "  \25B6";
     }
   }
 }
@@ -950,10 +971,7 @@ article {
 .post {
   width: 50%;
   margin: 0 auto 0 auto;
-  @include mobile {
-    width: 100%;
-  }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 75%;
   }
   @media screen and (max-width: 800px) {
@@ -987,13 +1005,13 @@ article {
 .post-nav-table {
   width: 75%;
   margin: 0 auto 0 auto;
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 100%;
   }
   .left {
     margin: 0 1% 0 1%;
     width: 31%;
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin: 0 .5% 0 .5%;
       width: 32%;
     }
@@ -1033,7 +1051,7 @@ article {
       font-size: 1em;
       margin-top: -25%;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin-top: -25%;
     }
     @media screen and (max-width: 650px) {
@@ -1056,7 +1074,7 @@ article {
     &:active {
       background-color: gray;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin: 0 8% 3% 8%;
     }
     @media screen and (max-width: 800px) {
@@ -1072,6 +1090,37 @@ article {
 footer {
   text-align: center;
   overflow: hidden;
+  padding-bottom: 20px;
+}
+
+h1 {
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+  }
+}
+
+h2 {
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+  }
+}
+
+h3 {
+  @media screen and (max-width: 800px) {
+    font-size: 18px;
+  }
+}
+
+h4 {
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+  }
+}
+
+body, a {
+  @media screen and (max-width: 800px) {
+    font-size: 14px;
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

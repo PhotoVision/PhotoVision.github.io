@@ -26,7 +26,7 @@ Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo
 **Salem OR 97301**  
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Our procedures</h1>
+<h1 class="accordion closed" title="Click to expand section">The Experience</h1>
 
 <div class="panel" markdown="1">
 
@@ -36,7 +36,7 @@ You’ll receive an email when we receive your order. This email includes your o
 ## What are your turnaround times?
 You can find our current film service time + print service time [here]({{ site.baseurl}}/service-times).
 
-## Do You Offer Rush Processing?
+## Do you offer rush processing?
 Yes, high-quality scans and speedy turnarounds are our jam! We are pleased to offer rush processing when our service times exceed a photographer's urgent time frame. See our [Rush Policy]({{ site.baseurl}}/rush-policy) for details.
 
 ## Will my scans be rotated and numbered?
@@ -65,17 +65,6 @@ We will hold your negatives based on the Ship Back preference marked on your <a 
 {: .tablelines}
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Order-specific needs</h1>
-
-<div class="panel" markdown="1">
-
-## What if a specific order needs to look different than my standard vision?
-Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a different set of specific preferences for any given order. Submit them [here]({{site.baseurl}}/preferences), and use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
-
-## What if there are specific colors I’m looking for in my order?
-It can be difficult for our scan techs to determine exact colors of man made products, such as invitations, fabric, paint, or other decor. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match. Use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
-</div>
-
 <h1 id="preferences-heading" class="accordion closed" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
@@ -102,6 +91,17 @@ When it comes to **skin tones**, let your **preference images** speak to the ton
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
 </div>
 
+<h1 class="accordion closed" title="Click to expand section">Individual order preferences</h1>
+
+<div class="panel" markdown="1">
+
+## What if a specific order needs to look different than my standard vision?
+Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a different set of specific preferences for any given order. Submit them [here]({{site.baseurl}}/preferences), and use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
+
+## What if there are specific colors I’m looking for in my order?
+It can be difficult for our scan techs to determine exact colors of certain objects, such as invitations, fabric, paint or other decor. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match. Use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
+</div>
+
 <h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
 
 <div class="panel" markdown="1">
@@ -112,13 +112,29 @@ New customer? First, [create an account]({{ site.baseurl }}/create-account). The
 ## How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
 
+### Fuji Frontier SP3000
+
 | **Film Size** | **Format** | **Normal Scan** | **Large Scan** |
 | :--- | :---: | :---: | :---: |
-| **135** | 4x6 | 2400x3600 | 3600x5400 |
-| **120 / 220** | 6x4.5 | 2700x3600 | 3600x4800 |
-| **120 / 220** | 6x6 | 2700x2700 | 3600x3600 |
-| **120 / 220** | 6x7 | 2700x3150 | 3600x4200 |
-| **120 / 220** | 6x8 | 2700x3600 | 3600x4800 |
+| **135** | 4×6 | 2400×3600 | 3600×5400 |
+| **120 / 220** | 6×4.5 | 2700×3600 | 3600×4800 |
+| **120 / 220** | 6×6 | 2700×2700 | 3600×3600 |
+| **120 / 220** | 6×7 | 2700×3150 | 3600×4200 |
+| **120 / 220** | 6×8 | 2700×3600 | 3600×4800 |
+| **120 / 220** | 6×9 | 2700×4000 | 3600×5400 |
+{: .tablelines}
+*All scan resolutions are approximate. Slight variations are normal.*
+
+### Noritsu S-1800
+
+| **Film Size** | **Format** | **Large Scan** |
+| :--- | :---: | :---: |
+| **135** | 4×6 | 4400×6700 |
+| **120 / 220** | 6×4.5 | 4800×3500 |
+| **120 / 220** | 6×6 | 4800×4700 |
+| **120 / 220** | 6×7 | 4800×5900 |
+| **120 / 220** | 6×8 | 4900×6600 |
+| **120 / 220** | 6×9 | 4900×7100 |
 {: .tablelines}
 *All scan resolutions are approximate. Slight variations are normal.*
 
@@ -150,7 +166,7 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s <a href="http://box.com" target="_blank">Box</a> folder.
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Connect with us!</h1>
+<h1 class="accordion closed" title="Click to expand section">Connect with us</h1>
 
 <div class="panel" markdown="1">
 
