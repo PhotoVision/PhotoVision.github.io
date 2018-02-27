@@ -5,7 +5,7 @@ permalink: print-services.html
 
 # Timeless prints 
 
-#### Since 1968, we've respected the art of the print. Our true, wet process prints pay homage to the time-honored photographic tradition of darkroom printing. We use only the finest Fujicolor Crystal Archive papers, available in Supreme (Lustre) and Pearl (Metallic). These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe, with beautiful color reproduction, brilliant whites and excellent long-term storage with resistance to light fade.  
+#### Since 1968, we've respected the art of the print. Our true, wet photographic process pays homage traditional darkroom printing. We use only the finest Fujicolor Crystal Archive paper. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites and excellent long-term storage, with resistance to light fade, our prints stand the test of time.  
 
 #### You love your scans—why trust another lab with your prints?
 
@@ -43,7 +43,7 @@ permalink: print-services.html
 {: .tablelines}  
 
 ## Large format prints 
-The Polielettronica Laser Lab HR3D prints at a higher resolution (1200 ppi) than paper can hold, pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
+The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can hold (1200 ppi), pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
 
 | **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
 | :---------------------- | :---------------------------: | :-----------------------------------: |
@@ -59,7 +59,7 @@ The Polielettronica Laser Lab HR3D prints at a higher resolution (1200 ppi) than
 {: .tablelines}  
 
 ## Proof prints
-The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper, simply priced. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services).
+The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services).
 
 | **Size** | **135 / 120** | **220** |
 | :---			| :---:	| :---:	|
