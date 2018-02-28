@@ -9,19 +9,18 @@ We currently process C-41 color negative and Black + White negative film in most
 
 
 ## Develop + scan
-We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will assume you want Frontier scans. **However, keep in mind, _all Portra160, Ektar100 and black + white film stocks are scanned exclusively on the Noritsu_.**
+We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will assume you want Frontier scans. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 ### Fuji Frontier SP3000  
 
-| **Film size** | **Color normal scan** | **Color large scan** |
-| :---			| :---:					| :---:				 |
-| **135**		| $18.00				| $22.00			  | 
-| **120**		| $18.00				| $22.00			  | 
-| **220**		| $36.00				| $44.00			  | 
+| **Film size** | **Color normal scan** | **Color large scan** | **B+W normal scan** | **B+W large scan** |
+| :---			| :---:					| :---:				 | :---: | :---: |
+| **135**		| $18.00				| $22.00			  | $14.00 | $17.00 |
+| **120**		| $18.00				| $22.00			  | $14.00 | $17.00 |
+| **220**		| $36.00				| $44.00			  | $28.00 | $34.00 |
 {: .tablelines}
 
 ### Noritsu S-1800  
-All Portra160, Ektar100 and black + white film stocks are scanned exclusively on the Noritsu. All black + white scans arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 | **Film size** | **Color large scan** | **B+W large scan** |
 | :---			| :---:					| :---:				  |
@@ -35,8 +34,8 @@ You'll get top-notch film developing, beautiful scans delivered via <a href="htt
 
 | **Size** | **135 / 120** | **220** |
 | :---			| :---:	| :---:	|
-| **4×4, 4×5, 4×6, 4.5×6**		| $3.50*	| $7.00* |
-| **5×5, 5×7**		| $4.50*	| $9.00* |
+| **4×5, 4×6, 4.5×6**		| $3.50*	| $7.00* |
+| **5×5**		| $4.50*	| $9.00* |
 {: .tablelines }
 _*Add to develop + scan price_
 

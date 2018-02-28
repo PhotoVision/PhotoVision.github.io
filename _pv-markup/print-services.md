@@ -63,14 +63,14 @@ The same outstanding print quality, on the same Fujicolor Crystal Archive Suprem
 
 | **Size** | **135 / 120** | **220** |
 | :---			| :---:	| :---:	|
-| **4×4, 4×5, 4×6, 4.5×6**		| $3.50	| $7.00 |
-| **5×5, 5×7**		| $4.50	| $9.00 |
+| **4×5, 4×6, 4.5×6**		| $3.50	| $7.00 |
+| **5×5**		| $4.50	| $9.00 |
 {: .tablelines }
 
 <div class="clearfix"></div>
 
 ## White borders
-Add a clean + professional look to your prints at no charge. Available for 3.5×5, 4×5, 4×6, 4.5×6, 5×5 and 5×7.
+Add a clean + professional look to your prints at no charge. Available for 3.5×5, 4×4, 4×5, 4×6, 4.5×6, 5×5 and 5×7.
 
 | **Size** | Border width |
 | :--- | --- |
