@@ -9,15 +9,15 @@ When shooting film, your negatives act as your road map to understanding the con
 
 ## Introducing, the Exposure Reference Sheet!  
 
-Exposure Reference Sheets provide a thumbnail of each frame, allowing you to clearly + easily see how you exposed your film. Pretty cool, huh? The images within this Exposure Reference Sheet show a variety of exposures. These exposure shifts can be seen in the levels of density within each frame below:
+Exposure Reference Sheets provide a thumbnail of each frame, allowing you to clearly + easily see how you exposed your film. Pretty cool, huh? The images within this Exposure Reference Sheet show a variety of exposures in 1 stop increments. These exposure shifts can be seen in the levels of density within each frame below:
 
 ![]({{ site.baseurl}}/images/exposure_reference_sheet_photovisionprints.jpg){:.center}
-
-Exposure Reference Sheets tell you what you need to know about your shooting, whether you need to make changes in your exposures or if you’re on the right track. They will help you understand your results—for every single frame—and allow you to see any exposure shifts that may be occurring within your film. 
 
 ## How do I read my Exposure Reference Sheet?  
 
 Frames within your Exposure Reference Sheet that appear dark represent underexposure, while frames that appear light represent overexposure.  
+
+Exposure Reference Sheets tell you what you need to know about your shooting, whether you need to make changes in your exposures or if you’re on the right track. They will help you understand your results—for every single frame—and allow you to see any exposure shifts that may be occurring within your film. 
 
 ## Where do I find them?  
 

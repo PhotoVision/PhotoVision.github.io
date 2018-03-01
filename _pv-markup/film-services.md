@@ -5,11 +5,13 @@ permalink: film-services.html
 
 # Film services
 
-We currently process C-41 color negative and Black + White negative film in most sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service time [here]({{ site.baseurl}}/service-times). All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized.
+We process C-41 color negative and Black + White film in most sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service times [here]({{ site.baseurl}}/service-times). All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized.
 
 
 ## Develop + scan
-We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will assume you want Frontier scans. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
+
+We scan all film on the highly sought-after Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. If you do not specify, we will scan your order on the Frontier. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
+
 
 ### Fuji Frontier SP3000  
 
