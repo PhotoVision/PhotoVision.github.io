@@ -6,3 +6,9 @@ https://script.google.com/a/photovisionprints.com/macros/s/AKfycbwUGtsXIGWnao5bB
 
 Preferences form spreadsheet's script URL:
 https://script.google.com/a/photovisionprints.com/macros/s/AKfycbyS3jf9yXCXR9TXNrpdlaz1kqONyYPXEhgYN4UTDR0Yn1cLRpT9/exec
+
+Film order form spreadsheet's script URL:
+https://script.google.com/a/photovisionprints.com/macros/s/AKfycbxCUq2yP5iforZTvXibnIpqq2hlFP0MLlUUt2byD61_wSZglZoT/exec
+
+Work order form spreadsheet's script URL:
+https://script.google.com/macros/s/AKfycbzUFcmWDsUl07ObgafDMpSyJioK2lStvSOqEZO8W20WkcVLDjw/exec

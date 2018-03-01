@@ -152,8 +152,20 @@ img {
   to {opacity:1 ;}
 }
 
+.quarter {
+  width: 24.5%;
+}
+
+.third {
+  width: 33%;
+}
+
 .half {
-  width: 50%;
+  width: 49.5%;
+}
+
+.three-quarter {
+  width: 75%;
 }
 
 .full {
@@ -455,6 +467,23 @@ img {
   vertical-align: middle;
 }
 
+.tablelines {
+  th {
+    border-bottom: 2px solid $pvBlack;
+    padding: .3em 1em .3em 1em;
+  }
+  td {
+    border-bottom: 1px solid $pvBlack;
+    padding: .3em 1em .3em 1em;
+  }
+  .center-data {
+    text-align: center;
+  }
+  tr:last-child td {
+    border: none;
+  }
+}
+
 article {
   padding: 2% 10%;
   h1 {
@@ -742,6 +771,10 @@ article {
       width: 100%;
       padding: 12px 0px;
       position: relative;
+      div.eighth {
+        display: inline-block;
+        width: 12%;
+      }
       div.half {
         display: inline-block;
         width: 49.4%;
@@ -762,6 +795,33 @@ article {
     &::placeholder {
       font-style: italic;  
       color: grey;
+    }
+  }
+  input[type=radio] {
+    height: 1.5em;
+  }
+  .cost {
+    background-color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .total {
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .order-film-table {
+    width: 100%;
+    td {
+      border: 1px solid $pvHeadingLines;
+      input, select {
+        border: none;
+        // border-radius: 0%;
+        font-size: 1em;
+        .borders {
+          font-size: 1.2em;
+        }
+      }
     }
   }
   .image-preview {
@@ -800,6 +860,35 @@ article {
     @media (pointer: fine) {
       visibility: hidden;
     }
+  }  
+  .radio-row div {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .accordion {
+    transition: 0.4s;
+    cursor: pointer;
+    &:hover {
+      background-color: $pvHeadingLines;
+    }
+  }
+  .closed:after {
+    font-size: .4em;
+    vertical-align: middle;
+    color: $pvGray;
+    content: '  \25BC';
+  }
+  .opened:after {
+    font-size: .4em;
+    vertical-align: middle;
+    color: $pvGray;
+    content: '  \25B2';
+  }
+  .panel {
+      max-height: 0;
+      transition: max-height 0.2s ease-out;
+      overflow: hidden;
   }
   button.submit {
     width: 180px;
@@ -843,6 +932,13 @@ article {
 .svg-icon {
   max-height: 20px;
   max-width: 20px;
+}
+
+.scanner-choice {
+  display: block;
+  div {
+    display: inline-block;
+  }
 }
 
 /*******************************************/
@@ -1047,6 +1143,10 @@ article {
       margin: 0 2% 3% 2%;
     }
   }
+}
+
+textarea {
+  resize: none;
 }
 
 .wrapper-footer {
