@@ -5,7 +5,8 @@ permalink: print-services.html
 
 # Timeless prints 
 
-#### Since 1968, we've respected the art of the print. Our true, wet photographic process pays homage traditional darkroom printing. We use only the finest Fujicolor Crystal Archive paper. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites and excellent long-term storage, with resistance to light fade, our prints stand the test of time.  
+#### Since 1968, we've respected the art of the print. Our true, wet photographic process pays homage to traditional darkroom printing. We use only the finest Fujicolor Crystal Archive papers. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites, excellent long-term storage and superb resistance to light fade, our prints stand the test of time.
+
 
 #### You love your scans—why trust another lab with your prints?
 
@@ -63,14 +64,14 @@ The same outstanding print quality, on the same Fujicolor Crystal Archive Suprem
 
 | **Size** | **135 / 120** | **220** |
 | :---			| :---:	| :---:	|
-| **4×4, 4×5, 4×6, 4.5×6**		| $3.50	| $7.00 |
-| **5×5, 5×7**		| $4.50	| $9.00 |
+| **4×5, 4×6, 4.5×6**		| $3.50	| $7.00 |
+| **5×5**		| $4.50	| $9.00 |
 {: .tablelines }
 
 <div class="clearfix"></div>
 
 ## White borders
-Add a clean + professional look to your prints at no charge. Available for 3.5×5, 4×5, 4×6, 4.5×6, 5×5 and 5×7.
+Add a clean + professional look to your prints at no charge. Available for 3.5×5, 4×4, 4×5, 4×6, 4.5×6, 5×5 and 5×7.
 
 | **Size** | Border width |
 | :--- | --- |

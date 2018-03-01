@@ -1,0 +1,357 @@
+<li>
+    <h2>Shoot name</h2>
+    <input id="shoot-name" type="text" name="shoot-name"/>
+</li>
+<li>
+    <div class="quarter left">
+        <h2>Scanner type</h2>
+    </div>
+    <div class="quarter left">
+        <div class="center">
+            <input type="radio" id="frontier" name="scanner" value="frontier" checked/>
+            <label for="frontier">Frontier</label>
+        </div>
+    </div>
+    <div class="quarter left">
+        <div class="center">
+            <input type="radio" id="noritsu" name="scanner" value="noritsu"/>
+            <label for="noritsu">Noritsu</label>
+        </div>
+    </div>
+    <div class="quarter left">
+        <div class="center">
+            <input type="radio" id="dev-only" name="scanner" value="dev-only"/>
+            <label for="dev-only">Develop only</label>
+        </div>
+    </div>
+</li>
+<li><br /></li>
+<li>
+    <table class="order-film-table">
+        <tr>
+            <th>Qty</th>
+            <th>Process</th>
+            <th>Film size</th>
+            <th>Push / pull</th>
+            <th>Scan size</th>
+            <th>Lustre Proofs</th>
+            <th>Borders</th>
+        </tr>
+        <tr>
+            <td style="width: 100px;">
+                <input class="film-qty" id="film-qty-1" type="number" name="film-qty-1" min="0" data-value=0/>
+            </td>
+            <td>
+                <select class="process-type" name="process-1" id="process-1">
+                    <option value="c-41" selected="selected">C-41</option>
+                    <option value="bw">B+W</option>
+                </select>
+            </td>
+            <td>
+                <select class="film-size" name="film-size-1" id="film-size-1">
+                    <option value="120" selected="selected">120</option>
+                    <option value="135">135</option>
+                    <option value="220">220</option>
+                </select>
+            </td>
+            <td>
+                <select class="push-pull" name="push-pull-1" id="push-pull-1">
+                    <option value="pull-1">-1 (Pull)</option>
+                    <option value="normal" selected="selected">Normal</option>
+                    <option value="push-1">+1 (Push)</option>
+                    <option value="push-2">+2 (Push)</option>
+                </select>
+            </td>
+            <td>
+                <select class="scan-size" name="scan-size-1" id="scan-size-1">
+                    <option value="N" selected="selected">Normal</option>
+                    <option value="L">Large</option>
+                </select>
+            </td>
+            <td>
+                <select class="proofs" name="proofs-1" id="proofs-1" data-value=0>
+                    <option value="none" selected="selected">None</option>
+                    <option value="4×4">4×4</option>
+                    <option value="4×5">4×5</option>
+                    <option value="4.5×6">4.5×6</option>
+                    <option value="4x6">4×6</option>
+                    <option value="5×5">5×5</option>  
+                </select>
+            </td>
+            <td>
+                <select class="borders" name="borders-1" id="borders-1" disabled="true">
+                    <option value="none" selected="selected">None</option>
+                    <option value="¼">¼"</option>
+                    <option value="⅜">⅜"</option>
+                    <option value="½">½"</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px;">
+                <input class="film-qty" id="film-qty-2" type="number" name="film-qty-2" min="0" data-value=1/>
+            </td>
+            <td>
+                <select class="process-type" name="process-2" id="process-2">
+                    <option value="c-41" selected="selected">C-41</option>
+                    <option value="bw">B+W</option>
+                </select>
+            </td>
+            <td>
+                <select class="film-size" name="film-size-2" id="film-size-2">
+                    <option value="120" selected="selected">120</option>
+                    <option value="135">135</option>
+                    <option value="220">220</option>
+                </select>
+            </td>
+            <td>
+                <select class="push-pull" name="push-pull-2" id="push-pull-2">
+                    <option value="pull-1">-1 (Pull)</option>
+                    <option value="normal" selected="selected">Normal</option>
+                    <option value="push-1">+1 (Push)</option>
+                    <option value="push-2">+2 (Push)</option>
+                </select>
+            </td>
+            <td>
+                <select class="scan-size" name="scan-size-2" id="scan-size-2">
+                    <option value="N" selected="selected">Normal</option>
+                    <option value="L">Large</option>
+                </select>
+            </td>
+            <td>
+                <select class="proofs" name="proofs-2" id="proofs-2" data-value=1>
+                    <option value="none" selected="selected">None</option>
+                    <option value="4×4">4×4</option>
+                    <option value="4×5">4×5</option>
+                    <option value="4.5×6">4.5×6</option>
+                    <option value="4x6">4×6</option>
+                    <option value="5×5">5×5</option>  
+                </select>
+            </td>
+            <td>
+                <select class="borders" name="borders-2" id="borders-2" disabled="true">
+                    <option value="none" selected="selected">None</option>
+                    <option value="¼">¼"</option>
+                    <option value="⅜">⅜"</option>
+                    <option value="½">½"</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px;">
+                <input class="film-qty" id="film-qty-3" type="number" name="film-qty-3" min="0" data-value=2/>
+            </td>
+            <td>
+                <select class="process-type" name="process-3" id="process-3">
+                    <option value="c-41" selected="selected">C-41</option>
+                    <option value="bw">B+W</option>
+                </select>
+            </td>
+            <td>
+                <select class="film-size" name="film-size-3" id="film-size-3">
+                    <option value="120" selected="selected">120</option>
+                    <option value="135">135</option>
+                    <option value="220">220</option>
+                </select>
+            </td>
+            <td>
+                <select class="push-pull" name="push-pull-3" id="push-pull-3">
+                    <option value="pull-1">-1 (Pull)</option>
+                    <option value="normal" selected="selected">Normal</option>
+                    <option value="push-1">+1 (Push)</option>
+                    <option value="push-2">+2 (Push)</option>
+                </select>
+            </td>
+            <td>
+                <select class="scan-size" name="scan-size-3" id="scan-size-3">
+                    <option value="N" selected="selected">Normal</option>
+                    <option value="L">Large</option>
+                </select>
+            </td>
+            <td>
+                <select class="proofs" name="proofs-3" id="proofs-3" data-value=2>
+                    <option value="none" selected="selected">None</option>
+                    <option value="4×4">4×4</option>
+                    <option value="4×5">4×5</option>
+                    <option value="4.5×6">4.5×6</option>
+                    <option value="4x6">4×6</option>
+                    <option value="5×5">5×5</option>  
+                </select>
+            </td>
+            <td>
+                <select class="borders" name="borders-3" id="borders-3" disabled="true">
+                    <option value="none" selected="selected">None</option>
+                    <option value="¼">¼"</option>
+                    <option value="⅜">⅜"</option>
+                    <option value="½">½"</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px;">
+                <input class="film-qty" id="film-qty-4" type="number" name="film-qty-4" min="0" data-value=3/>
+            </td>
+            <td>
+                <select class="process-type" name="process-4" id="process-4">
+                    <option value="c-41" selected="selected">C-41</option>
+                    <option value="bw">B+W</option>
+                </select>
+            </td>
+            <td>
+                <select class="film-size" name="film-size-4" id="film-size-4">
+                    <option value="120" selected="selected">120</option>
+                    <option value="135">135</option>
+                    <option value="220">220</option>
+                </select>
+            </td>
+            <td>
+                <select class="push-pull" name="push-pull-4" id="push-pull-4">
+                    <option value="pull-1">-1 (Pull)</option>
+                    <option value="normal" selected="selected">Normal</option>
+                    <option value="push-1">+1 (Push)</option>
+                    <option value="push-2">+2 (Push)</option>
+                </select>
+            </td>
+            <td>
+                <select class="scan-size" name="scan-size-4" id="scan-size-4">
+                    <option value="N" selected="selected">Normal</option>
+                    <option value="L">Large</option>
+                </select>
+            </td>
+            <td>
+                <select class="proofs" name="proofs-4" id="proofs-4" data-value=3>
+                    <option value="none" selected="selected">None</option>
+                    <option value="4×4">4×4</option>
+                    <option value="4×5">4×5</option>
+                    <option value="4.5×6">4.5×6</option>
+                    <option value="4x6">4×6</option>
+                    <option value="5×5">5×5</option>  
+                </select>
+            </td>
+            <td>
+                <select class="borders" name="borders-4" id="borders-4" disabled="true">
+                    <option value="none" selected="selected">None</option>
+                    <option value="¼">¼"</option>
+                    <option value="⅜">⅜"</option>
+                    <option value="½">½"</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px;">
+                <input class="film-qty" id="film-qty-5" type="number" name="film-qty-5" min="0" data-value=4/>
+            </td>
+            <td>
+                <select class="process-type" name="process-5" id="process-5">
+                    <option value="c-41" selected="selected">C-41</option>
+                    <option value="bw">B+W</option>
+                </select>
+            </td>
+            <td>
+                <select class="film-size" name="film-size-5" id="film-size-5">
+                    <option value="120" selected="selected">120</option>
+                    <option value="135">135</option>
+                    <option value="220">220</option>
+                </select>
+            </td>
+            <td>
+                <select class="push-pull" name="push-pull-5" id="push-pull-5">
+                    <option value="pull-1">-1 (Pull)</option>
+                    <option value="normal" selected="selected">Normal</option>
+                    <option value="push-1">+1 (Push)</option>
+                    <option value="push-2">+2 (Push)</option>
+                </select>
+            </td>
+            <td>
+                <select class="scan-size" name="scan-size-5" id="scan-size-5">
+                    <option value="N" selected="selected">Normal</option>
+                    <option value="L">Large</option>
+                </select>
+            </td>
+            <td>
+                <select class="proofs" name="proofs-5" id="proofs-5" data-value=4>
+                    <option value="none" selected="selected">None</option>
+                    <option value="4×4">4×4</option>
+                    <option value="4×5">4×5</option>
+                    <option value="4.5×6">4.5×6</option>
+                    <option value="4x6">4×6</option>
+                    <option value="5×5">5×5</option>  
+                </select>
+            </td>
+            <td>
+                <select class="borders" name="borders-5" id="borders-5" disabled="true">
+                    <option value="none" selected="selected">None</option>
+                    <option value="¼">¼"</option>
+                    <option value="⅜">⅜"</option>
+                    <option value="½">½"</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 100px;">
+                <input class="film-qty" id="film-qty-6" type="number" name="film-qty-6" min="0" data-value=5/>
+            </td>
+            <td>
+                <select class="process-type" name="process-6" id="process-6">
+                    <option value="c-41" selected="selected">C-41</option>
+                    <option value="bw">B+W</option>
+                </select>
+            </td>
+            <td>
+                <select class="film-size" name="film-size-6" id="film-size-6">
+                    <option value="120" selected="selected">120</option>
+                    <option value="135">135</option>
+                    <option value="220">220</option>
+                </select>
+            </td>
+            <td>
+                <select class="push-pull" name="push-pull-6" id="push-pull-6">
+                    <option value="pull-1">-1 (Pull)</option>
+                    <option value="normal" selected="selected">Normal</option>
+                    <option value="push-1">+1 (Push)</option>
+                    <option value="push-2">+2 (Push)</option>
+                </select>
+            </td>
+            <td>
+                <select class="scan-size" name="scan-size-6" id="scan-size-6">
+                    <option value="N" selected="selected">Normal</option>
+                    <option value="L">Large</option>
+                </select>
+            </td>
+            <td>
+                <select class="proofs" name="proofs-6" id="proofs-6" data-value=5>
+                    <option value="none" selected="selected">None</option>
+                    <option value="4×4">4×4</option>
+                    <option value="4×5">4×5</option>
+                    <option value="4.5×6">4.5×6</option>
+                    <option value="4x6">4×6</option>
+                    <option value="5×5">5×5</option>  
+                </select>
+            </td>
+            <td>
+                <select class="borders" name="borders-6" id="borders-6" disabled="true">
+                    <option value="none" selected="selected">None</option>
+                    <option value="¼">¼"</option>
+                    <option value="⅜">⅜"</option>
+                    <option value="½">½"</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+</li>
+<li>
+    <h2>Special instructions</h2>
+    <textarea id="special-instructions" rows="10" cols="97" name="special-instructions" form="gform"></textarea>
+</li>
+<li>
+    <h2 class="accordion closed" title="Click to expand section">Order preference images (.png, .jpg)</h2>
+    <div class="panel">
+        <p>
+            Have a vision for this order that differs from your standard preference images? Are there specific colors in this shoot that 
+            you'd like our scan techs to match? Upload up to 5 example images here, and we'll use them on this order instead of your standard preference images.
+        </p>
+        <input id="image-uploader" name="image-uploader" type="file" multiple accept=".png, .jpg, .jpeg"/>
+        <div class="image-preview"></div>
+    </div>
+</li>
+<li><input id="images" style="display:none" type="text" name="images"/></li>
