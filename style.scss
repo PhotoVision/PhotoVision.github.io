@@ -152,8 +152,20 @@ img {
   to {opacity:1 ;}
 }
 
+.quarter {
+  width: 24.5%;
+}
+
+.third {
+  width: 33%;
+}
+
 .half {
-  width: 50%;
+  width: 49.5%;
+}
+
+.three-quarter {
+  width: 75%;
 }
 
 .full {
@@ -786,7 +798,7 @@ article {
     }
   }
   input[type=radio] {
-    height: 2em;
+    height: 1.5em;
   }
   .cost {
     background-color: white;
@@ -797,6 +809,20 @@ article {
   .total {
     font-weight: 600;
     font-size: 1.2em;
+  }
+  .order-film-table {
+    width: 100%;
+    td {
+      border: 1px solid $pvHeadingLines;
+      input, select {
+        border: none;
+        // border-radius: 0%;
+        font-size: 1em;
+        .borders {
+          font-size: 1.2em;
+        }
+      }
+    }
   }
   .image-preview {
     ul li {
@@ -834,6 +860,35 @@ article {
     @media (pointer: fine) {
       visibility: hidden;
     }
+  }  
+  .radio-row div {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .accordion {
+    transition: 0.4s;
+    cursor: pointer;
+    &:hover {
+      background-color: $pvHeadingLines;
+    }
+  }
+  .closed:after {
+    font-size: .4em;
+    vertical-align: middle;
+    color: $pvGray;
+    content: '  \25BC';
+  }
+  .opened:after {
+    font-size: .4em;
+    vertical-align: middle;
+    color: $pvGray;
+    content: '  \25B2';
+  }
+  .panel {
+      max-height: 0;
+      transition: max-height 0.2s ease-out;
+      overflow: hidden;
   }
   button.submit {
     width: 180px;
@@ -877,6 +932,13 @@ article {
 .svg-icon {
   max-height: 20px;
   max-width: 20px;
+}
+
+.scanner-choice {
+  display: block;
+  div {
+    display: inline-block;
+  }
 }
 
 /*******************************************/
@@ -1081,6 +1143,10 @@ article {
       margin: 0 2% 3% 2%;
     }
   }
+}
+
+textarea {
+  resize: none;
 }
 
 .wrapper-footer {
