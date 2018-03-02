@@ -15,7 +15,7 @@ permalink: common-questions.html
 Help us understand your overall vision. This will help speed up the process once we receive your film. [(Why is this important?)]({{site.baseurl}}/common-questions#what-are-preference-images--why-should-i-send-them-in){: id="preferences-link"}
 
 ## 3. Fill out an <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> 
-Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. Fill out an [Online order form](https://photovision.order-work). Or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download + print</a> to ship with your film.
+Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download + print</a>.
 
 ## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order form 
 Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:  
@@ -34,22 +34,25 @@ Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo
 You’ll receive an email when we receive your order. This email includes your order number, the job's total cost and an invoice for your records. We will then process + scan your order as specified in your preferences + on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>.
 
 ## What are your turnaround times?
-Our service times fluctuate based on the amount of incoming film. You can find our current film service time + print service time [here]({{ site.baseurl}}/service-times).
+You can find our current film service time + print service time [here]({{ site.baseurl}}/service-times).
 
 ## Do you offer rush processing?
-Yes, high-quality scans and speedy turnarounds are our jam! We are pleased to offer rush processing when our service times exceed a photographer's urgent time frame. See our [Rush Policy]({{ site.baseurl}}/rush-policy) for details.
+High-quality scans and speedy turnarounds are our jam! We are pleased to offer rush processing when our service times exceed a photographer's urgent time frame. See our [Rush Policy]({{ site.baseurl}}/rush-policy) for details.
 
 ## Will my scans be rotated and numbered?
-Yes! Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
+Yes. Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
 
 ## How do I receive my scans?
-Once your scans are complete, you will receive an email to the address provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a job reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same!
+Once your scans are complete, you will receive an email to the address you provided on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a shoot reference name on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same.
+
+## Will my B+W scans arrive desaturated?
+Yes. All black + white scans from both the Frontier and Noritsu arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 ## What if I have a problem with my order?
 If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
 
 ## How do I order prints?
-Proof prints may be requested via your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem! You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+Proof prints may be requested via your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
 
 ## How are my negatives handled?
 We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
@@ -74,7 +77,7 @@ Our world-class color techs can best match your vision when you provide the road
 
 When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we can best match your scans to your **creative vision**.
 
-We recommend sending in **3–5 preference images** to keep on file. These images can be from your own portfolio of work or from another film photographer whom you admire.
+We recommend you send us **3–5 preference images** to keep on file. These images can be from your own film portfolio or from another film photographer whom you admire.
 
 When choosing preference images, the most important aspect to consider is **skin tones**. Pick images where your subject fills the majority of the frame and has the **skin tones**, **density** and **contrast level** you are striving to achieve.
 
@@ -88,7 +91,7 @@ When it comes to **skin tones**, let your **preference images** speak to the ton
 - Avoid vague descriptions open to interpretation (i.e. "masculine," "romantic")
 
 ## How do I update/change my preference images?
-Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). 
+New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Individual order preferences</h1>
@@ -96,10 +99,10 @@ Current customers may [update preference images]({{ site.baseurl }}/submit-prefe
 <div class="panel" markdown="1">
 
 ## What if a specific order needs to look different than my standard vision?
-Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a different set of specific preferences for any given order. Submit them [here]({{site.baseurl}}/preferences), and use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot name from your order form.
+Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a different set of specific preferences for any given order. Submit them [here]({{site.baseurl}}/preferences), and use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
 
 ## What if there are specific colors I’m looking for in my order?
-It can be difficult for our scan techs to determine exact colors of certain objects, such as invitations, fabric, paint or other decor. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match. Use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot name from your order form.
+It can be difficult for our scan techs to determine exact colors of certain objects, such as invitations, fabric, paint or other decor. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match. Use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
@@ -139,7 +142,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 *All scan resolutions are approximate. Slight variations are normal.*
 
 ## What scanners do you use?
-Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision! You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. Due to consistency, split orders are not available. 
+Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
 
 ## Do you offer push/pull processing?
 Yes, we can push or pull film up to 3 stops. Indicate on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a **rubber band** around it. Push/pull processing is $3.00 per roll.
