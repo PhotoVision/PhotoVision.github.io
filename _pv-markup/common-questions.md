@@ -15,7 +15,7 @@ permalink: common-questions.html
 Help us understand your overall vision. This will help speed up the process once we receive your film. [(Why is this important?)]({{site.baseurl}}/common-questions#what-are-preference-images--why-should-i-send-them-in){: id="preferences-link"}
 
 ## 3. Fill out an <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> 
-Order forms are **crucial**. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download + print</a>.
+Order forms are *crucial*. They help ensure all your film has arrived safely and is processed to your specifications. <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Download + print</a>.
 
 ## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order form 
 Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:  
@@ -71,38 +71,37 @@ We will hold your negatives based on the Ship Back preference marked on your <a 
 <h1 id="preferences-heading" class="accordion closed" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
-Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both **preference images** and **written preferences**.
+Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both preference images and written preferences.
 
 ## What are preference images + why should I send them in?
 
-When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we can best match your scans to your **creative vision**.
+When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we can best match your scans to your creative vision.
 
-We recommend you send us **3–5 preference images** to keep on file. These images can be from your own film portfolio or from another film photographer whom you admire.
+We recommend you send us 3–5 preference images to keep on file. These images can be from your own film portfolio or from another film photographer whom you admire.
 
-When choosing preference images, the most important aspect to consider is **skin tones**. Pick images where your subject fills the majority of the frame and has the **skin tones**, **density** and **contrast level** you are striving to achieve.
+When choosing preference images, the most important aspect to consider is skin tones. Pick images where your subject fills the majority of the frame and has the skin tones, density and contrast level you are striving to achieve.
+  
+## How do I submit them?
+New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
 
 ## What should I include under "Written Preferences?"
 
-When it comes to **skin tones**, let your **preference images** speak to the tones you desire. Don't try to describe them here. Focus on describing your **overall ideal image**. 
+When it comes to skin tones, let your preference images speak to the tones you desire. Don't try to describe them here. Focus on describing your _overall ideal image_. 
 - Warm / cool / neutral
-- Dark + moody / light + airy
-- Details in shadows / shadows nearly black
-- Retain details in highlights / blown-out highlights OK
-- Avoid vague descriptions open to interpretation (i.e. "masculine," "romantic")
-
-## How do I update/change my preference images?
-New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/submit-preference-images). Current customers may [update preference images]({{ site.baseurl }}/submit-preference-images) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
+- High contrast / medium contrast / low contrast
+- Retain details in shadows / retain details in highlights
+- _Avoid_ vague descriptions open to interpretation (i.e. "masculine," "romantic")
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Individual order preferences</h1>
 
 <div class="panel" markdown="1">
 
-## What if a specific order needs to look different than my standard vision?
-Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a different set of specific preferences for any given order. Submit them [here]({{site.baseurl}}/preferences), and use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
+## What if a specific order needs to look different from my standard vision?
+Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a specific set of  preferences for any given shoot. Simply submit them [here]({{site.baseurl}}/preferences), and specify which order/shoot name to use them for under “Written preferences.”
 
 ## What if there are specific colors I’m looking for in my order?
-It can be difficult for our scan techs to determine exact colors of certain objects, such as invitations, fabric, paint or other decor. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match. Use the “Written preferences” section to indicate the order for which to use them. Make sure to include the order’s shoot reference from your order form.
+It can be difficult for our scan techs to determine exact colors of certain objects—such as invitations, fabric, paint, etc. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match, and specify which order/shoot name to use them for under “Written preferences.” 
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
@@ -114,6 +113,9 @@ It can be difficult for our scan techs to determine exact colors of certain obje
 
 ## How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
+  
+## What scanners do you use?
+Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.  
 
 ### Fuji Frontier SP3000
 
@@ -141,11 +143,8 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 {: .tablelines}
 *All scan resolutions are approximate. Slight variations are normal.*
 
-## What scanners do you use?
-Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a>. However, keep in mind there are certain film stocks that will always be scanned on the Noritsu: Portra160, Ektar100 and all black + white stocks.
-
 ## Do you offer push/pull processing?
-Yes, we can push or pull film up to 3 stops. Indicate on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a **rubber band** around it. Push/pull processing is $3.00 per roll.
+Yes, we can push or pull film up to 3 stops. Indicate on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a *rubber band* around it. Push/pull processing is $3.00 per roll.
 
 ## How do you process Ilford Delta 3200?
 We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">order form</a> how you rated your 3200.
@@ -183,7 +182,11 @@ Please don't hesitate to reach out, we're always happy to help! Our phones are a
 Please stop by, we'd love to meet you + give you a tour!
 
 <a href="{{ site.company-info.map-url }}" target="_blank">{{ site.company-info.address }}<br />{{ site.company-info.csz }}</a>
-</div>
+</div>  
+
+## Get social
+
+Come hang out with us on Instagram, Twitter, Facebook, Google+ and Pinterest.
 
 
 <script type="text/javascript">
