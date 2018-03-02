@@ -905,6 +905,13 @@ article {
       background-color: gray;
     }
   }
+.work-order-form {
+  input, textarea {
+    font-size: 1em;
+  }
+  textarea {
+    font-family: Roboto;
+  }
 }
 
 .preferences-form {
