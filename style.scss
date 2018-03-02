@@ -26,6 +26,8 @@ body {
 	background: $white;
   font: 400 16px/1.4 Roboto, san-serif;
   color: $pvText;
+  max-width: 1900px;
+  margin: 0 auto 0 auto;
 }
 
 .container {
