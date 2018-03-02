@@ -290,6 +290,29 @@ img {
   }
 }
 
+.masthead-order-accordion {
+  width: 200px;
+  .panel {
+    text-align: left;
+    position: absolute;
+    z-index: 3;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+    li {
+      display: block;
+      padding: .5em;
+      background-color: $pvBlack;
+      a {
+        color: white;
+        &:hover, &:active {
+          color: $pvLinks;
+        }
+      }
+    }
+  }
+}
+
 .lead-image-container {
   .lead-image {    
     width: 50%;
