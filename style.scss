@@ -24,7 +24,7 @@ html {
 
 body {
 	background: $white;
-  font: 400 16px/1.4 Roboto;
+  font: 400 16px/1.4 Roboto, san-serif;
   color: $pvText;
 }
 
@@ -152,8 +152,20 @@ img {
   to {opacity:1 ;}
 }
 
+.quarter {
+  width: 24.5%;
+}
+
+.third {
+  width: 33%;
+}
+
 .half {
-  width: 50%;
+  width: 49.5%;
+}
+
+.three-quarter {
+  width: 75%;
 }
 
 .full {
@@ -163,6 +175,9 @@ img {
 .contact-page {
   width: 80%;
   margin: 0 auto 0 auto;
+  @media screen and (max-width: 1200px) {
+    width: 90%;
+  }
   h3 {
     margin-top: 40px;
   }
@@ -196,7 +211,7 @@ img {
     width: 35%;
     margin-bottom: 40px;
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 40%;
     margin-bottom: 40px;
   }
@@ -220,7 +235,7 @@ img {
 
 .top-nav-links { 
   width: 60%;
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 90%;
   }
   @media screen and (max-width: 800px) {
@@ -281,7 +296,7 @@ img {
     @media screen and (max-width: 1400px) {
       width: 75%;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       width: 90%;
     }
     &:before {
@@ -370,7 +385,7 @@ img {
   :hover {
     cursor: pointer;
   }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     font-size: 1.2em;
     padding: 2% 5%;
   }
@@ -389,7 +404,7 @@ img {
       &:before {
         opacity: 0;
       }
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 1200px) {
         background-size: 50%;
       }
       @media screen and (max-width: 800px) {
@@ -407,7 +422,7 @@ img {
       &:before {
         opacity: 0;
       }
-      @media screen and (max-width: 1100px) {
+      @media screen and (max-width: 1200px) {
         background-size: 50%;
       }
       @media screen and (max-width: 800px) {
@@ -450,6 +465,23 @@ img {
   float: none;
   display: inline-block;
   vertical-align: middle;
+}
+
+.tablelines {
+  th {
+    border-bottom: 2px solid $pvBlack;
+    padding: .3em 1em .3em 1em;
+  }
+  td {
+    border-bottom: 1px solid $pvBlack;
+    padding: .3em 1em .3em 1em;
+  }
+  .center-data {
+    text-align: center;
+  }
+  tr:last-child td {
+    border: none;
+  }
 }
 
 article {
@@ -570,16 +602,16 @@ article {
       }
     }
     .closed:after {
-      font-size: .5em;
+      font-size: .4em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' \23F7';
+      content: '  \25BC';
     }
     .opened:after {
-      font-size: .5em;
+      font-size: .4em;
       vertical-align: middle;
       color: $pvGray;
-      content: ' \23F6';
+      content: '  \25B2';
     }
     .panel {
         max-height: 0;
@@ -739,6 +771,10 @@ article {
       width: 100%;
       padding: 12px 0px;
       position: relative;
+      div.eighth {
+        display: inline-block;
+        width: 12%;
+      }
       div.half {
         display: inline-block;
         width: 49.4%;
@@ -759,6 +795,32 @@ article {
     &::placeholder {
       font-style: italic;  
       color: grey;
+    }
+  }
+  input[type=radio], input[type=checkbox] {
+    height: 1.5em;
+    width: 1.5em;
+  }
+  .cost {
+    background-color: white;
+    border: none;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .total {
+    font-size: 1.2em;
+  }
+  .order-film-table {
+    width: 100%;
+    td {
+      border: 1px solid $pvHeadingLines;
+      input, select {
+        border: none;
+        font-size: 1em;
+        .borders {
+          font-size: 1.2em;
+        }
+      }
     }
   }
   .image-preview {
@@ -797,8 +859,37 @@ article {
     @media (pointer: fine) {
       visibility: hidden;
     }
+  }  
+  .radio-row div {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
   }
-  button.submit {
+  .accordion {
+    transition: 0.4s;
+    cursor: pointer;
+    &:hover {
+      background-color: $pvHeadingLines;
+    }
+  }
+  .closed:after {
+    font-size: .4em;
+    vertical-align: middle;
+    color: $pvGray;
+    content: '  \25BC';
+  }
+  .opened:after {
+    font-size: .4em;
+    vertical-align: middle;
+    color: $pvGray;
+    content: '  \25B2';
+  }
+  .panel {
+      max-height: 0;
+      transition: max-height 0.2s ease-out;
+      overflow: hidden;
+  }
+  button.submit, button#print-code {
     width: 180px;
     height: 50px;
     margin-top: 25px;
@@ -812,6 +903,23 @@ article {
     :active {
       background-color: gray;
     }
+  }
+  button#print-code {
+    width: 150px;
+    height: 35px;
+    margin-top: 0px;
+  }
+  #display-code {
+    font-size: 1.5em;
+  }
+}
+
+.work-order-form {
+  input, textarea {
+    font-size: 1em;
+  }
+  textarea {
+    font-family: Roboto;
   }
 }
 
@@ -840,6 +948,13 @@ article {
 .svg-icon {
   max-height: 20px;
   max-width: 20px;
+}
+
+.scanner-choice {
+  display: block;
+  div {
+    display: inline-block;
+  }
 }
 
 /*******************************************/
@@ -911,12 +1026,22 @@ article {
     padding: 0% 10%;
   }
   .pagination {
-    width: 50%;
+    width: 30%;
+    @media screen and (max-width: 1200px) {
+      width: 55%;
+    }
+    @media screen and (max-width: 800px) {
+      width: 70%;
+    }
     .previous:before {
-      content: "\23F4 ";
+      font-size: .8em;      
+      vertical-align: middle;
+      content: "\25C0  ";
     }
     .next:after {
-      content: " \23F5";
+      font-size: .8em;
+      vertical-align: middle;
+      content: "  \25B6";
     }
   }
 }
@@ -924,10 +1049,7 @@ article {
 .post {
   width: 50%;
   margin: 0 auto 0 auto;
-  @include mobile {
-    width: 100%;
-  }
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 75%;
   }
   @media screen and (max-width: 800px) {
@@ -961,13 +1083,13 @@ article {
 .post-nav-table {
   width: 75%;
   margin: 0 auto 0 auto;
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1200px) {
     width: 100%;
   }
   .left {
     margin: 0 1% 0 1%;
     width: 31%;
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin: 0 .5% 0 .5%;
       width: 32%;
     }
@@ -1007,7 +1129,7 @@ article {
       font-size: 1em;
       margin-top: -25%;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin-top: -25%;
     }
     @media screen and (max-width: 650px) {
@@ -1030,13 +1152,17 @@ article {
     &:active {
       background-color: gray;
     }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1200px) {
       margin: 0 8% 3% 8%;
     }
     @media screen and (max-width: 800px) {
       margin: 0 2% 3% 2%;
     }
   }
+}
+
+textarea {
+  resize: none;
 }
 
 .wrapper-footer {

@@ -1,0 +1,700 @@
+---
+layout: default
+title: 'Order Process + Scan'
+---
+
+<form id="gform" class="contact_form work-order-form">
+  <input id="gotcha" type="text" name="gotcha" style="display:none">
+  <h1>Order Process + Scan</h1>  
+  <ul>
+    <div class="notifications"></div>
+    <li>
+      <label for="name">Name<span class="required_notification">*</span></label>
+      <input id="name" type="text" name="name"/>
+    </li>
+    <li>
+      <div class="half">
+        <label for="phone">Phone<span class="required_notification">*</span></label>
+        <input id="phone" type="text" name="phone"/>
+      </div>
+      <div class="half">
+        <label for="email">Email<span class="required_notification">*</span></label>
+        <input id="email" type="email" name="email"/>
+      </div>
+    </li>
+    <li>
+      <h2>Address</h2>
+    </li>
+    <li>
+        <div class="quarter center">
+            <input type="radio" id="info-on-file" name="contact-info" value="Use info on file" checked>
+            <label for="info-on-file">Use info on file</label>
+        </div>
+        <div class="quarter center">
+            <input type="radio" id="new-or-updated" name="contact-info" value="New or updated info">
+            <label for="new-or-updated">New / Update</label>
+        </div>
+    </li>
+    <div id="contact-panel" class="panel">
+      <li>
+        <label for="address1">Address<span class="required_notification">*</span></label>
+        <input id="address1" type="text" name="address1"/>
+      </li>
+      <li>
+        <input id="address2" type="text" name="address2"/>
+      </li>
+      <li>
+        <div class="half">
+            <input id="city" type="text" name="city"/>
+            <label for="city">City<span class="required_notification">*</span></label>
+        </div>
+        <div class="quarter">
+            <input id="state" type="text" name="state"/>
+            <label for="state">State/Province<span class="required_notification">*</span></label>
+        </div>
+        <div class="quarter">
+            <input id="zip" type="text" name="zip"/>
+            <label for="zip">Zip/Postal<span class="required_notification">*</span></label>
+        </div>
+      </li>
+      <li>
+        {% include countries-list.html %}
+        <label for="country">Country<span class="required_notification">*</span></label>
+      </li>
+    </div>
+    <li>
+      <h2>Film shipback<span class="required_notification">*</span></h2>
+      <p>Shipping costs are estimates only. 2 week shipback charged now. Flat rate charged at time of shipment.</p>
+    </li>
+    <li class="radio-row">
+      {% include shipback-method.html %}
+    </li>
+    <li>
+      {% include order-pricing.html %}
+    </li>
+    <li>
+      {% include work-order-details.html %}
+    </li>
+    <div class="rush-section">
+      <input type="number" id="tat-days" value="{{ site.company-info.turnaround-days }}" style="display:none;"/>
+      <li>
+        <h2>Rush processing</h2>
+      </li>
+      <li class="radio-row">
+        {% include rush-charges.html %}
+      </li>
+    </div>
+    <li>      
+      <div class="left">
+        <h2>Total<input class="cost total left" type="text" id="cost-total" name="cost-total" value="$0.00" readonly/></h2>        
+      </div>
+      <div class="clearfix"></div>
+    </li>
+    <li></li>
+    <li>
+      <h2>Payment method<span class="required_notification">*</span></h2>
+    </li>
+    <li>
+      {% include payment-method.html %}
+    </li>
+    <li></li>
+    <li>
+      <h2>Order code — <em>Critical</em></h2>
+    </li>
+    <li>
+      {% include order-code.html %}
+    </li>
+    <li>
+      <button class="submit center" disabled type="submit">Place Order</button>
+    </li>
+  </ul>
+</form>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.182.0.min.js"></script>
+<script type="text/javascript">
+  $(function() {  
+    // BEGIN ORDER CODE SECTION
+    var dateTime = new Date();
+    var timeNowMS = dateTime.getTime();
+    var orderCode = timeNowMS.toString(26).toUpperCase();
+    $('#order-code').val(orderCode);
+    $('#display-code').append(orderCode);
+
+    var tatDays = $('#tat-days').val();
+    if (tatDays < 5) {
+      $('.rush-section').css('display','none');
+    }
+
+    function openPrintDialogue(name, email, phone, code){
+      $('<iframe>', {
+        name: 'orderCodeIframe',
+        class: 'printFrame'
+      })
+      .appendTo('body')
+      .contents().find('body')
+      .append(`<div style="font-family: Roboto; margin: 4em;">
+                  <p>Name: ` + name + `</p>
+                  <p>Email: ` + email + `</p>
+                  <p>Phone: ` + phone + `</p>
+                  <p>Order code:` + code + `</p>
+               </div>`);
+
+      window.frames['orderCodeIframe'].focus();
+      window.frames['orderCodeIframe'].print();
+
+      setTimeout(() => { $(".printFrame").remove(); }, 100);
+    };
+
+    $('#print-code').click(function(e) {      
+      e.preventDefault();
+      var name = $('#name').val();
+      var email = $('#email').val();
+      var phone = $('#phone').val();
+      var code = $('#order-code').val();
+      openPrintDialogue(name, email, phone, code);
+    });
+    // END ORDER CODE SECTION
+
+    // Image upload variables
+    var bucketName = 'customer-references-2';
+    var bucketRegion = 'us-west-2';
+    var IdentityPoolId = 'us-west-2:817299d3-4a21-4dad-99a3-fc70742e1f15';    
+    var fileTypes = ['image/jpeg', 'image/pjpeg', 'image/png'];
+    var imageList = new Array();
+    var errorList = new Array();
+    var fileListCount = 0;
+
+    // BEGIN S3 UPLOAD SECTION
+    // Set the region where your identity pool exists (us-east-1, eu-west-1)
+    AWS.config.region = bucketRegion;
+
+    // Configure the credentials provider to use your identity pool
+    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+        IdentityPoolId: IdentityPoolId, // This trailing comma was in the AWS instructions. Leaving it, even though it may not be necessary.
+    });
+
+    // Make the call to obtain credentials
+    AWS.config.credentials.get(function(){
+        // Credentials will be available when this function is called.
+        accessKeyId = AWS.config.credentials.accessKeyId;
+        secretAccessKey = AWS.config.credentials.secretAccessKey;
+        sessionToken = AWS.config.credentials.sessionToken;
+    });
+
+    var s3 = new AWS.S3({
+      apiVersion: '2006-03-01',
+      params: {Bucket: bucketName}
+    });
+
+    function addPhoto(file, fileNum) {
+      var fileName = Date.now().toString() + '_' + file.name;
+      s3.upload({
+        Key: fileName,
+        Body: file,
+        ACL: 'public-read',
+        ContentType: file.type
+      }, function(err, data) {
+        if (err) {
+          errorList.push('Error uploading file \'' + fileName + '\': ' + err.message);
+          return;
+        }
+        imageList.push('Image #' + fileNum + ': ' + data.Location);
+      });
+    }
+    // END S3 UPLOAD SECTION
+
+    var gotcha = $('#gotcha').val();
+    
+    var newInfo = $('#new-or-updated');
+    var onFile = $('#info-on-file');
+    var panel = document.getElementById("contact-panel"); // $('#contact-panel');
+
+    var frontier = $('#frontier');
+    var noritsu = $("#noritsu");
+    var devOnly = $('#dev-only');
+    var noneRush = $('#none-rush');
+    var twoRush = $('#two-day-rush');
+    var threeRush = $('#three-day-rush');
+    var filmQtys = document.getElementsByClassName("film-qty");
+    var processTypes = document.getElementsByClassName("process-type");
+    var filmSizes = document.getElementsByClassName("film-size");
+    var pushPulls = document.getElementsByClassName("push-pull");
+    var scanSizes = document.getElementsByClassName("scan-size");
+    var proofs = document.getElementsByClassName("proofs");
+    var borders = document.getElementsByClassName("borders");
+    var acc = document.getElementsByClassName("accordion");
+    var i;    
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between hiding and showing the active panel, with animation */
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+              this.classList.remove('opened');
+              this.classList.add('closed');
+            panel.style.maxHeight = null;
+            } else {
+              this.classList.remove('closed');
+              this.classList.add('opened');
+              // Add 200px to maxHeight for image thumbnails if it's the image loader
+              if (panel.classList.contains("image-uploader")) {
+                panel.style.maxHeight = (panel.scrollHeight + 200) + "px";
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            } 
+        });
+    }
+
+    function getOrderTotal() {
+      var totalCost = 0;
+
+      for (i = 0; i < filmQtys.length; i++) {
+        var processCost = 0;
+        var pushPullCost = 0;
+        var proofCost = 0;
+        var rowCost = 0;
+        if (frontier.is(':checked')) {
+          if (processTypes[i].value == 'c-41') {            
+            if (filmSizes[i].value == '120' || filmSizes[i].value == '135') {
+              if (scanSizes[i].value == 'N') {
+                processCost = 18;
+              } else {
+                processCost = 22;
+              }
+            } else {
+              if (scanSizes[i].value == 'N') {
+                processCost = 36;
+              } else {
+                processCost = 44;
+              }
+            }
+          } else {            
+            if (filmSizes[i].value == '120' || filmSizes[i].value == '135') {
+              if (scanSizes[i].value == 'N') {
+                processCost = 14;
+              } else {
+                processCost = 17;
+              }
+            } else {
+              if (scanSizes[i].value == 'N') {
+                processCost = 28;
+              } else {
+                processCost = 34;
+              }
+            }
+          }
+        } else if (noritsu.is(':checked')) {
+          if (processTypes[i].value == 'c-41') {
+            if (filmSizes[i].value == '120' || filmSizes[i].value == '135') {
+              processCost = 18;
+            } else {
+              processCost = 36;
+            }
+          } else {
+            if (filmSizes[i].value == '120' || filmSizes[i].value == '135') {
+              processCost = 14;
+            } else {
+              processCost = 28;
+            }
+          }
+        } else if (devOnly.is(':checked')) {
+          if (filmSizes[i].value == '120' || filmSizes[i].value == '135') {
+            processCost = 7.5;
+          } else {
+            processCost = 11;
+          }
+        }
+        if (pushPulls[i].value != 'normal') {
+          pushPullCost = 3;
+        }
+        if (proofs[i].value && proofs[i].value != 'none') {
+          if (proofs[i].value == '5×5') {
+            proofCost = 4.5;
+          } else {
+            proofCost = 3.5;
+          }
+        }
+        // CALCULATE ROW TOTAL COST HERE
+        rowCost = (processCost + proofCost + pushPullCost) * filmQtys[i].value;
+        // ADD ROW COST TO TOTAL COST
+        totalCost += rowCost;
+      }
+      // ADD RUSH CHARGE (IF ANY)
+      if (noneRush.is(':checked')) {
+        totalCost;
+      } else if (twoRush.is(':checked')) {
+        totalCost += totalCost;
+      } else if (threeRush.is(':checked')) {
+        totalCost += (totalCost * .5);
+      }
+      $('#cost-total').val('$' + (totalCost).toFixed(2));
+    }
+
+    noneRush.on("change", function() {
+      getOrderTotal();
+    });
+
+    twoRush.on("change", function() {
+      getOrderTotal();
+    });
+
+    threeRush.on("change", function() {
+      getOrderTotal();
+    });
+
+    noritsu.on("change", function() {
+      if ($(this).is(':checked')) {
+        for (i = 0; i < scanSizes.length; i++) {
+          scanSizes[i].value = "L";
+          scanSizes[i].disabled = true;
+        }
+        for (i = 0; i < scanSizes.length; i++) {
+          proofs[i].disabled = false;
+        }
+      }
+      getOrderTotal();
+    });
+
+    frontier.on("change", function() {
+      if ($(this).is(':checked')) {
+        for (i = 0; i < scanSizes.length; i++) {
+          scanSizes[i].value = "N";
+          scanSizes[i].disabled = false;
+        }
+        for (i = 0; i < proofs.length; i++) {
+          proofs[i].disabled = false;
+        }
+      }
+      getOrderTotal();
+    });
+
+    devOnly.on("change", function() {
+      if ($(this).is(':checked')) {
+        for (i = 0; i < scanSizes.length; i++) {
+          scanSizes[i].value = "N";
+          scanSizes[i].disabled = true;
+        }
+        for (i = 0; i < proofs.length; i++) {
+          proofs[i].value = "none";
+          proofs[i].disabled = true;
+        }
+        for (i = 0; i < borders.length; i++) {
+          borders[i].value = "none";
+          borders[i].disabled = true;
+        }
+      }
+      getOrderTotal();
+    });
+
+    $('#film-qty-1, #film-qty-2, #film-qty-3, #film-qty-4, #film-qty-5, #film-qty-6').on('keyup input change mousewheel', function() {
+      getOrderTotal();
+    });
+
+    for (i = 0; i < processTypes.length; i++) {
+      processTypes[i].addEventListener("input", function() {
+        getOrderTotal();
+      });
+    }
+
+    for (i = 0; i < filmSizes.length; i++) {
+      filmSizes[i].addEventListener("input", function() {
+        getOrderTotal();
+      });
+    }
+
+    for (i = 0; i < pushPulls.length; i++) {
+      pushPulls[i].addEventListener("input", function() {
+        getOrderTotal();
+      });
+    }
+
+    for (i = 0; i < scanSizes.length; i++) {
+      scanSizes[i].addEventListener("input", function() {
+        getOrderTotal();
+      });
+    }
+
+    for (i = 0; i < proofs.length; i++) {
+      proofs[i].addEventListener("input", function() {
+        /* enable border select for rows with proof size selected */
+        var index = $(this).data('value');
+        if ($(this).val() !== "none") {
+          borders[index].disabled = false;
+        } else { /* disable border select for rows without proof size selected */
+          borders[index].disabled = true;
+        }
+        getOrderTotal();
+      });
+    }
+
+    newInfo.on("click", function() {
+      /* Show contact info if 'new-or-updated' radio button is selected */
+      if ($(this).is(':checked')) {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+
+    onFile.on("click", function() {
+      /* Hide contact info if 'info-on-file' radio button is selected */
+      if ($(this).is(':checked')) {
+          panel.style.maxHeight = null;
+      }
+    });
+
+    function validEmail(email) {
+      var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+      return re.test(email);
+    }
+
+    $('#email').change(function() {
+      if ($(this).val() && !validEmail($(this).val())){
+        $('.submit').prop('disabled', true);
+        $('.notifications').empty();
+        $('.notifications').append('<p class="required_notification">We\'re sorry. This appears to be an invalid email address.</p>');
+        $(this).focus();
+      } else if ($(this).val()) {
+        $('.notifications').empty();
+        $('.submit').prop('disabled', false);
+      }
+    });
+
+    function validFileType(file) {
+      for (var i = 0; i < fileTypes.length; i++) {
+        if (file.type === fileTypes[i]) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    function returnFileSize(number) {
+      if (number < 1024) {
+        return number + 'bytes';
+      } else if (number > 1024 && number < 1048576) {
+        return (number/1024).toFixed(1) + 'KB';
+      } else if (number > 1048576) {
+        return (number/1048576).toFixed(1) + 'MB';
+      }
+    }    
+    
+    // get all data in form and return object
+    function getFormData() {
+      var form = document.getElementById("gform");
+      var elements = form.elements; // all form elements
+      // un-uncomment below when needed for debugging
+      // console.log("elements:");
+      // console.log(elements);
+      var fields = Object.keys(elements).map(function(k) {
+        if (elements[k].name !== undefined && elements[k].name !== 'gotcha' && elements[k].name !== 'image-uploader') {
+          return elements[k].name;
+        // special case for Edge's html collection
+        } else if (elements[k].length > 0) {
+          return elements[k].item(0).name;
+        }
+      }).filter(function(item, pos, self) {
+        return self.indexOf(item) == pos && item;
+      });
+      var data = {};
+      fields.forEach(function(k) {
+        data[k] = elements[k].value;
+        var str = ""; // declare empty string outside of loop to allow
+                      // it to be appended to for each item in the loop
+        if (elements[k].type === "checkbox") { // special case for Edge's html collection
+          str = str + elements[k].checked + ", "; // take the string and append 
+                                                  // the current checked value to 
+                                                  // the end of it, along with 
+                                                  // a comma and a space
+          data[k] = str.slice(0, -2); // remove the last comma and space 
+                                      // from the  string to make the output 
+                                      // prettier in the spreadsheet
+        } else if (elements[k].length) {
+          for (var i = 0; i < elements[k].length; i++) {
+            if (elements[k].item(i).checked) {
+              str = str + elements[k].item(i).value + ", "; // same as above
+              data[k] = str.slice(0, -2);
+            }
+          }
+        }
+      });
+
+      // add form-specific values into the data
+      data.formDataNameOrder = JSON.stringify(fields);
+      data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
+      data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
+
+      // un-uncomment below when needed for debugging
+      // console.log("data:");
+      // console.log(data);
+      return data;
+    }
+
+    function sendEmail() {
+      if (gotcha == '') {        
+        // un-uncomment below when needed for debugging
+        // console.log('Welcome, human!');
+        var data = getFormData();
+        var url = 'https://script.google.com/macros/s/AKfycbzUFcmWDsUl07ObgafDMpSyJioK2lStvSOqEZO8W20WkcVLDjw/exec';
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', url);
+        // xhr.withCredentials = true;
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+          // un-uncomment below when needed for debugging
+          // console.log( xhr.status, xhr.statusText );
+          // console.log(xhr.responseText);
+          $('html,body').css('cursor','default');
+          window.location.replace("/order-work-thanks");
+          return;
+        };
+        // url encode form data for sending as post data
+        var encoded = Object.keys(data).map(function(k) {
+          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+        }).join('&')
+        // un-uncomment below when needed for debugging
+        // console.log("encoded:");
+        // console.log(encoded);
+        xhr.send(encoded);
+      } else {
+        $('html,body').css('cursor','default');
+        // un-uncomment below when needed for debugging
+        // console.log('Robot detected!');
+        return false;
+      }
+    }
+
+    function nameEmailPhoneFilled() {
+      if (($('#name').val()) && (($('#email').val()) && (validEmail($('#email').val()))) && ($('#phone').val())) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function adressInfoFilledIfNeeded() {
+      if ((!newInfo.is(':checked')) || ((newInfo.is(':checked')) && (($('#address1').val()) && ($('#city').val()) && ($('#state').val()) && ($('#zip').val()) && ($('#country').val() !== "0")))) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function shipbackMethodSelected() {
+      if ($('input[name=shipback-method]:checked').length > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function productIsOrdered() {
+      if ($('#cost-total').val() != "$0.00") {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    function paymentMethodSelected() {
+      if ($('input[name=payment-method]:checked').length > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    $('.contact_form').change(function() {
+      if (nameEmailPhoneFilled() && adressInfoFilledIfNeeded() && shipbackMethodSelected() && paymentMethodSelected() && productIsOrdered() && $('#code-confirmation').is(':checked')) {
+        $('.submit').prop('disabled', false);
+        $('.notifications').empty();
+        return;
+      } else if (($('#email').val()) && !validEmail($('#email').val())) {
+        $('.submit').prop('disabled', true);
+        $('.notifications').empty();
+        $('.notifications').append('<p class="required_notification">We\'re sorry. This appears to be an invalid email address.</p>');
+        $('#email').focus();
+        return;
+      } else {
+        $('.notifications').empty();
+        $('.submit').prop('disabled', true);
+        return;
+      }
+    });
+    
+    function checkIfUploadsDone() {
+        if (imageList.length + errorList.length != fileListCount) {
+            window.setTimeout(checkIfUploadsDone, 250); // this checks if upload attempts are done every 250 milliseconds
+        } else {
+            if (errorList.length === 0) {
+                $('#images').val(imageList.sort().join('; <br />'));
+                sendEmail();
+                $('html,body').css('cursor','default');
+                return;
+            } else {
+                $('.uploading').remove();
+                $('.notifications').append('<p class="required_notification">Oops, there was an error uploading one or more files. Here are the errors: <br /><br />'
+                 + errorList.sort().join('<br />') 
+                 + '<br /></br /> Please retry, or call us for support.' + '</p>');
+                $('html,body').css('cursor','default');
+                return;
+            }
+        }
+    }
+
+    $('.submit').click(function(e) {
+      e.preventDefault();
+      $('html,body').css('cursor','wait');
+      var files = $('#image-uploader')[0].files;
+      fileListCount = files.length;
+
+      if (fileListCount > 0) {          
+        $('.notifications').append('<p class="required_notification uploading">Hang on...Uploading image(s) first… Please don\'t refresh or leave this page.</p>');
+        for (var i = 0; i < fileListCount; i++) {
+          addPhoto(files[i], i + 1);
+        }
+      }
+      
+      checkIfUploadsDone(files);      
+    });
+
+    $('#image-uploader').change(function() {
+      $('.image-preview').empty();
+      var files = this.files;
+
+      if (files.length === 0) {
+        $('.image-preview').append('<p class="required_notification">No files currently selected for upload</p>');
+      } else if (files.length > 5) {
+        $('.image-preview').append('<p class="required_notification">Please limit your selection to 5 (five) images or less</p>');
+      } else {
+        var list = document.createElement('ul');
+        $('.image-preview').append(list);
+        for (var i = 0; i < files.length; i++) {
+          var listItem = document.createElement('li');
+          var para = document.createElement('p');
+          para.setAttribute("class", "required_notification");
+          if (validFileType(files[i])) {
+            if (files[i].size > 2621440) {
+              para.textContent = files[i].name + ' is too large. Please restrict your selection to files under 2.5MB.';
+              $('.image-preview').append(para);
+            } else {
+              var img = document.createElement('img');
+              img.src = window.URL.createObjectURL(files[i]);
+              img.width = 130;
+              img.onload = function() {
+                window.URL.revokeObjectURL(this.src);
+              }
+              img.setAttribute("title", files[i].name + " -- " + returnFileSize(files[i].size));
+
+              listItem.appendChild(img);
+            }
+          } else {
+            para.textContent = '"' + files[i].name + '" is not a valid JPEG or PNG image. Please update your selection.';
+            $('.image-preview').append(para);
+          }
+          list.appendChild(listItem);
+        }
+      }
+    });
+  });
+</script>

@@ -53,7 +53,8 @@
             </ul>
             <h4>Ready to send film?</h4>
             <ul>
-              <li><a href="{{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Order Form</a></li>
+              <li><a href="{{ site.baseurl }}/order-work">Order Process + Scan</a></li>
+              <li><a href="{{ site.baseurl }}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">Printable Order Form</a></li>
               <li><a href="{{ site.baseurl }}/shipping-tips">Shipping</a></li>
               <li><a href="{{ site.baseurl }}/rush-policy">Rush Policy</a></li>
             </ul>
@@ -67,6 +68,7 @@
               <li><a href="{{ site.baseurl }}/service-times">Service Time</a></li>
               <li><a href="{{ site.baseurl }}/film-services">Film Services</a></li>
               <li><a href="{{ site.baseurl }}/fuji-fresh">#FUJIfresh</a></li>
+              <li><a href="{{ site.baseurl }}/order-film">Order Film</a></li>
               <li><a href="{{ site.baseurl }}/print-services">Print Services</a></li>
               <li><a href="{{ site.baseurl }}/exposure-reference-sheet">Exposure Reference Sheets</a></li>
               <li><a href="{{ site.baseurl }}/praise">Praise</a></li>
@@ -106,11 +108,12 @@
           autoplaySpeed: 8000,
         });
         
-        var acc = document.getElementById("nav-accordion");
-        var panel = document.getElementById("nav-panel");
+        var svcsAccordion = document.getElementById("svcs-nav-accordion");
+        var svcsPanel = document.getElementById("svcs-nav-panel");
+        var orderAccordion = document.getElementById("order-nav-accordion");
+        var orderPanel = document.getElementById("order-nav-panel");
 
-        acc.addEventListener("click", function() {
-          /* Toggle between hiding and showing the nav panel on click event (for mobile) */
+        function accordionClicked(panel){
           if (matchMedia('(pointer:coarse)').matches) {
             if (panel.style.maxHeight) {
               panel.style.maxHeight = null;
@@ -118,23 +121,52 @@
               panel.style.maxHeight = panel.scrollHeight + "px";
             }
           }
-        });
+        }
 
-        acc.addEventListener("mouseover", function() {
-          /* Show the nav panel when mouse hovers over the Services list item (for desktop) */
+        function accordionHovered(panel) {
           if (matchMedia('(pointer:fine)').matches) {
             panel.style.maxHeight = panel.scrollHeight + "px";
           }
+        }
+
+        svcsAccordion.addEventListener("click", function() {
+          /* Toggle between hiding and showing the nav panel on click event (for mobile) */
+          accordionClicked(svcsPanel);
         });
 
-        acc.addEventListener("mouseout", function() {
+        svcsAccordion.addEventListener("mouseover", function() {
+          /* Show the nav panel when mouse hovers over the Services list item (for desktop) */
+          accordionHovered(svcsPanel);
+        });
+
+        svcsAccordion.addEventListener("mouseout", function() {
           /* Hide the nav panel when mouse leaves the Services list item (for desktop) */
-          panel.style.maxHeight = null;
+          svcsPanel.style.maxHeight = null;
         });
 
-        panel.addEventListener("mouseout", function() {
+        svcsPanel.addEventListener("mouseout", function() {
           /* Hide the nav panel when mouse leaves the nav panel (for desktop) */
-          panel.style.maxHeight = null;
+          svcsPanel.style.maxHeight = null;
+        });
+
+        orderAccordion.addEventListener("click", function() {
+          /* Toggle between hiding and showing the nav panel on click event (for mobile) */
+          accordionClicked(orderPanel);
+        });
+
+        orderAccordion.addEventListener("mouseover", function() {
+          /* Show the nav panel when mouse hovers over the Services list item (for desktop) */
+          accordionHovered(orderPanel);
+        });
+
+        orderAccordion.addEventListener("mouseout", function() {
+          /* Hide the nav panel when mouse leaves the Services list item (for desktop) */
+          orderPanel.style.maxHeight = null;
+        });
+
+        orderPanel.addEventListener("mouseout", function() {
+          /* Hide the nav panel when mouse leaves the nav panel (for desktop) */
+          orderPanel.style.maxHeight = null;
         });
       });
     </script>
