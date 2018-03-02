@@ -23,8 +23,16 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <div class="left">
-            <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank"><strong>Order Form</strong></a>
+          <div class="left masthead-order-accordion" id="masthead-accordion">
+            <a class="accordion" href="#"><strong>Order Form</strong></a>
+            <ul id="masthead-panel" class="panel">
+                <li>
+                    <a href="{{ site.baseurl }}/order-work">Order online</a>
+                </li>
+                <li>
+                    <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">Printable order form</a>
+                </li>
+            </ul>
           </div>
           <div class="right">
             <a href="{{ site.baseurl }}/service-times"><strong>Today's Film Process + Scan Service Time is: <span class="service-time">{{ site.company-info.turnaround-time }}</span></strong></a>
@@ -112,6 +120,8 @@
         var svcsPanel = document.getElementById("svcs-nav-panel");
         var orderAccordion = document.getElementById("order-nav-accordion");
         var orderPanel = document.getElementById("order-nav-panel");
+        var mastheadAccordion = document.getElementById("masthead-accordion");
+        var mastheadPanel = document.getElementById("masthead-panel");
 
         function accordionClicked(panel){
           if (matchMedia('(pointer:coarse)').matches) {
@@ -128,6 +138,26 @@
             panel.style.maxHeight = panel.scrollHeight + "px";
           }
         }
+
+        mastheadAccordion.addEventListener("click", function() {
+          /* Toggle between hiding and showing the nav panel on click event (for mobile) */
+          accordionClicked(mastheadPanel);
+        });
+
+        mastheadAccordion.addEventListener("mouseover", function() {
+          /* Show the nav panel when mouse hovers over the Services list item (for desktop) */
+          accordionHovered(mastheadPanel);
+        });
+
+        // mastheadAccordion.addEventListener("mouseout", function() {
+        //   /* Hide the nav panel when mouse leaves the Services list item (for desktop) */
+        //   mastheadPanel.style.maxHeight = null;
+        // });
+
+        mastheadPanel.addEventListener("mouseout", function() {
+          /* Hide the nav panel when mouse leaves the nav panel (for desktop) */
+          mastheadPanel.style.maxHeight = null;
+        });
 
         svcsAccordion.addEventListener("click", function() {
           /* Toggle between hiding and showing the nav panel on click event (for mobile) */
