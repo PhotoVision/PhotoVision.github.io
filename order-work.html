@@ -203,13 +203,18 @@ title: 'Order Process + Scan'
             /* Toggle between hiding and showing the active panel, with animation */
             var panel = this.nextElementSibling;
             if (panel.style.maxHeight){
-            this.classList.remove('opened');
-            this.classList.add('closed');
+              this.classList.remove('opened');
+              this.classList.add('closed');
             panel.style.maxHeight = null;
             } else {
-            this.classList.remove('closed');
-            this.classList.add('opened');
-            panel.style.maxHeight = panel.scrollHeight + "px";
+              this.classList.remove('closed');
+              this.classList.add('opened');
+              // Add 200px to maxHeight for image thumbnails if it's the image loader
+              if (panel.classList.contains("image-uploader")) {
+                panel.style.maxHeight = (panel.scrollHeight + 200) + "px";
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
             } 
         });
     }
