@@ -96,16 +96,12 @@ title: 'Order Process + Scan'
     <li>
       {% include payment-method.html %}
     </li>
+    <li></li>
     <li>
-      <h2><strong>Order code</strong></h2>
-      <p>
-        CRITICAL! Please be sure to include the code below with your film when shipping. This will ensure that your order information is 
-        attached to the correct film shipment.
-      </p>
-      <div>
-          <strong><code id="display-code" style="font-size: 2em;"></code></strong>
-      </div>
-      <input id="order-code" name="order-code" type="text" style="display:none;"/>
+      <h2>Order code — <em>Critical</em></h2>
+    </li>
+    <li>
+      {% include order-code.html %}
     </li>
     <li>
       <button class="submit center" disabled type="submit">Place Order</button>
@@ -117,6 +113,7 @@ title: 'Order Process + Scan'
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.182.0.min.js"></script>
 <script type="text/javascript">
   $(function() {  
+    // BEGIN ORDER CODE SECTION
     var dateTime = new Date();
     var timeNowMS = dateTime.getTime();
     var orderCode = timeNowMS.toString(26).toUpperCase();
@@ -127,6 +124,36 @@ title: 'Order Process + Scan'
     if (tatDays < 5) {
       $('.rush-section').css('display','none');
     }
+
+    function openPrintDialogue(name, email, phone, code){
+      $('<iframe>', {
+        name: 'orderCodeIframe',
+        class: 'printFrame'
+      })
+      .appendTo('body')
+      .contents().find('body')
+      .append(`<div style="font-family: Roboto; margin: 4em;">
+                  <p>Name: ` + name + `</p>
+                  <p>Email: ` + email + `</p>
+                  <p>Phone: ` + phone + `</p>
+                  <p>Order code:` + code + `</p>
+               </div>`);
+
+      window.frames['orderCodeIframe'].focus();
+      window.frames['orderCodeIframe'].print();
+
+      setTimeout(() => { $(".printFrame").remove(); }, 100);
+    };
+
+    $('#print-code').click(function(e) {      
+      e.preventDefault();
+      var name = $('#name').val();
+      var email = $('#email').val();
+      var phone = $('#phone').val();
+      var code = $('#order-code').val();
+      openPrintDialogue(name, email, phone, code);
+    });
+    // END ORDER CODE SECTION
 
     // Image upload variables
     var bucketName = 'customer-references-2';
