@@ -63,8 +63,8 @@ title: 'Order Process + Scan'
       </li>
     </div>
     <li>
-      <h2>Film shipback method<span class="required_notification">*</span></h2>
-      <span>(Cost charged at time of shipback)</span>
+      <h2>Film shipback<span class="required_notification">*</span></h2>
+      <p>Shipping costs are estimates only. 2 week shipback charged now. Flat rate charged at time of shipment.</p>
     </li>
     <li class="radio-row">
       {% include shipback-method.html %}
@@ -86,10 +86,11 @@ title: 'Order Process + Scan'
     </div>
     <li>      
       <div class="left">
-        <h2><strong>Total</strong><input class="cost total left" type="text" id="cost-total" name="cost-total" value="$0.00" readonly/></h2>        
+        <h2>Total<input class="cost total left" type="text" id="cost-total" name="cost-total" value="$0.00" readonly/></h2>        
       </div>
       <div class="clearfix"></div>
     </li>
+    <li></li>
     <li>
       <h2>Payment method<span class="required_notification">*</span></h2>
     </li>
@@ -604,7 +605,7 @@ title: 'Order Process + Scan'
     }
 
     $('.contact_form').change(function() {
-      if (nameEmailPhoneFilled() && adressInfoFilledIfNeeded() && shipbackMethodSelected() && paymentMethodSelected() && productIsOrdered()) {
+      if (nameEmailPhoneFilled() && adressInfoFilledIfNeeded() && shipbackMethodSelected() && paymentMethodSelected() && productIsOrdered() && $('#code-confirmation').is(':checked')) {
         $('.submit').prop('disabled', false);
         $('.notifications').empty();
         return;

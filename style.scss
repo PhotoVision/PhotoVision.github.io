@@ -24,7 +24,7 @@ html {
 
 body {
 	background: $white;
-  font: 400 16px/1.4 Roboto;
+  font: 400 16px/1.4 Roboto, san-serif;
   color: $pvText;
 }
 
@@ -797,8 +797,9 @@ article {
       color: grey;
     }
   }
-  input[type=radio] {
+  input[type=radio], input[type=checkbox] {
     height: 1.5em;
+    width: 1.5em;
   }
   .cost {
     background-color: white;
@@ -807,7 +808,6 @@ article {
     font-size: 1em;
   }
   .total {
-    font-weight: 600;
     font-size: 1.2em;
   }
   .order-film-table {
@@ -816,7 +816,6 @@ article {
       border: 1px solid $pvHeadingLines;
       input, select {
         border: none;
-        // border-radius: 0%;
         font-size: 1em;
         .borders {
           font-size: 1.2em;
