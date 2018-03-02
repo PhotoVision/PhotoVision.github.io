@@ -3,7 +3,7 @@ layout: default
 title: 'Order Process + Scan'
 ---
 
-<form id="gform" class="contact_form">
+<form id="gform" class="contact_form work-order-form">
   <input id="gotcha" type="text" name="gotcha" style="display:none">
   <h1>Order Process + Scan</h1>  
   <ul>
@@ -63,8 +63,8 @@ title: 'Order Process + Scan'
       </li>
     </div>
     <li>
-      <h2>Film shipback method<span class="required_notification">*</span></h2>
-      <span>(Cost charged at time of shipback)</span>
+      <h2>Film shipback<span class="required_notification">*</span></h2>
+      <p>Shipping costs are estimates only. 2 week shipback charged now. Flat rate charged at time of shipment.</p>
     </li>
     <li class="radio-row">
       {% include shipback-method.html %}
@@ -86,26 +86,23 @@ title: 'Order Process + Scan'
     </div>
     <li>      
       <div class="left">
-        <h2><strong>Total</strong><input class="cost total left" type="text" id="cost-total" name="cost-total" value="$0.00" readonly/></h2>        
+        <h2>Total<input class="cost total left" type="text" id="cost-total" name="cost-total" value="$0.00" readonly/></h2>        
       </div>
       <div class="clearfix"></div>
     </li>
+    <li></li>
     <li>
       <h2>Payment method<span class="required_notification">*</span></h2>
     </li>
     <li>
       {% include payment-method.html %}
     </li>
+    <li></li>
     <li>
-      <h2><strong>Order code</strong></h2>
-      <p>
-        CRITICAL! Please be sure to include the code below with your film when shipping. This will ensure that your order information is 
-        attached to the correct film shipment.
-      </p>
-      <div>
-          <strong><code id="display-code" style="font-size: 2em;"></code></strong>
-      </div>
-      <input id="order-code" name="order-code" type="text" style="display:none;"/>
+      <h2>Order code — <em>Critical</em></h2>
+    </li>
+    <li>
+      {% include order-code.html %}
     </li>
     <li>
       <button class="submit center" disabled type="submit">Place Order</button>
@@ -117,6 +114,7 @@ title: 'Order Process + Scan'
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.182.0.min.js"></script>
 <script type="text/javascript">
   $(function() {  
+    // BEGIN ORDER CODE SECTION
     var dateTime = new Date();
     var timeNowMS = dateTime.getTime();
     var orderCode = timeNowMS.toString(26).toUpperCase();
@@ -127,6 +125,36 @@ title: 'Order Process + Scan'
     if (tatDays < 5) {
       $('.rush-section').css('display','none');
     }
+
+    function openPrintDialogue(name, email, phone, code){
+      $('<iframe>', {
+        name: 'orderCodeIframe',
+        class: 'printFrame'
+      })
+      .appendTo('body')
+      .contents().find('body')
+      .append(`<div style="font-family: Roboto; margin: 4em;">
+                  <p>Name: ` + name + `</p>
+                  <p>Email: ` + email + `</p>
+                  <p>Phone: ` + phone + `</p>
+                  <p>Order code:` + code + `</p>
+               </div>`);
+
+      window.frames['orderCodeIframe'].focus();
+      window.frames['orderCodeIframe'].print();
+
+      setTimeout(() => { $(".printFrame").remove(); }, 100);
+    };
+
+    $('#print-code').click(function(e) {      
+      e.preventDefault();
+      var name = $('#name').val();
+      var email = $('#email').val();
+      var phone = $('#phone').val();
+      var code = $('#order-code').val();
+      openPrintDialogue(name, email, phone, code);
+    });
+    // END ORDER CODE SECTION
 
     // Image upload variables
     var bucketName = 'customer-references-2';
@@ -203,13 +231,18 @@ title: 'Order Process + Scan'
             /* Toggle between hiding and showing the active panel, with animation */
             var panel = this.nextElementSibling;
             if (panel.style.maxHeight){
-            this.classList.remove('opened');
-            this.classList.add('closed');
+              this.classList.remove('opened');
+              this.classList.add('closed');
             panel.style.maxHeight = null;
             } else {
-            this.classList.remove('closed');
-            this.classList.add('opened');
-            panel.style.maxHeight = panel.scrollHeight + "px";
+              this.classList.remove('closed');
+              this.classList.add('opened');
+              // Add 200px to maxHeight for image thumbnails if it's the image loader
+              if (panel.classList.contains("image-uploader")) {
+                panel.style.maxHeight = (panel.scrollHeight + 200) + "px";
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
             } 
         });
     }
@@ -572,7 +605,7 @@ title: 'Order Process + Scan'
     }
 
     $('.contact_form').change(function() {
-      if (nameEmailPhoneFilled() && adressInfoFilledIfNeeded() && shipbackMethodSelected() && paymentMethodSelected() && productIsOrdered()) {
+      if (nameEmailPhoneFilled() && adressInfoFilledIfNeeded() && shipbackMethodSelected() && paymentMethodSelected() && productIsOrdered() && $('#code-confirmation').is(':checked')) {
         $('.submit').prop('disabled', false);
         $('.notifications').empty();
         return;

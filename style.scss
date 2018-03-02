@@ -24,7 +24,7 @@ html {
 
 body {
 	background: $white;
-  font: 400 16px/1.4 Roboto;
+  font: 400 16px/1.4 Roboto, san-serif;
   color: $pvText;
 }
 
@@ -797,8 +797,9 @@ article {
       color: grey;
     }
   }
-  input[type=radio] {
+  input[type=radio], input[type=checkbox] {
     height: 1.5em;
+    width: 1.5em;
   }
   .cost {
     background-color: white;
@@ -807,7 +808,6 @@ article {
     font-size: 1em;
   }
   .total {
-    font-weight: 600;
     font-size: 1.2em;
   }
   .order-film-table {
@@ -816,7 +816,6 @@ article {
       border: 1px solid $pvHeadingLines;
       input, select {
         border: none;
-        // border-radius: 0%;
         font-size: 1em;
         .borders {
           font-size: 1.2em;
@@ -890,7 +889,7 @@ article {
       transition: max-height 0.2s ease-out;
       overflow: hidden;
   }
-  button.submit {
+  button.submit, button#print-code {
     width: 180px;
     height: 50px;
     margin-top: 25px;
@@ -904,6 +903,23 @@ article {
     :active {
       background-color: gray;
     }
+  }
+  button#print-code {
+    width: 150px;
+    height: 35px;
+    margin-top: 0px;
+  }
+  #display-code {
+    font-size: 1.5em;
+  }
+}
+
+.work-order-form {
+  input, textarea {
+    font-size: 1em;
+  }
+  textarea {
+    font-family: Roboto;
   }
 }
 
