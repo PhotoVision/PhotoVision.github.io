@@ -100,10 +100,10 @@ When it comes to skin tones, let your preference images speak to the tones you d
 <div class="panel" markdown="1">
 
 ## What if a specific order needs to look different from my standard vision?
-Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a specific set of  preferences for any given shoot. Simply submit them [here]({{site.baseurl}}/preferences), and specify which order/shoot name to use them for under “Written preferences.”
+Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a specific set of  preferences for any given shoot. Simply submit them [here]({{site.baseurl}}/order-preferences), and specify which order/shoot name to use them for under “Shoot name.”
 
 ## What if there are specific colors I’m looking for in my order?
-It can be difficult for our scan techs to determine exact colors of certain objects—such as invitations, fabric, paint, etc. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/preferences) for the order illustrating the color(s) you want us to match, and specify which order/shoot name to use them for under “Written preferences.” 
+It can be difficult for our scan techs to determine exact colors of certain objects—such as invitations, fabric, paint, etc. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/order-preferences) for the order illustrating the color(s) you want us to match, and specify which order/shoot name to use them for under “Shoot name.” 
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
