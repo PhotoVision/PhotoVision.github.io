@@ -18,9 +18,6 @@ While gray market film can exhibit no ill effects in your final images, we sadly
 ## We want to make sure our photographers are the getting the best film they can.
 That’s why we introduced #FUJIfresh. It’s the same Fuji400H you know and love, available in 135 and 120, sourced directly from Fujifilm USA. No worldwide trip stored in dubious conditions. Never gray market. And never expired. #FUJIfresh is your favorite Fuji400H film—always fresh—only from us!
 
-## How do I order?  
-It's easy—call or order online.
-
 ## Available in 120 and 135 Pro Packs  
 Each pro pack includes 5 rolls of #FUJIfresh 400H film.
   
@@ -31,7 +28,10 @@ Each pro pack includes 5 rolls of #FUJIfresh 400H film.
 {: .tablelines}
 **Shipping rates apply*  
 
+## How do I order?  
+It's easy—call or [order online]({{ site.baseurl}}/order-film ).
+
 ## Questions? 
 Call or email, we're always happy to help.  
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
-[{{ site.company-info.email }}]({{ site.company-info.email }})
+[{{ site.company-info.email }}](mailto:{{ site.company-info.email }})
