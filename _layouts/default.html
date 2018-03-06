@@ -140,22 +140,22 @@
         }
 
         mastheadAccordion.addEventListener("click", function() {
-          /* Toggle between hiding and showing the nav panel on click event (for mobile) */
+          /* Toggle between hiding and showing the order form panel on click event (for mobile) */
           accordionClicked(mastheadPanel);
         });
 
         mastheadAccordion.addEventListener("mouseover", function() {
-          /* Show the nav panel when mouse hovers over the Services list item (for desktop) */
+          /* Show the nav panel when mouse hovers over the order form div (for desktop) */
           accordionHovered(mastheadPanel);
         });
 
-        // mastheadAccordion.addEventListener("mouseout", function() {
-        //   /* Hide the nav panel when mouse leaves the Services list item (for desktop) */
-        //   mastheadPanel.style.maxHeight = null;
-        // });
+        mastheadAccordion.addEventListener("mouseout", function() {
+          /* Hide the nav panel when mouse leaves the order form div (for desktop) */
+          mastheadPanel.style.maxHeight = null;
+        });
 
         mastheadPanel.addEventListener("mouseout", function() {
-          /* Hide the nav panel when mouse leaves the nav panel (for desktop) */
+          /* Hide the nav panel when mouse leaves the order form panel (for desktop) */
           mastheadPanel.style.maxHeight = null;
         });
 
