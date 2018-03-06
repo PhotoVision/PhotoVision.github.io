@@ -62,8 +62,8 @@ We will hold your negatives based on the Ship Back preference marked on your [on
 
 | **Ship Back Options** |   |
 | :--- | :---: |
-| **2 weeks** | $6.50 |
-| **Fill 2" Flat Rate box** | $10.00 |
+| **2 weeks** | $7.50 |
+| **Fill 2" Flat Rate box** | $12.00 |
 | **Fill 4" Flat Rate box** | $20.00 |
 {: .tablelines}
 </div>
