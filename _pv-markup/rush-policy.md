@@ -5,7 +5,7 @@ permalink: rush-policy.html
 
 # Rush Policy
 
-High-quality scans + speedy turnarounds are our jam. We are pleased to offer rush processing when our [film service times]({{ site.baseurl}}/service-times) exceed a photographer's urgent time frame. All rush orders subject to lab availability. Turnaround times are in business days **starting the first business day after** your order is received. To maintain consistency, partial job rushes are unavailable. To request a rush, please make a note under Special Instructions on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form and note the applicable charge below, based on date of request: 
+High-quality scans + speedy turnarounds are our jam. We are pleased to offer rush processing when our [film service times]({{ site.baseurl}}/service-times) do not meet a photographer's urgent time frame. All rush orders subject to lab availability. Turnaround times are in business days **starting the first business day after** your order is received. To maintain consistency, partial job rushes are unavailable. To request a rush, please make a note under Special Instructions on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form and note the applicable charge below, based on date of request: 
 
 
 | **April 1 – December 10*** | **1 business day turnaround** | **2 business day turnaround** | **3 business day turnaround** |
