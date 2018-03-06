@@ -77,7 +77,7 @@ Our world-class color techs can best match your vision when you provide the road
 
 When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we can best match your scans to your creative vision.
 
-We recommend you send us 3–5 preference images to keep on file. These images can be from your own film portfolio or from another film photographer whom you admire.
+We recommend sending in 3–5 preference images to keep on file. These images can be from your own portfolio or from another film photographer whom you admire.
 
 When choosing preference images, the most important aspect to consider is skin tones. Pick images where your subject fills the majority of the frame and has the skin tones, density and contrast level you are striving to achieve.
   
@@ -93,17 +93,21 @@ When it comes to skin tones, let your preference images speak to the tones you d
 - _Avoid_ vague descriptions open to interpretation (i.e. "masculine," "romantic")
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Individual order preferences</h1>
+<h1 class="accordion closed" title="Click to expand section">Order specific preferences</h1>
 
 <div class="panel" markdown="1">
 
 ## What if a specific order needs to look different from my standard vision?
-Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a specific set of  preferences for any given shoot. Simply submit them [here]({{site.baseurl}}/order-preferences), and specify which order/shoot name to use them for under “Shoot name.”
+Sometimes you have a client with special expectations, or take on a project that varies from your standard vision. We’re happy to use a specific set of  preferences for any given shoot. Simply submit them [here]({{site.baseurl}}/order-preferences), and specify which order/shoot name to use them for under “Shoot name.” 
+
 
 ## What if there are specific colors I’m looking for in my order?
 
 It can be difficult for our scan techs to determine exact colors of certain objects—such as invitations, fabric, paint, etc. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/order-preferences) for the order illustrating the color(s) you want us to match, and specify which order/shoot name to use them for under “Shoot name.” 
 </div>
+
+Please keep in mind that in the winter months we typically run at a 1–2 business day service time. To ensure your order specific preferences are used please submit them *prior* to your film arriving in lab.
+
 
 <h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
 
@@ -145,7 +149,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 *All scan resolutions are approximate. Slight variations are normal.*
 
 ## Do you offer push/pull processing?
-Yes, we can push or pull film up to 3 stops. Indicate on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a *rubber band* around it. Push/pull processing is $3.00 per roll.
+Yes, we can push film up to 2 stops or pull film 1 stop. Indicate on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a *rubber band* around it. Push/pull processing is $3.00 per roll.
 
 ## How do you process Ilford Delta 3200?
 We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form how you rated your 3200.
@@ -182,13 +186,12 @@ Please don't hesitate to reach out, we're always happy to help! Our phones are a
 ## Visiting our beautiful Pacific Northwest?
 Please stop by, we'd love to meet you + give you a tour!
 
-<a href="{{ site.company-info.map-url }}" target="_blank">{{ site.company-info.address }}<br />{{ site.company-info.csz }}</a>
-</div>  
-
 ## Get social
 
-Come hang out with us on Instagram, Twitter, Facebook, Google+ and Pinterest.
+Come hang out with us on [Instagram](http://www.instagram.com/photovisionprints/), [Twitter](http://twitter.com/pvprints), [Facebook](http://www.facebook.com/photovisionprints) and [Pinterest](https://www.pinterest.com/pvprints/).
 
+<a href="{{ site.company-info.map-url }}" target="_blank">{{ site.company-info.address }}<br />{{ site.company-info.csz }}</a>
+</div>  
 
 <script type="text/javascript">
     var acc = document.getElementsByClassName("accordion");
