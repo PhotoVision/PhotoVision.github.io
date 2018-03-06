@@ -14,7 +14,7 @@ permalink: common-questions.html
 ## 2. [Submit preferences]({{ site.baseurl }}/preferences) 
 Help us understand your overall vision. This will help speed up the process once we receive your film. [(Why is this important?)]({{site.baseurl}}/common-questions#what-are-preference-images--why-should-i-send-them-in){: id="preferences-link"}
 
-## 3. Fill out an order form [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">download + print</a> 
+## 3. Fill out an order form [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">download + print</a> 
 Order forms are *crucial*. They help ensure all your film has arrived safely and is processed to your specifications. If you submit an order form online, we will provide you with an order code. You must include this code with your film when shipping. This will ensure that your order information is attached to the correct film shipment. If you download + print an order form, no order code is needed.
 
 ## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order code OR order form 
@@ -31,7 +31,7 @@ Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo
 <div class="panel" markdown="1">
 
 ## I’ve shipped my order. What happens next?
-You’ll receive an email once we receive your order. This email includes your order number, the job's total cost and an invoice for your records. We will then process + scan your order as specified in your preferences + on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form.
+You’ll receive an email once we receive your order. This email includes your order number, the job's total cost and an invoice for your records. We will then process + scan your order as specified in your preferences + on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form.
 
 ## What are your turnaround times?
 You can find our current film service time + print service time [here]({{ site.baseurl}}/service-times).
@@ -43,7 +43,7 @@ High-quality scans and speedy turnarounds are our jam! We are pleased to offer r
 Yes. Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
 
 ## How do I receive my scans?
-Once your scans are complete, you will receive an email to the address you provided when you created your account. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a shoot name on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same.
+Once your scans are complete, you will receive an email to the address you provided when you created your account. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a shoot name on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same.
 
 ## Will my B+W scans arrive desaturated?
 Yes. All black + white scans from both the Frontier and Noritsu arrive as fully desaturated RGB images, exhibiting truly neutral tones.
@@ -52,13 +52,13 @@ Yes. All black + white scans from both the Frontier and Noritsu arrive as fully 
 If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
 
 ## How do I order prints?
-Proof prints may be requested via your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
 
 ## How are my negatives handled?
 We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
 
 ## How do I get my negatives back?
-We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
+We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
 
 | **Ship Back Options** |   |
 | :--- | :---: |
@@ -102,7 +102,7 @@ Sometimes you have a client with special expectations, or take on a project that
 
 ## What if there are specific colors I’m looking for in my order?
 
-It can be difficult for our scan techs to determine exact colors of certain objects—such as invitations, fabric, paint, etc. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/order-preferences) for the order illustrating the color(s) you want us to match, and specify which order/shoot name to use them for under “Shoot name.” 
+It can be difficult for our scan techs to determine exact colors of certain objects—such as invitations, fabric, paint, etc. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/order-preferences) for the order illustrating the color(s) you want us to match, and specify which order/shoot name to use them for under “Shoot name.” 
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
@@ -113,7 +113,7 @@ It can be difficult for our scan techs to determine exact colors of certain obje
 <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Pricing</button> <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
 
 ## What scanners do you use?
-Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form. Keep in mind, you may only choose *one scanner per order*. If you do not specify, we will scan your order on the Frontier. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
+Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form. Keep in mind, you may only choose *one scanner per order*. If you do not specify, we will scan your order on the Frontier. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 ## How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
@@ -145,10 +145,10 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 *All scan resolutions are approximate. Slight variations are normal.*
 
 ## Do you offer push/pull processing?
-Yes, we can push or pull film up to 3 stops. Indicate on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a *rubber band* around it. Push/pull processing is $3.00 per roll.
+Yes, we can push or pull film up to 3 stops. Indicate on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a *rubber band* around it. Push/pull processing is $3.00 per roll.
 
 ## How do you process Ilford Delta 3200?
-We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your [online]({{ site.baseurl/order-work }}) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form how you rated your 3200.
+We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form how you rated your 3200.
 
 ## Do you process + scan E-6 slide film?
 Sadly, we no longer process E-6, but we do scan it.

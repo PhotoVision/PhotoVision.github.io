@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Exposure Reference Sheet
 permalink: exposure-reference-sheet.html
 ---
 
