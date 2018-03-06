@@ -112,6 +112,7 @@ title: 'Order Process + Scan'
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.182.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jsbarcode/3.6.0/JsBarcode.all.min.js"></script>
 <script type="text/javascript">
   $(function() {  
     // BEGIN ORDER CODE SECTION
@@ -121,30 +122,28 @@ title: 'Order Process + Scan'
     $('#order-code').val(orderCode);
     $('#display-code').append(orderCode);
 
-    var tatDays = $('#tat-days').val();
-    if (tatDays < 5) {
-      $('.rush-section').css('display','none');
-    }
+    // Generate Code39 barcode in hidden svg
+    JsBarcode("#barcode", orderCode, {
+      format: "CODE39",
+      height: 32,
+      displayValue: false
+    });
 
-    function openPrintDialogue(name, email, phone, code){
+    function createPrintIFrame(name, email, phone, code){
       $('<iframe>', {
         name: 'orderCodeIframe',
-        class: 'printFrame'
+        class: 'printFrame',
+        id: 'print-frame'
       })
       .appendTo('body')
       .contents().find('body')
-      .append(`<div style="font-family: Roboto; margin: 4em;">
+      .append(`<div id="order-code-page" style="font-family: Roboto; margin: 4em;">
                   <p>Name: ` + name + `</p>
                   <p>Email: ` + email + `</p>
                   <p>Phone: ` + phone + `</p>
-                  <code style="font-size: 24px;">` + code + `</code>
+                  <p>Code: ` + code + `</p>
                </div>`);
-
-      window.frames['orderCodeIframe'].focus();
-      window.frames['orderCodeIframe'].print();
-
-      setTimeout(() => { $(".printFrame").remove(); }, 100);
-    };
+    }
 
     $('#print-code').click(function(e) {      
       e.preventDefault();
@@ -152,9 +151,30 @@ title: 'Order Process + Scan'
       var email = $('#email').val();
       var phone = $('#phone').val();
       var code = $('#order-code').val();
-      openPrintDialogue(name, email, phone, code);
+      // Clone hidden svg element containing generated barcode and make the clone visible
+      var barcode = document.getElementById("barcode");
+      var clone = barcode.cloneNode(true);
+      clone.style.display = "inline-block";
+
+      // Create iframe used for printing customer info + order code
+      createPrintIFrame(name, email, phone, code);
+
+      // Append cloned svg element containing generated barcode to the iframe's body
+      window.frames['orderCodeIframe'].document.body.appendChild(clone);
+               
+      window.frames['orderCodeIframe'].focus();
+      window.frames['orderCodeIframe'].print();
+
+      // Remove iframe when print dialog is closed
+      setTimeout(() => { $(".printFrame").remove(); }, 100);
     });
+
     // END ORDER CODE SECTION
+
+    var tatDays = $('#tat-days').val();
+    if (tatDays < 5) {
+      $('.rush-section').css('display','none');
+    }
 
     // Image upload variables
     var bucketName = 'customer-references-2';
