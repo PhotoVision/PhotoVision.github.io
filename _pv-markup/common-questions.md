@@ -17,7 +17,7 @@ Help us understand your overall vision. This will help speed up the process once
 ## 3. Fill out an order form [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">download + print</a> 
 Order forms are *crucial*. They help ensure all your film has arrived safely and is processed to your specifications. If you submit an order form online, we will provide you with an order code. You must include this code with your film when shipping. This will ensure that your order information is attached to the correct film shipment. If you download + print an order form, no order code is needed.
 
-## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order code OR order form 
+## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order code or order form 
 Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our <a href="{{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf" target="_blank">pre-addressed shipping label</a> or hand-address your package in stunning calligraphy to:  
 
 **Attn: Film Crew**  
@@ -39,33 +39,17 @@ You can find our current film service time + print service time [here]({{ site.b
 ## Do you offer rush processing?
 High-quality scans and speedy turnarounds are our jam! We are pleased to offer rush processing when our service times exceed a photographer's urgent time frame. See our [Rush Policy]({{ site.baseurl}}/rush-policy) for details.
 
-## Will my scans be rotated and numbered?
-Yes. Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
-
 ## How do I receive my scans?
 Once your scans are complete, we will send you an email. This email includes a link to view and download your scans via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized in your own folder free of charge. And, if you provide a shoot name on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form, your <a href="http://box.com" target="_blank">Box</a> order folder will be titled the same.
+
+## Will my scans be rotated and numbered?
+Yes. Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. [Ergo](http://en.oxforddictionaries.com/definition/ergo), if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order. Pretty cool, huh?
 
 ## Will my black + white scans arrive desaturated?
 Yes. All black + white scans from both the Frontier and Noritsu arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 ## What if I have a problem with my order?
 If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
-
-## How do I order prints?
-Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
-
-## How are my negatives handled?
-We take the utmost care with your film! Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
-
-## How do I get my negatives back?
-We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
-
-| **Ship Back Options** |   |
-| :--- | :---: |
-| **2 weeks** | $7.50 |
-| **Fill 2" Flat Rate box** | $12.00 |
-| **Fill 4" Flat Rate box** | $20.00 |
-{: .tablelines}
 </div>
 
 <h1 id="preferences-heading" class="accordion closed" title="Click to expand section">Preferences</h1>
@@ -103,17 +87,17 @@ Sometimes you have a client with special expectations, or take on a project that
 
 It can be difficult for our scan techs to determine exact colors of certain objects—such as invitations, fabric, paint, etc. If you’re hoping to see those colors scanned as true as possible, please indicate what you expect to see in the Special Instructions section of your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form. Or, if possible, [submit digital preference images]({{site.baseurl}}/order-preferences) for the order illustrating the color(s) you want us to match, and specify which order/shoot name to use them for under “Shoot name.” 
 
-_**Please keep in mind** that in the winter months we typically run at a 1–2 business day service time. To ensure your order specific preferences are used please submit them prior to your film arriving in lab._
+_**Please keep in mind** in the winter months we typically run at a 1–2 business day service time. To ensure your order specific preferences are used, please submit them prior to your film arriving in lab._
 </div>
 
 
 
-<h1 class="accordion closed" title="Click to expand section">Film / scan / print details</h1>
+<h1 class="accordion closed" title="Click to expand section">Film + scans</h1>
 
 <div class="panel" markdown="1">
 
 ## What are your prices?
-<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Services Pricing</button> <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Services Pricing</button>
+<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Services Pricing</button>
 
 ## What scanners do you use?
 Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form. Keep in mind, you may only choose *one scanner per order*. If you do not specify, we will scan your order on the Frontier. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
@@ -157,6 +141,41 @@ We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your
 Sadly, we no longer process E-6, but we do scan it.
 </div>
 
+<h1 class="accordion closed" title="Click to expand section">Negatives</h1>
+
+<div class="panel" markdown="1">
+
+## How are my negatives handled?
+We take the utmost care with your film. Negatives are carefully cut, sleeved and organized by hand at no charge. If your rolls are numbered (which we *highly* recommend) they will also be kept in numerical order.
+
+## How do I get my negatives back?
+We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
+
+| **Ship Back Options** |   |
+| :--- | :---: |
+| **2 weeks** | $7.50 |
+| **Fill 2" Flat Rate box** | $12.00 |
+| **Fill 4" Flat Rate box** | $20.00 |
+{: .tablelines}
+</div>
+
+<h1 class="accordion closed" title="Click to expand section">Prints</h1>
+
+<div class="panel" markdown="1">
+
+## How do I order prints?
+Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+
+## Why should I order prints from PhotoVision?
+Since 1968, we've respected the art of the print. Our true, wet photographic process pays homage to traditional darkroom printing. You love your scans—why trust another lab with your prints?
+
+## What papers do you offer?
+We use only the finest Fujicolor Crystal Archive papers. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites, excellent long-term storage and superb resistance to light fade, our prints stand the test of time.
+
+## What are your prices?
+<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Services Pricing</button>
+</div>
+
 <h1 class="accordion closed" title="Click to expand section">Exposure Reference Sheets</h1>
 
 <div class="panel" markdown="1">
@@ -170,6 +189,13 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 ## Where do I find them?  
 
 [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job. They can be found within your order’s <a href="http://box.com" target="_blank">Box</a> folder.
+</div>
+
+<h1 class="accordion closed" title="Click to expand section">What makes us tick</h1>
+
+<div class="panel" markdown="1">
+
+We invite you to [learn what we're about]({{ site.baseurl }}/philosophy).
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Connect with us</h1>
@@ -189,7 +215,7 @@ Please stop by, we'd love to meet you + give you a tour!
 
 ## Get social
 
-Come hang out with us on [Instagram](http://www.instagram.com/photovisionprints/), [Twitter](http://twitter.com/pvprints), [Facebook](http://www.facebook.com/photovisionprints) and [Pinterest](https://www.pinterest.com/pvprints/).
+Come hang out with us on [Instagram](http://www.instagram.com/photovisionprints/), [Twitter](http://twitter.com/pvprints), [Facebook](http://www.facebook.com/photovisionprints) and [Pinterest](http://www.pinterest.com/pvprints/).
 
 </div>  
 
