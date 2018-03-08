@@ -77,14 +77,14 @@ Our world-class color techs can best match your vision when you provide the road
 
 When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we can best match your scans to your creative vision.
 
-We recommend sending in 3–5 preference images to keep on file. These images can be from your own portfolio or from another film photographer whom you admire. When choosing preference images, the most important aspect to consider is skin tones. Pick images where your subject fills the majority of the frame and has the skin tones, density and contrast level you are striving to achieve.
+We recommend sending in 3–5 preference images to keep on file. These images can be from your own portfolio or from another film photographer whom you admire. *Skin tones are the most important aspect to consider when choosing preference images.* Pick images where your subject fills the majority of the frame and has the skin tones, density and contrast level you are striving to achieve.
   
 ## How do I submit them?
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/preferences). Current customers may [update preference images]({{ site.baseurl }}/preferences) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).
 
 ## What should I include under "Written Preferences?"
 
-When it comes to skin tones, let your preference images speak for themselves. Focus on describing your _overall ideal image_. 
+When it comes to skin tones, let your preference images speak for themselves. Use this space to focus on describing your _overall ideal image_. 
 - Warm / cool / neutral
 - High contrast / medium contrast / low contrast
 - Retain details in shadows / retain details in highlights

@@ -33,16 +33,8 @@ permalink: print-services.html
 | **11×14**               | $14.50                        | $22.00                                |
 | **11×17**	              | $14.50	                      | $22.00                                |
 | **12×18**	              | $17.95	                      | $25.45                                |
-| **16×20**	              | $25.95	                      | $31.45                                |
-| **16×24**	              | $28.95	                      | $35.45                                |
-| **20×24**	              | $28.95	                      | $38.95                                |
-| **20×30**	              | $29.95	                      | $44.95                                |
-| **24×30**	              | $35.95	                      | $47.45                                |
-| **24×36**	              | $49.95	                      | $57.95                                |
-| **30×40**	              | $59.95	                      | $64.95                                |
-| **30×45**	              | $59.95	                      | $69.45                                |
 {: .tablelines}  
-
+  
 ## Large format prints 
 The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can hold (1200 ppi), pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
 
@@ -55,8 +47,8 @@ The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can 
 | **24×30**	              | $35.95	                      | $47.45                                |
 | **24×36**	              | $49.95	                      | $57.95                                |
 | **30×40**	              | $59.95	                      | $64.95                                |
-| **30×45**	              | $59.95	                      | $69.45                                |
-| **30×48**	              | Need price??                  | Need price??                          |
+| **30×45**	              | $68.95	                      | $72.45             |
+| **30×48**	              | $74.95                        | $84.95                                |
 {: .tablelines}  
 
 ## Proof prints
