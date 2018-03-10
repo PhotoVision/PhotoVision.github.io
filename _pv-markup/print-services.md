@@ -5,10 +5,9 @@ permalink: print-services.html
 
 # Timeless prints 
 
-#### Since 1968, we've respected the art of the print. Our true, wet photographic process pays homage to traditional darkroom printing. We use only the finest Fujicolor Crystal Archive papers. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites, excellent long-term storage and superb resistance to light fade, our prints stand the test of time.
-
-
-#### You love your scans—why trust another lab with your prints?
+## You love your scans—why trust another lab with your prints?  
+  
+#### Since 1968, we've respected the art of the print. Our true, wet photographic process pays homage to the tradition of darkroom printing. We use only the finest Fujicolor Crystal Archive papers. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites, excellent long-term storage and superb resistance to light fade, our prints stand the test of time.
 
 
 ## Standard prints
