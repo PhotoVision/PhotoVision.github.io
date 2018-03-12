@@ -367,6 +367,50 @@ img {
   width: 50%;
 }
 
+.philosophy-container {
+  img:hover {
+    content: url("/images/philosophy-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/philosophy-hover.jpg");
+    }
+  }
+}
+
+.film-services-container {
+  img:hover {
+    content: url("/images/film-services-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/film-services-hover.jpg");
+    }
+  }
+}
+
+.print-services-container {
+  img:hover {
+    content: url("/images/print-services-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/print-services-hover.jpg");
+    }
+  }
+}
+
+.fuji-fresh-container {
+  img:hover {
+    content: url("/images/fuji-fresh-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/fuji-fresh-hover.jpg");
+    }
+  }
+}
+
 .reference-sheets-container {
   display: inline-block;
   position: relative;
