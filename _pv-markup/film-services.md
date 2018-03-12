@@ -5,12 +5,12 @@ permalink: film-services.html
 
 # Film services
 
-We process C-41 color negative and Black + White film in most sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service times [here]({{ site.baseurl}}/service-times). All scans are delivered via <a href="http://box.com" target="_blank">Box</a>, a simple online file sharing system that keeps all your orders organized.
+We process C-41 color negative and Black + White film in most sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service times [here]({{ site.baseurl}}/service-times). All scans are delivered via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized.
 
 
 ## Develop + scan
 
-Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. Keep in mind, you may only choose *one scanner per order*. If you do not specify, we will scan your order on the Frontier. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
+Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. Keep in mind, you may only choose *one scanner per order*. If you do not specify, we will scan your order on the Frontier. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
 
 
 ### Fuji Frontier SP3000  
@@ -32,7 +32,7 @@ Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or st
 {: .tablelines}
 
 ## Develop + scan + print
-You'll get top-notch film developing, beautiful scans delivered via <a href="http://box.com" target="_blank">Box</a> and true, photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme (Lustre) Paper.
+You'll get top-notch film developing, beautiful scans delivered via [Box](http://box.com){: target="_blank"} and true, photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme (Lustre) Paper.
 
 | **Size** | **135 / 120** | **220** |
 | :---			| :---:	| :---:	|
@@ -98,7 +98,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 We take the utmost care with your film. Negatives will be carefully cut, sleeved and organized at no charge. If your rolls are numbered (which, we *highly* recommend) they will be kept in numerical order.
 
 ## How do I get my negatives back?
-We hold your negatives based on the Ship Back preference you choose on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping, these prices will vary.*
+We hold your negatives based on the Ship Back preference you choose on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping, these prices will vary.*
 
 | **Ship Back Options** |   |
 | :--- | :---: |
@@ -111,4 +111,4 @@ We hold your negatives based on the Ship Back preference you choose on your [onl
 We're always happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
-[{{ site.company-info.email }}]({{ site.company-info.email }})
+[{{ site.company-info.email }}](mailto:{{ site.company-info.email }})

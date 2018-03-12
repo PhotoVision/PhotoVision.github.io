@@ -22,9 +22,9 @@ Exposure Reference Sheets tell you what you need to know about your shooting, wh
 
 ## Where do I find them?  
 
-Exposure Reference Sheets are provided for every roll in every job. They can be found within your order’s <a href="http://box.com" target="_blank">Box</a> folder. 
+Exposure Reference Sheets are provided for every roll in every job. They can be found within your order’s [Box](http://box.com){: target="_blank"} folder. 
 
 ## Questions?  
 Don’t hesitate to reach out, we're here to help!  
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
-[{{ site.company-info.email }}]({{ site.company-info.email }})
+[{{ site.company-info.email }}](mailto:{{ site.company-info.email }})
