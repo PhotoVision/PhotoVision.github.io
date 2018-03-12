@@ -14,10 +14,10 @@ permalink: common-questions.html
 ## 2. [Submit preferences]({{ site.baseurl }}/preferences) 
 Help us understand your overall vision. This will help speed up the process once we receive your film. [(Why is this important?)]({{site.baseurl}}/common-questions#what-are-preference-images--why-should-i-send-them-in){: id="preferences-link"}
 
-## 3. Fill out an order form [online]({{ site.baseurl }}/order-work) or [download + print]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"}
+## 3. Fill out an order form [online]({{ site.baseurl }}/order-work) _or_ [download + print]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"}
 Order forms are *crucial*. They help ensure all your film has arrived safely and is processed to your specifications. If you submit an order form online, we will provide you with an order code. You must include this code with your film when shipping. This will ensure that your order information is attached to the correct film shipment. If you download + print an order form, no order code is needed.
 
-## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order code OR order form 
+## 4. [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order code _or_ order form 
 Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo. Download our [pre-addressed shipping label]({{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf){: target="_blank"} or hand-address your package in stunning calligraphy to:  
 
 **Attn: Film Crew**  
@@ -75,9 +75,7 @@ Our world-class color techs can best match your vision when you provide the road
 
 ## What are preference images + why should I send them in?
 
-When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we can best match your scans to your creative vision.
-
-We recommend sending in 3–5 preference images to keep on file. These images can be from your own portfolio or from another film photographer whom you admire. *Skin tones are the most important aspect to consider when choosing preference images.* Pick images where your subject fills the majority of the frame and has the skin tones, density and contrast level you are striving to achieve.
+When scanning by hand, there are many color and density variations we can make within a single frame. Your preference images serve as style references so we can best match your scans to your creative vision. We recommend sending in 3–5 preference images to keep on file. These images can be from your own portfolio or from another film photographer whom you admire. *Skin tones are the most important aspect to consider when choosing preference images.* Pick images where your subject fills the majority of the frame and has the skin tones, density and contrast level you are striving to achieve.
   
 ## How do I submit them?
 New customer? First, [create an account]({{ site.baseurl }}/create-account). Then, [submit your preference images]({{ site.baseurl }}/preferences). Current customers may [update preference images]({{ site.baseurl }}/preferences) or email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}).

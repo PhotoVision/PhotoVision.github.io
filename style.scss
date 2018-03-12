@@ -367,6 +367,50 @@ img {
   width: 50%;
 }
 
+.philosophy-container {
+  img:hover {
+    content: url("/images/philosophy-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/philosophy-hover.jpg");
+    }
+  }
+}
+
+.film-services-container {
+  img:hover {
+    content: url("/images/film-services-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/film-services-hover.jpg");
+    }
+  }
+}
+
+.print-services-container {
+  img:hover {
+    content: url("/images/print-services-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/print-services-hover.jpg");
+    }
+  }
+}
+
+.fuji-fresh-container {
+  img:hover {
+    content: url("/images/fuji-fresh-hover.jpg");
+  }
+  @include mobile {
+    img {
+      content: url("/images/fuji-fresh-hover.jpg");
+    }
+  }
+}
+
 .reference-sheets-container {
   display: inline-block;
   position: relative;
@@ -534,9 +578,12 @@ article {
       border-bottom: 1px solid $pvHeadingLines;
       padding-bottom: 5px;
     }
+    h2 {
+      margin-bottom: .75em;
+    }
     p {
       margin-bottom: 0;
-      padding-bottom: 2%;
+      padding-bottom: 1%;
       text-align: justify;
       text-justify: inter-word;
       em strong a {
