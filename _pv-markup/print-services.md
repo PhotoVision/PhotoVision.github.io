@@ -60,7 +60,7 @@ The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can 
 {: .tablelines}  
 
 ## Proof prints
-The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services) on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form-Dec-2017.pdf" target="_blank">printed</a> order form.
+The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services) on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form.
 
 | **Size** | **135 / 120** | **220** |
 | :---			| :---:	| :---:	|
@@ -83,7 +83,7 @@ Add a clean + professional look to your prints at no charge. Available for 3.5×
 ## Order prints  
 Order prints from 3.5×5 to 30×45 right from your desktop or phone.
 
-<a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">![]({{ site.baseurl}}/images/new-little-prints.jpg)</a>
+[![]({{ site.baseurl}}/images/new-little-prints.jpg)](http://photovision.dakisphotofactory.com/onlinePrint.html){: target="_blank"}
 
 ## Print service times
 - 12×18 and smaller (200 or less): **1 business day**
@@ -98,4 +98,4 @@ Order prints from 3.5×5 to 30×45 right from your desktop or phone.
 We're always happy to help. Please don't hesitate to reach out, our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
-[{{ site.company-info.email }}]({{ site.company-info.email }})
+[{{ site.company-info.email }}](mailto:{{ site.company-info.email }})
