@@ -16,9 +16,7 @@ Exposure Reference Sheets provide a thumbnail of each frame, allowing you to cle
 
 ## How do I read my Exposure Reference Sheet?  
 
-Frames within your Exposure Reference Sheet that appear dark represent underexposure, while frames that appear light represent overexposure.  
-
-Exposure Reference Sheets tell you what you need to know about your shooting, whether you need to make changes in your exposures or if you’re on the right track. They will help you understand your results—for every single frame—and allow you to see any exposure shifts that may be occurring within your film. 
+Frames within your Exposure Reference Sheet that appear dark represent underexposure, while frames that appear light represent overexposure. Exposure Reference Sheets tell you what you need to know about your shooting, whether you need to make changes in your exposures or if you’re on the right track. They will help you understand your results—for every single frame—and allow you to see any exposure shifts that may be occurring within your film. 
 
 ## Where do I find them?  
 

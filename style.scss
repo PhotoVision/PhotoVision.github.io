@@ -578,9 +578,12 @@ article {
       border-bottom: 1px solid $pvHeadingLines;
       padding-bottom: 5px;
     }
+    h2 {
+      margin-bottom: .75em;
+    }
     p {
       margin-bottom: 0;
-      padding-bottom: 2%;
+      padding-bottom: 1%;
       text-align: justify;
       text-justify: inter-word;
       em strong a {
