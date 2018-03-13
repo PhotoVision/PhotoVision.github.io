@@ -3,7 +3,7 @@ layout: page
 permalink: philosophy.html
 ---
 
-<h1>Exceeding expectations. Since 1968.</h1>
+<h1>Exceeding Expectations Since 1968</h1>
 
 ### From our humble beginnings as a small-town camera shop, to becoming one of the world's most trusted names in film processing + scanning, our vision holds steady—*Always do what’s right.* Our 50-year commitment to helping all photographers achieve their goals is bar none in the industry.  
   
@@ -19,10 +19,10 @@ permalink: philosophy.html
 
 <div class="clearfix extra-picky-space" markdown="1">
 
-<h1 class="accordion closed" title="Click to expand section">Let us wow you</h1>
+<h1 class="accordion closed" title="Click to expand section">Let Us Wow You</h1>
 
 <div class="panel" markdown="1">
-> ## Your vision doesn't run on Auto
+> ## Your vision doesn't run on 'auto'
 Your scans shouldn't, either. Our color techs are some of the best in the world. We scan every frame by hand to match your creative vision.
 {:.left-column }
 
@@ -44,7 +44,7 @@ We take quality very seriously. That's why 5 different Team Members examine ever
 </div>
 <div class="clearfix extra-picky-space" markdown="1">
 
-<h1 class="accordion closed" title="Click to expand section">World-class service</h1>
+<h1 class="accordion closed" title="Click to expand section">World-Class Service</h1>
 
 <div class="panel" markdown="1">
 > ## We get it—film can be tricky
@@ -62,7 +62,7 @@ But don't take our word for it. [Check out what our friends are saying]({{ site.
 </div>
 <div class="clearfix extra-space" markdown="1">
 
-<h1 class="accordion closed" title="Click to expand section">Join our family</h1>
+<h1 class="accordion closed" title="Click to expand section">Join Our Family</h1>
 
 <div class="panel" markdown="1">
 > ## 3 generations of film expertise

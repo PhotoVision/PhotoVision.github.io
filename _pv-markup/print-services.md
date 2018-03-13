@@ -3,7 +3,7 @@ layout: page
 permalink: print-services.html
 ---
 
-# Timeless prints 
+# Timeless Prints 
 
 ## You love your scans—why trust another lab with your prints?  
   
@@ -34,7 +34,7 @@ Since 1968, we've respected the art of the print. Our true, wet photographic pro
 | **12×18**	              | $17.95	                      | $25.45                                |
 {: .tablelines}  
   
-## Large format prints 
+## Large Format Prints 
 The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can hold (1200 ppi), pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
 
 | **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
@@ -50,7 +50,7 @@ The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can 
 | **30×48**	              | $74.95                        | $84.95                                |
 {: .tablelines}  
 
-## Proof prints
+## Proof Prints
 The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services) on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form.
 
 | **Size** | **135 / 120** | **220** |
@@ -61,7 +61,7 @@ The same outstanding print quality, on the same Fujicolor Crystal Archive Suprem
 
 <div class="clearfix"></div>
 
-## White borders
+## White Borders
 Add a clean + professional look to your prints at no charge. Available for 3.5×5, 4×4, 4×5, 4×6, 4.5×6, 5×5 and 5×7.
 
 | **Size** | Border width |
@@ -71,12 +71,12 @@ Add a clean + professional look to your prints at no charge. Available for 3.5×
 | **Large** | 1/2" |
 {: .tablelines}
 
-## Order prints  
+## Order Prints  
 Order prints from 3.5×5 to 30×45 right from your desktop or phone.
 
 [![]({{ site.baseurl}}/images/new-little-prints.jpg)](http://photovision.dakisphotofactory.com/onlinePrint.html){: target="_blank"}
 
-## Print service times
+## Print Service Times
 - 12×18 and smaller (200 or less): **1 business day**
 - 12×18 and smaller (more than 200): **2 business days**
 - 16×20–30×45: **3 business days**
