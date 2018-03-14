@@ -208,7 +208,7 @@ img {
 .company-logo {
   width: 20%;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   @media screen and (max-width: 1400px) {
     width: 35%;
     margin-bottom: 40px;
@@ -332,11 +332,11 @@ img {
 
 .lead-image-container {
   .lead-image {    
-    width: 50%;
+    width: 70%;
     position: relative;
     margin-bottom: 50px;
     @media screen and (max-width: 1400px) {
-      width: 75%;
+      width: 85%;
     }
     @media screen and (max-width: 1200px) {
       width: 90%;
@@ -344,7 +344,7 @@ img {
     &:before {
       content: "";
       display: block;
-      padding-top: 109.3%;
+      padding-top: 50%;
     }
     .photo-credit {
       visibility: hidden;
