@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: philosophy.html
+permalink: what-makes-us-tick.html
 ---
 
 <h1>Exceeding Expectations Since 1968</h1>
@@ -14,7 +14,7 @@ permalink: philosophy.html
 | ![]({{ site.baseurl}}/images/Photovision_002.jpg){:.left-image } | ![]({{ site.baseurl}}/images/Photovision_001.jpg){:.right-image } |
 {:.tablenolines }
   
-### *"What has made us most proud over the years, is the number of people we’ve touched and the number of lives we’ve made better." — Brian Wood*
+### *"What has made us most proud over the years, is the number of people we’ve touched and the number of lives we’ve made better." — Brian Wood, 2nd generation Photographic Expert*
 {:.center-p }  
 
 <div class="clearfix extra-picky-space" markdown="1">
