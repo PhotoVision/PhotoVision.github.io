@@ -205,7 +205,7 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 
 <div class="panel" markdown="1">
 
-[Our story]({{ site.baseurl }}/philosophy).
+Since our small town beginnings, we never let go of film or the art of photography. Learn more about our story [here]({{ site.baseurl }}/what-makes-us-tick).
 </div>
 
 <h1 class="accordion closed" title="Click to expand section">Connect with us</h1>
