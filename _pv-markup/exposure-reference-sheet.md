@@ -26,16 +26,3 @@ Exposure Reference Sheets are provided for every roll in every job. They can be 
 Don’t hesitate to reach out, we're here to help!  
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
 [{{ site.company-info.email }}](mailto:{{ site.company-info.email }})
-
-
-
-
-
-Exposure Reference Sheets are an exclusive feature designed by PhotoVision to close the gap between exposures + scans. When shooting film, your negatives act as your roadmap to understanding the connection between how you expose your film + your scan results. Our [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) help you better understand this relationship at a glance by providing a thumbnail of each frame, allowing you to clearly + easily see how you exposed your film and why you got the results you did.
-
-## How do I read them?
-Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) that appear dark represent underexposure, while frames that appear light represent overexposure. 
-
-## Where do I find them?  
-
-[Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job within your order’s [Box](http://box.com){: target="_blank"} folder.
