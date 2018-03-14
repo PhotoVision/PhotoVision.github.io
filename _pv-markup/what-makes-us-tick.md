@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: philosophy.html
+permalink: what-makes-us-tick.html
 ---
 
 <h1>Exceeding Expectations Since 1968</h1>
