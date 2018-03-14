@@ -56,12 +56,12 @@ If you have any questions or concerns at any time, please contact us as soon as 
 <div class="panel" markdown="1">
 Our world-class color techs can best match your vision when you provide the roadmap. And the best roadmaps include reference images.
 
-## Is there a charge to set up or update my preferences?
-Never. You can even set [order-specific preferences]({{site.baseurl}}/order-preferences) for free, too.
-
 ## What are reference images + why should I send them in?
 
 When scanning by hand, there are many color and density variations our skilled color techs can make within a single frame. Your reference images serve as a style guide so we can best match your scans to your creative vision. We recommend sending in 3–5 reference images to keep on file. These images can be from your own portfolio or from another film photographer whom you admire. *Skin tones are the most important aspect to consider when choosing reference images.* Pick images where your subject fills the majority of the frame and has the skin tones, density and contrast level you are striving to achieve.
+
+## Is there a charge to set up or update my preferences?
+Never. You can even set [order-specific preferences]({{site.baseurl}}/order-preferences) for free, too.  
   
 ## How do I submit them?
 New customer? First [create an account]({{ site.baseurl }}/create-account), then [submit your reference images]({{ site.baseurl }}/preferences). Current customers may [update reference images]({{ site.baseurl }}/preferences), email them as an attachment to [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}) or specify [order-specific preferences]({{site.baseurl}}/order-preferences).

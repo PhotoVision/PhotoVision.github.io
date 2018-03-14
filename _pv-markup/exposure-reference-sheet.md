@@ -4,11 +4,11 @@ title: Exposure Reference Sheet
 permalink: exposure-reference-sheet.html
 ---
 
-# A feature designed to close the gap between exposures + scans  
+# An exclusive feature designed by PhotoVision to close the gap between exposures + scans  
 
-When shooting film, your negatives act as your road map to understanding the connection between how you expose your film and your scan results. Our goal is to provide a tool to help you better understand your exposures + scans at a glance.  
+When shooting film, your negatives act as your road map to understanding the connection between how you expose your film + your scan results. Our goal is to provide a tool to help you better understand this relationship glance.  
 
-## Introducing, the Exposure Reference Sheet!  
+## No other film lab provides this tool
 
 Exposure Reference Sheets provide a thumbnail of each frame, allowing you to clearly + easily see how you exposed your film. Pretty cool, huh? The images within this Exposure Reference Sheet show a variety of exposures in 1 stop increments. These exposure shifts can be seen in the levels of density within each frame below:
 
