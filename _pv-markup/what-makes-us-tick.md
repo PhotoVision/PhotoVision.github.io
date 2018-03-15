@@ -19,7 +19,7 @@ permalink: what-makes-us-tick.html
 
 <div class="clearfix extra-picky-space" markdown="1">
 
-<h1 class="accordion closed" title="Click to expand section">Let Us Wow You</h1>
+<h1 class="accordion opened" title="Click to expand section">Let Us Wow You</h1>
 
 <div class="panel" markdown="1">
 > ## Your vision doesn't run on 'auto'
@@ -44,7 +44,7 @@ We take quality very seriously. That's why 5 different Team Members examine ever
 </div>
 <div class="clearfix extra-picky-space" markdown="1">
 
-<h1 class="accordion closed" title="Click to expand section">World-Class Service</h1>
+<h1 class="accordion opened" title="Click to expand section">World-Class Service</h1>
 
 <div class="panel" markdown="1">
 > ## We get it—film can be tricky
@@ -62,7 +62,7 @@ But don't take our word for it. [Check out what our friends are saying]({{ site.
 </div>
 <div class="clearfix extra-space" markdown="1">
 
-<h1 class="accordion closed" title="Click to expand section">Join Our Family</h1>
+<h1 class="accordion opened" title="Click to expand section">Join Our Family</h1>
 
 <div class="panel" markdown="1">
 > ## 3 generations of film expertise
@@ -84,15 +84,24 @@ We want to help you succeed in every aspect of your art + business, so you can s
 <script type="text/javascript">
     var acc = document.getElementsByClassName("accordion");
     var i;
+    
+    window.onload = function() {
+        for (i = 0; i < acc.length; i++) {
+            acc[i].classList.remove('opened');
+            acc[i].classList.add('closed');
+            var panel = acc[i].nextElementSibling;
+            panel.style.maxHeight = 0;
+        }
+    }
 
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
             /* Toggle between hiding and showing the active panel, with animation */
             var panel = this.nextElementSibling;
-            if (panel.style.maxHeight){
+            if (panel.style.maxHeight != "0px"){
             this.classList.remove('opened');
             this.classList.add('closed');
-            panel.style.maxHeight = null;
+            panel.style.maxHeight = 0;
             } else {
             this.classList.remove('closed');
             this.classList.add('opened');

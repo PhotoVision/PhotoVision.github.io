@@ -3,7 +3,7 @@ layout: page
 permalink: common-questions.html
 ---
 
-<h1 class="accordion closed" title="Click to expand section">New here? Welcome!</h1>
+<h1 class="accordion opened" title="Click to expand section">New here? Welcome!</h1>
 
 <div class="panel" markdown="1">
 
@@ -51,7 +51,7 @@ We will hold your negatives based on the Ship Back preference marked on your [on
 If you have any questions or concerns at any time, please contact us as soon as possible via phone at [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }}) or email at [{{ site.company-info.email }}](mailto:{{ site.company-info.email }}). We will do everything we can to ensure you are happy with your order!
 </div>
 
-<h1 id="preferences-heading" class="accordion closed" title="Click to expand section">Preferences</h1>
+<h1 id="preferences-heading" class="accordion opened" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
 Our world-class color techs can best match your vision when you provide the roadmap. And the best roadmaps include reference images.
@@ -84,7 +84,7 @@ Digital reference images can be very helpful when color matching film scans to c
 _**Please keep in mind** in Winter we typically run at a 1–2 business day service time. To ensure your order-specific preferences are used, please submit them prior to your film arriving in lab._
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Film + Scans</h1>
+<h1 class="accordion opened" title="Click to expand section">Film + Scans</h1>
 
 <div class="panel" markdown="1">
 
@@ -148,7 +148,7 @@ We no longer process E-6, but we do scan it.
 <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Services Pricing</button>
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Negatives</h1>
+<h1 class="accordion opened" title="Click to expand section">Negatives</h1>
 
 <div class="panel" markdown="1">
 
@@ -166,7 +166,7 @@ We take the utmost care with your film. We will hold your negatives based on the
 {: .tablelines}
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Prints</h1>
+<h1 class="accordion opened" title="Click to expand section">Prints</h1>
 
 <div class="panel" markdown="1">
 
@@ -186,7 +186,7 @@ We use only the finest Fujicolor Crystal Archive papers. These aren't your typic
 <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Services Pricing</button>
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Exposure Reference Sheets</h1>
+<h1 class="accordion opened" title="Click to expand section">Exposure Reference Sheets</h1>
 
 <div class="panel" markdown="1">
 
@@ -201,14 +201,14 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job within your order’s [Box](http://box.com){: target="_blank"} folder.
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">What makes us tick</h1>
+<h1 class="accordion opened" title="Click to expand section">What makes us tick</h1>
 
 <div class="panel" markdown="1">
 
 Since our small town beginnings, we never let go of film or the art of photography. Learn more about our story [here]({{ site.baseurl }}/what-makes-us-tick).
 </div>
 
-<h1 class="accordion closed" title="Click to expand section">Connect with us</h1>
+<h1 class="accordion opened" title="Click to expand section">Connect with us</h1>
 
 <div class="panel" markdown="1">
 
@@ -235,15 +235,24 @@ Come hang out with us on [Instagram](http://www.instagram.com/photovisionprints/
 <script type="text/javascript">
     var acc = document.getElementsByClassName("accordion");
     var i;
+    
+    window.onload = function() {
+        for (i = 0; i < acc.length; i++) {
+            acc[i].classList.remove('opened');
+            acc[i].classList.add('closed');
+            var panel = acc[i].nextElementSibling;
+            panel.style.maxHeight = 0;
+        }
+    }
 
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
             /* Toggle between hiding and showing the active panel, with animation */
             var panel = this.nextElementSibling;
-            if (panel.style.maxHeight){
+            if (panel.style.maxHeight != "0px"){
             this.classList.remove('opened');
             this.classList.add('closed');
-            panel.style.maxHeight = null;
+            panel.style.maxHeight = 0;
             } else {
             this.classList.remove('closed');
             this.classList.add('opened');
@@ -252,13 +261,13 @@ Come hang out with us on [Instagram](http://www.instagram.com/photovisionprints/
         });
     }
 
-    preferencesLink = document.getElementById("preferences-link");
-    preferencesLink.addEventListener("click", function() {
-        /* show the Preferences panel */
-        var heading = document.getElementById("preferences-heading");
-        var panel = heading.nextElementSibling;
-        heading.classList.remove('closed');
-        heading.classList.add('opened');
-        panel.style.maxHeight = panel.scrollHeight + "px";
-    });
+    // preferencesLink = document.getElementById("preferences-link");
+    // preferencesLink.addEventListener("click", function() {
+    //     /* show the Preferences panel */
+    //     var heading = document.getElementById("preferences-heading");
+    //     var panel = heading.nextElementSibling;
+    //     heading.classList.remove('closed');
+    //     heading.classList.add('opened');
+    //     panel.style.maxHeight = panel.scrollHeight + "px";
+    // });
 </script>

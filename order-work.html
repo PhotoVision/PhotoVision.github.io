@@ -8,6 +8,7 @@ title: 'Order Process + Scan'
   <h1>Order Process + Scan</h1>  
   <ul>
     <div class="notifications"></div>
+    <div class="required_notification" id="js">NOTE: Javascript must be enabled</div>
     <li>
       <label for="name">Name<span class="required_notification">*</span></label>
       <input id="name" type="text" name="name"/>
@@ -114,6 +115,20 @@ title: 'Order Process + Scan'
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.182.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jsbarcode/3.6.0/JsBarcode.all.min.js"></script>
 <script type="text/javascript">
+  var acc = document.getElementsByClassName("accordion");
+  var i; 
+
+  window.onload = function() {
+    var jsDiv = document.getElementById("js");
+    jsDiv.style.display = 'none';
+    for (i = 0; i < acc.length; i++) {
+      acc[i].classList.remove('opened');
+      acc[i].classList.add('closed');
+      var panel = acc[i].nextElementSibling;
+      panel.style.maxHeight = 0;
+    }
+  }
+
   $(function() {  
     // BEGIN ORDER CODE SECTION
     var dateTime = new Date();
@@ -243,26 +258,24 @@ title: 'Order Process + Scan'
     var scanSizes = document.getElementsByClassName("scan-size");
     var proofs = document.getElementsByClassName("proofs");
     var borders = document.getElementsByClassName("borders");
-    var acc = document.getElementsByClassName("accordion");
-    var i;    
 
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
             /* Toggle between hiding and showing the active panel, with animation */
             var panel = this.nextElementSibling;
-            if (panel.style.maxHeight){
-              this.classList.remove('opened');
-              this.classList.add('closed');
-            panel.style.maxHeight = null;
+            if (panel.style.maxHeight != "0px"){
+            this.classList.remove('opened');
+            this.classList.add('closed');
+            panel.style.maxHeight = 0;
             } else {
-              this.classList.remove('closed');
-              this.classList.add('opened');
-              // Add 200px to maxHeight for image thumbnails if it's the image loader
-              if (panel.classList.contains("image-uploader")) {
-                panel.style.maxHeight = (panel.scrollHeight + 200) + "px";
-              } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-              }
+            this.classList.remove('closed');
+            this.classList.add('opened');
+            // Add 200px to maxHeight for image thumbnails if it's the image loader
+            if (panel.classList.contains("image-uploader")) {
+              panel.style.maxHeight = (panel.scrollHeight + 200) + "px";
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
             } 
         });
     }

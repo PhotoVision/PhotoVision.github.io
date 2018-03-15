@@ -12,6 +12,7 @@ title: Order Preferences
   <p>Please keep in mind that in the winter months we typically run at a 1–2 business day service time. To ensure your order specific preferences are used please 
     submit them prior to your film arriving in lab.</p>
   <div class="notifications"></div>
+  <div class="required_notification" id="js">NOTE: Javascript must be enabled</div>
   <ul>
     <li>
       <h2>Email used to create account<span class="required_notification">*</span></h2>
@@ -49,6 +50,10 @@ title: Order Preferences
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.182.0.min.js"></script>
 <script type="text/javascript">
+  window.onload = function() {
+    var jsDiv = document.getElementById("js");
+    jsDiv.style.display = 'none';
+  }
   $(function() {
     // Image upload variables
     var bucketName = 'customer-references-2';
