@@ -23,6 +23,7 @@ layout: default
   <form id="gform" class="contact_form half right" style="margin-left: 0px;">
     <input id="gotcha" type="text" name="gotcha" style="display:none">
     <div class="left notifications"></div>
+    <div class="required_notification" id="js">NOTE: Javascript must be enabled</div>
     <ul class="left">
       <li>
         <label for="name">Name<span class="required_notification">*</span></label>
@@ -55,6 +56,11 @@ layout: default
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
+  window.onload = function() {
+    var jsDiv = document.getElementById("js");
+    jsDiv.style.display = 'none';
+  }
+
   $(function() {
     var gotcha = $('#gotcha').val();
 

@@ -18,6 +18,7 @@ title: 'Order #FUJIfresh'
       {% include film-order-qtys.html %}
     </li>
     <div class="notifications"></div>
+    <div class="required_notification" id="js">NOTE: Javascript must be enabled</div>
     <li>
       <label for="name">Name<span class="required_notification">*</span></label>
       <input id="name" type="text" name="name"/>
@@ -72,6 +73,10 @@ title: 'Order #FUJIfresh'
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
+  window.onload = function() {
+    var jsDiv = document.getElementById("js");
+    jsDiv.style.display = 'none';
+  }
   $(function() {
     var gotcha = $('#gotcha').val();
     

@@ -299,9 +299,6 @@ img {
   @media screen and (max-width: 800px) {
     font-size: 1.5em;
   }
-  // @media screen and (max-width: 600px) {
-  //   font-size: 2em;
-  // }
   @media screen and (max-width: 450px) {
     font-size: 1em;
   }
@@ -703,7 +700,6 @@ article {
       content: '  \25B2';
     }
     .panel {
-        max-height: 0;
         transition: max-height 0.2s ease-out;
         overflow: hidden;
     }
@@ -975,7 +971,6 @@ article {
     content: '  \25B2';
   }
   .panel {
-      max-height: 0;
       transition: max-height 0.2s ease-out;
       overflow: hidden;
   }
