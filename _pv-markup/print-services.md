@@ -51,7 +51,7 @@ The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can 
 {: .tablelines}  
 
 ## Proof Prints
-The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services) on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form.
+The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services).
 
 | **Size** | **135 / 120** | **220** |
 | :---			| :---:	| :---:	|
