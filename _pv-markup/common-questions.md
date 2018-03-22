@@ -29,7 +29,7 @@ Learn how to [safely ship]({{ site.baseurl }}/shipping-tips) your precious cargo
 You’ll receive an email once we receive your shipment. This email will include your order number, the job's total cost and an invoice for your records. We will then process + scan your order.  
 
 ## How do I receive my scans?
-Once your scans are complete, we will send you an email with a link to view and download your scans via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized in your own folder free of charge.
+Once your scans are complete, we will send you an email with a link to view and download your scans via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized by session name in your own folder, free of charge.
 
 ## How soon will I receive my scans?
 You can find our current film service time + print service time [here]({{ site.baseurl}}/service-times). We also offer [rush processing]({{ site.baseurl}}/rush-policy).
@@ -38,7 +38,7 @@ You can find our current film service time + print service time [here]({{ site.b
 Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may [order prints](http://photovision.dakisphotofactory.com/onlinePrint.html){: target="_blank"} from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
 
 ## How do I get my negatives back?
-We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. We will charge your card on file at time of shipment. *For international shipping*, these prices will vary.
+We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. *For international shipping*, these prices will vary.
 
 | **Ship Back Options** |   |
 | :--- | :---: |
@@ -54,7 +54,7 @@ If you have any questions or concerns at any time, please contact us as soon as 
 <h1 id="preferences-heading" class="accordion opened" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
-Our world-class color techs can best match your vision when you provide the roadmap.
+Our world-class color techs can best match your vision when you provide reference images.
 
 ## What are reference images + why should I send them in?
 
@@ -90,7 +90,7 @@ We are pleased to offer rush processing when our service times exceed a photogra
 Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or our state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. *Keep in mind, you may only choose one scanner per order*.
 
 ## How do I receive my scans?
-Once your scans are complete, we will send you an email with a link to view and download your scans via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized in your own folder, free of charge.
+Once your scans are complete, we will send you an email with a link to view and download your scans via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized by session name in your own folder, free of charge.
 
 ## How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
@@ -144,10 +144,11 @@ We no longer process E-6, but we do scan it.
 <div class="panel" markdown="1">
 
 ## Will you cut + sleeve my negatives?
-Absolutely, we provide this service at no charge for every order. Negatives are carefully cut by hand, sleeved in archival-quality polyethylene pages and organized by roll.
+Absolutely, we provide this service at no charge for every order. Negatives are carefully cut by hand, sleeved in archival-quality pages and organized by roll.
 
 ## How do I get my negatives back?
-We take the utmost care with your film. We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. 
+ We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form. *For international shipping*, these prices will vary.
+
 
 | **Ship Back Options** |   |
 | :--- | :---: |
@@ -156,7 +157,7 @@ We take the utmost care with your film. We will hold your negatives based on the
 | **Fill 4" Flat Rate box** | $20.00 |
 {: .tablelines}
 
-*For international shipping, these prices will vary.*
+
 </div>
 
 <h1 class="accordion opened" title="Click to expand section">Prints</h1>
@@ -164,7 +165,7 @@ We take the utmost care with your film. We will hold your negatives based on the
 <div class="panel" markdown="1">
 
 ## Do you offer proof prints?
-Yes! Our high-quality proof prints feature our same Fujicolor Crystal Archive Supreme (Lustre) Paper. Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. See [pricing]({{ site.baseurl }}/images/print-services).
+Yes! Our high-quality proof prints come on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. See [pricing]({{ site.baseurl }}/images/print-services).
 
 ## Prefer to view your scans prior to ordering prints?
  Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
@@ -184,7 +185,7 @@ We use only the finest Fujicolor Crystal Archive papers. These aren't your typic
 <div class="panel" markdown="1">
 
 ## What are they?
-Exposure Reference Sheets are an exclusive feature designed by PhotoVision to close the gap between exposures + scans. Our [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are the ultimate learning tool, they allow you to clearly + easily see how you exposed your film and why you got the results you did.
+Exposure Reference Sheets are an exclusive feature designed by PhotoVision to close the gap between exposures + scans. Our [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) allow you to clearly see how you exposed your film and why you got the results you did.
 
 ## How do I read them?
 Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) that appear dark represent underexposure, while frames that appear light represent overexposure. 
