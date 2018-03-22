@@ -26,7 +26,7 @@ Download our [pre-addressed shipping label]({{site.baseurl}}/images/PhotoVision+
 **Salem OR 97301**
 
 ## Do you accept weekend deliveries?
-We do not accept deliveries on Saturday or Sunday. Please do not purchase overnight shipping to arrive on these days.
+We do not accept deliveries on Saturday or Sunday. Please do not purchase overnight shipping to arrive on these days. Orders that arrive on Saturday and Sunday will either be kept safe in a drop box until Monday or, if a signature is required, be delivered to us Monday.
 
 ## Questions?
 Please don't hesitate to reach out. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
