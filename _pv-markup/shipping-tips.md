@@ -17,6 +17,9 @@ We _highly recommend_ you send your film via a trackable method. Your film is pr
 ## Sending in more than one shoot?
 Not a problem! Please fill out *one order form per shoot* (whether [ordering online]({{ site.baseurl }}/order-work) or using a [printed order form]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"}). Each order's film and [online order]({{ site.baseurl }}/order-work) code or [printed order form]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} should be placed in separate zip-close bags.
 
+## Traveling with film
+When jet-setting off to beautiful locations across the globe, make sure your film is handled with care. We suggest to always store film in your carry-on luggage. The X-ray scanners used to check carry-on bags are *safe* for all films *under 800 ISO*. Most airports allow options for hand checked luggage, simply request this with the airport security staff. We do not suggest storeing film in checked luggage. The X-ray machines used for checked bags are much more powerful and may damage your film.  
+
 ## Where do I send my film?
 Download our [pre-addressed shipping label]({{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf){: target="_blank"} or hand-address your package in stunning calligraphy to:  
 

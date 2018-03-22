@@ -137,6 +137,11 @@ We no longer process E-6, but we do scan it.
 
 ## What are your prices?
 <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Services Pricing</button>
+
+## How do I travel with film safely? 
+When traveling by aircraft we suggest to always store film in your carry-on luggage. The X-ray scanners used to check carry-on bags are *safe* for all films *under 800 ISO*. Most airports allow options for hand checked luggage, simply request this with the airport security staff. We do not suggest storeing film in checked luggage. The X-ray machines used for checked bags are much more powerful and may damage your film.  
+
+
 </div>
 
 <h1 class="accordion opened" title="Click to expand section">Negatives</h1>
