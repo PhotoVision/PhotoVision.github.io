@@ -73,7 +73,7 @@ Sometimes you have a shoot that differs from your standard vision. We’re happy
 ## What if there are specific colors I’m looking for in my scans?
 Digital reference images can be very helpful when color matching film scans to certain objects such as invitations, fabric, paint, etc. If you need certain objects scanned as true as possible, please [submit digital reference images]({{site.baseurl}}/order-preferences) that show the object(s) and hue(s) you want us to match.
 
-To ensure your order-specific preferences are used, please submit them prior to your film arriving in lab._
+_To ensure your order-specific preferences are used, please submit them prior to your film arriving in lab._
 </div>
 
 <h1 class="accordion opened" title="Click to expand section">Film + Scans</h1>
@@ -130,7 +130,7 @@ Yes. All black + white scans from both the Frontier and Noritsu arrive as fully 
 Yes, we can push film up to 2 stops or pull film 1 stop. Indicate on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form whether your film needs to be pushed or pulled and by how many stops (i.e. Push +2 or Pull -1). Also, please indicate which roll you need pushed or pulled by placing a *rubber band* around it. Push/pull processing is an additional $3.00 per roll.
 
 ## How do you process Ilford Delta 3200?
-We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form how you rated your 3200.
+We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form how you rated this film.
 
 ## Do you process + scan E-6 slide film?
 We no longer process E-6, but we do scan it.
@@ -138,6 +138,9 @@ We no longer process E-6, but we do scan it.
 ## What are your prices?
 <button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Services Pricing</button>
 </div>
+
+## Do you sell film?
+Yes! Order your favorite Fuji400H film from us [here]({{ site.baseurl}}/order-film).
 
 <h1 class="accordion opened" title="Click to expand section">Negatives</h1>
 
@@ -185,7 +188,7 @@ We use only the finest Fujicolor Crystal Archive papers. These aren't your typic
 <div class="panel" markdown="1">
 
 ## What are they?
-Exposure Reference Sheets are an exclusive feature designed by PhotoVision to close the gap between exposures + scans. Our [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) allow you to clearly see how you exposed your film and why you got the results you did.
+Exposure Reference Sheets are an exclusive feature designed by PhotoVision to help you better understand the relationship between your exposures + scans. [Learn more]({{ site.baseurl }}/exposure-reference-sheet).
 
 ## How do I read them?
 Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) that appear dark represent underexposure, while frames that appear light represent overexposure. 
@@ -195,14 +198,14 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 [Exposure Reference Sheets]({{ site.baseurl }}/exposure-reference-sheet) are provided for every roll in every job within your order’s [Box](http://box.com){: target="_blank"} folder, free of charge.
 </div>
 
-<h1 class="accordion opened" title="Click to expand section">What makes us tick</h1>
+<h1 class="accordion opened" title="Click to expand section">What Makes Us Tick</h1>
 
 <div class="panel" markdown="1">
 
 Since our small town beginnings, we never let go of film or the art of photography. Learn more about our story [here]({{ site.baseurl }}/what-makes-us-tick).
 </div>
 
-<h1 class="accordion opened" title="Click to expand section">Connect with us</h1>
+<h1 class="accordion opened" title="Click to expand section">Connect With Us</h1>
 
 <div class="panel" markdown="1">
 

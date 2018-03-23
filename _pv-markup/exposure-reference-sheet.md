@@ -20,7 +20,7 @@ Frames within your Exposure Reference Sheet that appear dark represent underexpo
 
 ## Where do I find them?  
 
-Exposure Reference Sheets are provided for every roll in every job. They can be found within your order’s [Box](http://box.com){: target="_blank"} folder. 
+Exposure Reference Sheets are provided for every roll in every job. They can be found within your order’s [Box](http://www.box.com){: target="_blank"} folder. 
 
 ## Questions?  
 Don’t hesitate to reach out, we're here to help!  

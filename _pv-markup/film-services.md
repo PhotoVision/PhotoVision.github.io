@@ -3,9 +3,10 @@ layout: page
 permalink: film-services.html
 ---
 
-# Film Services
+# We never gave up on the magic of Film
 
-We process C-41 color negative and Black + White film in most sizes ranging from 135 roll film to 8x10 sheet film. You can find our current service times [here]({{ site.baseurl}}/service-times). All scans are delivered via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized.
+## We process C-41 color negative and Black + White film in most sizes ranging from 135 roll film to 8x10 sheet film. 
+You can find our current service times [here]({{ site.baseurl}}/service-times). All scans are delivered via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized.
 
 
 ## Develop + Scan
@@ -32,12 +33,12 @@ Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or st
 {: .tablelines}
 
 ## Develop + Scan + Print
-You'll get top-notch film developing, beautiful scans delivered via [Box](http://box.com){: target="_blank"} and true, photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme (Lustre) Paper.
+You'll get top-notch film developing, beautiful scans delivered via [Box](http://box.com){: target="_blank"} and true, wet-process photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme (Lustre) Paper.
 
-| **Size** | **135 / 120** | **220** |
-| :---			| :---:	| :---:	|
-| **4×5, 4×6, 4.5×6**		| $3.50*	| $7.00* |
-| **5×5**		| $4.50*	| $9.00* |
+| **Size** | **135** | **120** | **220** |
+| :---			| :---:	| :---: | :---:	|
+| **4×5, 4×6, 4.5×6**		| $3.50 | $3.50	| $7.00 |
+| **5×5**		| N/A | $4.50	| $9.00 |
 {: .tablelines }
 _*Add to develop + scan price_
 
