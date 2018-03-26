@@ -53,11 +53,12 @@ The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can 
 ## Proof Prints
 The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services).
 
-| **Size** | **135 / 120** | **220** |
-| :---			| :---:	| :---:	|
-| **4×5, 4×6, 4.5×6**		| $3.50	| $7.00 |
-| **5×5**		| $4.50	| $9.00 |
+| **Size** | **135** | **120** | **220** |
+| :---			| :---:	| :---: | :---:	|
+| **4×5, 4×6, 4.5×6**		| $3.50 | $3.50	| $7.00 |
+| **5×5**		| N/A | $4.50	| $9.00 |
 {: .tablelines }
+_*Add to develop + scan price_
 
 <div class="clearfix"></div>
 
