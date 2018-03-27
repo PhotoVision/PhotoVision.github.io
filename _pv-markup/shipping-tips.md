@@ -18,7 +18,7 @@ We _highly recommend_ you send your film via a trackable method. Your film is pr
 Not a problem! Please fill out *one order form per shoot* (whether [ordering online]({{ site.baseurl }}/order-work) or using a [printed order form]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"}). Each order's film and [online order]({{ site.baseurl }}/order-work) code or [printed order form]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} should be placed in separate zip-close bags.
 
 ## Do you accept weekend deliveries?
-We do not accept deliveries on Saturday or Sunday. Orders that arrive on Saturday and Sunday will either be kept safe in a drop box until Monday or, if a signature is required, be delivered to us Monday.
+We do not accept deliveries on Saturday or Sunday. Orders that arrive on Saturday and Sunday will be kept safe in a drop box until Monday or, if a signature is required, be delivered to us Monday.
 
 ## Where do I send my film?
 Download our [pre-addressed shipping label]({{site.baseurl}}/images/PhotoVision+Mailing+Label.pdf){: target="_blank"} or hand-address your package in stunning calligraphy to:  

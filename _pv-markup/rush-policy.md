@@ -18,7 +18,7 @@ Turnaround times are in business days starting *the first business day after you
 During this period, our service time is typically **1-2 business days**. If this does not meet your urgent time frame, please give us a call, we will do all we can to help. [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})
 
 ## Examples of Rush Orders
-- If you request a **2-day rush** on Monday before your film arrives in lab on Wednesday, you will be charged [(Order Total) + (100% × Order Total)] and your rush will be completed Friday.
+- If you request a **2-day rush** on Monday, before your film arrives in lab on Wednesday, you will be charged [(Order Total) + (100% × Order Total)] and your rush will be completed Friday.
 - If you request a **3-day rush** on Thursday, after your film arrived in lab on Wednesday, you will be charged [(Order Total) + (100% × Order Total)] and your rush will be completed Monday.
 - If you request a **3-day rush** on Monday, before your film arrives in lab on Wednesday, you will be charged [(Order Total) + (50% × Order Total)] and your rush will be completed Monday.
 

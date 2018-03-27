@@ -22,3 +22,5 @@ You never know which scanner you may prefer until you see scans from each. While
 
 ### Questions?
 Please don’t hesitate to reach out. We’re always happy to help.
+[{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
+[{{ site.company-info.email }}](mailto:{{ site.company-info.email }})
