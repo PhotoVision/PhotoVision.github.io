@@ -17,7 +17,8 @@ h1 span {
 <div class="clearfix"></div>
 
 _Service times are in business days starting the first business day **after** your order is received and are given as **good faith estimates**. Our service times tend to increase in Summer and Fall (i.e. wedding season) and decrease in Winter. Service times are ultimately dependent on the volume of work coming in from our photographers and may fluctuate while your film is in lab._
-## Film process + scan service time: **{{ site.company-info.turnaround-time }}**
+## Film process + scan service time for Frontier SP3000: **{{ site.company-info.turnaround-time }}**
+## Film process + scan service time for Noritsu S-1800: **{{ site.company-info.turnaround-time }}**
 
 ## Print service times:
 {:.less-space}
