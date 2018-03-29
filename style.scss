@@ -1284,6 +1284,11 @@ textarea {
   resize: none;
 }
 
+.footer-transition {
+  height: 40px;
+  background-image: linear-gradient(white, $lightGray);
+}
+
 .wrapper-footer {
   background-color: $lightGray;
 }
