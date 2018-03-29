@@ -68,6 +68,7 @@ Need previously processed + cut film scanned? Not a problem.
 <div class="panel" markdown="1">
 ### Scan Resolutions
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20×24s straight away, while our large scans can easily grace a billboard.
+All scan resolutions are approximate. Slight variations are normal.
 
 ##### Fuji Frontier SP3000
 
@@ -80,7 +81,6 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 | **120 / 220** | 6×8 | 2700×3600 | 3600×4800 |
 | **120 / 220** | 6×9 | 2700×4000 | 3600×5400 |
 {: .tablelines}
-*All scan resolutions are approximate. Slight variations are normal.*
 
 ##### Noritsu S-1800
 
@@ -93,7 +93,6 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 | **120 / 220** | 6×8 | 4900×6600 |
 | **120 / 220** | 6×9 | 4900×7100 |
 {: .tablelines}
-*All scan resolutions are approximate. Slight variations are normal.*
 </div>
 <div class="panel" markdown="1">
 ### Service Times

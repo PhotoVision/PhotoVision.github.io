@@ -33,15 +33,14 @@ _**We want to ensure our photographers are getting the best film they can. So we
 ### Introducing, #FUJIfresh
 FUJIfresh is the same [Fujicolor Pro 400H Film](http://www.fujifilmusa.com/products/professional_photography/film/fujicolor_portrait/pro_400h/index.html) you know and love, sourced directly from Fujifilm USA. *No* worldwide trip stored in dubious conditions. *Never* gray market. *Never* expired. *Always* fresh. Guaranteed quality + performance. Only from us!
 
-Each pro pack includes 5 rolls of #FUJIfresh 400H film.
 ### Available in 120 and 135 Pro Packs  
+Each pro pack includes 5 rolls of #FUJIfresh 400H film. _Shipping rates apply._
   
 | **Pro Packs** | **1 – 9** | **10 – 19** | **20 +** |
 | :--- | :---: | :---: | :---: |
 | **135** | $35.00 | $33.50 | $32.00 |
 | **120** | $34.00 | $32.50 | $31.00 |
 {: .tablelines}
-**Shipping rates apply*  
 
 ### How do I order?  
 It's easy—[order online]({{ site.baseurl}}/order-film ) or call.
