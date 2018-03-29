@@ -5,6 +5,14 @@ permalink: fuji-fresh.html
 
 ![]({{ site.baseurl}}/images/fuji-fresh-promo.jpg){:.center}
 
+<div class="extra-space"></div>
+<div class="extra-space"></div>
+<button class="center" name="button" onclick="window.location.href = '{{ site.baseurl}}order-film';">Order Fuji400H</button>
+<div class="extra-space"></div>
+<div class="extra-space"></div>
+
+## We have sadly seen one too many sessions ruined by the simple fact our photogs did not know they were shooting gray market film.  
+
 ### What is gray market film? 
 Gray market film is film that has taken a worldwide journey before it makes its way to your camera. While that sounds like an awesome vacation, when it comes to film? Not so cool. 
 
