@@ -22,9 +22,11 @@ company-info:
   phone: 1-503-588-3686
   display-phone: 503.588.3686
   email: info@photovisionprints.com
-  turnaround-days: 1
-  turnaround-time: 1 business day
-  proof-turnaround-time: 2 business days
+  frontier-turnaround-days: 1
+  frontier-turnaround-time: 1 bus. day
+  noritsu-turnaround-days: 1
+  noritsu-turnaround-time: 1 bus. day
+  proof-turnaround-time: 2 bus. days
 
 #
 # Flags below are optional
