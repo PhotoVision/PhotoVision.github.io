@@ -24,7 +24,7 @@ title: 'Order Process + Scan'
       </div>
     </li>
     <li>
-      <h2>Address</h2>
+      <h3>Address</h3>
     </li>
     <li>
         <div class="quarter center">
@@ -64,7 +64,7 @@ title: 'Order Process + Scan'
       </li>
     </div>
     <li>
-      <h2>Film Shipback<span class="required_notification">*</span></h2>
+      <h3>Film Shipback<span class="required_notification">*</span></h3>
       <p>Shipping costs are estimates only. 2 week shipback charged now. Flat rate charged at time of shipment.</p>
     </li>
     <li class="radio-row">
@@ -79,7 +79,7 @@ title: 'Order Process + Scan'
     <div class="rush-section">
       <input type="number" id="tat-days" value="{{ site.company-info.turnaround-days }}" style="display:none;"/>
       <li>
-        <h2>Rush Processing</h2>
+        <h3>Rush Processing</h3>
       </li>
       <li class="radio-row">
         {% include rush-charges.html %}
@@ -87,20 +87,20 @@ title: 'Order Process + Scan'
     </div>
     <li>      
       <div class="left">
-        <h2>Total<input class="cost total left" type="text" id="cost-total" name="cost-total" value="$0.00" readonly/></h2>        
+        <h3>Total<input class="cost total left" type="text" id="cost-total" name="cost-total" value="$0.00" readonly/></h3>        
       </div>
       <div class="clearfix"></div>
     </li>
     <li></li>
     <li>
-      <h2>Payment Method<span class="required_notification">*</span></h2>
+      <h3>Payment Method<span class="required_notification">*</span></h3>
     </li>
     <li>
       {% include payment-method.html %}
     </li>
     <li></li>
     <li>
-      <h2>Order Code — <em>Critical</em></h2>
+      <h3>Order Code — <em>Critical</em></h3>
     </li>
     <li>
       {% include order-code.html %}

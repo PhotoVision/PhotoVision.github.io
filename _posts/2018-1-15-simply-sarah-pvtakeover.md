@@ -8,6 +8,7 @@ date: January 15th, 2018
 ---
 
 [![]({{ site.baseurl}}/images/blog/simply-sarah-pvtakeover/00+INTROIMAGE.jpg)](http://simplysarah.me/){: target="_blank"} 
+
 Hi friends, [@simplysarah_photography](http://simplysarah.me/){: target="_blank"} here for my #pvtakeover! I am so excited and honored to be a host. I live in Georgia with my handsome husband (+ second shooter) and the cutest Golden Retriever you have ever seen. 😍 I’d love to dedicate the next few days here on PV to being as candid as possible while bringing you all the helpful film tips + tricks I can share! ✨💕✨ Stay tuned!!
 
 📷 from our first friends in Montana, [@orangephotographie](http://orangephotographie.com/){: target="_blank"}! 💕
