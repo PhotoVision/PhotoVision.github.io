@@ -3,7 +3,7 @@ layout: page
 permalink: common-questions.html
 ---
 
-<h1 class="accordion opened" title="Click to expand section">New here? Welcome!</h1>
+<h1 class="accordion" title="Click to expand section">New here? Welcome!</h1>
 
 <div class="panel" markdown="1">
 
@@ -48,7 +48,7 @@ If you have any questions or concerns at any time, please contact us as soon as 
 <div class="extra-space"></div>
 </div>
 
-<h1 id="preferences-heading" class="accordion opened" title="Click to expand section">Preferences</h1>
+<h1 id="preferences-heading" class="accordion" title="Click to expand section">Preferences</h1>
 
 <div class="panel" markdown="1">
 
@@ -77,7 +77,7 @@ _To ensure your order-specific preferences are used, please submit them prior to
 <div class="extra-space"></div>
 </div>
 
-<h1 class="accordion opened" title="Click to expand section">Film + Scans</h1>
+<h1 class="accordion" title="Click to expand section">Film + Scans</h1>
 
 <div class="panel" markdown="1">
 
@@ -146,7 +146,7 @@ Yes! Order your favorite Fuji400H film from us [here]({{ site.baseurl}}/order-fi
 </div>
 
 
-<h1 class="accordion opened" title="Click to expand section">Negatives</h1>
+<h1 class="accordion" title="Click to expand section">Negatives</h1>
 
 <div class="panel" markdown="1">
 
@@ -169,7 +169,7 @@ Absolutely, we provide this service at no charge for every order. Negatives are 
 <div class="extra-space"></div>
 </div>
 
-<h1 class="accordion opened" title="Click to expand section">Prints</h1>
+<h1 class="accordion" title="Click to expand section">Prints</h1>
 
 <div class="panel" markdown="1">
 
@@ -191,7 +191,7 @@ We use only the finest Fujicolor Crystal Archive papers. These aren't your typic
 <div class="extra-space"></div>
 </div>
 
-<h1 class="accordion opened" title="Click to expand section">Exposure Reference Sheets</h1>
+<h1 class="accordion" title="Click to expand section">Exposure Reference Sheets</h1>
 
 <div class="panel" markdown="1">
 
@@ -208,7 +208,7 @@ Frames within your [Exposure Reference Sheets]({{ site.baseurl }}/exposure-refer
 <div class="extra-space"></div>
 </div>
 
-<h1 class="accordion opened" title="Click to expand section">What Makes Us Tick</h1>
+<h1 class="accordion" title="Click to expand section">What Makes Us Tick</h1>
 
 <div class="panel" markdown="1">
 
@@ -217,7 +217,7 @@ Since our small town beginnings, we never let go of film or the art of photograp
 <div class="extra-space"></div>
 </div>
 
-<h1 class="accordion opened" title="Click to expand section">Connect With Us</h1>
+<h1 class="accordion" title="Click to expand section">Connect With Us</h1>
 
 <div class="panel" markdown="1">
 
@@ -247,7 +247,6 @@ Come hang out with us on [Instagram](http://www.instagram.com/photovisionprints/
     
     window.onload = function() {
         for (i = 0; i < acc.length; i++) {
-            acc[i].classList.remove('opened');
             acc[i].classList.add('closed');
             var panel = acc[i].nextElementSibling;
             panel.style.maxHeight = 0;
