@@ -85,15 +85,23 @@ ul {
 }
 
 ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
+  counter-reset: item;
+  > li {
+    counter-increment: item;
+    list-style-type: none;
+    &:before {
+      content: counter(item) '. ';
+      display: inline-block;
+      float: left;
+      color: $pvLightGray;
+      font-weight: bold;    
+      text-align: left;
+      width: 1.5rem;
+    }
+    blockquote {
+      padding-left: 1.5rem;
+    }
+  }
 }
 
 em, i {
