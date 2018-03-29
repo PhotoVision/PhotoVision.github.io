@@ -7,6 +7,7 @@ permalink: film-services.html
 
 ## We never gave up on the magic of film.
 
+<div class="panel" markdown="1">
 ### Develop + Scan
 
 We process C-41 color negative and Black + White film. Every roll of film is scanned by hand on the renowned Fuji Frontier SP3000 or state-of-the-art Noritsu S-1800. Both are excellent tools to help you reach your vision. You may choose between either on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. Keep in mind, you may only choose *one scanner per order*. If you do not specify, we will scan your order on the Frontier. All black + white scans from either scanner arrive as fully desaturated RGB images, exhibiting truly neutral tones.
@@ -28,6 +29,8 @@ We process C-41 color negative and Black + White film. Every roll of film is sca
 | **120**		| $18.00				| $14.00			  |
 | **220**		| $36.00				| $28.00			  |
 {: .tablelines}
+</div>
+<div class="panel" markdown="1">
 ### Develop + Scan + Print
 You'll get top-notch film developing, beautiful scans delivered via [Box](http://box.com){: target="_blank"} and true, wet-process photographic proof [prints]({{ site.baseurl}}/film-services) on the finest Fujicolor Crystal Archive Supreme (Lustre) Paper. Add prices below to your develop + scan prices.
 
@@ -36,6 +39,8 @@ You'll get top-notch film developing, beautiful scans delivered via [Box](http:/
 | **4×5, 4×6, 4.5×6**		| $3.50 | $3.50	| $7.00 |
 | **5×5**		| N/A | $4.50	| $9.00 |
 {: .tablelines }
+</div>
+<div class="panel" markdown="1">
 ### Develop Only
 Sometimes you only need the bare essentials. When that's the case, your film will be developed with the utmost care before being sleeved and returned to you cut or uncut.
 
@@ -47,10 +52,11 @@ Sometimes you only need the bare essentials. When that's the case, your film wil
 | **4×5** | $2.50 | N/A |
 | **5×7** | $4.50 | N/A |
 | **8×10** | $6.50 | N/A |
-| **Push / Pull*** | $3.00 | $3.00 |
+| **Push / Pull** | $3.00 | $3.00 |
 | **Snip Test** | $5.00 | N/A |
 {: .tablelines}  
-_*Additional per roll_  
+</div>
+<div class="panel" markdown="1">
 ### Scan Cut Negatives
 Need previously processed + cut film scanned? Not a problem.
 
@@ -58,6 +64,8 @@ Need previously processed + cut film scanned? Not a problem.
 | :--- | :---: |
 | **$10.00** | $2.00 |
 {: .tablelines}
+</div>
+<div class="panel" markdown="1">
 ### Scan Resolutions
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20×24s straight away, while our large scans can easily grace a billboard.
 
@@ -86,11 +94,17 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 | **120 / 220** | 6×9 | 4900×7100 |
 {: .tablelines}
 *All scan resolutions are approximate. Slight variations are normal.*
+</div>
+<div class="panel" markdown="1">
 ### Service Times
 
 You can find our current service times [here]({{ site.baseurl}}/service-times). All scans are delivered via [Box](http://box.com){: target="_blank"}, a simple online file sharing system that keeps all your orders organized.
+</div>
+<div class="panel" markdown="1">
 ### How are my negatives handled + organized?
 We take the utmost care with your film. Negatives will be carefully cut, sleeved and organized at no charge. If your rolls are numbered (which, we *highly* recommend) they will be kept in numerical order.
+</div>
+<div class="panel" markdown="1">
 ### How do I get my negatives back?
 We hold your negatives based on the Ship Back preference you choose on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. Negatives are shipped back via USPS Priority Flat Rate shipping to reduce costs to you. We will charge your card on file at time of shipment. *For international shipping, these prices will vary.*
 
@@ -100,8 +114,11 @@ We hold your negatives based on the Ship Back preference you choose on your [onl
 | **Fill 2" Flat Rate box** | $12.00 |
 | **Fill 4" Flat Rate box** | $20.00 |
 {: .tablelines}
+</div>
+<div class="panel" markdown="1">
 ### Questions?
 We're always happy to help. Please don't hesitate to reach out with any questions. Our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
 [{{ site.company-info.email }}](mailto:{{ site.company-info.email }})
+</div>
