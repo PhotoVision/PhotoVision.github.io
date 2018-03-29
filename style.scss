@@ -388,6 +388,29 @@ img {
   @include mobile {
     img {
       content: url("/images/philosophy-hover.jpg");
+  a {
+    &:after {
+      background: url('images/right-chevron.png') no-repeat center center;
+      background-size: .75em .75em;
+      width: .75em; 
+      height: .75em;
+      padding-left: 2em;
+      content:"";
+      @media screen and (max-width: 800px) {
+        background-size: .5em .5em;
+        width: .5em; 
+        height: .5em;
+        padding-left: 1.25em;
+      }
+      @media screen and (max-width: 400px) {
+        background-size: .5em .5em;
+        width: .5em; 
+        height: .5em;
+        padding-left: 1.25em;
+      }
+    }
+    &:hover {
+      color: $pvLinks !important;
     }
   }
 }
@@ -688,16 +711,20 @@ article {
       }
     }
     .closed:after {
-      font-size: .4em;
-      vertical-align: middle;
-      color: $pvGray;
-      content: '  \25BC';
+      background: url('images/down-chevron.png') no-repeat center center;
+      background-size: .75em .75em;
+      width: .75em; 
+      height: .75em;
+      padding-left: 2em;
+      content:"";
     }
     .opened:after {
-      font-size: .4em;
-      vertical-align: middle;
-      color: $pvGray;
-      content: '  \25B2';
+      background: url('images/up-chevron.png') no-repeat center center;
+      background-size: .75em .75em;
+      width: .75em; 
+      height: .75em;
+      padding-left: 2em;
+      content:"";
     }
     .panel {
         transition: max-height 0.2s ease-out;
@@ -959,16 +986,20 @@ article {
     }
   }
   .closed:after {
-    font-size: .4em;
-    vertical-align: middle;
-    color: $pvGray;
-    content: '  \25BC';
+    background: url('images/down-chevron.png') no-repeat center center;
+    background-size: .75em .75em;
+    width: .75em; 
+    height: .75em;
+    padding-left: 2em;
+    content:"";
   }
   .opened:after {
-    font-size: .4em;
-    vertical-align: middle;
-    color: $pvGray;
-    content: '  \25B2';
+    background: url('images/up-chevron.png') no-repeat center center;
+    background-size: .75em .75em;
+    width: .75em; 
+    height: .75em;
+    padding-left: 2em;
+    content:"";
   }
   .panel {
       transition: max-height 0.2s ease-out;
