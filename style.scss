@@ -732,7 +732,6 @@ article {
     }
     button {
       padding: 10px;
-      border-radius: 5px;
       color: $pvBlack;
       background-color: white;
       border: 1px solid $pvBlack;
@@ -902,8 +901,7 @@ article {
     font-size: 1em;
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid $pvHeadingLines;
-    border-radius: 4px;
+    border: 1px solid $pvText;
     box-sizing: border-box;
     &::placeholder {
       font-style: italic;  
@@ -957,7 +955,6 @@ article {
     display: block;
     color: white;
     background-color: $pvBlack;
-    border-radius: 6px;
     padding: 8px;
     position: absolute;
     z-index: 1;
@@ -1009,9 +1006,6 @@ article {
     width: 180px;
     height: 50px;
     margin-top: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border: 1px solid $pvBlack;
     font-size: 19px;
     :hover {
       background-color: $lightGray;
@@ -1257,9 +1251,6 @@ article {
     min-width: 21%;
     height: 20%;
     margin: 0 8.7% 3% 8.7%;
-    border-radius: 5px;
-    background-color: white;
-    border: 1px solid $pvBlack;
     text-align: center;
     font-size: 1.2em;
     &:hover {
@@ -1274,6 +1265,18 @@ article {
     @media screen and (max-width: 800px) {
       margin: 0 2% 3% 2%;
     }
+  }
+}
+
+button {
+  background-color: white;
+  border: 3px solid $lightGray;
+  text-align: center !important;
+  &:hover {
+    background-color: $lightGray;
+  }
+  &:active {
+    background-color: gray;
   }
 }
 
