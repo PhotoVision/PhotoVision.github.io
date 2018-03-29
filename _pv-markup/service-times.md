@@ -25,9 +25,9 @@ Our service times tend to increase in Summer and Fall (i.e. wedding season) and 
 
 ### Print service times:
 {:.less-space}
-- 12×18 and smaller (200 or less): **1 business day**
-- 12×18 and smaller (more than 200): **2 business days**
-- 16×20–30×45: **3 business days**
+- 12×18 and smaller (200 or less): **1 bus. day**
+- 12×18 and smaller (more than 200): **2 bus. days**
+- 16×20–30×45: **3 bus. days**
 - Proofs: **{{ site.company-info.proof-turnaround-time }}**
 {:.service-times-list}
 
