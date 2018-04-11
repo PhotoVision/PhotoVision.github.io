@@ -829,9 +829,6 @@ article {
     width: 90%;
     margin: 0 auto 0 auto;
   }
-  img {
-    margin: 40px 0;
-  }
   h2 {
     display: inline;
   }
@@ -1224,10 +1221,11 @@ button {
 
 textarea {
   resize: none;
+  width: 100%;
 }
 
 .footer-transition {
-  height: 40px;
+  height: 120px;
   background-image: linear-gradient(white, $lightGray);
 }
 
@@ -1240,6 +1238,32 @@ footer {
   text-align: center;
   overflow: hidden;
   padding-bottom: 20px;
+}
+
+.back-to-top { 
+  background-color: white;
+  position: fixed;
+  bottom: .25em;
+  right: .25em;
+  width: 50px;
+  height: 50px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: $pvText;
+  border: 1px solid $pvText;
+  padding-left: .4em;
+  padding-bottom: 3em;
+}
+
+.back-to-top:before {
+  background: url('images/up-chevron.png') no-repeat center;
+  background-size: 1em 1em;
+  width: 1em; 
+  height: 1em;
+  padding-left: 2em;
+  content:"";
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
