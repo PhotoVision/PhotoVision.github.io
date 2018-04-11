@@ -5,14 +5,6 @@ permalink: fuji-fresh.html
 
 ![]({{ site.baseurl}}/images/fuji-fresh-promo.jpg){:.center}
 
-<div class="extra-space"></div>
-<div class="extra-space"></div>
-<button class="center" name="button" onclick="window.location.href = '{{ site.baseurl}}order-film';">Order Fuji400H</button>
-<div class="extra-space"></div>
-<div class="extra-space"></div>
-
-## We have sadly seen one too many sessions ruined by the simple fact our photogs did not know they were shooting gray market film.  
-
 ### What is gray market film? 
 Gray market film is film that has taken a worldwide journey before it makes its way to your camera. While that sounds like an awesome vacation, when it comes to film? Not so cool. 
 
@@ -34,6 +26,7 @@ _**We want to ensure our photographers are getting the best film they can. So we
 FUJIfresh is the same [Fujicolor Pro 400H Film](http://www.fujifilmusa.com/products/professional_photography/film/fujicolor_portrait/pro_400h/index.html) you know and love, sourced directly from Fujifilm USA. *No* worldwide trip stored in dubious conditions. *Never* gray market. *Never* expired. *Always* fresh. Guaranteed quality + performance. Only from us!
 
 ### Available in 120 and 135 Pro Packs  
+
 Each pro pack includes 5 rolls of #FUJIfresh 400H film. _Shipping rates apply._
   
 | **Pro Packs** | **1 – 9** | **10 – 19** | **20 +** |
