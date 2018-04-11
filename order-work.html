@@ -77,13 +77,19 @@ title: 'Order Process + Scan'
       {% include work-order-details.html %}
     </li>
     <div class="rush-section">
-      <input type="number" id="tat-days" value="{{ site.company-info.turnaround-days }}" style="display:none;"/>
       <li>
         <h3>Rush Processing</h3>
       </li>
       <li class="radio-row">
         {% include rush-charges.html %}
       </li>
+    </div>
+    <div class="no-rush-section">
+      <h3>Rush Processing</h3>
+      <p>
+        During this period, our service time is typically 1-2 business days. If this does not meet your urgent time frame, please give us a call, 
+        we will do all we can to help. <a href="tel:{{ site.company-info.phone }}">{{ site.company-info.display-phone }}</a>
+      </p>
     </div>
     <li>      
       <div class="left">
@@ -186,10 +192,23 @@ title: 'Order Process + Scan'
 
     // END ORDER CODE SECTION
 
-    var tatDays = $('#tat-days').val();
-    if (tatDays < 5) {
+    // BEGIN RUSH-OPTION SECTION
+
+    // var tatDays = $('#tat-days').val();
+    var startMonth = 12;
+    var startDay = 11;
+    var endMonth = 03;
+    var endDay = 31;
+    var todaysDate = new Date();
+    if ((todaysDate.getMonth() >= (startMonth - 1) && todaysDate.getDate() >= startDay) && (todaysDate.getMonth() <= (endMonth - 1) && todaysDate.getDate() <= endDay) ) {
       $('.rush-section').css('display','none');
+      $('.no-rush-section').css('display','inline');
+    } else {
+      $('.rush-section').css('display','inline');
+      $('.no-rush-section').css('display','none');
     }
+    
+    // END RUSH-OPTION SECTION
 
     // Image upload variables
     var bucketName = 'customer-references-2';
