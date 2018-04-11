@@ -8,6 +8,7 @@ date: January 25th, 2018
 ---
 
 [![]({{ site.baseurl}}/images/blog/ally-bobby-pvtakeover/Allybobby-085.jpg)](http://allyandbobby.com/){: target="_blank"} 
+
 Hi, friends! We’re [@allyandbobby](http://allyandbobby.com/){: target="_blank"} and we are SO excited to be hosting a [#pvtakeover](http://www.instagram.com/explore/tags/allyandbobbysvision/){: target="_blank"} this week!! We are humbled and honored to be chosen to share some of our all-time favorite images and advice about being film photographers. 
 
 People often ask us about our story—Who started shooting first? How did you get into film? Is this your full-time job or your side hustle? So we thought we would answer a few of those questions for you here!

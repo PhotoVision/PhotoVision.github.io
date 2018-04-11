@@ -6,7 +6,7 @@
 name: PhotoVision
 
 # Short bio or description (displayed in the header)
-description: The Northwest's Premiere Film Lab
+description: World-Class Service + Film Processing Since 1968
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 banner-image: /images/banner_logo.png
@@ -22,9 +22,11 @@ company-info:
   phone: 1-503-588-3686
   display-phone: 503.588.3686
   email: info@photovisionprints.com
-  turnaround-days: 1
-  turnaround-time: 1 business day
-  proof-turnaround-time: 2 business days
+  frontier-turnaround-days: 1
+  frontier-turnaround-time: 1 bus. day
+  noritsu-turnaround-days: 1
+  noritsu-turnaround-time: 1 bus. day
+  proof-turnaround-time: 2 bus. days
 
 #
 # Flags below are optional

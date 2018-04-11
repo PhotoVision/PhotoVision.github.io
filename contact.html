@@ -6,14 +6,16 @@ layout: default
   <h1>Contact Us</h1>
 
   <div class="half left">
-    <h2>We're always happy to help!</h2>
+    <h3>We're always happy to help!</h3>
 
     <p>Our phones are answered by our friendly + knowledgable Team from <strong>{{ site.company-info.service-hours }}</strong>.</p>
 
     <a href="tel:{{ site.company-info.phone }}">{{ site.company-info.display-phone }}</a><br />
     <a href="mailto:{{ site.company-info.email }}">{{ site.company-info.email }}</a>
-
-    <h2>Visiting our beautiful Pacific Northwest?</h2>
+    <br />
+    <br />
+    <br />
+    <h3>Visiting our beautiful Pacific Northwest?</h3>
 
     <p>Please stop by, we would love to meet you + give you a tour!</p>
 
@@ -23,6 +25,7 @@ layout: default
   <form id="gform" class="contact_form half right" style="margin-left: 0px;">
     <input id="gotcha" type="text" name="gotcha" style="display:none">
     <div class="left notifications"></div>
+    <div class="required_notification" id="js">NOTE: Javascript must be enabled</div>
     <ul class="left">
       <li>
         <label for="name">Name<span class="required_notification">*</span></label>
@@ -47,7 +50,7 @@ layout: default
   </form>
   <div class="clearfix"></div>
   <div class="center">
-    <h3><i>"If interactions with us can make your life better, we're doing our job." — Stephen Wood, 3rd generation Photographic Workflow Expert</i></h3>
+    <h4><i>"If interactions with us can make your life better, we're doing our job." — Stephen Wood, 3rd generation Photographic Workflow Expert</i></h4>
     <img class="full" src="{{ site.baseurl}}/images/contact.jpg" />
   </div>
 </div>
@@ -55,6 +58,11 @@ layout: default
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
+  window.onload = function() {
+    var jsDiv = document.getElementById("js");
+    jsDiv.style.display = 'none';
+  }
+
   $(function() {
     var gotcha = $('#gotcha').val();
 

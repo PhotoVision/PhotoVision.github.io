@@ -7,7 +7,7 @@ title: 'Order #FUJIfresh'
   <img class="left" src="{{ site.baseurl }}images/FUJIfreshLOGO.png" alt="FUJIfresh logo"></img>
   <div class="clearfix"></div>
   <input id="gotcha" type="text" name="gotcha" style="display:none">
-  <h1 style="margin-bottom: 0px;">Your favorite Fuji400H film.<br />Never gray market. Only from us!</h1>
+  <h1>Your favorite Fuji400H film.<br />Never gray market. Only from us!</h1>
   <h3>Available in 120 + 135 Pro Packs. Learn more about #FUJIfresh <a href="{{ site.baseurl }}/fuji-fresh">here</a>.</h3>
   <p style="margin-top: 40px;">Each pro pack includes 5 rolls of film. <em>Shipping not included.</em></p>  
   <ul>
@@ -18,6 +18,7 @@ title: 'Order #FUJIfresh'
       {% include film-order-qtys.html %}
     </li>
     <div class="notifications"></div>
+    <div class="required_notification" id="js">NOTE: Javascript must be enabled</div>
     <li>
       <label for="name">Name<span class="required_notification">*</span></label>
       <input id="name" type="text" name="name"/>
@@ -59,7 +60,7 @@ title: 'Order #FUJIfresh'
       <label for="country">Country<span class="required_notification">*</span></label>
     </li>
     <li>
-      <h2>Payment Method<span class="required_notification">*</span></h2>
+      <h3>Payment Method<span class="required_notification">*</span></h3>
     </li>
     <li>
       {% include payment-method.html %}
@@ -72,6 +73,10 @@ title: 'Order #FUJIfresh'
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript">
+  window.onload = function() {
+    var jsDiv = document.getElementById("js");
+    jsDiv.style.display = 'none';
+  }
   $(function() {
     var gotcha = $('#gotcha').val();
     

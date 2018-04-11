@@ -8,6 +8,7 @@ date: December 19, 2017
 ---
 
 ![]({{ site.baseurl}}/images/blog/2017-12-19-donny-zavala-contax645-fuji400h/Donny+Zavala+29845_02-X4.jpg)  
+
 All our #fashionista dreams come to life! 🙌💃🏼 Photo by @donnyzavalaphotography.
 
 📷 on #fuji400h with a #contax645 in Paris.

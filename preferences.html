@@ -9,14 +9,15 @@ title: Preferences
   <p>Our world-class color techs can best match your vision when you provide the road map! And the best road maps include both 
     <i>preference images</i> and <i>written preferences</i>.</p>
   <div class="notifications"></div>
+  <div class="required_notification" id="js">NOTE: Javascript must be enabled</div>
   <ul>
     <li>
-      <h2>Email used to create account<span class="required_notification">*</span></h2>
+      <h3>Email used to create account<span class="required_notification">*</span></h3>
       <input id="email" type="email" name="email"/>
     </li>
     <li></li>
     <li>
-      <h2>Preference Images (.png, .jpg)</h2>
+      <h3>Preference Images (.png, .jpg)</h3>
       <p>Upload 3&ndash;5 images that best exemplify the <i>skin tones</i>, <i>density</i> and <i>contrast</i>
         level you are striving to achieve. Pick images where your subject fills the majority of the frame.</p>
       <input id="image-uploader" name="image-uploader" type="file" multiple accept=".png, .jpg, .jpeg"/>
@@ -25,7 +26,7 @@ title: Preferences
     </li>
     <li><input id="images" style="display:none" type="text" name="images"></li>
     <li>
-      <h2>Written Preferences</h2>
+      <h3>Written Preferences</h3>
       <p>Describe your ideal overall image:&nbsp; 
         <span title="Examples: &#10;- Warm / cool / neutral &#10;- High contrast / medium contrast / low contrast &#10;- Retain details in shadows / retain details in highlights &#10;- Avoid vague descriptions open to interpretation (i.e. “masculine,” “romantic”) &#10;- Avoid describing skin tones&ndash;rather, let your preference images speak to skin tones">
           <img class="info-icon" id="info-icon" src="{{ site.baseurl }}/images/info-symbol-2.png" onclick="showInfo()" />
@@ -44,6 +45,11 @@ title: Preferences
 <script src="https://sdk.amazonaws.com/js/aws-sdk-2.182.0.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/app.js"></script>
 <script type="text/javascript">
+  window.onload = function() {
+    var jsDiv = document.getElementById("js");
+    jsDiv.style.display = 'none';
+  }
+
   function showInfo() {
     var icon = document.getElementById("info-icon");
     var popup = icon.nextElementSibling;

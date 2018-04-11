@@ -9,8 +9,7 @@ permalink: print-services.html
   
 Since 1968, we've respected the art of the print. Our true, wet photographic process pays homage to the tradition of darkroom printing. We use only the finest Fujicolor Crystal Archive papers. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites, excellent long-term storage and superb resistance to light fade, our prints stand the test of time.
 
-
-## Standard prints
+### Standard prints
 
 | **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
 | :---------------------- | :---------------------------: | :-----------------------------------: |
@@ -34,7 +33,7 @@ Since 1968, we've respected the art of the print. Our true, wet photographic pro
 | **12×18**	              | $17.95	                      | $25.45                                |
 {: .tablelines}  
   
-## Large Format Prints 
+### Large Format Prints 
 The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can hold (1200 ppi), pushing pixels to their full potential with ultra-stable print heads that float on air. #mindblown
 
 | **Size**                | **Fujicolor Crystal Archive Supreme (Lustre)**   |  **Fuji Crystal Archive Pearl (Metallic)** |
@@ -50,18 +49,19 @@ The Polielettronica Laser Lab HR3D prints at a higher resolution than paper can 
 | **30×48**	              | $74.95                        | $84.95                                |
 {: .tablelines}  
 
-## Proof Prints
-The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services) on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form.
+### Proof Prints
+The same outstanding print quality, on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Available only as an add-on for [develop + scan]({{ site.baseurl}}/film-services).
 
-| **Size** | **135 / 120** | **220** |
-| :---			| :---:	| :---:	|
-| **4×5, 4×6, 4.5×6**		| $3.50	| $7.00 |
-| **5×5**		| $4.50	| $9.00 |
+| **Size** | **135** | **120** | **220** |
+| :---			| :---:	| :---: | :---:	|
+| **4×5, 4×6, 4.5×6**		| $3.50 | $3.50	| $7.00 |
+| **5×5**		| N/A | $4.50	| $9.00 |
 {: .tablelines }
+_*Add to develop + scan price_
 
 <div class="clearfix"></div>
 
-## White Borders
+### White Borders
 Add a clean + professional look to your prints at no charge. Available for 3.5×5, 4×4, 4×5, 4×6, 4.5×6, 5×5 and 5×7.
 
 | **Size** | Border width |
@@ -71,12 +71,12 @@ Add a clean + professional look to your prints at no charge. Available for 3.5×
 | **Large** | 1/2" |
 {: .tablelines}
 
-## Order Prints  
+### Order Prints  
 Order prints from 3.5×5 to 30×45 right from your desktop or phone.
 
 [![]({{ site.baseurl}}/images/new-little-prints.jpg)](http://photovision.dakisphotofactory.com/onlinePrint.html){: target="_blank"}
 
-## Print Service Times
+### Print Service Times
 - 12×18 and smaller (200 or less): **1 business day**
 - 12×18 and smaller (more than 200): **2 business days**
 - 16×20–30×45: **3 business days**
@@ -85,7 +85,7 @@ Order prints from 3.5×5 to 30×45 right from your desktop or phone.
 
 *[Service times]({{ site.baseurl}}/service-times) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
 
-## Questions?
+### Questions?
 We're always happy to help. Please don't hesitate to reach out, our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
 
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
