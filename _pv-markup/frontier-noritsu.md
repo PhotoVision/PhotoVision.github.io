@@ -1,26 +1,26 @@
-# The Strengths of the Frontier SP3000 and Noritsu S-1800
+# The Strengths of the Frontier SP3000 + Noritsu S-1800
 Both film scanners are excellent tools to help you reach your vision. As you weigh the aesthetics + benefits of each, keep the following in mind:
-  
-## Your exposures + your preferences will *always* matter more than the scanner you choose.
 
-How you shoot your film and the reference images you provide do so much more to carry your vision than choosing the “right film scanner.” With that in mind, here are a few key differences between the Frontier SP3000 and the Noritsu S-1800:
+## How you shoot your film + the preferences you provide to us will *always* matter more than choosing the “right film scanner.”
 
-### Contrast
-The Noritsu has 100% more control over contrast than the Frontier. Shadows + highlights can also be controlled independently, so you could simultaneously lighten the shadows and darken the highlights if you so choose. Considering the substantial control over contrast, it’s easy to why the Noritsu excels when it comes to black + white film. 
+With that in mind, here are a few key differences between the Frontier SP3000 and the Noritsu S-1800:
 
-### Color Signatures
-The Frontier tends toward a more natural color palette, while the Noritsu can occasionally exhibit more vibrant greens. Keep in mind that color qualities you find in the Frontier can largely be produced on the Noritsu.
+## Contrast
+The Noritsu has significant more control over contrast than the Frontier. Shadows + highlights can be controlled independently, so you could simultaneously lighten the shadows and darken the highlights if needed. Considering the substantial control over contrast, it’s easy to see why the Noritsu excels when it comes to black + white film.
 
-### Larger Files + Faster Service Times
-Newer technology like the Noritsu S-1800 means faster scans, and faster scans mean faster service times. What’s more, the Noritsu also provides larger scan sizes than the Frontier, making Noritsu scans a great value!
+## Grain
+Noritsu scans carry a finer grain appearance when viewed in close detail, even *without* sharpening added, when compared to Frontier large scans.
 
-### Which is Better?
-There are so many variables between the Frontier and Noritsu that a 1:1 comparison isn’t very helpful. Rather, it really comes down to your eye and what you prefer. 
+## Color Signatures
+The Frontier tends toward a more natural color palette, while the Noritsu can occasionally exhibit more vibrant greens and deeper reds, while holding onto purples. Keep in mind that color qualities you find in the Frontier can largely be produced on the Noritsu.
 
-### Take Both for a Spin
-You never know which scanner you may prefer until you see scans from each. While we do not split a single order between two scanners, we are happy to scan two separate test orders so you can try both!
+## Larger Files + Faster Service Times
+Newer technology like the Noritsu S-1800 means faster scans, and faster scans mean faster service times. What’s more, the Noritsu also provides larger scan sizes standard than the Frontier’s normal size, making Noritsu scans a great value!
 
-### Questions?
+## Take Both for a Spin
+Send us a single roll with “Noritsu Frontier Test” as the shoot name and we’ll scan it on both so you can see the results first-hand. (We will only charge you for 1 roll of normal process + scan.) 
+
+## Questions?
 Please don’t hesitate to reach out. We’re always happy to help.
 [{{ site.company-info.display-phone }}](tel:{{ site.company-info.phone }})  
 [{{ site.company-info.email }}](mailto:{{ site.company-info.email }})
