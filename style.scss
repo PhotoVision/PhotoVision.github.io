@@ -24,10 +24,13 @@ html {
 
 body {
 	background: $white;
-  font: 400 16px/1.4 Roboto, san-serif;
+  font: 400 15px/1.5 Roboto, san-serif;
   color: $pvText;
   max-width: 1900px;
   margin: 0 auto 0 auto;
+  @media screen and (max-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 .container {
@@ -36,39 +39,69 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: $pvBlack;
-  line-height: 1.2;
-  margin: 1em 0;
   padding: 0;
-  @include mobile {
-    line-height: 1.4;
-  }
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2.285em;
+  margin-bottom: 1.33em;
   font-weight: 100;
   a {
     color: inherit;
   }
+  @media screen and (max-width: 1200px) {
+    font-size: 2em;
+    margin-bottom: .8em;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 1.7em;
+    margin-bottom: .4em;
+  }
+}
+
+h1.closed {
+  margin-bottom: .1em;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 1.428em;
+  margin-bottom: 2.571em;
+  color: $pvText;
+  font-style: italic;
   font-weight: 300;
+  @media screen and (max-width: 1200px) {
+    font-size: 1.342em;
+    margin-bottom: 1.857em;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 1.285em;
+    margin-bottom: 1.571em;
+  }
 }
 
 h3 {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 1.142em;
+  margin-bottom: .8em;
 }
 
 h4 {
-  font-size: 19px;
+  margin: 33px 0 8px 0;
+  font-size: 1.357em;
   font-weight: 300;
+  @media screen and (max-width: 1200px) {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
 }
 
-p {
-  margin: 15px 0;
+h5 {
+  margin: 12px 0 4px 0;
+  font-size: 1.142em;
+  font-weight: 400;
+}
+
+p {  
+  margin-bottom: 2.5em;
 }
 
 a {
@@ -82,18 +115,27 @@ a {
 
 ul {
   list-style-type: disc;
+  margin-bottom: 16px;
 }
 
 ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
+  counter-reset: item;
+  > li {
+    counter-increment: item;
+    list-style-type: none;
+    &:before {
+      content: counter(item) '. ';
+      display: inline-block;
+      float: left;
+      color: $pvLightGray;
+      font-weight: bold;    
+      text-align: left;
+      width: 1.5rem;
+    }
+    blockquote {
+      padding-left: 1.5rem;
+    }
+  }
 }
 
 em, i {
@@ -180,9 +222,6 @@ img {
   @media screen and (max-width: 1200px) {
     width: 90%;
   }
-  h3 {
-    margin-top: 40px;
-  }
 }
 
 // to center elements on page
@@ -253,7 +292,6 @@ img {
   ul {
     margin: 0 auto 2em auto;
     text-align: center;
-    font-size: 18px;
     display: block;
     list-style-type: none;
     li {
@@ -263,7 +301,7 @@ img {
         transition: 0.4s;
       }
       a {
-        color: $pvGray;
+        color: $pvText;
         &:hover, &:active {
           color: $pvLinks;
         }
@@ -293,6 +331,8 @@ img {
 
 .logo-verbiage {  
   font-size: 1.4em;
+  font-weight: 300;
+  color: $pvGray;
   @media screen and (max-width: 1100px) {
     font-size: 1.3em;
   }
@@ -364,94 +404,69 @@ img {
 }
 
 .fuji-fresh-container, .film-services-container, 
-.print-services-container, .philosophy-container {
+.print-services-container, .philosophy-container,
+.reference-sheets-container, .education-container {
   background-color: white;
   margin-bottom: -6px;
+  padding-top: 3%;
   :hover {
     cursor: pointer;
   }
   img {
     object-fit: cover;
+    &:hover {    
+      opacity: 0.4;
+    }
+  }
+  a {
+    &:after {
+      background: url('images/right-chevron.png') no-repeat center center;
+      background-size: .75em .75em;
+      width: .75em; 
+      height: .75em;
+      padding-left: 2em;
+      content:"";
+      @media screen and (max-width: 800px) {
+        background-size: .5em .5em;
+        width: .5em; 
+        height: .5em;
+        padding-left: 1.25em;
+      }
+      @media screen and (max-width: 400px) {
+        background-size: .5em .5em;
+        width: .5em; 
+        height: .5em;
+        padding-left: 1.25em;
+      }
+    }
+    &:hover {
+      color: $pvLinks !important;
+    }
   }
 }
 
-.film-services-container, 
-.print-services-container {
+.philosophy-container {  
+  padding: 0 5%;
+}
+
+.film-services-container, .print-services-container,
+.reference-sheets-container, .education-container,
+.order-film-link, .fuji-fresh-link {
   float: left;
   width: 50%;
 }
 
-.philosophy-container {
-  img:hover {
-    content: url("/images/philosophy-hover.jpg");
-  }
-  @include mobile {
-    img {
-      content: url("/images/philosophy-hover.jpg");
-    }
-  }
+.film-services-container, .reference-sheets-container {
+  padding: 3% 2% 4% 5%;
 }
 
-.film-services-container {
-  img:hover {
-    content: url("/images/film-services-hover.jpg");
-  }
-  @include mobile {
-    img {
-      content: url("/images/film-services-hover.jpg");
-    }
-  }
+.print-services-container, .education-container {
+  padding: 3% 5% 4% 2%;
 }
 
-.print-services-container {
-  img:hover {
-    content: url("/images/print-services-hover.jpg");
-  }
-  @include mobile {
-    img {
-      content: url("/images/print-services-hover.jpg");
-    }
-  }
-}
-
-.fuji-fresh-container {
-  img:hover {
-    content: url("/images/fuji-fresh-hover.jpg");
-  }
-  @include mobile {
-    img {
-      content: url("/images/fuji-fresh-hover.jpg");
-    }
-  }
-}
-
-.reference-sheets-container {
-  display: inline-block;
-  position: relative;
-  width: 50%;
-  :hover {
-    cursor: pointer;
-  }
-  img {
-    object-fit: cover;
-  }
-  h1 {
-    margin-bottom: 0px;
-  }
-}
-
-.education-container {
-  float: right;
-  width: 50%;
-  :hover {
-    cursor: pointer;
-  }
-  img {
-    object-fit: cover;
-  }
-  h1 {
-    margin-bottom: 10px;
-  }
+.order-film-link, .fuji-fresh-link {
+  margin-bottom: 0px !important;
+  padding: 0 5% 0 2%;
 }
 
 .praise-teaser-container {
@@ -528,12 +543,11 @@ img {
     }
   }
   .right {
-    &:before {
-      content: '—';
-    }
-    font-size: .85em;
+    color: $pvText;
+    font-size: .6em;
+    font-weight: 400;
     a {
-      font-size: 1em;
+      font-size: 1.25em;
     }
   }
   ul li {
@@ -551,6 +565,7 @@ img {
 }
 
 .tablelines {
+  margin-bottom: 3.2em;
   th {
     border-bottom: 2px solid $pvBlack;
     padding: .3em 1em .3em 1em;
@@ -568,9 +583,12 @@ img {
 }
 
 article {
-  padding: 2% 10%;
-  h1 {
-    margin-bottom: 0;
+  padding: 2% 33%;
+  @media screen and (max-width: 1200px) {
+    padding: 2% 20%;
+  }
+  @media screen and (max-width: 800px) {
+    padding: 2% 10%;
   }
   .date {
     font-size: .75em;
@@ -590,25 +608,17 @@ article {
   .entry {
     h1 {
       border-bottom: 1px solid $pvHeadingLines;
-      padding-bottom: 5px;
-    }
-    h2 {
-      margin-bottom: .75em;
     }
     p {
-      margin-bottom: 0;
-      padding-bottom: 1%;
-      text-align: justify;
-      text-justify: inter-word;
       em strong a {
         font-weight: 600;
       }
+      img {
+        margin-bottom: 26px;
+      }
     }
     ol, ul {
-        padding-left: 3em;
-        li {
-          list-style-type: circle;
-        }
+      padding-left: 1.5em;
     }
     a {
       font-size: 1em;
@@ -649,9 +659,6 @@ article {
       margin-right: 0;
       ul {
         padding-left: 1.5em;
-        li {
-          list-style-type: circle;
-        }
       }
     }
     .left-column {
@@ -688,35 +695,31 @@ article {
       }
     }
     .closed:after {
-      font-size: .4em;
-      vertical-align: middle;
-      color: $pvGray;
-      content: '  \25BC';
+      background: url('images/down-chevron.png') no-repeat center center;
+      background-size: .75em .75em;
+      width: .75em; 
+      height: .75em;
+      padding-left: 2em;
+      content:"";
     }
     .opened:after {
-      font-size: .4em;
-      vertical-align: middle;
-      color: $pvGray;
-      content: '  \25B2';
+      background: url('images/up-chevron.png') no-repeat center center;
+      background-size: .75em .75em;
+      width: .75em; 
+      height: .75em;
+      padding-left: 2em;
+      content:"";
     }
     .panel {
-        transition: max-height 0.2s ease-out;
-        overflow: hidden;
+      margin-left: 2.67px;
+      margin-bottom: 10px;
+      transition: max-height 0.2s ease-out;
+      overflow: hidden;
     }
     button {
       padding: 10px;
-      border-radius: 5px;
-      color: $pvBlack;
-      background-color: white;
-      border: 1px solid $pvBlack;
       font-size: 19px;
       font-weight: 400;
-      &:hover {
-        background-color: $lightGray;
-      }
-      &:active {
-        background-color: gray;
-      }
     }
     .pricing-button {
       margin-right: 25px;
@@ -743,9 +746,6 @@ article {
         width: 48%;
         img {
           padding-right: 30px;
-        }
-        h1 {
-          margin-top: 0;
         }
         h3 {
           padding-left: 0;
@@ -775,9 +775,6 @@ article {
     h1, h4 {
       text-align: left;
     }
-    h1 {
-      margin: 0 0 20px 0;
-    }
     .rf-logo {
       width: 60%;
     }
@@ -792,37 +789,30 @@ article {
 .footer-nav-left {
   text-align: left;
   float: left;
-  margin-left: 20px;
-  margin-right: 60px;
-  h4 {
-    margin: 50px 0px 10px 0px;
-  }
+  width: 20%;
   ul {
     list-style-type: none;
   }
-  @media screen and (max-width: 800px) {
-    margin-right: 30px;
+  @media screen and (max-width: 800px) {    
+    width: 25%;
+  }
+  @media screen and (max-width: 700px) {    
+    width: 50%;
   }
 }
 
 .footer-nav-right {
   text-align: right;
   float: right;
-  margin-right: 20px;
+  width: 20%;
   strong, span {
-    padding: 0px 3px;
-  }
-  h4 {
-    margin: 50px 0px 10px 0px;
+    color: $pvBlack;
   }
   ul {
     list-style-type: none;
   }
   @media screen and (max-width: 800px) {
-    margin-left: 20px;
-  }
-  @media screen and (max-width: 700px) {
-    margin-left: 20px;
+    width: 90%;
     text-align: left;
     float: left;
   }
@@ -839,8 +829,10 @@ article {
     width: 90%;
     margin: 0 auto 0 auto;
   }
+  img {
+    margin: 40px 0;
+  }
   h2 {
-    margin: 0;
     display: inline;
   }
   label {
@@ -875,8 +867,7 @@ article {
     font-size: 1em;
     width: 100%;
     padding: 5px 8px;
-    border: 1px solid $pvHeadingLines;
-    border-radius: 4px;
+    border: 1px solid $pvText;
     box-sizing: border-box;
     &::placeholder {
       font-style: italic;  
@@ -917,7 +908,6 @@ article {
       width: 20%;
     }
     p {
-      margin-top: 5px;
     }
   }
   .info-icon {
@@ -930,7 +920,6 @@ article {
     display: block;
     color: white;
     background-color: $pvBlack;
-    border-radius: 6px;
     padding: 8px;
     position: absolute;
     z-index: 1;
@@ -959,16 +948,20 @@ article {
     }
   }
   .closed:after {
-    font-size: .4em;
-    vertical-align: middle;
-    color: $pvGray;
-    content: '  \25BC';
+    background: url('images/down-chevron.png') no-repeat center center;
+    background-size: .75em .75em;
+    width: .75em; 
+    height: .75em;
+    padding-left: 2em;
+    content:"";
   }
   .opened:after {
-    font-size: .4em;
-    vertical-align: middle;
-    color: $pvGray;
-    content: '  \25B2';
+    background: url('images/up-chevron.png') no-repeat center center;
+    background-size: .75em .75em;
+    width: .75em; 
+    height: .75em;
+    padding-left: 2em;
+    content:"";
   }
   .panel {
       transition: max-height 0.2s ease-out;
@@ -978,16 +971,7 @@ article {
     width: 180px;
     height: 50px;
     margin-top: 25px;
-    border-radius: 5px;
-    background-color: white;
-    border: 1px solid $pvBlack;
     font-size: 19px;
-    :hover {
-      background-color: $lightGray;
-    }
-    :active {
-      background-color: gray;
-    }
   }
   button#print-code {
     width: 150px;
@@ -1009,9 +993,6 @@ article {
 }
 
 .preferences-form {
-  h1 {
-    margin-bottom: 0px;
-  }
   a {
     margin-top: 1em;
   }
@@ -1025,6 +1006,7 @@ article {
 }
 
 .social-icons {
+  margin-top: 46px;
   a {
     padding: 2.2%;
   }
@@ -1050,19 +1032,15 @@ article {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-// .wrapper-masthead {
-//   margin-bottom: 50px;
-// }
-
 .masthead {
-  padding: 6px 10px;
+  padding: 1em 3.5%;
   margin-bottom: 40px;
-  background-color: $pvBlack;
+  background-color: $lightGray;
   a, span {
-    color: white;
+    color: $pvText;
   }
   @media screen and (max-width: 800px) {
-    font-size: .7em;
+    font-size: .9em;
   }
 }
 
@@ -1132,21 +1110,19 @@ article {
 }
 
 .post {
-  width: 50%;
+  width: 95%;
   margin: 0 auto 0 auto;
-  @media screen and (max-width: 1200px) {
-    width: 75%;
-  }
-  @media screen and (max-width: 800px) {
-    width: 90%;
+  h1 {
+    margin-bottom: 18px; 
   }
   .entry a {
     &:hover, &:active {
       color: $pvBlack;
     }
   }
-  .date {    
-    padding-top: 5px;
+  .date {
+    color: $pvLightGray;
+    font-size: 1em;
   }
   a {
     font-size: 1em;
@@ -1160,19 +1136,16 @@ article {
     }
   }
   img {
-    width: 580px;
-    padding: 10% 0 6% 0;
+    padding: 10% 0 0 0;
   }
 }
 
 .post-nav-table {
-  width: 75%;
-  margin: 0 auto 0 auto;
   @media screen and (max-width: 1200px) {
     width: 100%;
   }
   .left {
-    margin: 0 1% 0 1%;
+    margin: 1% 1%;
     width: 31%;
     @media screen and (max-width: 1200px) {
       margin: 0 .5% 0 .5%;
@@ -1203,12 +1176,13 @@ article {
     }
   }
   span {
+    color: $pvBlack;
     width: 90%;
     height: 3em;
     padding: 2%;
     font-size: 1.2em;
     position: relative;
-    margin: -20% 0 15% 5%;
+    margin: -40% 0 15% 5%;
     z-index: 2;
     @media screen and (max-width: 1400px) {
       font-size: 1em;
@@ -1225,24 +1199,26 @@ article {
   button.submit {
     min-width: 21%;
     height: 20%;
-    margin: 0 8.7% 3% 8.7%;
-    border-radius: 5px;
-    background-color: white;
-    border: 1px solid $pvBlack;
-    text-align: center;
+    margin: 1.5% 8.7%;
     font-size: 1.2em;
-    &:hover {
-      background-color: $lightGray;
-    }
-    &:active {
-      background-color: gray;
-    }
     @media screen and (max-width: 1200px) {
-      margin: 0 8% 3% 8%;
+      margin: 1.5% 8%;
     }
     @media screen and (max-width: 800px) {
-      margin: 0 2% 3% 2%;
+      margin: 1.5% 2%;
     }
+  }
+}
+
+button {
+  background-color: white;
+  border: 3px solid $lightGray;
+  text-align: center !important;
+  &:hover {
+    background-color: $lightGray;
+  }
+  &:active {
+    background-color: gray;
   }
 }
 
@@ -1250,44 +1226,20 @@ textarea {
   resize: none;
 }
 
+.footer-transition {
+  height: 40px;
+  background-image: linear-gradient(white, $lightGray);
+}
+
 .wrapper-footer {
   background-color: $lightGray;
+  padding: 0 3.5%;
 }
 
 footer {
   text-align: center;
   overflow: hidden;
   padding-bottom: 20px;
-}
-
-h1 {
-  @media screen and (max-width: 800px) {
-    font-size: 24px;
-  }
-}
-
-h2 {
-  @media screen and (max-width: 800px) {
-    font-size: 20px;
-  }
-}
-
-h3 {
-  @media screen and (max-width: 800px) {
-    font-size: 18px;
-  }
-}
-
-h4 {
-  @media screen and (max-width: 800px) {
-    font-size: 16px;
-  }
-}
-
-body, a {
-  @media screen and (max-width: 800px) {
-    font-size: 14px;
-  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

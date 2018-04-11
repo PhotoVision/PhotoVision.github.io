@@ -8,6 +8,7 @@ date: December 10, 2017
 ---
 
 ![]({{ site.baseurl}}/images/blog/2017-12-10-jen-dilliender-fuji400h-contax645/jen_dillender_contax645_fuji400h_austin_texas_photovisionprints.jpg)  
+
 So much happiness in one frame! We are just smitten with these cuties! 💕Photo by [@jendillender](http://www.instagram.com/jendillender/?hl=en){: target="_blank"}! "These two tiny members of the wedding party were too adorable for words. I just love their sweet expressions! I told them to hold hands and say "Yay!" and they took it from there." — Jen Dillender
 
 📷 on #fuji400h with a #contax645 at Canyonwood Ridge in Austin, Texas.
