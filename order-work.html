@@ -289,7 +289,7 @@ title: 'Order Process + Scan'
         var proofCost = 0;
         var rowCost = 0;
         if (frontier.is(':checked')) {
-          if (processTypes[i].value == 'c-41') {            
+          if (processTypes[i].value == 'c-41' || processTypes[i].value == 'c-41-bw') {            
             if (filmSizes[i].value == '120' || filmSizes[i].value == '135') {
               if (scanSizes[i].value == 'N') {
                 processCost = 18;
@@ -449,6 +449,38 @@ title: 'Order Process + Scan'
       });
     }
 
+    for (i = 0; i < filmSizes.length; i++) {
+      filmSizes[i].addEventListener("change", function() {
+        if (this.value == '135') {
+          proofSelectId = 'proofs-' + $(this).data('value');
+          borderSelectId = 'borders-' + $(this).data('value');
+          var proofSelect = document.getElementById(proofSelectId);
+          var borderSelect = document.getElementById(borderSelectId);
+          var options = proofSelect.getElementsByTagName("option");
+          if (proofSelect.value == '5×5') {
+            proofSelect.value = 'none';
+            borderSelect.value = 'none';
+            borderSelect.disabled = true;
+          }
+          for (o = 0; o < options.length; o++) {
+            if (options[o].value == '5×5') {
+              options[o].disabled = true;
+            }
+          }
+        } else {
+          proofSelectId = 'proofs-' + $(this).data('value');
+          var proofSelect = document.getElementById(proofSelectId);
+          var options = proofSelect.getElementsByTagName("option");
+          for (o = 0; o < options.length; o++) {
+            if (options[o].value == '5×5') {
+              options[o].disabled = false;
+            }
+          }
+        }
+        getOrderTotal();
+      })
+    }
+
     for (i = 0; i < proofs.length; i++) {
       proofs[i].addEventListener("input", function() {
         /* enable border select for rows with proof size selected */
@@ -456,6 +488,7 @@ title: 'Order Process + Scan'
         if ($(this).val() !== "none") {
           borders[index].disabled = false;
         } else { /* disable border select for rows without proof size selected */
+          borders[index].value = 'none';
           borders[index].disabled = true;
         }
         getOrderTotal();
