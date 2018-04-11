@@ -24,12 +24,12 @@ html {
 
 body {
 	background: $white;
-  font: 400 14px/1.5 Roboto, san-serif;
+  font: 400 15px/1.5 Roboto, san-serif;
   color: $pvText;
   max-width: 1900px;
   margin: 0 auto 0 auto;
   @media screen and (max-width: 1200px) {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -81,7 +81,7 @@ h2 {
 
 h3 {
   font-size: 1.142em;
-  margin-bottom: 1.5em;
+  margin-bottom: .8em;
 }
 
 h4 {
@@ -101,7 +101,7 @@ h5 {
 }
 
 p {  
-  margin-bottom: 1.142em;
+  margin-bottom: 2.5em;
 }
 
 a {
@@ -565,7 +565,7 @@ img {
 }
 
 .tablelines {
-  margin-bottom: 18px;
+  margin-bottom: 3.2em;
   th {
     border-bottom: 2px solid $pvBlack;
     padding: .3em 1em .3em 1em;
