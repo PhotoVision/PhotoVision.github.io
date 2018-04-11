@@ -112,6 +112,8 @@
       </div>
     </div>
 
+    <a class="back-to-top" href="#"><br />TOP</a>
+
     <!-- TODO: add Analytics when we go 'live' {% include analytics.html %} -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -208,6 +210,21 @@
         orderPanel.addEventListener("mouseout", function() {
           /* Hide the nav panel when mouse leaves the nav panel (for desktop) */
           orderPanel.style.maxHeight = null;
+        });
+
+        /* Show back-to-top link when user scrolls down beyond height of the viewing screen */
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > $(this).height()) {            
+            $('.back-to-top').fadeIn(300);            
+          } else {            
+            $('.back-to-top').fadeOut(300);            
+          }            
+        });
+        
+        $('.back-to-top').click(function(e) {            
+          e.preventDefault();            
+          $('html, body').animate({scrollTop: 0}, 300);            
+          return false;            
         });
       });
     </script>
