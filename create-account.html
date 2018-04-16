@@ -122,7 +122,7 @@ title: Create Account
 
     function sendEmail() {
       if (gotcha == '') {        
-        console.log('Welcome, human!');
+        // console.log('Welcome, human!');
         var data = getFormData();
         var url = 'https://script.google.com/a/photovisionprints.com/macros/s/AKfycbwUGtsXIGWnao5bBQbkGiA91nPxPg724TWVR8TCjg7HumhBSoI/exec';
         var xhr = new XMLHttpRequest();
@@ -130,10 +130,10 @@ title: Create Account
         // xhr.withCredentials = true;
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.onreadystatechange = function() {
-          console.log( xhr.status, xhr.statusText )
-          console.log(xhr.responseText);
+          // console.log( xhr.status, xhr.statusText )
+          // console.log(xhr.responseText);
           $('html,body').css('cursor','default');
-          window.location.replace("/create-account-thanks");
+          window.location.replace("/preferences");
           return;
         };
         // url encode form data for sending as post data
@@ -143,7 +143,7 @@ title: Create Account
         xhr.send(encoded);
       } else {
         $('html,body').css('cursor','default');
-        console.log('Robot detected!');
+        // console.log('Robot detected!');
         return false;
       }
     }

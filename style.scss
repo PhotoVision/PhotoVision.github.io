@@ -715,6 +715,33 @@ article {
       margin-bottom: 10px;
       transition: max-height 0.2s ease-out;
       overflow: hidden;
+      .preferences-link {
+        .info-icon {
+          width: 1em;
+          height: 1em;
+          display: inline-block;
+        }
+        img {
+          margin-bottom: 0px;
+        }
+      }
+      .popup-info {
+        visibility: hidden;
+        display: inline-block;
+        color: white;
+        background-color: $pvBlack;
+        padding: 8px;
+        position: absolute;
+        z-index: 1;
+      }
+      .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 0.5s;
+        animation: fadeIn 0.5s;
+        @media (pointer: fine) {
+          visibility: hidden;
+        }
+      }  
     }
     button {
       padding: 10px;
@@ -1177,21 +1204,10 @@ article {
     width: 90%;
     height: 3em;
     padding: 2%;
-    font-size: 1.2em;
+    font-size: 1em;
     position: relative;
-    margin: -40% 0 15% 5%;
+    margin: -25% 0 15% 5%;
     z-index: 2;
-    @media screen and (max-width: 1400px) {
-      font-size: 1em;
-      margin-top: -25%;
-    }
-    @media screen and (max-width: 1200px) {
-      margin-top: -25%;
-    }
-    @media screen and (max-width: 650px) {
-      font-size: 1em;
-      margin-top: -25%;
-    }
   }
   button.submit {
     min-width: 21%;
