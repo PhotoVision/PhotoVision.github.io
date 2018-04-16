@@ -715,6 +715,33 @@ article {
       margin-bottom: 10px;
       transition: max-height 0.2s ease-out;
       overflow: hidden;
+      .preferences-link {
+        .info-icon {
+          width: 1em;
+          height: 1em;
+          display: inline-block;
+        }
+        img {
+          margin-bottom: 0px;
+        }
+      }
+      .popup-info {
+        visibility: hidden;
+        display: inline-block;
+        color: white;
+        background-color: $pvBlack;
+        padding: 8px;
+        position: absolute;
+        z-index: 1;
+      }
+      .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 0.5s;
+        animation: fadeIn 0.5s;
+        @media (pointer: fine) {
+          visibility: hidden;
+        }
+      }  
     }
     button {
       padding: 10px;

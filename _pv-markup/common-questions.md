@@ -10,7 +10,9 @@ permalink: common-questions.html
 ##  We're glad you're here. Let's get started:
 1. ### [Create an account]({{ site.baseurl }}/create-account)
 2. ### [Submit reference images + written preferences]({{ site.baseurl }}/preferences)
-> Help us understand your overall vision. This will help speed up the process once we receive your film. [Why is this important?]({{site.baseurl}}> /common-questions#what-are-preference-images--why-should-i-send-them-in){: id="preferences-link"}
+> Help us understand your overall vision. This will help speed up the process once we receive your film. <span title="Your reference images serve as a style guide so we can best match your scans to your creative vision. We recommend sending in 3–5 reference images that best exemplify the skin tones, density and contrast level you are striving to achieve. These images can be from your own portfolio or from another film photographer whom you admire."><a class="preferences-link" id="preferences-link" onclick="showInfo()"><img class="info-icon" id="info-icon" src="{{ site.baseurl }}/images/info-symbol-2.png" />&nbsp;Why is this important?</a><span class="popup-info" id="popup">Your reference images serve as a style guide so we can best match your scans to your creative vision. We recommend sending in 3–5 reference images that best exemplify the skin tones, density and contrast level you are striving to achieve. These images can be from your own portfolio or from another film photographer whom you admire.</span>
+</span>
+
 3. ### Fill out an [online order form]({{ site.baseurl }}/order-work) _or_ [download + print]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"}
 > Order forms are *crucial*. They help ensure all your film has arrived safely and is processed to your specifications. 
 4. ### [Safely]({{ site.baseurl }}/shipping-tips) ship your film + order code _or_ order form 
@@ -267,6 +269,13 @@ Come hang out with us on [Instagram](http://www.instagram.com/photovisionprints/
             panel.style.maxHeight = panel.scrollHeight + "px";
             } 
         });
+    }
+
+    function showInfo() {
+        var prefLink = document.getElementById("preferences-link");
+        var popup = prefLink.nextElementSibling;
+        
+        popup.classList.toggle("show");
     }
 
     // preferencesLink = document.getElementById("preferences-link");
