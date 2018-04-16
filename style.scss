@@ -1204,21 +1204,10 @@ article {
     width: 90%;
     height: 3em;
     padding: 2%;
-    font-size: 1.2em;
+    font-size: 1em;
     position: relative;
-    margin: -40% 0 15% 5%;
+    margin: -25% 0 15% 5%;
     z-index: 2;
-    @media screen and (max-width: 1400px) {
-      font-size: 1em;
-      margin-top: -25%;
-    }
-    @media screen and (max-width: 1200px) {
-      margin-top: -25%;
-    }
-    @media screen and (max-width: 650px) {
-      font-size: 1em;
-      margin-top: -25%;
-    }
   }
   button.submit {
     min-width: 21%;
