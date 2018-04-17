@@ -77,13 +77,12 @@ Order prints from 3.5×5 to 30×45 right from your desktop or phone.
 [![]({{ site.baseurl}}/images/new-little-prints.jpg)](http://photovision.dakisphotofactory.com/onlinePrint.html){: target="_blank"}
 
 ### Print Service Times
-- 12×18 and smaller (200 or less): **1 business day**
-- 12×18 and smaller (more than 200): **2 business days**
-- 16×20–30×45: **3 business days**
-- Proofs: **{{ site.company-info.proof-turnaround-time }}**
-{:.service-times-list}
+12×18 and smaller (200 or less) **_1 business day_**  
+12×18 and smaller (more than 200) **_2 business days_**  
+16×20 – 30×45 **_3 business days_**  
+Proofs **_2 business days_**
 
-*[Service times]({{ site.baseurl}}/service-times) are given as good faith estimates and are ultimately dependent on the volume of work coming in from our photographers.*
+*[Service times]({{ site.baseurl}}/service-times) are given in business days starting the first business day *after* your order is received. They are best faith estimates and ultimately dependent on the volume of work coming in from our photographers.*
 
 ### Questions?
 We're always happy to help. Please don't hesitate to reach out, our phones are answered by our friendly Team from {{ site.company-info.service-hours }}.
