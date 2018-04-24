@@ -98,6 +98,8 @@ Once your scans are complete, we will send you an email with a link to view and 
 ### How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
 
+Notice how all scans are created as 72 DPI? This is standard for both the Fuji Frontier SP3000 and the Noritsu S-1800. The number you want to keep an eye on is your scans pixel dimensions provided in the chart below. 
+
 #### Fuji Frontier SP3000
 
 | **Film Size** | **Format** | **Normal Scan** | **Large Scan** |
@@ -121,7 +123,7 @@ Resolution matters. That's why our normal scans give you the freedom to print st
 | **120 / 220** | 6×8 | 4900×6600 |
 | **120 / 220** | 6×9 | 4900×7100 |
 {: .tablelines}
-*All scan resolutions are approximate. Slight variations are normal.*
+*All scan resolutions are approximate. Slight variations are normal. All scans can be easily re-sampled to 300 DPI in LightRoom or Photoshop.*
 
 ### Will my scans be rotated + numbered?
 Yes. Every scan arrives rotated and organized by roll number and frame number (i.e. XXXXX-xx.jpg) at no charge. Pro tip: if you number your rolls (which we *highly* recommend) your scans will be uploaded in chronological order, streamlining your post work. 
