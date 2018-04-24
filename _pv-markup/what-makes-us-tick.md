@@ -16,9 +16,9 @@ permalink: what-makes-us-tick.html
 | ![]({{ site.baseurl}}/images/Photovision_002.jpg){:.left-image } | ![]({{ site.baseurl}}/images/Photovision_001.jpg){:.right-image } |
 {:.tablenolines }
   
-#### *"What has made us most proud over the years, is the number of people we’ve touched and the number of lives we’ve made better."*
+#### *"What has made us most proud over the years, is the number of people we’ve touched and the number of lives we’ve made better."*{:.center }
 — Brian Wood, 2nd Generation Photographic Expert
-{:.center-p }  
+{:.center }  
 
 <div class="clearfix extra-picky-space" markdown="1">
 

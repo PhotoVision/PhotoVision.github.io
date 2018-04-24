@@ -356,9 +356,9 @@ img {
     li {
       display: block;
       padding: .5em;
-      background-color: $pvBlack;
+      background-color: $lightGray;
       a {
-        color: white;
+        color: $pvText;
         &:hover, &:active {
           color: $pvLinks;
         }
@@ -615,6 +615,9 @@ article {
       }
       img {
         margin-bottom: 26px;
+      }
+      .emoji {
+        margin-bottom: 0px;
       }
     }
     ol, ul {
@@ -1057,14 +1060,22 @@ article {
 /*********************/
 
 .masthead {
-  padding: 1em 3.5%;
+  padding: 1em 4.8%;
   margin-bottom: 40px;
   background-color: $lightGray;
+  font-size: 1.166em;
   a, span {
     color: $pvText;
   }
   @media screen and (max-width: 800px) {
-    font-size: .9em;
+    font-size: 1em;
+    .left {
+      padding-bottom: .8em;
+    }
+    .right {
+      float: left;
+      text-align: left;
+    }
   }
 }
 

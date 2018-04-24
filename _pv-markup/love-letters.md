@@ -3,7 +3,7 @@ layout: page
 permalink: praise.html
 ---
 
-# Love letters from our photographers
+# Love Letters from Our Photographers
 
 *Other labs don’t hold a candle to you in quality and care for their customers. Thanks for all you do!*  
 __[Kathryn Bruns](http://www.kathrynbruns.com/){: target="_blank"} December 15, 2017__
@@ -172,7 +172,7 @@ __[Faith Allen of Fallen Photography](http://www.thefallenphotography.com/){: ta
 __[Stan Kwan](http://www.stankwanphotos.com/){: target="_blank"} January 23, 2017__
 
 *Friends, it's a joy to work with you! Thank you for everything you guys have done to help me serve my clients well and improve my work. I could never truly express my gratitude!* <code>&nbsp;</code>:heart: *Cheers to another great year of working together!*  
-__[Nikki Santerre](http://www.nikkisanterre.com/){: target="_blank"} January 18, 2017__*
+__[Nikki Santerre](http://www.nikkisanterre.com/){: target="_blank"} January 18, 2017__
 
 *#LoveMyLab is in my little preset Instagram hashtags now, I love it and YOU ALL!!* :slightly_smiling_face: *Thanks for making everything look so pretty!*  
 __[Ashley (McKinney) Brown of Shinning Light Photography](http://www.shininglight516.com/){: target="_blank"} January 17, 2017__
