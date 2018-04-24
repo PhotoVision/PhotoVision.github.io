@@ -3,7 +3,7 @@ layout: page
 permalink: praise.html
 ---
 
-# Love letters from our photographers
+# Love Letters from Our Photographers
 
 *Other labs don’t hold a candle to you in quality and care for their customers. Thanks for all you do!*  
 __[Kathryn Bruns](http://www.kathrynbruns.com/){: target="_blank"} December 15, 2017__
