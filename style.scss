@@ -356,9 +356,9 @@ img {
     li {
       display: block;
       padding: .5em;
-      background-color: $pvBlack;
+      background-color: $lightGray;
       a {
-        color: white;
+        color: $pvText;
         &:hover, &:active {
           color: $pvLinks;
         }
