@@ -32,7 +32,7 @@ Once your scans are complete, we will send you an email with a link to view and 
 You can find our current film service time + print service time [here]({{ site.baseurl}}/service-times). We also offer [rush processing]({{ site.baseurl}}/rush-policy).
 
 ### How do I order prints?
-Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may [order prints](http://photovision.dakisphotofactory.com/onlinePrint.html){: target="_blank"} from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form when you send in your film. Prefer to view your scans prior to ordering prints? Not a problem. You may [order prints](http://photovision.dakisphotofactory.com/onlinePrint.html){: target="_blank"} from us anytime online from both film and digital. See [print pricing]({{ site.baseurl }}/print-services).
 
 ### How do I get my negatives back?
 We will hold your negatives based on the Ship Back preference marked on your [online]({{ site.baseurl }}/order-work) or [printed]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} order form. *For international shipping*, these prices will vary.
@@ -178,10 +178,10 @@ Absolutely, we provide this service at no charge for every order. Negatives are 
 <div class="panel" markdown="1">
 
 ### Do you offer proof prints?
-Yes! Our high-quality proof prints come on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. See [pricing]({{ site.baseurl }}/images/print-services).
+Yes! Our high-quality proof prints come on the same Fujicolor Crystal Archive Supreme (Lustre) Paper. Proof prints may be requested via your [online]({{ site.baseurl }}/order-work) or <a href="{{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf" target="_blank">printed</a> order form when you send in your film. See [pricing]({{ site.baseurl }}/print-services).
 
 ### Prefer to view your scans prior to ordering prints?
- Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime from both film and digital. See [print pricing]({{ site.baseurl }}/images/print-services).
+ Not a problem. You may <a href="http://photovision.dakisphotofactory.com/onlinePrint.html" target="_blank">order prints</a> from us anytime from both film and digital. See [print pricing]({{ site.baseurl }}/print-services).
 
 ### Are your prints true photographic prints?
 Yes. Since 1968, we've respected the art of the print. Our true, wet process photographs pay homage to traditional darkroom printing. You love your scans—why trust another lab with your prints?
