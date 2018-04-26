@@ -301,6 +301,7 @@ title: 'Order Process + Scan'
 
     function getOrderTotal() {
       var totalCost = 0;
+      var totalProofCost = 0;
 
       for (i = 0; i < filmQtys.length; i++) {
         var processCost = 0;
@@ -368,8 +369,10 @@ title: 'Order Process + Scan'
             proofCost = 3.5;
           }
         }
-        // CALCULATE ROW TOTAL COST HERE
+        // CALCULATE ROW TOTAL COST
         rowCost = (processCost + proofCost + pushPullCost) * filmQtys[i].value;
+        // ADD PROOF COST TO TOTAL PROOF COST FOR SUBTRACTING FROM RUSH CHARGE
+        totalProofCost += proofCost * filmQtys[i].value;
         // ADD ROW COST TO TOTAL COST
         totalCost += rowCost;
       }
@@ -377,9 +380,9 @@ title: 'Order Process + Scan'
       if (noneRush.is(':checked')) {
         totalCost;
       } else if (twoRush.is(':checked')) {
-        totalCost += totalCost;
+        totalCost += (totalCost - totalProofCost);
       } else if (threeRush.is(':checked')) {
-        totalCost += (totalCost * .5);
+        totalCost += ((totalCost - totalProofCost) * .5);
       }
       $('#cost-total').val('$' + (totalCost).toFixed(2));
     }
