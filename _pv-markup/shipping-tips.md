@@ -11,7 +11,7 @@ Liquids are surprisingly harmful to unprocessed film. Placing your film + [onlin
 </div>
 <div class="panel" markdown="1">
 ### Use a box + plenty of cushioning
-We've seen more than one roll of film lost into the postal abyss because it was sent in a flimsy envelope. *Don't be that guy!* &nbsp;Place your bagged film + [online order]({{ site.baseurl }}/order-work) code or [printed order form]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} inside a box and use plenty of cushioning to ensure your film's safe arrival. (Pro tip: [USPS Priority Mail boxes](http://store.usps.com/store/results/free-shipping-supplies/shipping-supplies/_/N-alnx4jZ7d0v8v) are free!)
+We've seen more than one roll of film lost into the postal abyss because it was sent in a flimsy envelope. *Don't be that guy!* &nbsp;Place your bagged film + [online order]({{ site.baseurl }}/order-work) code or [printed order form]({{site.baseurl}}/images/PhotoVision-Film-Order-Form.pdf){: target="_blank"} inside a box and use plenty of cushioning to ensure your film's safe arrival. (Pro tip: [USPS Priority Mail boxes](http://store.usps.com/store/results/free-shipping-supplies/shipping-supplies/_/N-alnx4jZ7d0v8v){: target="_blank"} are free!)
 </div>
 <div class="panel" markdown="1">
 ### Get a tracking number
