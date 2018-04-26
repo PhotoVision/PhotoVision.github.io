@@ -24,7 +24,7 @@ You may have gray market film if your scans have unexplained heat fog that looks
 While at first blush, gray market film seems like a great deal (*"I’m getting my favorite stock for cheap!"*) it simply isn’t worth the risk. The only way to guarantee consistent, quality film is to purchase it through a reliable source.
 
 ### Introducing, #FUJIfresh
-FUJIfresh is the same [Fujicolor Pro 400H Film](http://www.fujifilmusa.com/products/professional_photography/film/fujicolor_portrait/pro_400h/index.html) you know and love, sourced directly from Fujifilm USA. *No* worldwide trip stored in dubious conditions. *Never* gray market. *Never* expired. *Always* fresh. Guaranteed quality + performance. Only from us!
+FUJIfresh is the same [Fujicolor Pro 400H Film](http://www.fujifilmusa.com/products/professional_photography/film/fujicolor_portrait/pro_400h/index.html){: target="_blank"} you know and love, sourced directly from Fujifilm USA. *No* worldwide trip stored in dubious conditions. *Never* gray market. *Never* expired. *Always* fresh. Guaranteed quality + performance. Only from us!
 
 ### Available in 120 and 135 Pro Packs  
 
