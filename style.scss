@@ -617,7 +617,7 @@ article {
         margin-bottom: 26px;
       }
       .emoji {
-        margin-bottom: 0px;
+        margin-bottom: -4px;
       }
     }
     ol, ul {
@@ -1234,8 +1234,9 @@ article {
   }
 }
 
-button {
+button, .button {
   background-color: white;
+  color: $pvBlack;
   border: 3px solid $lightGray;
   text-align: center !important;
   &:hover {
@@ -1268,7 +1269,6 @@ footer {
 }
 
 .back-to-top { 
-  background-color: white;
   position: fixed;
   bottom: .25em;
   right: .25em;
@@ -1278,18 +1278,15 @@ footer {
   display: none;
   text-decoration: none;
   font-size: 1.25em;
-  color: $pvText;
-  border: 1px solid $pvText;
-  padding-left: .4em;
-  padding-bottom: 3em;
+  padding: 0 2.3em 3em .4em;
 }
 
 .back-to-top:before {
-  background: url('images/up-chevron.png') no-repeat center;
+  background: url('images/up-chevron-pvBlack.png') no-repeat center;
   background-size: 1em 1em;
   width: 1em; 
   height: 1em;
-  padding-left: 2em;
+  padding: 0 2em;
   content:"";
 }
 

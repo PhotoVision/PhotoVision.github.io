@@ -8,7 +8,7 @@ permalink: praise.html
 *Other labs don’t hold a candle to you in quality and care for their customers. Thanks for all you do!*  
 __[Kathryn Bruns](http://www.kathrynbruns.com/){: target="_blank"} December 15, 2017__
 
-*I love my scans from you guys and am confident that you’ll assist me with getting 'the look.' I’ve been bouncing around from labs testing but I love your turnaround time the most and how easy y’all are to work with!)  
+*I love my scans from you guys and am confident that you’ll assist me with getting 'the look.' I’ve been bouncing around from labs testing but I love your turnaround time the most and how easy y’all are to work with!*  
 __[Justin Douglas](http://justindouglasphotos.com/){: target="_blank"} December 11, 2017__
 
 *I also want to thank you guys for being so awesome. [Katie De Lorme](http://www.katiedelorme.com/){: target="_blank"} talked you up, she's actually the reason I started using you guys. The scans and overall experience are the best I've had with a film lab. Thank you again!*  

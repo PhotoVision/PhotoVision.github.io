@@ -5,7 +5,7 @@ permalink: rush-policy.html
 
 # Rush Policy
 
-## Turnaround times are in business days starting **the first business day after your order is received**. To maintain consistency, partial job rushes are unavailable. All rush orders subject to lab availability. 
+## Turnaround times are in business days starting the first business day after your order is received. To maintain consistency, partial job rushes are unavailable. All rush orders subject to lab availability. 
 
 ### April 1 – December 10
 
