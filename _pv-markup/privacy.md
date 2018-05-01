@@ -5,36 +5,32 @@ permalink: privacy.html
 
 # Privacy
 
-## Your images + your information is your property
+## Your images + your information is your property.
 
-We take the confidentiality of your personal information, images and film very seriously. We do not sell, publish, share or duplicate information or images without your written approval, ever. Your creative and personal information is stored with the utmost care.
+We take your privacy  very seriously. We do not sell, publish, share or duplicate your personal information, images or negatives without your written approval—ever.
 
-Your personal information and imagery will only be used for its intended use, described below. 
+ Your personal information, images and film will only be used for their intended purposes, described below:
 
-### Email
+### Email Address
 
-Used to communicate topics in regards to film and print orders. Used to confirm print orders, film order purchases, and processing + scan orders. Used to deliver scans via Box.com, a secure file sharing network. 
+We’ll communicate topics in regards to film and print orders, confirming print orders, film purchase orders and processing + scan orders. We’ll also deliver scans via Box.com, a secure file sharing network. 
 
-### Card information
+### Credit Card Information
 
-Used to charge out print orders, film purchase orders and process + scan orders. 
+We’ll charge out print orders, film purchase orders and process + scan orders. 
 
 ### Address
 
-Used to to ship film purchase orders and processed negatives home to you! 
+Used to ship film purchase orders, print orders and processed negatives home to you. 
 
-### Preference images
+### Preference Images
 
-Used as reference while processing your film to best match your creative vision. 
+Used as references while processing your film to best match your creative vision. 
 
-### Right to be forgotten
+## You have a right to be forgotten.
 
-We love working with all of our photographers and truly enjoy being a part of your team. However if you feel at any point we are not the right fit, you have the right to request all your personal information and imagery be removed from our database. 
+We love working with all our photographers and truly enjoy being a part of your team. However, if you feel at any point we are not the right fit, you have the right to request all your personal information and imagery be removed from our database.
 
-
-
-You all inspire us dailey and we love being able to feature your beautiful art on our Instagram and other social media platforms. However, we will never publish imagery without your written permission. 
-
-We are so thankful for your work and for your trust with your beautiful imagery. 
+We are so thankful for your work. Thank you for trusting us with your beautiful imagery. 
 
 
