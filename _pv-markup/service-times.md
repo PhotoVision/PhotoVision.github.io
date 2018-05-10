@@ -27,7 +27,7 @@ h1 span {
 
 *We are pleased to offer rush processing when our service times exceed a photographer’s urgent time frame. Click below to learn more.*
 
-<button name="button" onclick="window.location.href = '{{ site.baseurl}}/rush-policy';">Rush Policy</button>
+<a class="button link-as-button" href="{{ site.baseurl}}/rush-policy">Rush Policy</a>
 
 <div class="extra-space" />
 <div class="extra-space" />  
@@ -42,7 +42,7 @@ h1 span {
 
 
 <div class="extra-space" />
-<button name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Pricing</button>
+<a class="button link-as-button" href="{{ site.baseurl}}/print-services">Print Pricing</a>
 
 <div class="extra-space" />
 

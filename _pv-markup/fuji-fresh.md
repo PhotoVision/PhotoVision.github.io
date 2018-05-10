@@ -4,7 +4,7 @@ permalink: fuji-fresh.html
 ---
 
 ![]({{ site.baseurl}}/images/fuji-fresh-promo.jpg){:.center}
-<button class="center" name="button" onclick="window.location.href = '{{ site.baseurl}}/order-film';">Order Film</button>
+<a class="center button link-as-button" href="{{ site.baseurl}}/order-film">Order Film</a>
 
 ## We want to ensure our photographers are getting the best film they can. So we decided to do something about it.
 
