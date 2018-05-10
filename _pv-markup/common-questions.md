@@ -141,7 +141,8 @@ We process Delta 3200 at 3200 unless you indicate otherwise. Please note on your
 We no longer process E-6, but we do scan it.
 
 ### What are your prices?
-<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/film-services';">Film Services Pricing</button>
+<div class="extra-picky-space"></div>
+<a class="pricing-button button link-as-button" href="{{ site.baseurl}}/film-services">Film Services Pricing</a>
 
 ### Do you sell film?
 Yes! Order your favorite Fuji400H film from us [here]({{ site.baseurl}}/order-film).
@@ -190,7 +191,8 @@ Yes. Since 1968, we've respected the art of the print. Our true, wet process pho
 We use only the finest Fujicolor Crystal Archive papers. These aren't your typical photo papers—they have a luscious thickness you have to see (and feel) to believe. With beautiful color reproduction, brilliant whites, excellent long-term storage and superb resistance to light fade, our prints are truly timeless.
 
 ### What are your prices?
-<button class="pricing-button" name="button" onclick="window.location.href = '{{ site.baseurl}}/print-services';">Print Services Pricing</button>
+<div class="extra-picky-space"></div>
+<a class="pricing-button button link-as-button" href="{{ site.baseurl}}/print-services">Print Services Pricing</a>
 <div class="extra-space"></div>
 <div class="extra-space"></div>
 </div>
