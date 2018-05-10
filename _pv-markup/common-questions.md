@@ -98,7 +98,7 @@ Once your scans are complete, we will send you an email with a link to view and 
 ### How large are your scans?
 Resolution matters. That's why our normal scans give you the freedom to print stunning 20x24s straight away, while our large scans can easily grace a billboard.
 
-Notice how all scans are created as 72 DPI? This is standard for both the Fuji Frontier SP3000 and the Noritsu S-1800. The number you want to keep an eye on is your scans pixel dimensions provided in the chart below. 
+All scans are created at 72 DPI, this is standard for both the Fuji Frontier SP3000 and the Noritsu S-1800. The number you want to keep an eye on is your scans' pixel dimensions provided in the chart below: 
 
 #### Fuji Frontier SP3000
 
